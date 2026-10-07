@@ -1,6 +1,8 @@
 import type {IncomingMessage,ServerResponse} from 'node:http';
+import {openDatabase} from './database.ts';
+import {createApp} from './app.ts';
 
-type GameApp=ReturnType<typeof import('./app.ts').createApp>;
+type GameApp=ReturnType<typeof createApp>;
 let appPromise:Promise<GameApp>|undefined;
 
 type VercelRequest=IncomingMessage&{body?:unknown};
@@ -15,7 +17,6 @@ function jsonError(response:ServerResponse,error:string,status:number,stage?:str
 async function getApp(){
  if(!process.env.GAME_DATABASE_URL||!process.env.GAME_HOST_KEY)throw new Error('SERVER_NOT_CONFIGURED');
  appPromise??=(async()=>{
-  const {openDatabase}=await import('./database.ts');
   let db;
   try{db=await openDatabase();}
   catch(error){
@@ -23,7 +24,6 @@ async function getApp(){
    throw new Error('DATABASE_UNAVAILABLE');
   }
   try{
-   const {createApp}=await import('./app.ts');
    const publicOrigin=process.env.GAME_PUBLIC_ORIGIN??(process.env.VERCEL_URL?`https://${process.env.VERCEL_URL}`:undefined);
    return createApp(db,process.env.GAME_HOST_KEY!,publicOrigin);
   }catch(error){
