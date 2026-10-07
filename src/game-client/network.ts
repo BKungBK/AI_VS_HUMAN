@@ -2,7 +2,7 @@ import {useCallback,useEffect,useRef,useState} from 'react';
 import type {Role,Snapshot} from '../shared/game-contracts';
 
 export const errors:Record<string,string>={
- API_UNAVAILABLE:'เซิร์ฟเวอร์เกมยังไม่พร้อม กรุณาลองใหม่อีกครั้ง',SERVER_NOT_CONFIGURED:'การตั้งค่าเซิร์ฟเวอร์เกมยังไม่ครบ ตรวจ GAME_DATABASE_URL และ GAME_HOST_KEY ใน Vercel',
+ API_UNAVAILABLE:'เซิร์ฟเวอร์เกมยังไม่พร้อม กรุณาลองใหม่อีกครั้ง',SERVER_NOT_CONFIGURED:'การตั้งค่าเซิร์ฟเวอร์เกมยังไม่ครบ ตรวจ GAME_DATABASE_URL และ GAME_HOST_KEY ใน Vercel',DATABASE_UNAVAILABLE:'เริ่มฐานข้อมูลเกมไม่สำเร็จ ตรวจ GAME_DATABASE_URL และสิทธิ์เชื่อมต่อ Supabase',API_INITIALIZATION_FAILED:'เริ่ม API เกมไม่สำเร็จ ลองเปิด deployment ล่าสุดอีกครั้ง',
  CAPTION_TOO_LONG:'แคปชั่นเกิน 80 ตัวอักษรที่เห็น ลดข้อความแล้วส่งอีกครั้ง',CAPTION_FORMAT:'ใช้ข้อความธรรมดา ไม่ใส่ลิงก์หรือ markup',
  AI_REVIEW_REQUIRED:'ตรวจและอนุมัติโจทย์กับแคปชั่น AI ก่อนเริ่ม',STALE_REVIEW:'ข้อความหรือผลตรวจเปลี่ยนแล้ว ตรวจ revision ล่าสุดอีกครั้ง',
  REVIEW_PENDING:'ยังมีงานที่ต้องตรวจ ตรวจให้ครบก่อนเปิดโหวต',CANDIDATE_INVALID:'ผลงานนี้ไม่มีสิทธิ์ให้โหวตในช่วงนี้',OWN_GROUP:'รอบสุดท้ายโหวตกลุ่มตัวเองไม่ได้',

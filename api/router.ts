@@ -14,10 +14,24 @@ function jsonError(response:ServerResponse,error:string,status:number){
 
 async function getApp(){
  if(!process.env.GAME_DATABASE_URL||!process.env.GAME_HOST_KEY)throw new Error('SERVER_NOT_CONFIGURED');
- appPromise??=import('./database.ts').then(({openDatabase})=>openDatabase()).then(db=>import('./app.ts').then(({createApp})=>{
-  const publicOrigin=process.env.GAME_PUBLIC_ORIGIN??(process.env.VERCEL_URL?`https://${process.env.VERCEL_URL}`:undefined);
-  return createApp(db,process.env.GAME_HOST_KEY!,publicOrigin);
- }));
+ appPromise??=(async()=>{
+  const {openDatabase}=await import('./database.ts');
+  let db;
+  try{db=await openDatabase();}
+  catch(error){
+   console.error('[game-api] database initialization failed',error instanceof Error?error.message:'unknown error');
+   throw new Error('DATABASE_UNAVAILABLE');
+  }
+  try{
+   const {createApp}=await import('./app.ts');
+   const publicOrigin=process.env.GAME_PUBLIC_ORIGIN??(process.env.VERCEL_URL?`https://${process.env.VERCEL_URL}`:undefined);
+   return createApp(db,process.env.GAME_HOST_KEY!,publicOrigin);
+  }catch(error){
+   console.error('[game-api] app initialization failed',error instanceof Error?error.message:'unknown error');
+   await db.close().catch(()=>{});
+   throw new Error('API_INITIALIZATION_FAILED');
+  }
+ })();
  return appPromise;
 }
 
@@ -55,7 +69,9 @@ export default async function handler(request:VercelRequest,response:ServerRespo
   response.end();
  }catch(error){
   if(error instanceof Error&&error.message==='SERVER_NOT_CONFIGURED')return jsonError(response,'SERVER_NOT_CONFIGURED',503);
-  console.error('[game-api] request initialization failed');
+  if(error instanceof Error&&error.message==='DATABASE_UNAVAILABLE')return jsonError(response,'DATABASE_UNAVAILABLE',503);
+  if(error instanceof Error&&error.message==='API_INITIALIZATION_FAILED')return jsonError(response,'API_INITIALIZATION_FAILED',500);
+  console.error('[game-api] request handling failed',error instanceof Error?error.message:'unknown error');
   return jsonError(response,'SERVER_ERROR',500);
  }
 }
