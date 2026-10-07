@@ -1,5 +1,5 @@
 import {readFile} from 'node:fs/promises';
-import {fileURLToPath} from 'node:url';
+import {resolve} from 'node:path';
 import type {Database} from '../database.ts';
 import {prepareCaption} from '../../src/shared/caption-text.ts';
 
@@ -17,7 +17,7 @@ export const captionContent={
 };
 export async function seedCaptionContent(db:Database){
  prepareCaption(captionContent.aiCaption);
- await readFile(fileURLToPath(new URL('../../public/assets/games/caption-battle/cat-office.png',import.meta.url)));
+ await readFile(resolve(process.cwd(),'public/assets/games/caption-battle/cat-office.png'));
  await db.query(`INSERT INTO game.caption_content(version,image_path,image_alt,task,ai_caption,ai_metadata)
  VALUES($1,$2,$3,$4,$5,$6::jsonb) ON CONFLICT(version) DO NOTHING`,[
  captionContent.version,captionContent.imagePath,captionContent.imageAlt,captionContent.task,captionContent.aiCaption,

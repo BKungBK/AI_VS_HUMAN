@@ -3,7 +3,7 @@
   "buildCommand": "npm run game:build",
   "outputDirectory": "dist",
   "functions": {
-    "api/router.ts": {
+    "api/router.js": {
       "maxDuration": 60,
       "includeFiles": "db/**,public/assets/**,dist/**"
     }

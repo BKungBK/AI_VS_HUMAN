@@ -23,12 +23,12 @@ export async function openDatabase(path=process.env.GAME_DATA_DIR ?? 'data/pg'):
   if(path!==':memory:') await mkdir(resolve(path),{recursive:true});
   db=new PGlite(path===':memory:'?undefined:resolve(path)) as Database;
  }
- await db.exec(await readFile(new URL('../db/schema.sql',import.meta.url),'utf8'));
- await db.exec(await readFile(new URL('../db/caption.sql',import.meta.url),'utf8'));
- await db.exec(await readFile(new URL('../db/roulette.sql',import.meta.url),'utf8'));
- await db.exec(await readFile(new URL('../db/whack.sql',import.meta.url),'utf8'));
- await db.exec(await readFile(new URL('../db/shield.sql',import.meta.url),'utf8'));
- await db.exec(await readFile(new URL('../db/piece.sql',import.meta.url),'utf8'));
+ await db.exec(await readFile(resolve(process.cwd(),'db/schema.sql'),'utf8'));
+ await db.exec(await readFile(resolve(process.cwd(),'db/caption.sql'),'utf8'));
+ await db.exec(await readFile(resolve(process.cwd(),'db/roulette.sql'),'utf8'));
+ await db.exec(await readFile(resolve(process.cwd(),'db/whack.sql'),'utf8'));
+ await db.exec(await readFile(resolve(process.cwd(),'db/shield.sql'),'utf8'));
+ await db.exec(await readFile(resolve(process.cwd(),'db/piece.sql'),'utf8'));
  await seedSwipeContent(db);
  await seedCaptionContent(db);
  await seedRouletteContent(db);

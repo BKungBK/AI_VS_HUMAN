@@ -1,6 +1,6 @@
 import type {IncomingMessage,ServerResponse} from 'node:http';
-import {openDatabase} from './database.ts';
-import {createApp} from './app.ts';
+import {openDatabase} from '../api/database.ts';
+import {createApp} from '../api/app.ts';
 
 type GameApp=ReturnType<typeof createApp>;
 let appPromise:Promise<GameApp>|undefined;
