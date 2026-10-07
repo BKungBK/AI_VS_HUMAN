@@ -18,7 +18,7 @@ async function getApp(){
  if(!process.env.GAME_DATABASE_URL||!process.env.GAME_HOST_KEY)throw new Error('SERVER_NOT_CONFIGURED');
  appPromise??=(async()=>{
   let db;
-  try{db=await openDatabase();}
+  try{db=await openDatabase(undefined,{bootstrap:false});}
   catch(error){
    console.error('[game-api] database initialization failed',error instanceof Error?error.message:'unknown error');
    throw new Error('DATABASE_UNAVAILABLE');
@@ -32,6 +32,8 @@ async function getApp(){
    throw new Error('API_INITIALIZATION_FAILED');
   }
  })();
+ const pending=appPromise;
+ void pending.catch(()=>{if(appPromise===pending)appPromise=undefined;});
  return appPromise;
 }
 
@@ -64,17 +66,25 @@ export default async function handler(request:VercelRequest,response:ServerRespo
   stage='write-response';
   response.statusCode=result.status;
   result.headers.forEach((value,name)=>{if(name.toLowerCase()!=='set-cookie')response.setHeader(name,value);});
-  const cookies=result.headers.getSetCookie?.();
+  const cookies=result.headers.getSetCookie?.()??(result.headers.get('set-cookie')?[result.headers.get('set-cookie')!]:[]);
   if(cookies?.length)response.setHeader('Set-Cookie',cookies);
   if(!result.body)return response.end();
   const reader=result.body.getReader();
-  while(true){
-   const {done,value}=await reader.read();
-   if(done)break;
-   if(!response.write(Buffer.from(value)))await new Promise<void>(resolve=>response.once('drain',resolve));
-  }
-  response.end();
+  const cancel=()=>{void reader.cancel().catch(()=>{});};
+  response.once('close',cancel);
+  try{
+   while(!response.destroyed){
+    const {done,value}=await reader.read();
+    if(done)break;
+    if(!response.write(Buffer.from(value)))await new Promise<void>(resolve=>{
+     const ready=()=>{response.off('drain',ready);response.off('close',ready);resolve();};
+     response.once('drain',ready);response.once('close',ready);
+    });
+   }
+  }finally{response.off('close',cancel);await reader.cancel().catch(()=>{});}
+  if(!response.destroyed)response.end();
  }catch(error){
+  if(response.headersSent){if(!response.destroyed)response.destroy();return;}
   if(error instanceof Error&&error.message==='SERVER_NOT_CONFIGURED')return jsonError(response,'SERVER_NOT_CONFIGURED',503);
   if(error instanceof Error&&error.message==='DATABASE_UNAVAILABLE')return jsonError(response,'DATABASE_UNAVAILABLE',503);
   if(error instanceof Error&&error.message==='API_INITIALIZATION_FAILED')return jsonError(response,'API_INITIALIZATION_FAILED',500);

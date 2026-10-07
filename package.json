@@ -11,7 +11,7 @@
     "game:start": "tsx api/index.ts",
     "game:build": "tsc -p tsconfig.server.json && npm run build && npm run game:bundle",
     "game:bundle": "node scripts/bundle-game-api.mjs",
-    "game:test": "tsx --test tests/game-contracts.ts tests/caption-contracts.ts tests/roulette-contracts.ts tests/whack-contracts.ts tests/shield-contracts.ts tests/piece-contracts.ts",
+    "game:test": "tsx --test tests/api-connectivity.ts tests/client-connectivity.ts tests/game-contracts.ts tests/caption-contracts.ts tests/roulette-contracts.ts tests/whack-contracts.ts tests/shield-contracts.ts tests/piece-contracts.ts",
     "game:qa": "node scripts/game-browser-check.mjs",
     "game:qa2": "node scripts/game2-browser-check.mjs",
     "game:qa3": "node scripts/game3-browser-check.mjs",

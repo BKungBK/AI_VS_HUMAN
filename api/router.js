@@ -705,10 +705,11 @@ async function seedPieceContent(db) {
 }
 
 // api/database.ts
-async function openDatabase(path = process.env.GAME_DATA_DIR ?? "data/pg") {
+async function openDatabase(path = process.env.GAME_DATA_DIR ?? "data/pg", options = {}) {
   let db;
   if (process.env.GAME_DATABASE_URL) {
-    const pool = new pg.Pool({ connectionString: process.env.GAME_DATABASE_URL, max: Number(process.env.GAME_DB_POOL_SIZE ?? 1) });
+    const pool = new pg.Pool({ connectionString: process.env.GAME_DATABASE_URL, max: Number(process.env.GAME_DB_POOL_SIZE ?? (process.env.VERCEL ? "2" : "1")), connectionTimeoutMillis: 4e3, idleTimeoutMillis: 1e4, statement_timeout: 8e3, query_timeout: 1e4, keepAlive: true, allowExitOnIdle: true });
+    pool.on("error", (error) => console.error("[game-db] idle connection failed", error.message));
     db = { query: async (sql, params) => {
       const r = await pool.query(sql, params);
       return { rows: r.rows };
@@ -717,19 +718,30 @@ async function openDatabase(path = process.env.GAME_DATA_DIR ?? "data/pg") {
     if (path !== ":memory:") await mkdir(resolve3(path), { recursive: true });
     db = new PGlite(path === ":memory:" ? void 0 : resolve3(path));
   }
-  await db.exec(await readFile2(resolve3(process.cwd(), "db/schema.sql"), "utf8"));
-  await db.exec(await readFile2(resolve3(process.cwd(), "db/caption.sql"), "utf8"));
-  await db.exec(await readFile2(resolve3(process.cwd(), "db/roulette.sql"), "utf8"));
-  await db.exec(await readFile2(resolve3(process.cwd(), "db/whack.sql"), "utf8"));
-  await db.exec(await readFile2(resolve3(process.cwd(), "db/shield.sql"), "utf8"));
-  await db.exec(await readFile2(resolve3(process.cwd(), "db/piece.sql"), "utf8"));
-  await seedSwipeContent(db);
-  await seedCaptionContent(db);
-  await seedRouletteContent(db);
-  await seedWhackContent(db);
-  await seedShieldContent(db);
-  await seedPieceContent(db);
-  return db;
+  try {
+    if (options.bootstrap === false) {
+      const readiness = await db.query("SELECT to_regprocedure('game.snapshot(uuid,text)')::text AS snapshot,to_regprocedure('game.command(uuid,text,text,jsonb,text)')::text AS command");
+      if (!readiness.rows[0]?.snapshot || !readiness.rows[0]?.command) throw new Error("Game database migrations have not been applied.");
+      return db;
+    }
+    await db.exec(await readFile2(resolve3(process.cwd(), "db/schema.sql"), "utf8"));
+    await db.exec(await readFile2(resolve3(process.cwd(), "db/caption.sql"), "utf8"));
+    await db.exec(await readFile2(resolve3(process.cwd(), "db/roulette.sql"), "utf8"));
+    await db.exec(await readFile2(resolve3(process.cwd(), "db/whack.sql"), "utf8"));
+    await db.exec(await readFile2(resolve3(process.cwd(), "db/shield.sql"), "utf8"));
+    await db.exec(await readFile2(resolve3(process.cwd(), "db/piece.sql"), "utf8"));
+    await seedSwipeContent(db);
+    await seedCaptionContent(db);
+    await seedRouletteContent(db);
+    await seedWhackContent(db);
+    await seedShieldContent(db);
+    await seedPieceContent(db);
+    return db;
+  } catch (error) {
+    await db.close().catch(() => {
+    });
+    throw error;
+  }
 }
 
 // api/app.ts
@@ -923,12 +935,17 @@ var roleSchema = t.Union([t.Literal("player"), t.Literal("host"), t.Literal("dis
 var fail = (error) => ({ ok: false, error });
 function createApp(db, hostKey, publicOrigin) {
   const secureCookies = process.env.NODE_ENV === "production" || publicOrigin?.startsWith("https:") === true;
-  const actor = async (request, role) => {
+  const identity = (request, role) => {
     const selected = role ?? request.headers.get("x-game-role") ?? "player";
     if (!["player", "host", "display"].includes(selected)) return null;
     const token = request.headers.get("cookie")?.split(";").map((x) => x.trim()).find((x) => x.startsWith(`game_${selected}=`))?.split("=")[1];
     if (!token) return null;
-    return (await db.query("SELECT id,role FROM game.actors WHERE token_hash=$1 AND role=$2", [hash(token), selected])).rows[0] ?? null;
+    return { tokenHash: hash(token), role: selected };
+  };
+  const actor = async (request, role) => {
+    const selected = identity(request, role);
+    if (!selected) return null;
+    return (await db.query("SELECT id,role FROM game.actors WHERE token_hash=$1 AND role=$2", [selected.tokenHash, selected.role])).rows[0] ?? null;
   };
   const issue = async (role, token = randomBytes(32).toString("hex")) => {
     const r = await db.query("INSERT INTO game.actors(role,token_hash) VALUES($1,$2) ON CONFLICT(token_hash) DO UPDATE SET token_hash=excluded.token_hash RETURNING id", [role, hash(token)]);
@@ -938,15 +955,18 @@ function createApp(db, hostKey, publicOrigin) {
   const app = new Elysia({ adapter: node(), serve: { maxRequestBodySize: 16384 } }).onRequest(({ request, set }) => {
     set.headers["Cache-Control"] = "no-store";
     set.headers["X-Content-Type-Options"] = "nosniff";
+    set.headers["X-Game-Transport"] = process.env.VERCEL ? "poll" : "sse";
+    set.headers["X-Game-Release"] = "connection-v2";
     const origin = request.headers.get("origin");
     if (request.method !== "GET" && origin && origin !== new URL(request.url).origin) {
       set.status = 403;
       return fail("ORIGIN_REJECTED");
     }
-  }).onError(({ code, set }) => {
+  }).onError(({ code, error, request, set }) => {
+    if (code !== "VALIDATION") console.error("[game-api]", request.method, new URL(request.url).pathname, code, error instanceof Error ? error.message : "unknown error");
     set.status = code === "VALIDATION" ? 400 : 500;
     return fail(code === "VALIDATION" ? "INVALID_REQUEST" : "SERVER_ERROR");
-  }).get("/api/health", () => ({ ok: true, mode: process.env.GAME_DATABASE_URL ? "postgres" : "local-pglite", game: "human-vs-ai", release: "games-v3" })).post("/api/session", async ({ request, body, set }) => {
+  }).get("/api/health", () => ({ ok: true, mode: process.env.GAME_DATABASE_URL ? "postgres" : "local-pglite", transport: process.env.VERCEL ? "poll" : "sse", game: "human-vs-ai", release: "connection-v2" })).post("/api/session", async ({ request, body, set }) => {
     const existing = await actor(request, body.role);
     if (existing) return { ok: true };
     const s = await issue(body.role);
@@ -987,15 +1007,22 @@ function createApp(db, hostKey, publicOrigin) {
     const groups = await db.query("SELECT g.id,g.name,count(m.id)::int AS members FROM game.groups g LEFT JOIN game.members m ON m.room_code=g.room_code AND m.group_id=g.id AND m.active WHERE g.room_code=$1 GROUP BY g.id,g.name ORDER BY g.id", [params.code]);
     return { ok: true, data: { room: rooms.rows[0], groups: groups.rows } };
   }).get("/api/rooms/:code/snapshot", async ({ request, params, set }) => {
-    const a = await actor(request);
-    if (!a) {
+    const selected = identity(request);
+    if (!selected) {
       set.status = 401;
       return fail("UNAUTHORIZED");
     }
-    return (await db.query("SELECT game.snapshot($1,$2) AS result", [a.id, params.code])).rows[0].result;
+    const start = performance.now();
+    const result = (await db.query("SELECT game.snapshot(id,$1) AS result FROM game.actors WHERE token_hash=$2 AND role=$3", [params.code, selected.tokenHash, selected.role])).rows[0];
+    set.headers["Server-Timing"] = `snapshot;dur=${(performance.now() - start).toFixed(1)}`;
+    if (!result) {
+      set.status = 401;
+      return fail("UNAUTHORIZED");
+    }
+    return result.result;
   }).post("/api/rooms/:code/commands/:kind", async ({ request, params, body, set }) => {
-    const a = await actor(request);
-    if (!a) {
+    const selected = identity(request);
+    if (!selected) {
       set.status = 401;
       return fail("UNAUTHORIZED");
     }
@@ -1015,7 +1042,12 @@ function createApp(db, hostKey, publicOrigin) {
         return fail(e instanceof Error ? e.message : "CAPTION_FORMAT");
       }
     }
-    return (await db.query("SELECT game.command($1,$2,$3,$4::jsonb,$5) AS result", [a.id, params.code, params.kind, JSON.stringify(body.payload), body.key])).rows[0].result;
+    const result = (await db.query("SELECT game.command(id,$1,$2,$3::jsonb,$4) AS result FROM game.actors WHERE token_hash=$5 AND role=$6", [params.code, params.kind, JSON.stringify(body.payload), body.key, selected.tokenHash, selected.role])).rows[0];
+    if (!result) {
+      set.status = 401;
+      return fail("UNAUTHORIZED");
+    }
+    return result.result;
   }, { body: t.Object({ key: t.String({ minLength: 1, maxLength: 100 }), payload: t.Record(t.String(), t.Unknown()) }, { additionalProperties: false }) }).get("/api/rooms/:code/events", async ({ request, params, query, set }) => {
     const a = await actor(request, query.role);
     if (!a) {
@@ -1027,6 +1059,7 @@ function createApp(db, hostKey, publicOrigin) {
       set.status = 403;
       return fail("FORBIDDEN");
     }
+    if (process.env.VERCEL) return new Response('retry: 15000\n\ndata: {"transport":"poll"}\n\n', { headers: { "Content-Type": "text/event-stream", "Cache-Control": "no-store", "X-Game-Transport": "poll" } });
     let timer;
     let closed = false;
     let last = Number(query.after) || 0;
@@ -1136,7 +1169,7 @@ async function getApp() {
   appPromise ??= (async () => {
     let db;
     try {
-      db = await openDatabase();
+      db = await openDatabase(void 0, { bootstrap: false });
     } catch (error) {
       console.error("[game-api] database initialization failed", error instanceof Error ? error.message : "unknown error");
       throw new Error("DATABASE_UNAVAILABLE");
@@ -1151,6 +1184,10 @@ async function getApp() {
       throw new Error("API_INITIALIZATION_FAILED");
     }
   })();
+  const pending = appPromise;
+  void pending.catch(() => {
+    if (appPromise === pending) appPromise = void 0;
+  });
   return appPromise;
 }
 async function handler(request, response) {
@@ -1180,17 +1217,40 @@ async function handler(request, response) {
     result.headers.forEach((value, name) => {
       if (name.toLowerCase() !== "set-cookie") response.setHeader(name, value);
     });
-    const cookies = result.headers.getSetCookie?.();
+    const cookies = result.headers.getSetCookie?.() ?? (result.headers.get("set-cookie") ? [result.headers.get("set-cookie")] : []);
     if (cookies?.length) response.setHeader("Set-Cookie", cookies);
     if (!result.body) return response.end();
     const reader = result.body.getReader();
-    while (true) {
-      const { done, value } = await reader.read();
-      if (done) break;
-      if (!response.write(Buffer.from(value))) await new Promise((resolve5) => response.once("drain", resolve5));
+    const cancel = () => {
+      void reader.cancel().catch(() => {
+      });
+    };
+    response.once("close", cancel);
+    try {
+      while (!response.destroyed) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        if (!response.write(Buffer.from(value))) await new Promise((resolve5) => {
+          const ready = () => {
+            response.off("drain", ready);
+            response.off("close", ready);
+            resolve5();
+          };
+          response.once("drain", ready);
+          response.once("close", ready);
+        });
+      }
+    } finally {
+      response.off("close", cancel);
+      await reader.cancel().catch(() => {
+      });
     }
-    response.end();
+    if (!response.destroyed) response.end();
   } catch (error) {
+    if (response.headersSent) {
+      if (!response.destroyed) response.destroy();
+      return;
+    }
     if (error instanceof Error && error.message === "SERVER_NOT_CONFIGURED") return jsonError(response, "SERVER_NOT_CONFIGURED", 503);
     if (error instanceof Error && error.message === "DATABASE_UNAVAILABLE") return jsonError(response, "DATABASE_UNAVAILABLE", 503);
     if (error instanceof Error && error.message === "API_INITIALIZATION_FAILED") return jsonError(response, "API_INITIALIZATION_FAILED", 500);

@@ -17,12 +17,16 @@ type Role='player'|'host'|'display';
 const fail=(error:string)=>({ok:false,error});
 export function createApp(db:Database,hostKey:string,publicOrigin?:string) {
  const secureCookies=process.env.NODE_ENV==='production'||publicOrigin?.startsWith('https:')===true;
- const actor=async(request:Request,role?:string)=>{
+ const identity=(request:Request,role?:string)=>{
   const selected=role??request.headers.get('x-game-role')??'player';
   if(!['player','host','display'].includes(selected))return null;
   const token=request.headers.get('cookie')?.split(';').map(x=>x.trim()).find(x=>x.startsWith(`game_${selected}=`))?.split('=')[1];
   if(!token)return null;
-  return (await db.query<{id:string;role:string}>('SELECT id,role FROM game.actors WHERE token_hash=$1 AND role=$2',[hash(token),selected])).rows[0]??null;
+  return {tokenHash:hash(token),role:selected};
+ };
+ const actor=async(request:Request,role?:string)=>{
+  const selected=identity(request,role);if(!selected)return null;
+  return (await db.query<{id:string;role:string}>('SELECT id,role FROM game.actors WHERE token_hash=$1 AND role=$2',[selected.tokenHash,selected.role])).rows[0]??null;
  };
  const issue=async(role:Role,token=randomBytes(32).toString('hex'))=>{
   const r=await db.query<{id:string}>('INSERT INTO game.actors(role,token_hash) VALUES($1,$2) ON CONFLICT(token_hash) DO UPDATE SET token_hash=excluded.token_hash RETURNING id',[role,hash(token)]);
@@ -33,11 +37,13 @@ export function createApp(db:Database,hostKey:string,publicOrigin?:string) {
  const app=new Elysia({adapter:node(),serve:{maxRequestBodySize:16384}})
  .onRequest(({request,set})=>{
   set.headers['Cache-Control']='no-store';set.headers['X-Content-Type-Options']='nosniff';
+  set.headers['X-Game-Transport']=process.env.VERCEL?'poll':'sse';
+  set.headers['X-Game-Release']='connection-v2';
   const origin=request.headers.get('origin');
   if(request.method!=='GET'&&origin&&origin!==new URL(request.url).origin) {set.status=403;return fail('ORIGIN_REJECTED');}
  })
- .onError(({code,set})=>{set.status=code==='VALIDATION'?400:500;return fail(code==='VALIDATION'?'INVALID_REQUEST':'SERVER_ERROR');})
- .get('/api/health',()=>({ok:true,mode:process.env.GAME_DATABASE_URL?'postgres':'local-pglite',game:'human-vs-ai',release:'games-v3'}))
+ .onError(({code,error,request,set})=>{if(code!=='VALIDATION')console.error('[game-api]',request.method,new URL(request.url).pathname,code,error instanceof Error?error.message:'unknown error');set.status=code==='VALIDATION'?400:500;return fail(code==='VALIDATION'?'INVALID_REQUEST':'SERVER_ERROR');})
+ .get('/api/health',()=>({ok:true,mode:process.env.GAME_DATABASE_URL?'postgres':'local-pglite',transport:process.env.VERCEL?'poll':'sse',game:'human-vs-ai',release:'connection-v2'}))
  .post('/api/session',async({request,body,set})=>{
   const existing=await actor(request,body.role);if(existing)return {ok:true};
   const s=await issue(body.role);set.headers['Set-Cookie']=cookie(body.role,s.token);return {ok:true};
@@ -68,23 +74,32 @@ export function createApp(db:Database,hostKey:string,publicOrigin?:string) {
   return {ok:true,data:{room:rooms.rows[0],groups:groups.rows}};
  })
  .get('/api/rooms/:code/snapshot',async({request,params,set})=>{
-  const a=await actor(request);if(!a){set.status=401;return fail('UNAUTHORIZED');}
-  return (await db.query<{result:unknown}>('SELECT game.snapshot($1,$2) AS result',[a.id,params.code])).rows[0].result;
+  const selected=identity(request);if(!selected){set.status=401;return fail('UNAUTHORIZED');}
+  const start=performance.now();
+  const result=(await db.query<{result:unknown}>('SELECT game.snapshot(id,$1) AS result FROM game.actors WHERE token_hash=$2 AND role=$3',[params.code,selected.tokenHash,selected.role])).rows[0];
+  set.headers['Server-Timing']=`snapshot;dur=${(performance.now()-start).toFixed(1)}`;
+  if(!result){set.status=401;return fail('UNAUTHORIZED');}
+  return result.result;
  })
  .post('/api/rooms/:code/commands/:kind',async({request,params,body,set})=>{
-  const a=await actor(request);if(!a){set.status=401;return fail('UNAUTHORIZED');}
+  const selected=identity(request);if(!selected){set.status=401;return fail('UNAUTHORIZED');}
   if(!validateCommand(params.kind,body.payload)){set.status=400;return fail('INVALID_REQUEST');}
   if(params.kind==='cue'&&!allCues.some(c=>c.cue.id===body.payload.cue)){set.status=400;return fail('INVALID_CUE');}
   if(params.kind==='caption'){
    try{Object.assign(body.payload,prepareCaption(body.payload.text as string));}
    catch(e){set.status=400;return fail(e instanceof Error?e.message:'CAPTION_FORMAT');}
   }
-  return (await db.query<{result:unknown}>('SELECT game.command($1,$2,$3,$4::jsonb,$5) AS result',[a.id,params.code,params.kind,JSON.stringify(body.payload),body.key])).rows[0].result;
+  const result=(await db.query<{result:unknown}>('SELECT game.command(id,$1,$2,$3::jsonb,$4) AS result FROM game.actors WHERE token_hash=$5 AND role=$6',[params.code,params.kind,JSON.stringify(body.payload),body.key,selected.tokenHash,selected.role])).rows[0];
+  if(!result){set.status=401;return fail('UNAUTHORIZED');}
+  return result.result;
  },{body:t.Object({key:t.String({minLength:1,maxLength:100}),payload:t.Record(t.String(),t.Unknown())},{additionalProperties:false})})
  .get('/api/rooms/:code/events',async({request,params,query,set})=>{
   const a=await actor(request,query.role);if(!a){set.status=401;return fail('UNAUTHORIZED');}
   const allowed=(await db.query<{result:{ok:boolean}}>('SELECT game.snapshot($1,$2) AS result',[a.id,params.code])).rows[0].result;
   if(!allowed.ok){set.status=403;return fail('FORBIDDEN');}
+  // Older clients may still request SSE. Finish the serverless request promptly;
+  // current clients negotiate polling through X-Game-Transport.
+  if(process.env.VERCEL)return new Response('retry: 15000\n\ndata: {"transport":"poll"}\n\n',{headers:{'Content-Type':'text/event-stream','Cache-Control':'no-store','X-Game-Transport':'poll'}});
   let timer:ReturnType<typeof setTimeout>|undefined;let closed=false;let last=Number(query.after)||0;
   const encoder=new TextEncoder();
   const stream=new ReadableStream<Uint8Array>({
