@@ -19,7 +19,7 @@ async function snap(actor:string,code:string){return (await db.query<{result:Rep
 async function create(code:string,count=4){
  // This suite exercises Trust Tug contracts, so its fixture must start on the game cue.
  await db.query("INSERT INTO game.rooms(code,host_id,capacity,cue) VALUES($1,$2,32,'02.01')",[code,host]);
- await db.query("INSERT INTO game.groups SELECT $1,i,'กลุ่ม '||i FROM generate_series(1,6) i",[code]);
+ await db.query("INSERT INTO game.groups SELECT $1,i,'กลุ่ม '||i FROM generate_series(1,8) i",[code]);
  for(let i=0;i<count;i++)assert.equal((await cmd(players[i],code,'join',{nickname:`ผู้เล่น ${i}`,groupId:1})).ok,true);
  await cmd(host,code,'acquire',{controllerId:'host-tab'});
  for(let i=0;i<count;i++){

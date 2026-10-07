@@ -112,7 +112,7 @@ try {
     await json(
       await ctx.post(`/api/rooms/${code}/commands/join`, {
         headers: { 'x-game-role': 'player' },
-        data: { key: crypto.randomUUID(), payload: { nickname: `ผู้เล่นโหลด ${i + 1}`, groupId: (i % 6) + 1 } }
+        data: { key: crypto.randomUUID(), payload: { nickname: `ผู้เล่นโหลด ${i + 1}`, groupId: (i % 8) + 1 } }
       })
     );
     const state = await snapshot({ request: ctx }, code, 'player');
@@ -122,7 +122,7 @@ try {
         data: { key: crypto.randomUUID(), payload: { previewId: state.room.previewId, contentVersion: 'roulette-v1' } }
       })
     );
-    extra.push({ request: ctx, i, group: (i % 6) + 1 });
+    extra.push({ request: ctx, i, group: (i % 8) + 1 });
   }
 
   // 4. Projector Display context (1920x1080)
@@ -244,8 +244,8 @@ try {
   await waitForRoundPhase(hc, code, 6, 'RESULT', 18000);
   const finalHostSnap = await snapshot(hc, code, 'host');
   check('Reached RESULT phase', finalHostSnap.roulette.roundPhase === 'RESULT');
-  check('All 6 rounds recorded in pastRounds', finalHostSnap.roulette.pastRounds.length === 6);
-  check('Group survival matrix calculated for all 6 groups', finalHostSnap.roulette.groupSurvival.length === 6);
+  check('All 6 rounds recorded in pastRounds', finalHostSnap.roulette.pastRounds.length === 8);
+  check('Group survival matrix calculated for all 8 groups', finalHostSnap.roulette.groupSurvival.length === 8);
   check('Roster denominator remains 32', finalHostSnap.scores.reduce((sum, g) => sum + g.denominator, 0) === 32);
 
   await capture(players[0].page, 'mobile-final-results');

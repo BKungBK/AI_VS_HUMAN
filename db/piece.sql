@@ -39,11 +39,17 @@ CREATE TABLE IF NOT EXISTS game.piece_candidates (
   id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
   run_id uuid NOT NULL REFERENCES game.runs(id),
   artwork_id uuid REFERENCES game.piece_artworks(id),
-  group_id int CHECK (group_id BETWEEN 1 AND 6),
+  group_id int CHECK (group_id BETWEEN 1 AND 8),
   position int NOT NULL,
   UNIQUE(run_id, position),
   UNIQUE(run_id, group_id)
 );
+DO $$ BEGIN
+  IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conrelid='game.piece_candidates'::regclass AND conname='piece_candidates_group_id_check' AND pg_get_constraintdef(oid) LIKE '%<= 8%') THEN
+    ALTER TABLE game.piece_candidates DROP CONSTRAINT IF EXISTS piece_candidates_group_id_check;
+    ALTER TABLE game.piece_candidates ADD CONSTRAINT piece_candidates_group_id_check CHECK (group_id BETWEEN 1 AND 8);
+  END IF;
+END $$;
 
 CREATE TABLE IF NOT EXISTS game.piece_votes (
   run_id uuid NOT NULL,

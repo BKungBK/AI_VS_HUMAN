@@ -47,7 +47,7 @@ async function hostCmd(code: string, kind: string, payload: Record<string, unkno
 
 async function setupPieceRoom(code: string) {
   await db.query("INSERT INTO game.rooms(code, host_id, capacity, cue) VALUES($1, $2, 32, '14.01')", [code, host]);
-  await db.query("INSERT INTO game.groups SELECT $1, i, 'กลุ่ม ' || i FROM generate_series(1, 6) i", [code]);
+  await db.query("INSERT INTO game.groups SELECT $1, i, 'กลุ่ม ' || i FROM generate_series(1, 8) i", [code]);
 
   // Assign players: 2 in Group 1, 2 in Group 2, 2 in Group 3
   assert.equal((await cmd(players[0], code, 'join', {nickname: 'นักบิน 1', groupId: 1})).ok, true);

@@ -5,6 +5,7 @@ import {readFile,stat} from 'node:fs/promises';
 import {resolve,sep,extname} from 'node:path';
 import QRCode from 'qrcode';
 import type {Database} from './database.ts';
+import {groupNames} from './group-names.ts';
 import {validateCommand} from './validation.ts';
 import {allCues} from '../src/content.ts';
 import {prepareCaption} from '../src/shared/caption-text.ts';
@@ -49,9 +50,11 @@ export function createApp(db:Database,hostKey:string,publicOrigin?:string) {
  .post('/api/rooms',async({request,body,set})=>{
   const a=await actor(request,'host');if(!a){set.status=401;return fail('UNAUTHORIZED');}
   const code=randomBytes(4).toString('hex').slice(0,6).toUpperCase();
-  // Single statement transaction: room + six stable group IDs.
+  // Single statement transaction: room + eight stable group IDs.
    await db.query(`WITH room AS (INSERT INTO game.rooms(code,host_id,capacity,cue) VALUES($1,$2,$3,'01.02') RETURNING code)
-   INSERT INTO game.groups SELECT code,i,'กลุ่ม '||i FROM room CROSS JOIN generate_series(1,6) i`,[code,a.id,body.capacity]);
+   INSERT INTO game.groups(room_code,id,name)
+   SELECT room.code,group_row.ordinality::int,group_row.name
+   FROM room CROSS JOIN unnest($4::text[]) WITH ORDINALITY AS group_row(name,ordinality)`,[code,a.id,body.capacity,[...groupNames]]);
   return {ok:true,data:{code}};
  },{body:t.Object({capacity:t.Integer({minimum:1,maximum:64})},{additionalProperties:false})})
  .get('/api/rooms',async({request,set})=>{

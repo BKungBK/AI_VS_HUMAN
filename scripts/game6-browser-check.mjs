@@ -92,7 +92,7 @@ try {
     players.push({ ctx, page, group: i + 1, name: `ตัวแทนบริษัท ${i + 1}` });
   }
 
-  // 3. 29 API player contexts to reach 32 players across 6 groups
+  // 3. 29 API player contexts to reach 32 players across 8 groups
   console.log('Registering 29 API players to form full 32-player roster...');
   const extra = [];
   for (let i = 3; i < 32; i++) {
@@ -104,7 +104,7 @@ try {
         headers: { 'x-game-role': 'player' },
         data: {
           key: crypto.randomUUID(),
-          payload: { nickname: `บ.ตัวแทน ${i + 1}`, groupId: (i % 6) + 1 },
+          payload: { nickname: `บ.ตัวแทน ${i + 1}`, groupId: (i % 8) + 1 },
         },
       })
     );
@@ -211,8 +211,8 @@ try {
   check('Customer trust meter is valid (0..10)', finalSnap.shield.stats.customerTrustSlots >= 0 && finalSnap.shield.stats.customerTrustSlots <= 10);
   check('Total packets evaluated is > 0', finalSnap.shield.stats.totalPacketsBlocked + finalSnap.shield.stats.totalPacketsMissed > 0);
 
-  // Verify group scores (6 groups present with positive denominators)
-  check('All 6 groups scored', finalSnap.scores.length === 6);
+  // Verify scores for all 8 groups with positive denominators
+  check('All 8 groups scored', finalSnap.scores.length === 8);
   check('Group denominators count all roster members', finalSnap.scores.every(g => g.denominator > 0));
 
   // 9. Host finishes the game -> transition to cue 11.03

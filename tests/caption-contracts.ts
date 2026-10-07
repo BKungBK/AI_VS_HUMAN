@@ -17,7 +17,7 @@ async function hostCmd(code:string,kind:string,payload:Record<string,unknown>={}
 }
 async function room(code:string){
  await db.query("INSERT INTO game.rooms(code,host_id,capacity,cue) VALUES($1,$2,32,'04.01')",[code,host]);
- await db.query("INSERT INTO game.groups SELECT $1,i,'กลุ่ม '||i FROM generate_series(1,6) i",[code]);
+ await db.query("INSERT INTO game.groups SELECT $1,i,'กลุ่ม '||i FROM generate_series(1,8) i",[code]);
  for(let i=0;i<4;i++)assert.equal((await cmd(players[i],code,'join',{nickname:`คน ${i}`,groupId:i<2?1:i})).ok,true);
  await cmd(host,code,'acquire',{controllerId:'caption-host-tab'});
 }

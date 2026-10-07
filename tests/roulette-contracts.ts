@@ -36,7 +36,7 @@ async function hostCmd(code:string,kind:string,payload:object={},key=randomUUID(
 
 async function setupRouletteRoom(code:string){
  await db.query('INSERT INTO game.rooms(code,host_id,capacity) VALUES($1,$2,32)',[code,host]);
- await db.query("INSERT INTO game.groups SELECT $1,i,'กลุ่ม '||i FROM generate_series(1,6) i",[code]);
+ await db.query("INSERT INTO game.groups SELECT $1,i,'กลุ่ม '||i FROM generate_series(1,8) i",[code]);
  // Add 6 players (1 in each group)
  for(let i=0;i<6;i++){
   assert.equal((await cmd(players[i],code,'join',{nickname:`นักเดินป่า ${i+1}`,groupId:i+1})).ok,true);

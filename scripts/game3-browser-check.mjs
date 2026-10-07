@@ -37,7 +37,7 @@ try{
  const extra=[];
  for(let i=3;i<32;i++){
   const ctx=await request.newContext({baseURL:base});contexts.push(ctx);await json(await ctx.post('/api/session',{data:{role:'player'}}));
-  await json(await ctx.post(`/api/rooms/${code}/commands/join`,{headers:{'x-game-role':'player'},data:{key:crypto.randomUUID(),payload:{nickname:`ผู้เล่นโหลด ${i+1}`,groupId:i%6+1}}}));
+  await json(await ctx.post(`/api/rooms/${code}/commands/join`,{headers:{'x-game-role':'player'},data:{key:crypto.randomUUID(),payload:{nickname:`ผู้เล่นโหลด ${i+1}`,groupId:i%8+1}}}));
   const state=await snapshot({request:ctx},code,'player');await json(await ctx.post(`/api/rooms/${code}/commands/ready`,{headers:{'x-game-role':'player'},data:{key:crypto.randomUUID(),payload:{previewId:state.room.previewId,contentVersion:'caption-battle-v1'}}}));extra.push({request:ctx,i});
  }
  const dc=await browser.newContext({viewport:{width:1920,height:1080}}),display=await dc.newPage();contexts.push(dc);display.on('pageerror',e=>errors.push(e.message));await display.goto(`${base}/display/${code}`);
@@ -88,7 +88,7 @@ try{
  check('RESULT feedback no longer promises editable vote',await players[0].page.getByText('ปิดโหวตแล้ว · รอผู้จัดยืนยันผล',{exact:true}).isVisible());
  await maxLengthCapture(display,code,'display-result-max',await snapshot(dc,code,'display'));
  check('maximum result and all six group totals fit projection',await display.evaluate(()=>document.documentElement.scrollHeight<=innerHeight));
- state=await snapshot(hc,code,'host');check('all 32 final votes counted',state.caption.results.reduce((n,x)=>n+x.votes,0)===32);check('finite group scores',state.scores.length===6&&state.scores.every(x=>Number.isFinite(x.numerator)));check('result waits for host',state.room.activeRunId!==null);
+ state=await snapshot(hc,code,'host');check('all 32 final votes counted',state.caption.results.reduce((n,x)=>n+x.votes,0)===32);check('finite group scores',state.scores.length===8&&state.scores.every(x=>Number.isFinite(x.numerator)));check('result waits for host',state.room.activeRunId!==null);
  await host.getByRole('button',{name:'ยืนยันผล / ไปคิว 04.02'}).click();await players[0].page.getByRole('heading',{name:'รอเกมถัดไป'}).waitFor();state=await snapshot(hc,code,'host');check('finish commits score and next cue',state.run.status==='COMPLETED'&&state.room.cue==='04.02'&&state.room.activeRunId===null);
  const exported=await (await hc.request.get(`${base}/api/rooms/${code}/export`,{headers:{'x-game-role':'host'}})).json();check('creative export includes roster submissions votes and provenance',exported.creative[0].roster.length===32&&exported.creative[0].submissions.length===32&&exported.creative[0].votes.length>=32&&!!exported.creative[0].ai_metadata.prompt);
  await host.getByText('จัดการรอบและเปลี่ยนคิว').click();await host.getByLabel('คิวสไลด์').selectOption('03.05');await host.getByRole('heading',{name:'พร้อมเริ่ม Swipe Court'}).waitFor();check('previous Caption run cannot trap a different game cue',true);

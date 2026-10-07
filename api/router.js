@@ -740,12 +740,24 @@ import { readFile as readFile3, stat as stat2 } from "node:fs/promises";
 import { resolve as resolve4, sep, extname } from "node:path";
 import QRCode from "qrcode";
 
+// api/group-names.ts
+var groupNames = [
+  "1234",
+  "\u0E2A\u0E35\u0E01\u0E38\u0E21\u0E32\u0E23",
+  "Human\u0E40\u0E19\u0E15",
+  "\u0E17\u0E49\u0E32\u0E22\u0E01\u0E25\u0E35\u0E01\u0E23",
+  "\u0E40\u0E17\u0E40\u0E25\u0E17\u0E31\u0E1A\u0E1A\u0E35\u0E49",
+  "Cry4",
+  "cybertud67",
+  "\u0E17\u0E49\u0E32\u0E22\u0E44\u0E17\u0E22\u0E1E\u0E32\u0E13\u0E34\u0E0A\u0E22\u0E4C"
+];
+
 // api/validation.ts
 var uuid = /^[\da-f]{8}-[\da-f]{4}-[\da-f]{4}-[\da-f]{4}-[\da-f]{12}$/i;
 var id = (v) => typeof v === "string" && uuid.test(v);
 var text = (v) => typeof v === "string" && v.length > 0 && v.length <= 200;
 var integer = (v) => Number.isSafeInteger(v) && Number(v) >= 0 && Number(v) <= 2147483647;
-var group = (v) => integer(v) && Number(v) >= 1 && Number(v) <= 6;
+var group = (v) => integer(v) && Number(v) >= 1 && Number(v) <= 8;
 var schemas = {
   join: { nickname: (v) => typeof v === "string" && [...v.trim()].length >= 1 && [...v.trim()].length <= 24, groupId: group },
   side: { previewId: id, side: (v) => v === "HUMAN" || v === "AI", expectedRevision: integer },
@@ -958,7 +970,9 @@ function createApp(db, hostKey, publicOrigin) {
     }
     const code = randomBytes(4).toString("hex").slice(0, 6).toUpperCase();
     await db.query(`WITH room AS (INSERT INTO game.rooms(code,host_id,capacity,cue) VALUES($1,$2,$3,'01.02') RETURNING code)
-   INSERT INTO game.groups SELECT code,i,'\u0E01\u0E25\u0E38\u0E48\u0E21 '||i FROM room CROSS JOIN generate_series(1,6) i`, [code, a.id, body.capacity]);
+   INSERT INTO game.groups(room_code,id,name)
+   SELECT room.code,group_row.ordinality::int,group_row.name
+   FROM room CROSS JOIN unnest($4::text[]) WITH ORDINALITY AS group_row(name,ordinality)`, [code, a.id, body.capacity, [...groupNames]]);
     return { ok: true, data: { code } };
   }, { body: t.Object({ capacity: t.Integer({ minimum: 1, maximum: 64 }) }, { additionalProperties: false }) }).get("/api/rooms", async ({ request, set }) => {
     const a = await actor(request, "host");

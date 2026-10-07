@@ -555,7 +555,7 @@ export function PiecePlayer({room}: {room: ReturnType<typeof useRoom>}) {
               </span>
             </div>
             <p style={{fontSize: '12px', color: '#94a3b8', margin: '4px 0 12px 0'}}>
-              ผลงานตัวแทนทั้ง 6 กลุ่มแบบนิรนาม A–F: โหวตผลงานที่คุณประทับใจที่สุด
+              ผลงานตัวแทนทั้ง 8 กลุ่มแบบนิรนาม A–H: โหวตผลงานที่คุณประทับใจที่สุด
             </p>
 
             <div className="piece-vote-grid">

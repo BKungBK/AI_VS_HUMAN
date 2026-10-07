@@ -36,7 +36,7 @@ async function hostCmd(code:string,kind:string,payload:object={},key=randomUUID(
 
 async function setupShieldRoom(code:string){
  await db.query('INSERT INTO game.rooms(code,host_id,capacity) VALUES($1,$2,32)',[code,host]);
- await db.query("INSERT INTO game.groups SELECT $1,i,'กลุ่ม '||i FROM generate_series(1,6) i",[code]);
+ await db.query("INSERT INTO game.groups SELECT $1,i,'กลุ่ม '||i FROM generate_series(1,8) i",[code]);
  // Add 4 players (2 in Group 1, 2 in Group 2)
  assert.equal((await cmd(players[0],code,'join',{nickname:'ตัวแทน บ. 1',groupId:1})).ok,true);
  assert.equal((await cmd(players[1],code,'join',{nickname:'ตัวแทน บ. 2',groupId:1})).ok,true);
@@ -194,7 +194,7 @@ test('Company Shield game flow: Start, Countdown, Intercepts, Movement, Group Sc
  // Check Group scores:
  const scoresRes=await db.query<{result:any}>('SELECT game.scores($1) result',[runId]);
  const groupScores=scoresRes.rows[0].result;
- assert.equal(groupScores.length,6);
+ assert.equal(groupScores.length,8);
  // Group 1 has 2 players
  assert.equal(groupScores[0].denominator,2);
  // Group 2 has 2 players

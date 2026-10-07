@@ -92,7 +92,7 @@ try {
     players.push({ ctx, page, group: i + 1, name: `นักประดิษฐ์ ${i + 1}` });
   }
 
-  // 3. 29 API player contexts to reach 32 players across 6 groups
+  // 3. 29 API player contexts to reach 32 players across 8 groups
   console.log('Registering 29 API players to form full 32-player roster...');
   const extra = [];
   for (let i = 3; i < 32; i++) {
@@ -104,7 +104,7 @@ try {
         headers: { 'x-game-role': 'player' },
         data: {
           key: crypto.randomUUID(),
-          payload: { nickname: `ช่างวาด ${i + 1}`, groupId: (i % 6) + 1 },
+          payload: { nickname: `ช่างวาด ${i + 1}`, groupId: (i % 8) + 1 },
         },
       })
     );
@@ -290,7 +290,7 @@ try {
   // Extra players cast final votes
   for (let i = 0; i < extra.length; i++) {
     const extraSnap = await snapshot(extra[i], code, 'player');
-    const extraCand = extraSnap.piece.candidates.find((c) => c.groupId !== ((i % 6) + 1));
+    const extraCand = extraSnap.piece.candidates.find((c) => c.groupId !== ((i % 8) + 1));
     if (extraCand) {
       await send(extra[i], code, 'player', 'piece-final-vote', {
         runId,

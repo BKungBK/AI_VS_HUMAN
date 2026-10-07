@@ -16,7 +16,7 @@
 | ชุดข้อความ 18 ฟอง (ควรหยุด 9 / ควรปล่อย 9), ตารางเวลาเกิด, เฉลย และคู่เปรียบเทียบ | `api/games/whack-content.ts` |
 | ฐานข้อมูล ตรรกะตรวจเวลา Server, การคำนวณคะแนน clamp, Privacy Fence และการสรุปผล | `db/whack.sql` |
 | สัญญา API และชนิดข้อมูล TypeScript | `src/shared/game-contracts.ts`, `api/validation.ts` |
-| สคริปต์ทดสอบ Browser QA อัตโนมัติ (32 ผู้เล่น 6 กลุ่ม) | `scripts/game5-browser-check.mjs` |
+| สคริปต์ทดสอบ Browser QA อัตโนมัติ (32 ผู้เล่น 8 กลุ่ม) | `scripts/game5-browser-check.mjs` |
 | สคริปต์เปิดรันเกมพอร์ต 5186 | `Start-Game5.cmd` |
 
 ---
@@ -136,7 +136,7 @@
    ```bash
    npm run game:test
    ```
-2. **รัน Automated Browser QA (Playwright 32 ผู้เล่น 6 กลุ่ม):**
+2. **รัน Automated Browser QA (Playwright 32 ผู้เล่น 8 กลุ่ม):**
    ```bash
    npm run game:qa5
    ```

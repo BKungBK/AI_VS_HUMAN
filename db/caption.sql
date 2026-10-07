@@ -18,9 +18,15 @@ CREATE TABLE IF NOT EXISTS game.caption_submissions (
 );
 CREATE TABLE IF NOT EXISTS game.caption_candidates (
  id uuid PRIMARY KEY DEFAULT gen_random_uuid(),run_id uuid NOT NULL REFERENCES game.runs,submission_id uuid REFERENCES game.caption_submissions,
- group_id int CHECK(group_id BETWEEN 1 AND 6),text text NOT NULL,position int NOT NULL,
+ group_id int CHECK(group_id BETWEEN 1 AND 8),text text NOT NULL,position int NOT NULL,
  UNIQUE(run_id,position),UNIQUE(run_id,group_id)
 );
+DO $$ BEGIN
+ IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conrelid='game.caption_candidates'::regclass AND conname='caption_candidates_group_id_check' AND pg_get_constraintdef(oid) LIKE '%<= 8%') THEN
+  ALTER TABLE game.caption_candidates DROP CONSTRAINT IF EXISTS caption_candidates_group_id_check;
+  ALTER TABLE game.caption_candidates ADD CONSTRAINT caption_candidates_group_id_check CHECK(group_id BETWEEN 1 AND 8);
+ END IF;
+END $$;
 CREATE TABLE IF NOT EXISTS game.caption_votes (
  run_id uuid NOT NULL,member_id uuid NOT NULL,vote_type text NOT NULL CHECK(vote_type IN ('INTERNAL','FINAL')),
  candidate_id uuid NOT NULL,revision int NOT NULL CHECK(revision>0),accepted_at timestamptz NOT NULL,

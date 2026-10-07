@@ -13,9 +13,15 @@ CREATE TABLE IF NOT EXISTS game.rooms (
  practice_id uuid, practice_until timestamptz, created_at timestamptz NOT NULL DEFAULT clock_timestamp()
 );
 CREATE TABLE IF NOT EXISTS game.groups (
- room_code text NOT NULL REFERENCES game.rooms, id int NOT NULL CHECK(id BETWEEN 1 AND 6), name text NOT NULL,
+ room_code text NOT NULL REFERENCES game.rooms, id int NOT NULL CHECK(id BETWEEN 1 AND 8), name text NOT NULL,
  PRIMARY KEY(room_code,id)
 );
+DO $$ BEGIN
+ IF NOT EXISTS (SELECT 1 FROM pg_constraint WHERE conrelid='game.groups'::regclass AND conname='groups_id_check' AND pg_get_constraintdef(oid) LIKE '%<= 8%') THEN
+  ALTER TABLE game.groups DROP CONSTRAINT IF EXISTS groups_id_check;
+  ALTER TABLE game.groups ADD CONSTRAINT groups_id_check CHECK(id BETWEEN 1 AND 8);
+ END IF;
+END $$;
 CREATE TABLE IF NOT EXISTS game.members (
  id uuid PRIMARY KEY DEFAULT gen_random_uuid(), room_code text NOT NULL REFERENCES game.rooms, actor_id uuid NOT NULL REFERENCES game.actors,
  nickname text NOT NULL, group_id int NOT NULL, active boolean NOT NULL DEFAULT true,
@@ -232,7 +238,7 @@ BEGIN
   IF k='join' THEN
    IF m.id IS NOT NULL THEN RETURN jsonb_build_object('memberId',m.id); END IF;
    IF (SELECT count(*) FROM game.members WHERE room_code=c AND active)>=room.capacity THEN RAISE EXCEPTION 'ROOM_FULL'; END IF;
-   IF length(btrim(p->>'nickname')) NOT BETWEEN 1 AND 24 OR (p->>'groupId')::int NOT BETWEEN 1 AND 6 THEN RAISE EXCEPTION 'INVALID_PLAYER'; END IF;
+   IF length(btrim(p->>'nickname')) NOT BETWEEN 1 AND 24 OR (p->>'groupId')::int NOT BETWEEN 1 AND 8 THEN RAISE EXCEPTION 'INVALID_PLAYER'; END IF;
    INSERT INTO game.members(room_code,actor_id,nickname,group_id) VALUES(c,a,btrim(p->>'nickname'),(p->>'groupId')::int) RETURNING * INTO m;
    RETURN jsonb_build_object('memberId',m.id);
   END IF;
@@ -437,7 +443,7 @@ BEGIN
  PERFORM game.reconcile(room.active_run);
  SELECT * INTO r FROM game.runs WHERE id=coalesce(room.active_run,room.latest_run);
  n:=clock_timestamp();
- SELECT jsonb_agg(jsonb_build_object('id',g.id,'name',g.name,'members',(SELECT count(*) FROM game.members WHERE room_code=c AND group_id=g.id AND active))) INTO group_data FROM game.groups g WHERE room_code=c;
+ SELECT jsonb_agg(jsonb_build_object('id',g.id,'name',g.name,'members',(SELECT count(*) FROM game.members WHERE room_code=c AND group_id=g.id AND active)) ORDER BY g.id) INTO group_data FROM game.groups g WHERE room_code=c;
  IF actor.role='player' THEN
   private_state:=jsonb_build_object('memberId',m.id,'nickname',m.nickname,'groupId',m.group_id,'side',m.side,'sideRevision',m.side_revision,'ready',m.ready_preview=room.preview_id AND m.ready_version=CASE room.cue WHEN '03.05' THEN 'swipe-court-v1' WHEN '04.01' THEN 'caption-battle-v1' WHEN '07.01' THEN 'roulette-v1' WHEN '10.02' THEN 'whack-a-mole-v1' WHEN '11.02' THEN 'shield-v1' WHEN '14.01' THEN 'piece-v1' WHEN '02.01' THEN 'trust-tug-v1' ELSE NULL END,
    'inRoster',EXISTS(SELECT 1 FROM game.rosters WHERE run_id=r.id AND member_id=m.id),'state',(SELECT to_jsonb(s)-'member_id'-'run_id' FROM game.player_states s WHERE run_id=r.id AND member_id=m.id),

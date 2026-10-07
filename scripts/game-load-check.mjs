@@ -13,7 +13,7 @@ function client(role){let cookie='';return {role,async req(path,body,measure=fal
 const host=client('host');assert.equal((await host.req('/host/login',{key})).ok,true);
 const code=(await host.req('/rooms',{capacity:count})).data.code;
 const players=Array.from({length:count},()=>client('player'));
-await Promise.all(players.map(async(p,i)=>{await p.req('/session',{role:'player'});assert.equal((await p.cmd(code,'join',{nickname:`โหลด ${i+1}`,groupId:i%6+1})).ok,true);const s=(await p.req(`/rooms/${code}/snapshot`)).data;await p.cmd(code,'side',{previewId:s.room.previewId,side:i%2?'AI':'HUMAN',expectedRevision:0});await p.cmd(code,'ready',{previewId:s.room.previewId,contentVersion:'trust-tug-v1'});}));
+await Promise.all(players.map(async(p,i)=>{await p.req('/session',{role:'player'});assert.equal((await p.cmd(code,'join',{nickname:`โหลด ${i+1}`,groupId:i%8+1})).ok,true);const s=(await p.req(`/rooms/${code}/snapshot`)).data;await p.cmd(code,'side',{previewId:s.room.previewId,side:i%2?'AI':'HUMAN',expectedRevision:0});await p.cmd(code,'ready',{previewId:s.room.previewId,contentVersion:'trust-tug-v1'});}));
 await host.cmd(code,'acquire',{controllerId:'load-host'});
 let s=(await host.req(`/rooms/${code}/snapshot`)).data;
 const control=()=>({controllerId:'load-host',controllerEpoch:s.host.controllerEpoch,expectedVersion:s.room.version});

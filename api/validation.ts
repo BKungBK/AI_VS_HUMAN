@@ -2,7 +2,7 @@ const uuid=/^[\da-f]{8}-[\da-f]{4}-[\da-f]{4}-[\da-f]{4}-[\da-f]{12}$/i;
 const id=(v:unknown)=>typeof v==='string'&&uuid.test(v);
 const text=(v:unknown)=>typeof v==='string'&&v.length>0&&v.length<=200;
 const integer=(v:unknown)=>Number.isSafeInteger(v)&&Number(v)>=0&&Number(v)<=2147483647;
-const group=(v:unknown)=>integer(v)&&Number(v)>=1&&Number(v)<=6;
+const group=(v:unknown)=>integer(v)&&Number(v)>=1&&Number(v)<=8;
 type Rule=(v:unknown)=>boolean;
 const schemas:Record<string,Record<string,Rule>>={
  join:{nickname:v=>typeof v==='string'&&[...v.trim()].length>=1&&[...v.trim()].length<=24,groupId:group},
