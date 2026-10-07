@@ -3,12 +3,13 @@
   "buildCommand": "npm run game:build",
   "outputDirectory": "dist",
   "functions": {
-    "api/[...all].ts": {
+    "api/router.ts": {
       "maxDuration": 60,
       "includeFiles": "db/**,public/assets/**,dist/**"
     }
   },
   "rewrites": [
+    {"source": "/api/:route*", "destination": "/api/router?__game_route=/api/:route*"},
     {"source": "/(.*)", "destination": "/index.html"}
   ]
 }

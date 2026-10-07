@@ -2,6 +2,7 @@ import {useCallback,useEffect,useRef,useState} from 'react';
 import type {Role,Snapshot} from '../shared/game-contracts';
 
 export const errors:Record<string,string>={
+ API_UNAVAILABLE:'เซิร์ฟเวอร์เกมยังไม่พร้อม กรุณาลองใหม่อีกครั้ง',SERVER_NOT_CONFIGURED:'การตั้งค่าเซิร์ฟเวอร์เกมยังไม่ครบ ตรวจ GAME_DATABASE_URL และ GAME_HOST_KEY ใน Vercel',
  CAPTION_TOO_LONG:'แคปชั่นเกิน 80 ตัวอักษรที่เห็น ลดข้อความแล้วส่งอีกครั้ง',CAPTION_FORMAT:'ใช้ข้อความธรรมดา ไม่ใส่ลิงก์หรือ markup',
  AI_REVIEW_REQUIRED:'ตรวจและอนุมัติโจทย์กับแคปชั่น AI ก่อนเริ่ม',STALE_REVIEW:'ข้อความหรือผลตรวจเปลี่ยนแล้ว ตรวจ revision ล่าสุดอีกครั้ง',
  REVIEW_PENDING:'ยังมีงานที่ต้องตรวจ ตรวจให้ครบก่อนเปิดโหวต',CANDIDATE_INVALID:'ผลงานนี้ไม่มีสิทธิ์ให้โหวตในช่วงนี้',OWN_GROUP:'รอบสุดท้ายโหวตกลุ่มตัวเองไม่ได้',
@@ -26,7 +27,9 @@ export function newId():string {
 }
 export async function api<T>(path:string,role:Role,body?:unknown):Promise<T> {
  const r=await fetch(`/api${path}`,{method:body===undefined?'GET':'POST',headers:{'x-game-role':role,...(body===undefined?{}:{'Content-Type':'application/json'})},body:body===undefined?undefined:JSON.stringify(body),signal:AbortSignal.timeout(6000)});
- const data=await r.json();if(data.ok===false)throw new GameError(data.error);if(!r.ok)throw new GameError('SERVER_ERROR');return data.data??data;
+ let data:{ok?:boolean;error?:string;data?:T};
+ try{data=await r.json();}catch{throw new GameError('API_UNAVAILABLE');}
+ if(data.ok===false)throw new GameError(data.error??'SERVER_ERROR');if(!r.ok)throw new GameError('SERVER_ERROR');return data.data??data as T;
 }
 export async function command<T=Record<string,unknown>>(code:string,role:Role,kind:string,payload:Record<string,unknown>,key=newId()):Promise<T>{
  // A transport failure retries the exact request, including key and phase fence.
