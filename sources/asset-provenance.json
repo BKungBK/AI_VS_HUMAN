@@ -1,0 +1,56 @@
+[
+  {
+    "file": "assets\\fonts\\plex-thai-400.ttf",
+    "source": "https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JPje1VVIzcq1HzJq2AEdo2Tj_qvLq8Dg.ttf",
+    "rights": "SIL Open Font License 1.1",
+    "sha256": "b4b746c92c0fe46a392e6f68b6d1fc98ec124bdd44bfcfb78f4b82d9825a8a08"
+  },
+  {
+    "file": "assets\\fonts\\plex-thai-500.ttf",
+    "source": "https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE-vUFbQ.ttf",
+    "rights": "SIL Open Font License 1.1",
+    "sha256": "ec8d798ca235fecac2833f5ab6ba871fde47dafd576e705fe1b3e84de066cf30"
+  },
+  {
+    "file": "assets\\fonts\\plex-thai-600.ttf",
+    "source": "https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqE1vIFbQ.ttf",
+    "rights": "SIL Open Font License 1.1",
+    "sha256": "2553bc047128487a725a663f60ce446fa95214ca02a6433dc849cc619d83d551"
+  },
+  {
+    "file": "assets\\fonts\\plex-thai-700.ttf",
+    "source": "https://fonts.gstatic.com/s/ibmplexsansthai/v11/m8JMje1VVIzcq1HzJq2AEdo2Tj_qvLqEsvMFbQ.ttf",
+    "rights": "SIL Open Font License 1.1",
+    "sha256": "5f9a1bbc18e1ef408ae7e83acc177e0a8b1b68f46d7dd9b15b0c912d0b97c80a"
+  },
+  {
+    "file": "assets\\images\\van-gogh.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "author": "Vincent van Gogh / Google Art Project",
+    "rights": "Public domain (PD-Art)",
+    "width": 1280,
+    "height": 1014,
+    "sha256": "de1a91749e61f661203f522d8b0249e3b522abf3553630155c12fde747a521d4"
+  },
+  {
+    "file": "assets\\images\\death-cap.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Amanita_phalloides_1.JPG",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/9/99/Amanita_phalloides_1.JPG",
+    "author": "Archenzo",
+    "rights": "CC BY-SA 3.0; original photograph unchanged except resizing",
+    "width": 1200,
+    "height": 1600,
+    "sha256": "0b369bb6eb60796c788a5a9cdcbee3cefed55263fdc8c8b5f3e43236a258196d"
+  },
+  {
+    "file": "assets\\images\\flamingone.jpg",
+    "page": "https://www.milesastray.com/iconic-imagery",
+    "source": "https://static.wixstatic.com/media/c396be_17aa907139bc454887e9ec2b59da986d~mv2.jpg/v1/fit/w_1200,h_1800,q_90/c396be_17aa907139bc454887e9ec2b59da986d~mv2.jpg",
+    "author": "Miles Astray",
+    "rights": "Copyright Miles Astray. Local educational reference for critical discussion; no open license or redistribution permission claimed. Obtain a license for publication/commercial reuse.",
+    "width": 1200,
+    "height": 801,
+    "sha256": "a382aea97a99b895709c516a99e577c2febcb110a362b55da9977f0337da69f9"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "source": "D:\\Project\\AI_VS_HUMAN\\qa\\creative-direction\\creative-preview.mp4",
+  "duration": 24.0,
+  "fps": 30.0,
+  "frames": [
+    {
+      "requested_timestamp": 5.0,
+      "sample_timestamp": 5.0,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\creative-direction\\encoded-inspection\\frames-18t_xu13\\00-0005.00000s.png"
+    },
+    {
+      "requested_timestamp": 12.0,
+      "sample_timestamp": 12.0,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\creative-direction\\encoded-inspection\\frames-18t_xu13\\01-0012.00000s.png"
+    },
+    {
+      "requested_timestamp": 21.02,
+      "sample_timestamp": 21.02,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\creative-direction\\encoded-inspection\\frames-18t_xu13\\02-0021.02000s.png"
+    }
+  ],
+  "contact_sheet": "D:\\Project\\AI_VS_HUMAN\\qa\\creative-direction\\encoded-inspection\\frames-18t_xu13\\contact-sheet.jpg",
+  "visual_review": "passed: inspected encoded frames and contact sheet; labels remain readable, ECG clears its heading, and gavel reaches the sound block. Audio listening was not assessed."
+}

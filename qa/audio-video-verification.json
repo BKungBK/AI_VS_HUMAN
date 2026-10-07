@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "ok": true,
+  "file": "D:\\Project\\AI_VS_HUMAN\\qa\\sound-journey-preview.mp4",
+  "media": {
+    "size_bytes": 6746034,
+    "duration": 24.0,
+    "container_duration": 24.0,
+    "width": 1280,
+    "height": 720,
+    "fps": 30.0,
+    "nominal_fps": 30.0,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "video_stream_index": 0,
+    "audio_codecs": [
+      "aac"
+    ],
+    "frame_count_header": 720.0
+  },
+  "visual_review": "not_performed_by_this_script",
+  "checks": [
+    {
+      "check": "file",
+      "status": "PASS",
+      "detail": "6746034 bytes"
+    },
+    {
+      "check": "video_stream",
+      "status": "PASS",
+      "detail": "1280x720"
+    },
+    {
+      "check": "duration",
+      "status": "PASS",
+      "detail": "24.0 seconds"
+    },
+    {
+      "check": "fps",
+      "status": "PASS",
+      "detail": "average 30.0; nominal 30.0"
+    },
+    {
+      "check": "codec",
+      "status": "PASS",
+      "detail": "h264"
+    },
+    {
+      "check": "expected_duration",
+      "status": "PASS",
+      "detail": "expected 24.0, actual 24.0, tolerance 0.034333333333333334"
+    },
+    {
+      "check": "expected_width",
+      "status": "PASS",
+      "detail": "expected 1280, actual 1280, tolerance 0"
+    },
+    {
+      "check": "expected_height",
+      "status": "PASS",
+      "detail": "expected 720, actual 720, tolerance 0"
+    },
+    {
+      "check": "expected_fps",
+      "status": "PASS",
+      "detail": "expected 30.0, actual 30.0, tolerance 0.01"
+    },
+    {
+      "check": "expected_codec",
+      "status": "PASS",
+      "detail": "expected h264, actual h264"
+    },
+    {
+      "check": "audio_stream",
+      "status": "PASS",
+      "detail": "policy required; 1 audio stream(s)"
+    },
+    {
+      "check": "audio_codec",
+      "status": "PASS",
+      "detail": "expected aac; actual ['aac']"
+    },
+    {
+      "check": "decode",
+      "status": "PASS",
+      "detail": "Decoded all selected video/audio packets"
+    }
+  ]
+}

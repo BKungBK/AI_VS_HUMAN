@@ -1,0 +1,13 @@
+{
+  "viewport": [
+    1920,
+    1080
+  ],
+  "samples": 120,
+  "rafIntervalMs": {
+    "p50": 16.700000000000728,
+    "p95": 17
+  },
+  "approxMedianFPS": 59.88023952095548,
+  "note": "Headless Chrome on this machine, GPU ANGLE D3D11. No real-projector performance claim."
+}

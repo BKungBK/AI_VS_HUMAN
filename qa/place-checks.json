@@ -1,0 +1,1813 @@
+{
+  "checks": [
+    {
+      "name": "31 content cues have distinct spatial addresses",
+      "pass": true,
+      "detail": {
+        "count": 31,
+        "unique": 31
+      }
+    },
+    {
+      "name": "11 places have distinct scenic silhouettes",
+      "pass": true,
+      "detail": {
+        "places": [
+          "confluence",
+          "gallery",
+          "atrium",
+          "laboratory",
+          "frontier",
+          "grove",
+          "listening",
+          "checkpoint",
+          "forum",
+          "observatory",
+          "horizon"
+        ]
+      }
+    },
+    {
+      "name": "all 11 ambient worlds repeat without camera drift",
+      "pass": true,
+      "detail": [
+        {
+          "place": "confluence",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "gallery",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "atrium",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "laboratory",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "frontier",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "grove",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "listening",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "checkpoint",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "forum",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "observatory",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "horizon",
+          "moves": true,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "name": "each place has its own active ambient layer",
+      "pass": true,
+      "detail": [
+        {
+          "place": "confluence",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "gallery",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "atrium",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "laboratory",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "frontier",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "grove",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "listening",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "checkpoint",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "forum",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "observatory",
+          "moves": true,
+          "pass": true
+        },
+        {
+          "place": "horizon",
+          "moves": true,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "name": "walk departure keeps actual world camera pose",
+      "pass": true,
+      "detail": {
+        "before": {
+          "x": 9850,
+          "y": 120,
+          "z": -1680
+        },
+        "start": {
+          "x": 9850,
+          "y": 120,
+          "z": -1680
+        }
+      }
+    },
+    {
+      "name": "walk camera travels through populated space",
+      "pass": true,
+      "detail": {
+        "middle": {
+          "scene": 5,
+          "beat": 0,
+          "cue": "06.01",
+          "kind": "content",
+          "time": 0.85,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "06.01",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.5,
+            "activeDuration": 3,
+            "actionEnd": 2.9,
+            "rest": 2.6
+          },
+          "fallback": false,
+          "cameraZ": 2558.936775,
+          "cameraX": 63.123835,
+          "cameraYaw": -7.992930686473787,
+          "cameraPitch": 2.667259895491262,
+          "cameraRoll": -1.3122432845625889,
+          "worldCamera": {
+            "x": 11407.213641742861,
+            "y": 276.15159532583993,
+            "z": -630.1070217210399
+          },
+          "place": "laboratory",
+          "placeId": "06.01",
+          "placeAnchor": {
+            "x": 15400,
+            "y": 500,
+            "z": -5500
+          },
+          "journey": {
+            "progress": 0.314166,
+            "distance": 6027.379198291742,
+            "route": "walk",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        },
+        "end": {
+          "scene": 5,
+          "beat": 0,
+          "cue": "06.01",
+          "kind": "content",
+          "time": 2.8,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "06.01",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.5,
+            "activeDuration": 3,
+            "actionEnd": 2.9,
+            "rest": 2.6
+          },
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "worldCamera": {
+            "x": 15400,
+            "y": 500,
+            "z": -4000
+          },
+          "place": "laboratory",
+          "placeId": "06.01",
+          "placeAnchor": {
+            "x": 15400,
+            "y": 500,
+            "z": -5500
+          },
+          "journey": {
+            "progress": 1,
+            "distance": 6027.379198291742,
+            "route": "walk",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "walk lands with readable native text",
+      "pass": true,
+      "detail": {
+        "title": {
+          "opacity": 1,
+          "z": 0,
+          "yaw": 0,
+          "pitch": 0,
+          "identity": true
+        },
+        "end": {
+          "scene": 5,
+          "beat": 0,
+          "cue": "06.01",
+          "kind": "content",
+          "time": 2.8,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "06.01",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.5,
+            "activeDuration": 3,
+            "actionEnd": 2.9,
+            "rest": 2.6
+          },
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "worldCamera": {
+            "x": 15400,
+            "y": 500,
+            "z": -4000
+          },
+          "place": "laboratory",
+          "placeId": "06.01",
+          "placeAnchor": {
+            "x": 15400,
+            "y": 500,
+            "z": -5500
+          },
+          "journey": {
+            "progress": 1,
+            "distance": 6027.379198291742,
+            "route": "walk",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "descend departure keeps actual world camera pose",
+      "pass": true,
+      "detail": {
+        "before": {
+          "x": 18100,
+          "y": 500,
+          "z": -4920
+        },
+        "start": {
+          "x": 18100,
+          "y": 500,
+          "z": -4920
+        }
+      }
+    },
+    {
+      "name": "descend camera travels through populated space",
+      "pass": true,
+      "detail": {
+        "middle": {
+          "scene": 5,
+          "beat": 3,
+          "cue": "06.04",
+          "kind": "content",
+          "time": 0.85,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "06.04",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.5,
+            "activeDuration": 3,
+            "actionEnd": 3,
+            "rest": 2.5
+          },
+          "fallback": false,
+          "cameraZ": 2510.03563,
+          "cameraX": 34.658085,
+          "cameraYaw": -5.473314686473787,
+          "cameraPitch": -4.074972159152104,
+          "cameraRoll": -0.9746332845625889,
+          "worldCamera": {
+            "x": 19198.019298807983,
+            "y": 226.4000768080899,
+            "z": -4381.982118086742
+          },
+          "place": "frontier",
+          "placeId": "06.04",
+          "placeAnchor": {
+            "x": 22050,
+            "y": -1180,
+            "z": -10280
+          },
+          "journey": {
+            "progress": 0.314166,
+            "distance": 5772.737652102337,
+            "route": "descend",
+            "active": true
+          },
+          "fov": 24.282698344498694,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        },
+        "end": {
+          "scene": 5,
+          "beat": 3,
+          "cue": "06.04",
+          "kind": "content",
+          "time": 2.8,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "06.04",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.5,
+            "activeDuration": 3,
+            "actionEnd": 3,
+            "rest": 2.5
+          },
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "worldCamera": {
+            "x": 22050,
+            "y": -1180,
+            "z": -8780
+          },
+          "place": "frontier",
+          "placeId": "06.04",
+          "placeAnchor": {
+            "x": 22050,
+            "y": -1180,
+            "z": -10280
+          },
+          "journey": {
+            "progress": 1,
+            "distance": 5772.737652102337,
+            "route": "descend",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "descend lands with readable native text",
+      "pass": true,
+      "detail": {
+        "title": {
+          "opacity": 1,
+          "z": 0,
+          "yaw": 0,
+          "pitch": 0,
+          "identity": true
+        },
+        "end": {
+          "scene": 5,
+          "beat": 3,
+          "cue": "06.04",
+          "kind": "content",
+          "time": 2.8,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "06.04",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.5,
+            "activeDuration": 3,
+            "actionEnd": 3,
+            "rest": 2.5
+          },
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "worldCamera": {
+            "x": 22050,
+            "y": -1180,
+            "z": -8780
+          },
+          "place": "frontier",
+          "placeId": "06.04",
+          "placeAnchor": {
+            "x": 22050,
+            "y": -1180,
+            "z": -10280
+          },
+          "journey": {
+            "progress": 1,
+            "distance": 5772.737652102337,
+            "route": "descend",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "frontier combines world descent with compensated dolly",
+      "pass": true,
+      "detail": {
+        "start": {
+          "scene": 5,
+          "beat": 3,
+          "cue": "06.04",
+          "kind": "content",
+          "time": 0,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "06.04",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.5,
+            "activeDuration": 3,
+            "actionEnd": 3,
+            "rest": 2.5
+          },
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "worldCamera": {
+            "x": 18100,
+            "y": 500,
+            "z": -4920
+          },
+          "place": "frontier",
+          "placeId": "06.04",
+          "placeAnchor": {
+            "x": 22050,
+            "y": -1180,
+            "z": -10280
+          },
+          "journey": {
+            "progress": 0,
+            "distance": 5772.737652102337,
+            "route": "descend",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        },
+        "middle": {
+          "scene": 5,
+          "beat": 3,
+          "cue": "06.04",
+          "kind": "content",
+          "time": 0.85,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "06.04",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.5,
+            "activeDuration": 3,
+            "actionEnd": 3,
+            "rest": 2.5
+          },
+          "fallback": false,
+          "cameraZ": 2510.03563,
+          "cameraX": 34.658085,
+          "cameraYaw": -5.473314686473787,
+          "cameraPitch": -4.074972159152104,
+          "cameraRoll": -0.9746332845625889,
+          "worldCamera": {
+            "x": 19198.019298807983,
+            "y": 226.4000768080899,
+            "z": -4381.982118086742
+          },
+          "place": "frontier",
+          "placeId": "06.04",
+          "placeAnchor": {
+            "x": 22050,
+            "y": -1180,
+            "z": -10280
+          },
+          "journey": {
+            "progress": 0.314166,
+            "distance": 5772.737652102337,
+            "route": "descend",
+            "active": true
+          },
+          "fov": 24.282698344498694,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        },
+        "end": {
+          "scene": 5,
+          "beat": 3,
+          "cue": "06.04",
+          "kind": "content",
+          "time": 2.8,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "06.04",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.5,
+            "activeDuration": 3,
+            "actionEnd": 3,
+            "rest": 2.5
+          },
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "worldCamera": {
+            "x": 22050,
+            "y": -1180,
+            "z": -8780
+          },
+          "place": "frontier",
+          "placeId": "06.04",
+          "placeAnchor": {
+            "x": 22050,
+            "y": -1180,
+            "z": -10280
+          },
+          "journey": {
+            "progress": 1,
+            "distance": 5772.737652102337,
+            "route": "descend",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "threshold departure keeps actual world camera pose",
+      "pass": true,
+      "detail": {
+        "before": {
+          "x": 11900,
+          "y": -300,
+          "z": -14620
+        },
+        "start": {
+          "x": 11900,
+          "y": -300,
+          "z": -14620
+        }
+      }
+    },
+    {
+      "name": "threshold camera travels through populated space",
+      "pass": true,
+      "detail": {
+        "middle": {
+          "scene": 9,
+          "beat": 0,
+          "cue": "10.01",
+          "kind": "content",
+          "time": 0.85,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "10.01",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.5,
+            "activeDuration": 3,
+            "actionEnd": 3,
+            "rest": 2.5
+          },
+          "fallback": false,
+          "cameraZ": 2558.936775,
+          "cameraX": 63.123835,
+          "cameraYaw": -7.992930686473787,
+          "cameraPitch": 2.667259895491262,
+          "cameraRoll": -1.3122432845625889,
+          "worldCamera": {
+            "x": 12528.455113227032,
+            "y": -90.47506244408412,
+            "z": -13947.930196204483
+          },
+          "place": "checkpoint",
+          "placeId": "10.01",
+          "placeAnchor": {
+            "x": 14000,
+            "y": 300,
+            "z": -18800
+          },
+          "journey": {
+            "progress": 0.314166,
+            "distance": 3457.2243201736273,
+            "route": "threshold",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        },
+        "end": {
+          "scene": 9,
+          "beat": 0,
+          "cue": "10.01",
+          "kind": "content",
+          "time": 2.8,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "10.01",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.5,
+            "activeDuration": 3,
+            "actionEnd": 3,
+            "rest": 2.5
+          },
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "worldCamera": {
+            "x": 14000,
+            "y": 300,
+            "z": -17300
+          },
+          "place": "checkpoint",
+          "placeId": "10.01",
+          "placeAnchor": {
+            "x": 14000,
+            "y": 300,
+            "z": -18800
+          },
+          "journey": {
+            "progress": 1,
+            "distance": 3457.2243201736273,
+            "route": "threshold",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "threshold lands with readable native text",
+      "pass": true,
+      "detail": {
+        "title": {
+          "opacity": 1,
+          "z": 0,
+          "yaw": 0,
+          "pitch": 0,
+          "identity": true
+        },
+        "end": {
+          "scene": 9,
+          "beat": 0,
+          "cue": "10.01",
+          "kind": "content",
+          "time": 2.8,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "10.01",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.5,
+            "activeDuration": 3,
+            "actionEnd": 3,
+            "rest": 2.5
+          },
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "worldCamera": {
+            "x": 14000,
+            "y": 300,
+            "z": -17300
+          },
+          "place": "checkpoint",
+          "placeId": "10.01",
+          "placeAnchor": {
+            "x": 14000,
+            "y": 300,
+            "z": -18800
+          },
+          "journey": {
+            "progress": 1,
+            "distance": 3457.2243201736273,
+            "route": "threshold",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "rise departure keeps actual world camera pose",
+      "pass": true,
+      "detail": {
+        "before": {
+          "x": 27050,
+          "y": 1920,
+          "z": -25480
+        },
+        "start": {
+          "x": 27050,
+          "y": 1920,
+          "z": -25480
+        }
+      }
+    },
+    {
+      "name": "rise camera travels through populated space",
+      "pass": true,
+      "detail": {
+        "middle": {
+          "scene": 14,
+          "beat": 0,
+          "cue": "15.01",
+          "kind": "content",
+          "time": 0.85,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "15.01",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 6,
+            "activeDuration": 3.5,
+            "actionEnd": 3.5,
+            "rest": 2.5
+          },
+          "fallback": false,
+          "cameraZ": 2558.936775,
+          "cameraX": 63.123835,
+          "cameraYaw": -7.992930686473787,
+          "cameraPitch": 2.667259895491262,
+          "cameraRoll": -1.3122432845625889,
+          "worldCamera": {
+            "x": 27557.3126964641,
+            "y": 1867.114585672473,
+            "z": -24804.8385015772
+          },
+          "place": "horizon",
+          "placeId": "15.01",
+          "placeAnchor": {
+            "x": 28700,
+            "y": 700,
+            "z": -29600
+          },
+          "journey": {
+            "progress": 0.314166,
+            "distance": 3327.957331457241,
+            "route": "rise",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        },
+        "end": {
+          "scene": 14,
+          "beat": 0,
+          "cue": "15.01",
+          "kind": "content",
+          "time": 2.8,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "15.01",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 6,
+            "activeDuration": 3.5,
+            "actionEnd": 3.5,
+            "rest": 2.5
+          },
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "worldCamera": {
+            "x": 28700,
+            "y": 700,
+            "z": -28100
+          },
+          "place": "horizon",
+          "placeId": "15.01",
+          "placeAnchor": {
+            "x": 28700,
+            "y": 700,
+            "z": -29600
+          },
+          "journey": {
+            "progress": 1,
+            "distance": 3327.957331457241,
+            "route": "rise",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "rise lands with readable native text",
+      "pass": true,
+      "detail": {
+        "title": {
+          "opacity": 1,
+          "z": 0,
+          "yaw": 0,
+          "pitch": 0,
+          "identity": true
+        },
+        "end": {
+          "scene": 14,
+          "beat": 0,
+          "cue": "15.01",
+          "kind": "content",
+          "time": 2.8,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "15.01",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 6,
+            "activeDuration": 3.5,
+            "actionEnd": 3.5,
+            "rest": 2.5
+          },
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "worldCamera": {
+            "x": 28700,
+            "y": 700,
+            "z": -28100
+          },
+          "place": "horizon",
+          "placeId": "15.01",
+          "placeAnchor": {
+            "x": 28700,
+            "y": 700,
+            "z": -29600
+          },
+          "journey": {
+            "progress": 1,
+            "distance": 3327.957331457241,
+            "route": "rise",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "reverse departure keeps actual world camera pose",
+      "pass": true,
+      "detail": {
+        "before": {
+          "x": 9850,
+          "y": 120,
+          "z": -1680
+        },
+        "start": {
+          "x": 9850,
+          "y": 120,
+          "z": -1680
+        }
+      }
+    },
+    {
+      "name": "reverse camera travels through populated space",
+      "pass": true,
+      "detail": {
+        "middle": {
+          "scene": 2,
+          "beat": 2,
+          "cue": "03.03",
+          "kind": "content",
+          "time": 0.85,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "03.03",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.4,
+            "activeDuration": 2.9000000000000004,
+            "actionEnd": 2.9,
+            "rest": 2.5000000000000004
+          },
+          "fallback": false,
+          "cameraZ": 1555.786025,
+          "cameraX": -16.352183,
+          "cameraYaw": 6.718329686473786,
+          "cameraPitch": 2.239442895491262,
+          "cameraRoll": 1.0626832845625889,
+          "worldCamera": {
+            "x": 9470.220566711198,
+            "y": 134.8837428029398,
+            "z": -1256.7206521507076
+          },
+          "place": "gallery",
+          "placeId": "03.03",
+          "placeAnchor": {
+            "x": 8500,
+            "y": 0,
+            "z": -2720
+          },
+          "journey": {
+            "progress": 0.314166,
+            "distance": 1431.2581877495059,
+            "route": "walk",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        },
+        "end": {
+          "scene": 2,
+          "beat": 2,
+          "cue": "03.03",
+          "kind": "content",
+          "time": 2.8,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "03.03",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.4,
+            "activeDuration": 2.9000000000000004,
+            "actionEnd": 2.9,
+            "rest": 2.5000000000000004
+          },
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "worldCamera": {
+            "x": 8500,
+            "y": 0,
+            "z": -1220
+          },
+          "place": "gallery",
+          "placeId": "03.03",
+          "placeAnchor": {
+            "x": 8500,
+            "y": 0,
+            "z": -2720
+          },
+          "journey": {
+            "progress": 1,
+            "distance": 1431.2581877495059,
+            "route": "walk",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "reverse lands with readable native text",
+      "pass": true,
+      "detail": {
+        "title": {
+          "opacity": 1,
+          "z": 0,
+          "yaw": 0,
+          "pitch": 0,
+          "identity": true
+        },
+        "end": {
+          "scene": 2,
+          "beat": 2,
+          "cue": "03.03",
+          "kind": "content",
+          "time": 2.8,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "03.03",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.4,
+            "activeDuration": 2.9000000000000004,
+            "actionEnd": 2.9,
+            "rest": 2.5000000000000004
+          },
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "worldCamera": {
+            "x": 8500,
+            "y": 0,
+            "z": -1220
+          },
+          "place": "gallery",
+          "placeId": "03.03",
+          "placeAnchor": {
+            "x": 8500,
+            "y": 0,
+            "z": -2720
+          },
+          "journey": {
+            "progress": 1,
+            "distance": 1431.2581877495059,
+            "route": "walk",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "reverse returns to the earlier gallery address",
+      "pass": true,
+      "detail": {
+        "start": {
+          "x": 9850,
+          "y": 120,
+          "z": -1680
+        },
+        "end": {
+          "x": 8500,
+          "y": 0,
+          "z": -1220
+        }
+      }
+    },
+    {
+      "name": "departure text peels through depth",
+      "pass": true,
+      "detail": {
+        "z": 16.1141
+      }
+    },
+    {
+      "name": "old title clears before new title",
+      "pass": true
+    },
+    {
+      "name": "text joins arrival with depth and two-axis tilt",
+      "pass": true,
+      "detail": {
+        "opacity": 0.4768,
+        "z": -136.026,
+        "yaw": 0.12615,
+        "pitch": 0.09841240000000001,
+        "identity": false
+      }
+    },
+    {
+      "name": "readable arriving Thai stays inside frame",
+      "pass": true,
+      "detail": [
+        {
+          "t": 1.55,
+          "lines": [
+            {
+              "left": 103.48780822753906,
+              "right": 906.9173736572266
+            },
+            {
+              "left": 137.988037109375,
+              "right": 908.4244995117188
+            }
+          ]
+        },
+        {
+          "t": 1.7,
+          "lines": [
+            {
+              "left": 90.40618133544922,
+              "right": 907.3853073120117
+            },
+            {
+              "left": 110.07996368408203,
+              "right": 909.1670608520508
+            }
+          ]
+        },
+        {
+          "t": 1.9,
+          "lines": [
+            {
+              "left": 88.59658813476562,
+              "right": 908.5276184082031
+            },
+            {
+              "left": 93.75177764892578,
+              "right": 909.034797668457
+            }
+          ]
+        },
+        {
+          "t": 2.2,
+          "lines": [
+            {
+              "left": 97.60303497314453,
+              "right": 909.789192199707
+            },
+            {
+              "left": 94.02095031738281,
+              "right": 909.3446197509766
+            }
+          ]
+        },
+        {
+          "t": 2.8,
+          "lines": [
+            {
+              "left": 100,
+              "right": 910
+            },
+            {
+              "left": 100,
+              "right": 910
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "seek reconstructs camera, scenic sets and text",
+      "pass": true,
+      "detail": {
+        "raster": {
+          "maximumChannelDelta": 0,
+          "changedPixels": 0
+        },
+        "poseEqual": true,
+        "styleDifferences": [],
+        "note": "Exact DOM/pose, ≤1 RGB level in ≤0.1% pixels for GPU rounding."
+      }
+    },
+    {
+      "name": "interrupted flight starts at captured live world pose",
+      "pass": true,
+      "detail": {
+        "before": {
+          "scene": 9,
+          "beat": 0,
+          "cue": "10.01",
+          "kind": "content",
+          "time": 0.85,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "10.01",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.5,
+            "activeDuration": 3,
+            "actionEnd": 3,
+            "rest": 2.5
+          },
+          "fallback": false,
+          "cameraZ": 2558.936775,
+          "cameraX": 63.123835,
+          "cameraYaw": -7.992930686473787,
+          "cameraPitch": 2.667259895491262,
+          "cameraRoll": -1.3122432845625889,
+          "worldCamera": {
+            "x": 12528.455113227032,
+            "y": -90.47506244408412,
+            "z": -13947.930196204483
+          },
+          "place": "checkpoint",
+          "placeId": "10.01",
+          "placeAnchor": {
+            "x": 14000,
+            "y": 300,
+            "z": -18800
+          },
+          "journey": {
+            "progress": 0.314166,
+            "distance": 3457.2243201736273,
+            "route": "threshold",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        },
+        "after": {
+          "scene": 5,
+          "beat": 3,
+          "cue": "06.04",
+          "kind": "content",
+          "time": 0,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "06.04",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.5,
+            "activeDuration": 3,
+            "actionEnd": 3,
+            "rest": 2.5
+          },
+          "fallback": false,
+          "cameraZ": 2558.936775,
+          "cameraX": 63.123835,
+          "cameraYaw": -7.992931,
+          "cameraPitch": 2.66726,
+          "cameraRoll": -1.312243,
+          "worldCamera": {
+            "x": 12528.455113227032,
+            "y": -90.47506244408412,
+            "z": -13947.930196204483
+          },
+          "place": "frontier",
+          "placeId": "06.04",
+          "placeAnchor": {
+            "x": 22050,
+            "y": -1180,
+            "z": -10280
+          },
+          "journey": {
+            "progress": 0,
+            "distance": 11479.054285323398,
+            "route": "descend",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "rapid travel retains bounded scenes and one live text",
+      "pass": true
+    },
+    {
+      "name": "game remains plain centered text without a journey",
+      "pass": true,
+      "detail": {
+        "scene": 1,
+        "beat": 0,
+        "cue": "02.01",
+        "kind": "placeholder",
+        "time": 0.7,
+        "paused": true,
+        "ready": true,
+        "audio": {
+          "enabled": false,
+          "volume": 0.65,
+          "ambient": false,
+          "speechSafe": true,
+          "status": "locked",
+          "error": "",
+          "context": "uninitialized",
+          "voices": 0,
+          "cue": "02.01",
+          "playing": false,
+          "resyncs": 0
+        },
+        "motionTiming": null,
+        "fallback": false,
+        "cameraZ": 1500,
+        "cameraX": 0,
+        "cameraYaw": 0,
+        "cameraPitch": 0,
+        "cameraRoll": 0,
+        "worldCamera": {
+          "x": 0,
+          "y": 0,
+          "z": 1500
+        },
+        "place": "placeholder",
+        "placeId": null,
+        "placeAnchor": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "journey": {
+          "progress": 1,
+          "distance": 24357.202220287945,
+          "route": "walk",
+          "active": false
+        },
+        "fov": 39.597752709049864,
+        "backgroundLayers": 0,
+        "travelGates": 0,
+        "retainedSets": 2,
+        "nativeText3D": true,
+        "particles": 0,
+        "models": 0,
+        "drawCalls": 0
+      }
+    },
+    {
+      "name": "system motion preference retains camera travel and spatial text",
+      "pass": true,
+      "detail": {
+        "r": {
+          "opacity": 0,
+          "z": -260,
+          "yaw": -0.237083,
+          "pitch": 0.181438,
+          "identity": false
+        },
+        "rs": {
+          "scene": 0,
+          "beat": 2,
+          "cue": "01.03",
+          "kind": "content",
+          "time": 0.85,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "01.03",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 6.1,
+            "activeDuration": 3.5999999999999996,
+            "actionEnd": 3.24,
+            "rest": 2.8599999999999994
+          },
+          "fallback": false,
+          "cameraZ": 2047.426608,
+          "cameraX": -169.204588,
+          "cameraYaw": -2.0851506864737868,
+          "cameraPitch": 3.6810138954912626,
+          "cameraRoll": 0.020687715437411103,
+          "worldCamera": {
+            "x": 557.6499125776072,
+            "y": -32.72001907156421,
+            "z": 2093.4796003937186
+          },
+          "place": "confluence",
+          "placeId": "01.03",
+          "placeAnchor": {
+            "x": 2700,
+            "y": 0,
+            "z": -920
+          },
+          "journey": {
+            "progress": 0.314166,
+            "distance": 2852.43755409299,
+            "route": "walk",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "scenic places and native text survive missing WebGL",
+      "pass": true
+    },
+    {
+      "name": "one seek clock drives camera, cards, scenery and type",
+      "pass": true
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

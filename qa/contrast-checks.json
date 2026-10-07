@@ -1,0 +1,300 @@
+{
+  "method": "Off-white interior glyph mask vs synchronized text-hidden composite; samples every 2px, excluding antialias edges. Includes glass, photographs and grain. Decorative accent text excluded.",
+  "checks": [
+    {
+      "cue": "01.01",
+      "minContrast": 12.451,
+      "glyphSamples": 7520,
+      "worstRegion": "02 / ARTIFICIAL",
+      "pass": true
+    },
+    {
+      "cue": "01.02",
+      "minContrast": 16.065,
+      "glyphSamples": 3693,
+      "worstRegion": "เข้าร่วมกิจกรรม",
+      "pass": true
+    },
+    {
+      "cue": "01.03",
+      "minContrast": 12.786,
+      "glyphSamples": 7392,
+      "worstRegion": "ARTIFICIAL INTELLIGENCE",
+      "pass": true
+    },
+    {
+      "cue": "01.04",
+      "minContrast": 14.06,
+      "glyphSamples": 5624,
+      "worstRegion": "VERIFICATION",
+      "pass": true
+    },
+    {
+      "cue": "02.01",
+      "minContrast": 16.081,
+      "glyphSamples": 7012,
+      "worstRegion": "THE TRUSTTUG-OF-WAR",
+      "pass": true
+    },
+    {
+      "cue": "03.01",
+      "minContrast": 11.016,
+      "glyphSamples": 6747,
+      "worstRegion": "ศิลปะมีชีวิตอยู่เบื้องหลัง",
+      "pass": true
+    },
+    {
+      "cue": "03.02",
+      "minContrast": 11.559,
+      "glyphSamples": 12203,
+      "worstRegion": "ถ้าปิดชื่อผู้สร้างคุณแยกออกไหม?",
+      "pass": true
+    },
+    {
+      "cue": "03.03",
+      "minContrast": 12.288,
+      "glyphSamples": 5597,
+      "worstRegion": "ภาพถ่ายจริงจากกล้อง",
+      "pass": true
+    },
+    {
+      "cue": "03.04",
+      "minContrast": 12.986,
+      "glyphSamples": 5844,
+      "worstRegion": "AI-GENERATED",
+      "pass": true
+    },
+    {
+      "cue": "04.01",
+      "minContrast": 15.953,
+      "glyphSamples": 8305,
+      "worstRegion": "CAPTION &PROMPT BATTLE",
+      "pass": true
+    },
+    {
+      "cue": "04.02",
+      "minContrast": 14.337,
+      "glyphSamples": 4947,
+      "worstRegion": "04IDEAS",
+      "pass": true
+    },
+    {
+      "cue": "04.03",
+      "minContrast": 14.21,
+      "glyphSamples": 7489,
+      "worstRegion": "SHORT-STORY EXPERIMENT",
+      "pass": true
+    },
+    {
+      "cue": "05.01",
+      "minContrast": 15.921,
+      "glyphSamples": 7092,
+      "worstRegion": "FLASH LEADERBOARD",
+      "pass": true
+    },
+    {
+      "cue": "06.01",
+      "minContrast": 9.753,
+      "glyphSamples": 6795,
+      "worstRegion": "0",
+      "pass": true
+    },
+    {
+      "cue": "06.02",
+      "minContrast": 12.592,
+      "glyphSamples": 6845,
+      "worstRegion": "ออกแบบ + ทำนายโปรตีน",
+      "pass": true
+    },
+    {
+      "cue": "06.03",
+      "minContrast": 12.46,
+      "glyphSamples": 6259,
+      "worstRegion": "CLOSED PROBLEM",
+      "pass": true
+    },
+    {
+      "cue": "06.04",
+      "minContrast": 11.96,
+      "glyphSamples": 8079,
+      "worstRegion": "INSIDE THE FRONTIER",
+      "pass": true
+    },
+    {
+      "cue": "06.05",
+      "minContrast": 12.954,
+      "glyphSamples": 9317,
+      "worstRegion": ">25%",
+      "pass": true
+    },
+    {
+      "cue": "07.01",
+      "minContrast": 16.081,
+      "glyphSamples": 6612,
+      "worstRegion": "DEATH CAPROULETTE",
+      "pass": true
+    },
+    {
+      "cue": "07.02",
+      "minContrast": 12.44,
+      "glyphSamples": 8085,
+      "worstRegion": "99.9%",
+      "pass": true
+    },
+    {
+      "cue": "08.01",
+      "minContrast": 15.921,
+      "glyphSamples": 6989,
+      "worstRegion": "SURVIVOR RANKINGS",
+      "pass": true
+    },
+    {
+      "cue": "09.01",
+      "minContrast": 11.03,
+      "glyphSamples": 9714,
+      "worstRegion": "ฟังดูอบอุ่นแล้วเชื่อใจได้ไหม?",
+      "pass": true
+    },
+    {
+      "cue": "09.02",
+      "minContrast": 12.587,
+      "glyphSamples": 10410,
+      "worstRegion": "ประเมินข้อความ ≠ ผลการรักษา",
+      "pass": true
+    },
+    {
+      "cue": "09.03",
+      "minContrast": 12.598,
+      "glyphSamples": 10003,
+      "worstRegion": "บริบท→คำถัดไป→คำตอบ",
+      "pass": true
+    },
+    {
+      "cue": "10.01",
+      "minContrast": 11.559,
+      "glyphSamples": 10878,
+      "worstRegion": "คำแนะนำที่ดีต้องดีในบริบทด้วย",
+      "pass": true
+    },
+    {
+      "cue": "10.02",
+      "minContrast": 16.096,
+      "glyphSamples": 6859,
+      "worstRegion": "THE TESSAINTERCEPT",
+      "pass": true
+    },
+    {
+      "cue": "10.03",
+      "minContrast": 10.718,
+      "glyphSamples": 6872,
+      "worstRegion": "ตรวจก่อนปล่อยคำตอบ",
+      "pass": true
+    },
+    {
+      "cue": "11.01",
+      "minContrast": 13.434,
+      "glyphSamples": 10153,
+      "worstRegion": "ความรับผิดจากการให้ข้อมูลผิด",
+      "pass": true
+    },
+    {
+      "cue": "11.02",
+      "minContrast": 15.953,
+      "glyphSamples": 7383,
+      "worstRegion": "THE COURTROOMGAVEL",
+      "pass": true
+    },
+    {
+      "cue": "11.03",
+      "minContrast": 11.217,
+      "glyphSamples": 8875,
+      "worstRegion": "AI IS A TOOL.NOT A SHIELD.",
+      "pass": true
+    },
+    {
+      "cue": "12.01",
+      "minContrast": 15.921,
+      "glyphSamples": 5536,
+      "worstRegion": "THE FINAL SPRINT",
+      "pass": true
+    },
+    {
+      "cue": "13.01",
+      "minContrast": 11.401,
+      "glyphSamples": 10475,
+      "worstRegion": "BETTERTOGETHER?",
+      "pass": true
+    },
+    {
+      "cue": "13.02",
+      "minContrast": 10.718,
+      "glyphSamples": 6770,
+      "worstRegion": "การร่วมมือต้องออกแบบ",
+      "pass": true
+    },
+    {
+      "cue": "13.03",
+      "minContrast": 10.718,
+      "glyphSamples": 9407,
+      "worstRegion": "เร็วแค่ไหนก็ต้องตรวจก่อนปล่อย",
+      "pass": true
+    },
+    {
+      "cue": "13.04",
+      "minContrast": 10.718,
+      "glyphSamples": 7409,
+      "worstRegion": "HUMANOVERSIGHT",
+      "pass": true
+    },
+    {
+      "cue": "14.01",
+      "minContrast": 16.049,
+      "glyphSamples": 8580,
+      "worstRegion": "ACCOUNTABILITYTHROTTLE",
+      "pass": true
+    },
+    {
+      "cue": "15.01",
+      "minContrast": 14.804,
+      "glyphSamples": 7396,
+      "worstRegion": "→",
+      "pass": true
+    },
+    {
+      "cue": "15.02",
+      "minContrast": 13.938,
+      "glyphSamples": 6337,
+      "worstRegion": "AI15.02  47:00",
+      "pass": true
+    },
+    {
+      "cue": "15.03",
+      "minContrast": 13.938,
+      "glyphSamples": 5679,
+      "worstRegion": "HUMAN15.03  47:00",
+      "pass": true
+    },
+    {
+      "cue": "15.04",
+      "minContrast": 13.123,
+      "glyphSamples": 8089,
+      "worstRegion": "OWN THE OUTCOME",
+      "pass": true
+    },
+    {
+      "cue": "16.01",
+      "minContrast": 15.921,
+      "glyphSamples": 8850,
+      "worstRegion": "GRAND PODIUMCEREMONY",
+      "pass": true
+    },
+    {
+      "cue": "16.02",
+      "minContrast": 13.938,
+      "glyphSamples": 4454,
+      "worstRegion": "HUMAN + AI16.02  48:30",
+      "pass": true
+    }
+  ],
+  "pass": true
+}

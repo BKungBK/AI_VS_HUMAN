@@ -1,0 +1,83 @@
+{
+  "frames": 540,
+  "fps": 30,
+  "duration": 18,
+  "stage": [
+    1920,
+    1080
+  ],
+  "capture": [
+    1280,
+    720
+  ],
+  "audio": "absent",
+  "clips": [
+    {
+      "name": "arc",
+      "from": [
+        0,
+        0
+      ],
+      "to": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "punch",
+      "from": [
+        8,
+        0
+      ],
+      "to": [
+        8,
+        1
+      ]
+    },
+    {
+      "name": "push",
+      "from": [
+        8,
+        2
+      ],
+      "to": [
+        9,
+        0
+      ]
+    },
+    {
+      "name": "dolly",
+      "from": [
+        5,
+        2
+      ],
+      "to": [
+        5,
+        3
+      ]
+    },
+    {
+      "name": "reverse",
+      "from": [
+        0,
+        3
+      ],
+      "to": [
+        0,
+        2
+      ]
+    },
+    {
+      "name": "formula",
+      "from": [
+        13,
+        0
+      ],
+      "to": [
+        14,
+        0
+      ]
+    }
+  ],
+  "errors": []
+}

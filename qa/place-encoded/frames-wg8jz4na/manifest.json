@@ -1,0 +1,89 @@
+{
+  "source": "D:\\Project\\AI_VS_HUMAN\\qa\\place-journey-preview.mp4",
+  "duration": 24.0,
+  "fps": 30.0,
+  "frames": [
+    {
+      "requested_timestamp": 0.0,
+      "sample_timestamp": 0.0,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\place-encoded\\frames-wg8jz4na\\00-0000.00000s.png"
+    },
+    {
+      "requested_timestamp": 0.9,
+      "sample_timestamp": 0.9,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\place-encoded\\frames-wg8jz4na\\01-0000.90000s.png"
+    },
+    {
+      "requested_timestamp": 1.4,
+      "sample_timestamp": 1.4,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\place-encoded\\frames-wg8jz4na\\02-0001.40000s.png"
+    },
+    {
+      "requested_timestamp": 3.9,
+      "sample_timestamp": 3.9,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\place-encoded\\frames-wg8jz4na\\03-0003.90000s.png"
+    },
+    {
+      "requested_timestamp": 4.9,
+      "sample_timestamp": 4.9,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\place-encoded\\frames-wg8jz4na\\04-0004.90000s.png"
+    },
+    {
+      "requested_timestamp": 5.4,
+      "sample_timestamp": 5.4,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\place-encoded\\frames-wg8jz4na\\05-0005.40000s.png"
+    },
+    {
+      "requested_timestamp": 7.8,
+      "sample_timestamp": 7.8,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\place-encoded\\frames-wg8jz4na\\06-0007.80000s.png"
+    },
+    {
+      "requested_timestamp": 8.9,
+      "sample_timestamp": 8.9,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\place-encoded\\frames-wg8jz4na\\07-0008.90000s.png"
+    },
+    {
+      "requested_timestamp": 9.5,
+      "sample_timestamp": 9.5,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\place-encoded\\frames-wg8jz4na\\08-0009.50000s.png"
+    },
+    {
+      "requested_timestamp": 12.9,
+      "sample_timestamp": 12.9,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\place-encoded\\frames-wg8jz4na\\09-0012.90000s.png"
+    },
+    {
+      "requested_timestamp": 13.5,
+      "sample_timestamp": 13.5,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\place-encoded\\frames-wg8jz4na\\10-0013.50000s.png"
+    },
+    {
+      "requested_timestamp": 16.9,
+      "sample_timestamp": 16.9,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\place-encoded\\frames-wg8jz4na\\11-0016.90000s.png"
+    },
+    {
+      "requested_timestamp": 17.5,
+      "sample_timestamp": 17.5,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\place-encoded\\frames-wg8jz4na\\12-0017.50000s.png"
+    },
+    {
+      "requested_timestamp": 20.9,
+      "sample_timestamp": 20.9,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\place-encoded\\frames-wg8jz4na\\13-0020.90000s.png"
+    },
+    {
+      "requested_timestamp": 21.5,
+      "sample_timestamp": 21.5,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\place-encoded\\frames-wg8jz4na\\14-0021.50000s.png"
+    },
+    {
+      "requested_timestamp": 23.9,
+      "sample_timestamp": 23.9,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\place-encoded\\frames-wg8jz4na\\15-0023.90000s.png"
+    }
+  ],
+  "contact_sheet": "D:\\Project\\AI_VS_HUMAN\\qa\\place-encoded\\frames-wg8jz4na\\contact-sheet.jpg",
+  "visual_review": "pending"
+}

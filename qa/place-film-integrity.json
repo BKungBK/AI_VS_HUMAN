@@ -1,0 +1,3607 @@
+{
+  "method": "Persistent brand region in all consecutive source frames; rejects black projection/compositing artifacts that erase screen-space content. This supplements visual review.",
+  "count": 720,
+  "checks": [
+    {
+      "file": "qa/place-journey/frames/00000.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00001.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00002.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00003.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00004.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00005.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00006.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00007.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00008.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00009.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00010.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00011.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00012.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00013.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00014.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00015.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00016.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00017.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00018.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00019.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00020.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00021.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00022.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00023.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00024.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00025.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00026.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00027.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00028.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00029.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00030.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00031.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00032.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00033.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00034.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00035.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00036.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00037.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00038.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00039.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00040.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00041.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00042.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00043.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00044.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00045.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00046.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00047.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00048.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00049.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00050.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00051.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00052.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00053.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00054.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00055.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00056.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00057.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00058.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00059.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00060.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00061.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00062.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00063.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00064.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00065.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00066.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00067.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00068.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00069.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00070.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00071.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00072.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00073.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00074.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00075.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00076.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00077.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00078.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00079.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00080.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00081.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00082.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00083.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00084.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00085.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00086.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00087.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00088.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00089.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00090.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00091.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00092.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00093.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00094.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00095.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00096.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00097.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00098.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00099.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00100.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00101.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00102.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00103.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00104.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00105.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00106.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00107.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00108.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00109.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00110.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00111.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00112.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00113.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00114.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00115.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00116.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00117.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00118.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00119.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00120.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00121.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00122.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00123.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00124.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00125.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00126.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00127.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00128.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00129.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00130.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00131.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00132.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00133.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00134.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00135.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00136.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00137.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00138.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00139.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00140.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00141.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00142.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00143.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00144.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00145.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00146.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00147.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00148.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00149.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00150.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00151.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00152.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00153.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00154.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00155.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00156.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00157.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00158.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00159.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00160.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00161.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00162.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00163.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00164.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00165.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00166.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00167.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00168.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00169.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00170.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00171.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00172.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00173.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00174.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00175.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00176.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00177.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00178.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00179.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00180.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00181.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00182.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00183.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00184.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00185.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00186.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00187.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00188.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00189.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00190.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00191.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00192.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00193.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00194.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00195.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00196.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00197.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00198.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00199.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00200.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00201.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00202.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00203.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00204.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00205.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00206.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00207.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00208.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00209.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00210.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00211.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00212.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00213.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00214.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00215.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00216.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00217.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00218.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00219.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00220.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00221.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00222.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00223.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00224.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00225.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00226.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00227.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00228.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00229.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00230.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00231.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00232.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00233.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00234.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00235.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00236.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00237.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00238.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00239.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00240.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00241.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00242.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00243.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00244.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00245.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00246.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00247.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00248.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00249.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00250.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00251.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00252.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00253.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00254.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00255.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00256.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00257.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00258.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00259.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00260.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00261.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00262.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00263.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00264.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00265.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00266.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00267.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00268.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00269.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00270.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00271.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00272.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00273.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00274.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00275.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00276.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00277.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00278.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00279.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00280.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00281.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00282.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00283.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00284.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00285.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00286.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00287.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00288.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00289.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00290.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00291.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00292.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00293.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00294.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00295.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00296.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00297.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00298.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00299.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00300.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00301.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00302.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00303.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00304.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00305.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00306.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00307.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00308.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00309.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00310.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00311.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00312.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00313.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00314.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00315.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00316.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00317.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00318.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00319.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00320.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00321.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00322.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00323.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00324.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00325.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00326.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00327.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00328.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00329.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00330.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00331.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00332.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00333.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00334.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00335.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00336.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00337.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00338.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00339.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00340.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00341.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00342.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00343.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00344.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00345.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00346.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00347.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00348.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00349.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00350.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00351.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00352.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00353.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00354.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00355.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00356.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00357.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00358.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00359.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00360.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00361.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00362.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00363.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00364.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00365.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00366.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00367.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00368.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00369.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00370.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00371.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00372.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00373.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00374.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00375.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00376.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00377.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00378.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00379.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00380.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00381.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00382.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00383.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00384.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00385.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00386.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00387.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00388.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00389.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00390.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00391.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00392.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00393.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00394.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00395.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00396.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00397.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00398.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00399.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00400.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00401.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00402.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00403.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00404.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00405.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00406.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00407.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00408.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00409.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00410.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00411.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00412.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00413.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00414.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00415.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00416.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00417.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00418.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00419.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00420.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00421.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00422.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00423.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00424.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00425.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00426.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00427.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00428.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00429.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00430.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00431.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00432.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00433.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00434.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00435.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00436.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00437.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00438.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00439.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00440.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00441.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00442.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00443.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00444.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00445.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00446.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00447.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00448.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00449.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00450.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00451.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00452.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00453.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00454.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00455.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00456.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00457.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00458.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00459.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00460.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00461.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00462.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00463.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00464.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00465.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00466.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00467.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00468.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00469.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00470.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00471.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00472.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00473.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00474.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00475.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00476.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00477.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00478.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00479.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00480.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00481.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00482.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00483.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00484.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00485.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00486.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00487.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00488.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00489.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00490.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00491.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00492.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00493.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00494.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00495.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00496.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00497.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00498.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00499.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00500.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00501.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00502.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00503.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00504.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00505.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00506.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00507.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00508.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00509.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00510.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00511.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00512.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00513.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00514.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00515.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00516.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00517.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00518.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00519.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00520.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00521.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00522.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00523.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00524.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00525.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00526.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00527.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00528.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00529.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00530.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00531.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00532.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00533.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00534.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00535.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00536.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00537.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00538.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00539.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00540.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00541.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00542.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00543.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00544.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00545.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00546.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00547.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00548.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00549.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00550.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00551.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00552.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00553.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00554.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00555.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00556.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00557.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00558.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00559.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00560.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00561.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00562.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00563.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00564.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00565.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00566.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00567.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00568.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00569.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00570.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00571.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00572.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00573.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00574.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00575.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00576.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00577.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00578.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00579.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00580.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00581.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00582.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00583.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00584.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00585.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00586.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00587.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00588.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00589.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00590.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00591.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00592.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00593.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00594.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00595.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00596.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00597.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00598.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00599.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00600.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00601.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00602.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00603.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00604.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00605.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00606.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00607.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00608.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00609.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00610.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00611.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00612.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00613.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00614.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00615.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00616.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00617.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00618.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00619.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00620.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00621.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00622.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00623.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00624.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00625.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00626.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00627.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00628.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00629.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00630.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00631.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00632.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00633.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00634.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00635.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00636.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00637.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00638.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00639.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00640.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00641.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00642.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00643.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00644.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00645.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00646.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00647.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00648.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00649.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00650.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00651.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00652.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00653.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00654.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00655.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00656.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00657.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00658.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00659.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00660.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00661.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00662.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00663.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00664.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00665.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00666.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00667.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00668.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00669.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00670.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00671.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00672.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00673.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00674.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00675.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00676.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00677.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00678.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00679.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00680.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00681.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00682.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00683.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00684.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00685.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00686.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00687.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00688.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00689.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00690.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00691.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00692.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00693.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00694.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00695.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00696.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00697.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00698.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00699.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00700.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00701.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00702.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00703.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00704.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00705.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00706.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00707.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00708.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00709.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00710.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00711.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00712.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00713.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00714.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00715.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00716.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00717.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00718.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/frames/00719.png",
+      "brandGlyphPixels": 575,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

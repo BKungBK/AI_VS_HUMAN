@@ -1,0 +1,367 @@
+{
+  "method": "Persistent brand region in all consecutive source frames; rejects black projection/compositing artifacts that erase screen-space content. This supplements visual review.",
+  "count": 72,
+  "checks": [
+    {
+      "file": "qa/place-journey/gallery-to-lab-0.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/gallery-to-lab-1.png",
+      "brandGlyphPixels": 1562,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/gallery-to-lab-2.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/gallery-to-lab-3.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/gallery-to-lab-4.png",
+      "brandGlyphPixels": 1558,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/gallery-to-lab-5.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/gallery-to-lab-6.png",
+      "brandGlyphPixels": 1561,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/gallery-to-lab-7.png",
+      "brandGlyphPixels": 1559,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/gallery-to-lab-8.png",
+      "brandGlyphPixels": 1557,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/gallery-to-lab-9.png",
+      "brandGlyphPixels": 1561,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/gallery-to-lab-10.png",
+      "brandGlyphPixels": 1561,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/gallery-to-lab-11.png",
+      "brandGlyphPixels": 1561,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/lab-to-frontier-0.png",
+      "brandGlyphPixels": 1563,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/lab-to-frontier-1.png",
+      "brandGlyphPixels": 1557,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/lab-to-frontier-2.png",
+      "brandGlyphPixels": 1559,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/lab-to-frontier-3.png",
+      "brandGlyphPixels": 1558,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/lab-to-frontier-4.png",
+      "brandGlyphPixels": 1558,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/lab-to-frontier-5.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/lab-to-frontier-6.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/lab-to-frontier-7.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/lab-to-frontier-8.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/lab-to-frontier-9.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/lab-to-frontier-10.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/lab-to-frontier-11.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/grove-to-listening-0.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/grove-to-listening-1.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/grove-to-listening-2.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/grove-to-listening-3.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/grove-to-listening-4.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/grove-to-listening-5.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/grove-to-listening-6.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/grove-to-listening-7.png",
+      "brandGlyphPixels": 1557,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/grove-to-listening-8.png",
+      "brandGlyphPixels": 1558,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/grove-to-listening-9.png",
+      "brandGlyphPixels": 1558,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/grove-to-listening-10.png",
+      "brandGlyphPixels": 1558,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/grove-to-listening-11.png",
+      "brandGlyphPixels": 1558,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/through-checkpoint-0.png",
+      "brandGlyphPixels": 1558,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/through-checkpoint-1.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/through-checkpoint-2.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/through-checkpoint-3.png",
+      "brandGlyphPixels": 1557,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/through-checkpoint-4.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/through-checkpoint-5.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/through-checkpoint-6.png",
+      "brandGlyphPixels": 1562,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/through-checkpoint-7.png",
+      "brandGlyphPixels": 1559,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/through-checkpoint-8.png",
+      "brandGlyphPixels": 1558,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/through-checkpoint-9.png",
+      "brandGlyphPixels": 1562,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/through-checkpoint-10.png",
+      "brandGlyphPixels": 1562,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/through-checkpoint-11.png",
+      "brandGlyphPixels": 1562,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/rise-to-horizon-0.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/rise-to-horizon-1.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/rise-to-horizon-2.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/rise-to-horizon-3.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/rise-to-horizon-4.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/rise-to-horizon-5.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/rise-to-horizon-6.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/rise-to-horizon-7.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/rise-to-horizon-8.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/rise-to-horizon-9.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/rise-to-horizon-10.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/rise-to-horizon-11.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/reverse-gallery-0.png",
+      "brandGlyphPixels": 1557,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/reverse-gallery-1.png",
+      "brandGlyphPixels": 1559,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/reverse-gallery-2.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/reverse-gallery-3.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/reverse-gallery-4.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/reverse-gallery-5.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/reverse-gallery-6.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/reverse-gallery-7.png",
+      "brandGlyphPixels": 1560,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/reverse-gallery-8.png",
+      "brandGlyphPixels": 1559,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/reverse-gallery-9.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/reverse-gallery-10.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    },
+    {
+      "file": "qa/place-journey/reverse-gallery-11.png",
+      "brandGlyphPixels": 1556,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

@@ -1,0 +1,597 @@
+/* ==========================================================================
+   Chat Whack-a-Mole (ทุบแชตที่ควรหยุด) Styling
+   Security Operations Center & Message Moderation Terminal Theme
+   ========================================================================== */
+
+:root {
+  --whack-bg: #090e1a;
+  --whack-surface: #121c2e;
+  --whack-surface-card: #18233a;
+  --whack-border: #23334d;
+  --whack-text-main: #f8fafc;
+  --whack-text-sub: #94a3b8;
+  --whack-danger: #ff4d4f;
+  --whack-danger-glow: rgba(255, 77, 79, 0.25);
+  --whack-pass: #10b981;
+  --whack-pass-glow: rgba(16, 185, 129, 0.25);
+  --whack-cyan: #06b6d4;
+  --whack-cyan-glow: rgba(6, 182, 212, 0.2);
+  --whack-amber: #f59e0b;
+}
+
+.whack-container {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 60px);
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* ==========================================================================
+   Pinned Context Banner (ผู้ใช้ขอคุยกับเจ้าหน้าที่...)
+   ========================================================================== */
+
+.whack-context-banner {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.12) 0%, rgba(255, 77, 79, 0.15) 100%);
+  border: 1.5px solid var(--whack-amber);
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden;
+}
+
+.whack-context-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: var(--whack-amber);
+}
+
+.whack-context-icon {
+  font-size: 20px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.whack-context-content {
+  flex: 1;
+}
+
+.whack-context-title {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--whack-amber);
+  margin-bottom: 2px;
+}
+
+.whack-context-text {
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+}
+
+/* ==========================================================================
+   Arcade HUD & Clock
+   ========================================================================== */
+
+.whack-hud {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--whack-surface);
+  border: 1px solid var(--whack-border);
+  border-radius: 10px;
+  padding: 8px 14px;
+  margin-bottom: 12px;
+}
+
+.whack-hud-metric {
+  display: flex;
+  flex-direction: column;
+}
+
+.whack-hud-label {
+  font-size: 11px;
+  color: var(--whack-text-sub);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.whack-hud-val {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--whack-text-main);
+  line-height: 1.1;
+}
+
+.whack-hud-val.time {
+  color: var(--whack-cyan);
+  font-feature-settings: 'tnum';
+}
+
+.whack-hud-val.score {
+  color: #38bdf8;
+}
+
+.whack-hud-sound-btn {
+  background: transparent;
+  border: 1px solid var(--whack-border);
+  color: var(--whack-text-sub);
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* ==========================================================================
+   2x3 Arcade Grid
+   ========================================================================== */
+
+.whack-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, minmax(105px, 1fr));
+  gap: 10px;
+  flex: 1;
+  min-height: 340px;
+  max-height: 480px;
+  position: relative;
+}
+
+.whack-slot {
+  background: rgba(18, 28, 46, 0.6);
+  border: 1px dashed rgba(35, 51, 77, 0.8);
+  border-radius: 14px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+/* ==========================================================================
+   Chat Bubble Card
+   ========================================================================== */
+
+.whack-bubble {
+  position: absolute;
+  inset: 0;
+  background: var(--whack-surface-card);
+  border: 1.5px solid #2d3e5b;
+  border-radius: 14px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  touch-action: manipulation;
+  animation: whackBubbleSpawn 0.18s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  transition: transform 0.05s ease, border-color 0.15s ease;
+  box-sizing: border-box;
+}
+
+.whack-bubble:active {
+  transform: scale(0.96);
+}
+
+@keyframes whackBubbleSpawn {
+  0% {
+    opacity: 0;
+    transform: scale(0.65) translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.whack-bubble-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.whack-bot-badge {
+  font-size: 10px;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.1);
+  color: #93c5fd;
+  padding: 1px 6px;
+  border-radius: 4px;
+  letter-spacing: 0.04em;
+}
+
+.whack-bubble-text {
+  font-size: 15px;
+  line-height: 1.35;
+  font-weight: 600;
+  color: var(--whack-text-main);
+  margin: 0;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+/* 2.4s Timer Bar at bottom of bubble */
+.whack-bubble-timer {
+  height: 4px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+
+.whack-bubble-timer-fill {
+  height: 100%;
+  background: var(--whack-cyan);
+  border-radius: 2px;
+  transform-origin: left;
+}
+
+/* ==========================================================================
+   Whacked Stamp Overlay (หยุด / ส่งตรวจ)
+   ========================================================================== */
+
+.whack-stamp-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(18, 28, 46, 0.85);
+  backdrop-filter: blur(2px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  z-index: 5;
+  animation: whackStampSlam 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.2) forwards;
+}
+
+@keyframes whackStampSlam {
+  0% {
+    opacity: 0;
+    transform: scale(2.2) rotate(-14deg);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(0.92) rotate(-5deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(-5deg);
+  }
+}
+
+.whack-stamp-badge {
+  border: 3px solid var(--whack-danger);
+  background: rgba(255, 77, 79, 0.18);
+  color: var(--whack-danger);
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  box-shadow: 0 0 16px var(--whack-danger-glow);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.whack-stamp-badge.wrong {
+  border-color: var(--whack-amber);
+  background: rgba(245, 158, 11, 0.2);
+  color: var(--whack-amber);
+  box-shadow: 0 0 16px rgba(245, 158, 11, 0.3);
+}
+
+.whack-stamp-sub {
+  font-size: 11px;
+  color: #e2e8f0;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+/* ==========================================================================
+   Countdown Overlay (3, 2, 1, ลุย!)
+   ========================================================================== */
+
+.whack-countdown-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(9, 14, 26, 0.92);
+  backdrop-filter: blur(6px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+}
+
+.whack-countdown-number {
+  font-size: 80px;
+  font-weight: 900;
+  color: var(--whack-cyan);
+  text-shadow: 0 0 30px var(--whack-cyan-glow);
+  animation: countdownPulse 0.9s ease-out infinite;
+  line-height: 1;
+}
+
+@keyframes countdownPulse {
+  0% { transform: scale(1.4); opacity: 0; }
+  30% { transform: scale(1); opacity: 1; }
+  85% { transform: scale(0.95); opacity: 1; }
+  100% { transform: scale(0.85); opacity: 0; }
+}
+
+.whack-countdown-hint {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--whack-text-sub);
+  margin-top: 14px;
+}
+
+/* ==========================================================================
+   Practice Mode Block
+   ========================================================================== */
+
+.whack-practice-card {
+  background: var(--whack-surface);
+  border: 1px solid var(--whack-border);
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 12px;
+}
+
+.whack-practice-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #38bdf8;
+  margin: 0 0 6px 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.whack-practice-desc {
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--whack-text-sub);
+  margin: 0 0 12px 0;
+}
+
+.whack-practice-slots {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+/* ==========================================================================
+   Result Screen & Breakdown
+   ========================================================================== */
+
+.whack-result-screen {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.whack-score-card {
+  background: linear-gradient(145deg, #121c2e 0%, #1e293b 100%);
+  border: 1px solid #334155;
+  border-radius: 14px;
+  padding: 18px 16px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+.whack-score-hero {
+  font-size: 46px;
+  font-weight: 900;
+  color: #38bdf8;
+  line-height: 1;
+  margin: 6px 0;
+}
+
+.whack-score-hero small {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--whack-text-sub);
+  margin-left: 4px;
+}
+
+.whack-stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.whack-stat-pill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 8px 4px;
+  border-radius: 8px;
+}
+
+.whack-stat-num {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.whack-stat-num.correct { color: var(--whack-pass); }
+.whack-stat-num.wrong { color: var(--whack-danger); }
+.whack-stat-num.missed { color: var(--whack-text-sub); }
+
+.whack-stat-lbl {
+  font-size: 11px;
+  color: var(--whack-text-sub);
+  margin-top: 2px;
+}
+
+/* Key Comparison Pairs */
+.whack-pairs-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.whack-pair-card {
+  background: var(--whack-surface);
+  border: 1px solid var(--whack-border);
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+.whack-pair-lesson {
+  font-size: 13px;
+  font-weight: 700;
+  color: #38bdf8;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.whack-pair-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.whack-bubble-reveal {
+  padding: 10px;
+  border-radius: 8px;
+  border-left: 3px solid transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.whack-bubble-reveal.stop {
+  background: rgba(255, 77, 79, 0.08);
+  border-left-color: var(--whack-danger);
+}
+
+.whack-bubble-reveal.pass {
+  background: rgba(16, 185, 129, 0.08);
+  border-left-color: var(--whack-pass);
+}
+
+.whack-bubble-tag {
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.whack-bubble-tag.stop { color: var(--whack-danger); }
+.whack-bubble-tag.pass { color: var(--whack-pass); }
+
+.whack-reveal-quote {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.35;
+}
+
+.whack-reveal-reason {
+  font-size: 11px;
+  line-height: 1.35;
+  color: var(--whack-text-sub);
+  margin-top: 2px;
+}
+
+/* ==========================================================================
+   Projector / Display View (1920x1080)
+   ========================================================================== */
+
+.whack-display-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+  color: #fff;
+}
+
+.whack-display-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--whack-border);
+  padding-bottom: 16px;
+}
+
+.whack-display-title h1 {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0;
+  color: #fff;
+}
+
+.whack-display-title p {
+  margin: 4px 0 0 0;
+  color: var(--whack-text-sub);
+  font-size: 15px;
+}
+
+.whack-display-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.whack-display-stat-card {
+  background: var(--whack-surface);
+  border: 1px solid var(--whack-border);
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+}
+
+.whack-display-stat-val {
+  font-size: 36px;
+  font-weight: 900;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.whack-display-stat-lbl {
+  font-size: 13px;
+  color: var(--whack-text-sub);
+  text-transform: uppercase;
+}
+
+.whack-display-pairs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 20px;
+}

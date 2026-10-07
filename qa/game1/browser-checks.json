@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-06T21:37:50.890Z",
+  "origin": "http://127.0.0.1:5190",
+  "code": "67FC3B",
+  "checks": [
+    {
+      "name": "mobile ready has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Realtime connected before Start",
+      "passed": true
+    },
+    {
+      "name": "one pointerdown produces one accepted tap",
+      "passed": true
+    },
+    {
+      "name": "holding pointer does not auto-repeat",
+      "passed": true
+    },
+    {
+      "name": "Pause preserves accepted taps",
+      "passed": true
+    },
+    {
+      "name": "Pause disables tap control",
+      "passed": true
+    },
+    {
+      "name": "Refresh restores same membership and score",
+      "passed": true
+    },
+    {
+      "name": "second tab has a read-only input control",
+      "passed": true
+    },
+    {
+      "name": "explicit takeover fences original tab",
+      "passed": true
+    },
+    {
+      "name": "offline does not blank the page",
+      "passed": true
+    },
+    {
+      "name": "Display result fits 1920x1080 without scrolling",
+      "passed": true
+    },
+    {
+      "name": "RESULT persists without auto-finish",
+      "passed": true
+    },
+    {
+      "name": "Finish confirms and advances to 03.01",
+      "passed": true
+    },
+    {
+      "name": "Host export available",
+      "passed": true
+    },
+    {
+      "name": "Player cannot issue Host command",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,115 @@
+{
+  "timestamp": "2026-10-06T22:28:32.387Z",
+  "checks": [
+    {
+      "name": "Game 7 preselected for new room",
+      "passed": true
+    },
+    {
+      "name": "01-preview-mobile: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "02-display-preview: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "32 members present in host view",
+      "passed": true
+    },
+    {
+      "name": "Room cue is 14.01",
+      "passed": true
+    },
+    {
+      "name": "Game phase is PREVIEW",
+      "passed": true
+    },
+    {
+      "name": "All 32 players are marked ready",
+      "passed": true
+    },
+    {
+      "name": "Countdown screen displayed on mobile",
+      "passed": true
+    },
+    {
+      "name": "Drawing status active on player view",
+      "passed": true
+    },
+    {
+      "name": "03-drawing-mobile: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "04-display-drawing: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Finish early reflected on mobile",
+      "passed": true
+    },
+    {
+      "name": "05-host-moderation: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Host moderation queue contains pending artwork cards",
+      "passed": true
+    },
+    {
+      "name": "Every pending artwork was shown before bulk approval",
+      "passed": true
+    },
+    {
+      "name": "Host approved all artworks",
+      "passed": true
+    },
+    {
+      "name": "06-internal-vote-mobile: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "07-final-vote-mobile: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "08-display-final-vote: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "09-result-mobile: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "10-display-result: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Room cue successfully advanced to 15.01",
+      "passed": true
+    },
+    {
+      "name": "Active run cleared on finish",
+      "passed": true
+    },
+    {
+      "name": "11-display-finish: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Replay command accepted",
+      "passed": true
+    },
+    {
+      "name": "Room cue returned to 14.01 on replay",
+      "passed": true
+    },
+    {
+      "name": "Host controls report no rejected commands",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "p95LatencyMs": 14
+}

@@ -1,0 +1,546 @@
+{
+  "checks": [
+    {
+      "name": "departure moves native text through Z",
+      "pass": true,
+      "detail": {
+        "z": 16.1141
+      }
+    },
+    {
+      "name": "old headline clears before incoming title",
+      "pass": true
+    },
+    {
+      "name": "incoming title has depth and two-axis tilt",
+      "pass": true,
+      "detail": {
+        "opacity": 0.5509,
+        "z": -116.759,
+        "yaw": 0.108523,
+        "pitch": 0.0848208,
+        "identity": false
+      }
+    },
+    {
+      "name": "read plane settles sharp and frontal",
+      "pass": true,
+      "detail": {
+        "hold": {
+          "opacity": 1,
+          "z": 0,
+          "yaw": 0,
+          "pitch": 0,
+          "identity": true
+        },
+        "holdState": {
+          "scene": 8,
+          "beat": 1,
+          "cue": "09.02",
+          "kind": "content",
+          "time": 2.4,
+          "paused": true,
+          "ready": true,
+          "reduced": false,
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "fov": 39.597752709049864,
+          "backgroundLayers": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "three distinct far background planes",
+      "pass": true
+    },
+    {
+      "name": "arc camera translates and rotates",
+      "pass": true,
+      "detail": {
+        "start": {
+          "scene": 0,
+          "beat": 2,
+          "cue": "01.03",
+          "kind": "content",
+          "time": 0.55,
+          "paused": true,
+          "ready": true,
+          "reduced": false,
+          "fallback": false,
+          "cameraZ": 2049.999984,
+          "cameraX": 169.999995,
+          "cameraYaw": -4.2,
+          "cameraPitch": 1.6,
+          "cameraRoll": -1,
+          "fov": 39.597752709049864,
+          "backgroundLayers": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        },
+        "end": {
+          "scene": 0,
+          "beat": 2,
+          "cue": "01.03",
+          "kind": "content",
+          "time": 2.4,
+          "paused": true,
+          "ready": true,
+          "reduced": false,
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "fov": 39.597752709049864,
+          "backgroundLayers": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "punch camera translates and rotates",
+      "pass": true,
+      "detail": {
+        "start": {
+          "scene": 8,
+          "beat": 1,
+          "cue": "09.02",
+          "kind": "content",
+          "time": 0.55,
+          "paused": true,
+          "ready": true,
+          "reduced": false,
+          "fallback": false,
+          "cameraZ": 1929.950947,
+          "cameraX": 64.993623,
+          "cameraYaw": -1.799823,
+          "cameraPitch": 0.599941,
+          "cameraRoll": -0.349966,
+          "fov": 39.597752709049864,
+          "backgroundLayers": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        },
+        "end": {
+          "scene": 8,
+          "beat": 1,
+          "cue": "09.02",
+          "kind": "content",
+          "time": 2.4,
+          "paused": true,
+          "ready": true,
+          "reduced": false,
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "fov": 39.597752709049864,
+          "backgroundLayers": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "push camera translates and rotates",
+      "pass": true,
+      "detail": {
+        "start": {
+          "scene": 9,
+          "beat": 0,
+          "cue": "10.01",
+          "kind": "content",
+          "time": 0.55,
+          "paused": true,
+          "ready": true,
+          "reduced": false,
+          "fallback": false,
+          "cameraZ": 2599.951885,
+          "cameraX": 64.997802,
+          "cameraYaw": -1.799915,
+          "cameraPitch": 0.599975,
+          "cameraRoll": -0.349985,
+          "fov": 39.597752709049864,
+          "backgroundLayers": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        },
+        "end": {
+          "scene": 9,
+          "beat": 0,
+          "cue": "10.01",
+          "kind": "content",
+          "time": 2.4,
+          "paused": true,
+          "ready": true,
+          "reduced": false,
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "fov": 39.597752709049864,
+          "backgroundLayers": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "dolly camera translates and rotates",
+      "pass": true,
+      "detail": {
+        "start": {
+          "scene": 5,
+          "beat": 3,
+          "cue": "06.04",
+          "kind": "content",
+          "time": 0.55,
+          "paused": true,
+          "ready": true,
+          "reduced": false,
+          "fallback": false,
+          "cameraZ": 2519.999938,
+          "cameraX": 34.999998,
+          "cameraYaw": 0.8,
+          "cameraPitch": -0.6,
+          "cameraRoll": 0,
+          "fov": 24.189514731640205,
+          "backgroundLayers": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        },
+        "end": {
+          "scene": 5,
+          "beat": 3,
+          "cue": "06.04",
+          "kind": "content",
+          "time": 2.4,
+          "paused": true,
+          "ready": true,
+          "reduced": false,
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "fov": 39.597752709049864,
+          "backgroundLayers": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "dolly counter-zooms projection",
+      "pass": true,
+      "detail": {
+        "start": 24.189514731640205,
+        "end": 39.597752709049864
+      }
+    },
+    {
+      "name": "reverse camera translates and rotates",
+      "pass": true,
+      "detail": {
+        "start": {
+          "scene": 0,
+          "beat": 2,
+          "cue": "01.03",
+          "kind": "content",
+          "time": 0.55,
+          "paused": true,
+          "ready": true,
+          "reduced": false,
+          "fallback": false,
+          "cameraZ": 2049.999984,
+          "cameraX": -169.999995,
+          "cameraYaw": 4.2,
+          "cameraPitch": 1.6,
+          "cameraRoll": 1,
+          "fov": 39.597752709049864,
+          "backgroundLayers": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        },
+        "end": {
+          "scene": 0,
+          "beat": 2,
+          "cue": "01.03",
+          "kind": "content",
+          "time": 2.4,
+          "paused": true,
+          "ready": true,
+          "reduced": false,
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "fov": 39.597752709049864,
+          "backgroundLayers": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "backward navigation reverses camera arc",
+      "pass": true,
+      "detail": {
+        "scene": 0,
+        "beat": 2,
+        "cue": "01.03",
+        "kind": "content",
+        "time": 0.55,
+        "paused": true,
+        "ready": true,
+        "reduced": false,
+        "fallback": false,
+        "cameraZ": 2049.999984,
+        "cameraX": -169.999995,
+        "cameraYaw": 4.2,
+        "cameraPitch": 1.6,
+        "cameraRoll": 1,
+        "fov": 39.597752709049864,
+        "backgroundLayers": 3,
+        "nativeText3D": true,
+        "particles": 180,
+        "models": 0,
+        "drawCalls": 1
+      }
+    },
+    {
+      "name": "incoming Thai lines stay inside frame during dolly",
+      "pass": true,
+      "detail": [
+        {
+          "time": 0.8,
+          "bounds": [
+            {
+              "left": 144.39866638183594,
+              "right": 914.4127655029297
+            },
+            {
+              "left": 172.51365661621094,
+              "right": 914.6341400146484
+            }
+          ]
+        },
+        {
+          "time": 1.05,
+          "bounds": [
+            {
+              "left": 104.59779357910156,
+              "right": 909.1589508056641
+            },
+            {
+              "left": 117.00822448730469,
+              "right": 910.8367767333984
+            }
+          ]
+        },
+        {
+          "time": 1.4,
+          "bounds": [
+            {
+              "left": 93.01930236816406,
+              "right": 907.5366363525391
+            },
+            {
+              "left": 90.97004699707031,
+              "right": 907.2527618408203
+            }
+          ]
+        },
+        {
+          "time": 1.8,
+          "bounds": [
+            {
+              "left": 99.99703979492188,
+              "right": 909.9950866699219
+            },
+            {
+              "left": 99.99728393554688,
+              "right": 909.9950866699219
+            }
+          ]
+        },
+        {
+          "time": 2.4,
+          "bounds": [
+            {
+              "left": 100,
+              "right": 910
+            },
+            {
+              "left": 100,
+              "right": 910
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ambient light blends through a middle color",
+      "pass": true,
+      "detail": {
+        "light0": "116,143,252",
+        "lightMiddle": "180.306258,126.345142,184.917932",
+        "light1": "255,107,107"
+      }
+    },
+    {
+      "name": "seek reconstructs whole transition in either direction",
+      "pass": true,
+      "detail": {
+        "raster": {
+          "maximumChannelDelta": 1,
+          "changedPixels": 31
+        },
+        "note": "Identical camera/DOM; allowance for GPU compositing rounding is ≤1 RGB level in ≤0.1% pixels."
+      }
+    },
+    {
+      "name": "interrupted transition preserves captured camera pose",
+      "pass": true,
+      "detail": {
+        "before": {
+          "scene": 0,
+          "beat": 2,
+          "cue": "01.03",
+          "kind": "content",
+          "time": 0.85,
+          "paused": true,
+          "ready": true,
+          "reduced": false,
+          "fallback": false,
+          "cameraZ": 2047.426608,
+          "cameraX": 169.204588,
+          "cameraYaw": -4.180349,
+          "cameraPitch": 1.592514,
+          "cameraRoll": -0.995321,
+          "fov": 39.597752709049864,
+          "backgroundLayers": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        },
+        "after": {
+          "scene": 5,
+          "beat": 3,
+          "cue": "06.04",
+          "kind": "content",
+          "time": 0,
+          "paused": true,
+          "ready": true,
+          "reduced": false,
+          "fallback": false,
+          "cameraZ": 2047.426608,
+          "cameraX": 169.204588,
+          "cameraYaw": -4.180349,
+          "cameraPitch": 1.592514,
+          "cameraRoll": -0.995321,
+          "fov": 39.597752709049864,
+          "backgroundLayers": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "rapid changes keep exactly one live text and world",
+      "pass": true
+    },
+    {
+      "name": "game remains centered static text",
+      "pass": true,
+      "detail": {
+        "scene": 1,
+        "beat": 0,
+        "cue": "02.01",
+        "kind": "placeholder",
+        "time": 0.7,
+        "paused": true,
+        "ready": true,
+        "reduced": false,
+        "fallback": false,
+        "cameraZ": 1500,
+        "cameraX": 0,
+        "cameraYaw": 0,
+        "cameraPitch": 0,
+        "cameraRoll": 0,
+        "fov": 39.597752709049864,
+        "backgroundLayers": 0,
+        "nativeText3D": true,
+        "particles": 0,
+        "models": 0,
+        "drawCalls": 0
+      }
+    },
+    {
+      "name": "reduced motion clears text rotation immediately",
+      "pass": true,
+      "detail": {
+        "opacity": 1,
+        "z": 0,
+        "yaw": 0,
+        "pitch": 0,
+        "identity": true
+      }
+    },
+    {
+      "name": "native spatial text survives WebGL fallback",
+      "pass": true
+    },
+    {
+      "name": "one timeline drives camera, cards and text",
+      "pass": true
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

@@ -1,0 +1,318 @@
+{
+  "date": "2026-10-06T02:44:57.180Z",
+  "contentCues": 31,
+  "foregroundLoopCues": 31,
+  "staticForegroundCues": 0,
+  "rows": [
+    {
+      "cue": "01.01",
+      "visual": "opening",
+      "title": "HUMAN\nvs AI",
+      "hooks": [],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "01.03",
+      "visual": "biology",
+      "title": "คิดต่าง\nเพราะสร้างมาต่างกัน",
+      "hooks": [],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "01.04",
+      "visual": "question",
+      "title": "ใครควรทำอะไร?",
+      "hooks": [],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "03.01",
+      "visual": "art",
+      "title": "ศิลปะมีชีวิต\nอยู่เบื้องหลัง",
+      "hooks": [],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "03.02",
+      "visual": "poetry",
+      "title": "ถ้าปิดชื่อผู้สร้าง\nคุณแยกออกไหม?",
+      "hooks": [
+        "token"
+      ],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 10
+    },
+    {
+      "cue": "03.03",
+      "visual": "flamingo",
+      "title": "FLAMINGONE",
+      "hooks": [],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "03.04",
+      "visual": "attribution",
+      "title": "ผลงานเดิม\nป้ายใหม่",
+      "hooks": [],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "04.02",
+      "visual": "individual",
+      "title": "เก่งขึ้นรายคน",
+      "hooks": [],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "04.03",
+      "visual": "diversity",
+      "title": "แต่ไอเดีย\nคล้ายกันมากขึ้น",
+      "hooks": [],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "06.01",
+      "visual": "tensor",
+      "title": "เมื่อ AI\nค้นพบทางลัด",
+      "hooks": [
+        "cell"
+      ],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "06.02",
+      "visual": "protein",
+      "title": "จากลำดับ\nสู่โครงสร้าง",
+      "hooks": [
+        "protein"
+      ],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "06.03",
+      "visual": "strategy",
+      "title": "โลกจริง\nไม่ใช่โจทย์ปิด",
+      "hooks": [],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "06.04",
+      "visual": "frontier",
+      "title": "ความเก่ง\nไม่ได้เป็นเส้นตรง",
+      "hooks": [
+        "hazard"
+      ],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "06.05",
+      "visual": "frontier-data",
+      "title": "ในขอบเขต\nช่วยได้มาก",
+      "hooks": [],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "07.02",
+      "visual": "mushroom",
+      "title": "มั่นใจมาก\nไม่ได้แปลว่าถูก",
+      "hooks": [
+        "confidence"
+      ],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 10
+    },
+    {
+      "cue": "09.01",
+      "visual": "chat",
+      "title": "ฟังดูอบอุ่น\nแล้วเชื่อใจได้ไหม?",
+      "hooks": [],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "09.02",
+      "visual": "empathy",
+      "title": "คำตอบที่\nผู้ประเมินเลือก",
+      "hooks": [],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "09.03",
+      "visual": "tokens",
+      "title": "ข้อความที่อบอุ่น\nยังต้องตรวจสอบ",
+      "hooks": [],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "10.01",
+      "visual": "tessa",
+      "title": "คำแนะนำที่ดี\nต้องดีในบริบทด้วย",
+      "hooks": [
+        "ecg"
+      ],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 8
+    },
+    {
+      "cue": "10.03",
+      "visual": "gate",
+      "title": "ตรวจก่อน\nปล่อยคำตอบ",
+      "hooks": [
+        "ecg",
+        "flow"
+      ],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "11.01",
+      "visual": "case",
+      "title": "เมื่อคำตอบ\nสร้างความเสียหาย",
+      "hooks": [],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "11.03",
+      "visual": "liability",
+      "title": "AI IS A TOOL.\nNOT A SHIELD.",
+      "hooks": [],
+      "foregroundMoves": true,
+      "gavel": true,
+      "loop": 12
+    },
+    {
+      "cue": "13.01",
+      "visual": "synergy",
+      "title": "BETTER\nTOGETHER?",
+      "hooks": [],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "13.02",
+      "visual": "design",
+      "title": "การร่วมมือ\nต้องออกแบบ",
+      "hooks": [
+        "flow"
+      ],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "13.03",
+      "visual": "outage",
+      "title": "เร็วแค่ไหน\nก็ต้องตรวจก่อนปล่อย",
+      "hooks": [],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "13.04",
+      "visual": "oversight",
+      "title": "HUMAN\nOVERSIGHT",
+      "hooks": [
+        "flow"
+      ],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "15.01",
+      "visual": "formula",
+      "title": "สมการของ\nความรับผิดชอบ",
+      "hooks": [
+        "breath",
+        "glow"
+      ],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 8
+    },
+    {
+      "cue": "15.02",
+      "visual": "different",
+      "title": "DIFFERENT\nMINDS.",
+      "hooks": [
+        "breath"
+      ],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "15.03",
+      "visual": "future",
+      "title": "SHARED\nFUTURE.",
+      "hooks": [
+        "breath"
+      ],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "15.04",
+      "visual": "responsibility",
+      "title": "HUMAN\nRESPONSIBILITY.",
+      "hooks": [
+        "breath"
+      ],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    },
+    {
+      "cue": "16.02",
+      "visual": "thanks",
+      "title": "ตรวจก่อนเชื่อ",
+      "hooks": [
+        "breath"
+      ],
+      "foregroundMoves": true,
+      "gavel": false,
+      "loop": 12
+    }
+  ],
+  "errors": []
+}

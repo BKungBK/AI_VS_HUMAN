@@ -1,0 +1,529 @@
+{
+  "code": "D10EAA",
+  "players": 32,
+  "checks": [
+    {
+      "name": "game3 preselected for new room",
+      "passed": true
+    },
+    {
+      "name": "29 simultaneous drafts accepted",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "draft revision update",
+      "passed": true
+    },
+    {
+      "name": "32 frozen roster members",
+      "passed": true
+    },
+    {
+      "name": "unreviewed drafts private",
+      "passed": true
+    },
+    {
+      "name": "AI text hidden",
+      "passed": true
+    },
+    {
+      "name": "81 Thai graphemes rejected by HTTP",
+      "passed": true
+    },
+    {
+      "name": "reconnect restores caption",
+      "passed": true
+    },
+    {
+      "name": "textarea has visible keyboard focus",
+      "passed": true
+    },
+    {
+      "name": "mobile-writing: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile-320-writing: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "desktop-writing: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "display-writing: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "host-moderation: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "pending queue bounded to six visible jobs",
+      "passed": true
+    },
+    {
+      "name": "review focus moves to pending item",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "moderation accepted",
+      "passed": true
+    },
+    {
+      "name": "review barrier blocks incomplete work",
+      "passed": true
+    },
+    {
+      "name": "host-review-required: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile-internal-vote: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "7 anonymous final candidates",
+      "passed": true
+    },
+    {
+      "name": "own group disabled in UI",
+      "passed": true
+    },
+    {
+      "name": "server forbids own group",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "load final vote",
+      "passed": true
+    },
+    {
+      "name": "mobile-final-vote: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "display-final-vote: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "vote timer persists during scroll",
+      "passed": true
+    },
+    {
+      "name": "mobile-390-final-max: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile-320-final-max: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "display-final-max: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "maximum final gallery fits projection",
+      "passed": true
+    },
+    {
+      "name": "host-result: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile-result: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "display-result: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "RESULT feedback no longer promises editable vote",
+      "passed": true
+    },
+    {
+      "name": "display-result-max: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "maximum result and all six group totals fit projection",
+      "passed": true
+    },
+    {
+      "name": "all 32 final votes counted",
+      "passed": true
+    },
+    {
+      "name": "finite group scores",
+      "passed": true
+    },
+    {
+      "name": "result waits for host",
+      "passed": true
+    },
+    {
+      "name": "finish commits score and next cue",
+      "passed": true
+    },
+    {
+      "name": "creative export includes roster submissions votes and provenance",
+      "passed": true
+    },
+    {
+      "name": "previous Caption run cannot trap a different game cue",
+      "passed": true
+    },
+    {
+      "name": "no browser errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "latency": {
+    "commandP95Ms": 103,
+    "maxMs": 106
+  },
+  "screenshots": "qa/game3",
+  "maxLengthFixture": "Screenshots ending in -max use snapshot response fixtures with seven 80-grapheme strings for geometry testing; the locked AI caption and live DB scores are unchanged."
+}

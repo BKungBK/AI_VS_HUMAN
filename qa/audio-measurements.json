@@ -1,0 +1,391 @@
+{
+  "date": "2026-10-06",
+  "results": [
+    {
+      "name": "all 11 ambient loop joins behave like ordinary adjacent samples",
+      "pass": true,
+      "loops": [
+        {
+          "asset": "ambient-atrium",
+          "seamStep": 0.011871337890625,
+          "ordinaryStep999": 0.017334045410155596,
+          "pass": true
+        },
+        {
+          "asset": "ambient-checkpoint",
+          "seamStep": 0.007568359375,
+          "ordinaryStep999": 0.0166015625,
+          "pass": true
+        },
+        {
+          "asset": "ambient-confluence",
+          "seamStep": 0.008697509765625,
+          "ordinaryStep999": 0.016845703125,
+          "pass": true
+        },
+        {
+          "asset": "ambient-forum",
+          "seamStep": 0.00152587890625,
+          "ordinaryStep999": 0.010833740234375,
+          "pass": true
+        },
+        {
+          "asset": "ambient-frontier",
+          "seamStep": 0.008392333984375,
+          "ordinaryStep999": 0.00921630859375,
+          "pass": true
+        },
+        {
+          "asset": "ambient-gallery",
+          "seamStep": 0.00714111328125,
+          "ordinaryStep999": 0.017028869628905596,
+          "pass": true
+        },
+        {
+          "asset": "ambient-grove",
+          "seamStep": 0.00604248046875,
+          "ordinaryStep999": 0.0166015625,
+          "pass": true
+        },
+        {
+          "asset": "ambient-horizon",
+          "seamStep": 0.00469970703125,
+          "ordinaryStep999": 0.0169677734375,
+          "pass": true
+        },
+        {
+          "asset": "ambient-laboratory",
+          "seamStep": 0.0108642578125,
+          "ordinaryStep999": 0.018005432128905596,
+          "pass": true
+        },
+        {
+          "asset": "ambient-listening",
+          "seamStep": 0.006866455078125,
+          "ordinaryStep999": 0.01092529296875,
+          "pass": true
+        },
+        {
+          "asset": "ambient-observatory",
+          "seamStep": 0.011993408203125,
+          "ordinaryStep999": 0.017059326171875,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "name": "all 42 cue mixes have headroom, survive mono, and leave reading silence",
+      "pass": true,
+      "renders": [
+        {
+          "cue": "01.01",
+          "peakDbFS": -14.147481337323942,
+          "monoRmsRatio": 0.9897974764784067,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "01.02",
+          "peakDbFS": -23.15030175906045,
+          "monoRmsRatio": 0.9998005478524469,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "01.03",
+          "peakDbFS": -13.894463442674667,
+          "monoRmsRatio": 0.9875923940636023,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "01.04",
+          "peakDbFS": -13.894463442674667,
+          "monoRmsRatio": 0.9875923959962551,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "02.01",
+          "peakDbFS": -23.15030175906045,
+          "monoRmsRatio": 0.9998005478524469,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "03.01",
+          "peakDbFS": -13.831692512661435,
+          "monoRmsRatio": 0.9898308665541781,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "03.02",
+          "peakDbFS": -13.831692512661435,
+          "monoRmsRatio": 0.9898308545581472,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "03.03",
+          "peakDbFS": -13.831692512661435,
+          "monoRmsRatio": 0.9898308560751689,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "03.04",
+          "peakDbFS": -13.831692512661435,
+          "monoRmsRatio": 0.9898308665541781,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "04.01",
+          "peakDbFS": -23.15030175906045,
+          "monoRmsRatio": 0.9998005478524469,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "04.02",
+          "peakDbFS": -13.637132819183481,
+          "monoRmsRatio": 0.9875013117068141,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "04.03",
+          "peakDbFS": -13.637132819183481,
+          "monoRmsRatio": 0.9875013205959585,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "05.01",
+          "peakDbFS": -23.15030175906045,
+          "monoRmsRatio": 0.9998005478524469,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "06.01",
+          "peakDbFS": -14.220757516395429,
+          "monoRmsRatio": 0.9879829051917297,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "06.02",
+          "peakDbFS": -14.220757516395429,
+          "monoRmsRatio": 0.9879829051917297,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "06.03",
+          "peakDbFS": -14.220757516395429,
+          "monoRmsRatio": 0.9879829180547864,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "06.04",
+          "peakDbFS": -14.263104471200212,
+          "monoRmsRatio": 0.9919263464381762,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "06.05",
+          "peakDbFS": -14.263104471200212,
+          "monoRmsRatio": 0.9919263559618524,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "07.01",
+          "peakDbFS": -23.15030175906045,
+          "monoRmsRatio": 0.9998005478524469,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "07.02",
+          "peakDbFS": -13.313242214400425,
+          "monoRmsRatio": 0.9917891109737937,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "08.01",
+          "peakDbFS": -23.15030175906045,
+          "monoRmsRatio": 0.9998005478524469,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "09.01",
+          "peakDbFS": -13.371127832821362,
+          "monoRmsRatio": 0.9891755273077765,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "09.02",
+          "peakDbFS": -13.371127832821362,
+          "monoRmsRatio": 0.9891755206538201,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "09.03",
+          "peakDbFS": -13.371127832821362,
+          "monoRmsRatio": 0.989175519851477,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "10.01",
+          "peakDbFS": -14.415056161308723,
+          "monoRmsRatio": 0.9894844520887506,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "10.02",
+          "peakDbFS": -23.15030175906045,
+          "monoRmsRatio": 0.9998005478524469,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "10.03",
+          "peakDbFS": -14.415056161308723,
+          "monoRmsRatio": 0.989484458525158,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "11.01",
+          "peakDbFS": -12.401652923690907,
+          "monoRmsRatio": 0.988644584736803,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "11.02",
+          "peakDbFS": -23.15030175906045,
+          "monoRmsRatio": 0.9998005478524469,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "11.03",
+          "peakDbFS": -12.401652923690907,
+          "monoRmsRatio": 0.9886445886190054,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "12.01",
+          "peakDbFS": -23.15030175906045,
+          "monoRmsRatio": 0.9998005478524469,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "13.01",
+          "peakDbFS": -14.20986270199993,
+          "monoRmsRatio": 0.9895408560230475,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "13.02",
+          "peakDbFS": -14.20986270199993,
+          "monoRmsRatio": 0.9895408573160083,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "13.03",
+          "peakDbFS": -14.20986270199993,
+          "monoRmsRatio": 0.9895408391964482,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "13.04",
+          "peakDbFS": -14.20986270199993,
+          "monoRmsRatio": 0.9895408560230475,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "14.01",
+          "peakDbFS": -23.15030175906045,
+          "monoRmsRatio": 0.9998005478524469,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "15.01",
+          "peakDbFS": -13.444343137193336,
+          "monoRmsRatio": 0.9901671600995174,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "15.02",
+          "peakDbFS": -13.444343137193336,
+          "monoRmsRatio": 0.9901671600995174,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "15.03",
+          "peakDbFS": -13.444343137193336,
+          "monoRmsRatio": 0.9901671600995174,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "15.04",
+          "peakDbFS": -13.444343137193336,
+          "monoRmsRatio": 0.9901671600995174,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "16.01",
+          "peakDbFS": -23.15030175906045,
+          "monoRmsRatio": 0.9998005478524469,
+          "readingTailPeak": 0.0,
+          "pass": true
+        },
+        {
+          "cue": "16.02",
+          "peakDbFS": -13.444343137193336,
+          "monoRmsRatio": 0.9901671600995174,
+          "readingTailPeak": 0.0,
+          "pass": true
+        }
+      ]
+    },
+    {
+      "name": "speaker-space filter reduces the actual 900\u20133000 Hz energy",
+      "pass": true,
+      "changeDb": -6.000461147212271,
+      "note": "A fixed spectral gap, not microphone-based ducking; live speaker intelligibility needs venue rehearsal."
+    },
+    {
+      "name": "rendered place loop repeats without a gain reset",
+      "pass": true,
+      "maximumCycleDifference": 0.0
+    }
+  ],
+  "passed": 4,
+  "total": 4,
+  "scope": "Digital PCM measurements; not a listening or sound-system test."
+}

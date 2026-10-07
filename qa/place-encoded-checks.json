@@ -1,0 +1,12 @@
+{
+  "file": "qa/place-journey-preview.mp4",
+  "technicalVerification": "qa/place-video-verification.json",
+  "sourceFrameIntegrity": "qa/place-film-integrity.json",
+  "encodedManifest": "qa/place-encoded/frames-wg8jz4na/manifest.json",
+  "reviewedContactSheet": "qa/place-encoded/frames-wg8jz4na/contact-sheet.jpg",
+  "extractedFrames": 16,
+  "fullSizeFramesReviewed": [5.4,13.5],
+  "visualFindings": "Distinct room silhouettes and connecting thresholds remain visible during travel. Incoming Thai lines turn frontal, settle and remain readable. No unintended black projection surfaces, missing images or competing headlines observed in inspected encoded frames.",
+  "pass": true,
+  "limitations": "Encoded sample review and automated source-frame integrity supplement each other; they do not replace on-site projector rehearsal."
+}

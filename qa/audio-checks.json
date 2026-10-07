@@ -1,0 +1,537 @@
+{
+  "date": "2026-10-06",
+  "results": [
+    {
+      "name": "initial load has no audio context or automatic sound",
+      "pass": true
+    },
+    {
+      "name": "user gesture unlocks running local Web Audio",
+      "pass": true
+    },
+    {
+      "name": "effects-only and speech space are defaults",
+      "pass": true
+    },
+    {
+      "name": "pause clears audible and scheduled voices",
+      "pass": true
+    },
+    {
+      "name": "navigation schedules the current camera journey",
+      "pass": true
+    },
+    {
+      "name": "mid-flight pause releases all voices",
+      "pass": true
+    },
+    {
+      "name": "resume reconstructs remaining sound without full replay",
+      "pass": true
+    },
+    {
+      "name": "reading hold is silent in effects-only mode",
+      "pass": true
+    },
+    {
+      "name": "optional place ambience uses one looping source",
+      "pass": true
+    },
+    {
+      "name": "blackout silences ambience",
+      "pass": true
+    },
+    {
+      "name": "unblank resumes current ambience",
+      "pass": true
+    },
+    {
+      "name": "M mutes and releases audio",
+      "pass": true
+    },
+    {
+      "name": "M restores enabled sound",
+      "pass": true
+    },
+    {
+      "name": "volume UI reflects engine value",
+      "pass": true
+    },
+    {
+      "name": "test sound does not need navigation",
+      "pass": true
+    },
+    {
+      "name": "rapid navigation keeps voices bounded",
+      "pass": true,
+      "maxVoices": 4
+    },
+    {
+      "name": "rapid navigation with ambience does not extend cancelled tails",
+      "pass": true,
+      "maxVoices": 6
+    },
+    {
+      "name": "pause cuts all retiring ambience tails",
+      "pass": true
+    },
+    {
+      "name": "game placeholder has no looping atmosphere",
+      "pass": true
+    },
+    {
+      "name": "reduced motion score omits camera travel",
+      "pass": true,
+      "render": {
+        "duration": 4,
+        "sampleRate": 48000,
+        "channels": 2,
+        "peakDbFS": -18.989949659029342,
+        "rmsDbFS": -33.299925056169705
+      }
+    },
+    {
+      "name": "sound survives WebGL fallback",
+      "pass": true
+    },
+    {
+      "name": "all 42 cue scores render through the production mix",
+      "pass": true,
+      "worstPeakDbFS": -12.401543913885146
+    },
+    {
+      "name": "offline mix repeats within PCM rounding",
+      "pass": true,
+      "maxSampleDelta": 0,
+      "changedSamples": 0,
+      "changedPercent": 0,
+      "firstPeak": -13.370802013847412,
+      "secondPeak": -13.370802013847412,
+      "note": "Same timing and waveform; ≤1 PCM16 step in ≤0.1% of samples. First investigation found 1 step in 440/2304000 samples, with 0.00000181 dB peak difference."
+    },
+    {
+      "name": "presenter volume controls the single stage audio engine",
+      "pass": true
+    },
+    {
+      "name": "presenter mute reaches stage",
+      "pass": true
+    },
+    {
+      "name": "presenter has no duplicate audio context",
+      "pass": true
+    },
+    {
+      "name": "mobile sound controls fit the viewport",
+      "pass": true
+    },
+    {
+      "name": "refresh stays locked while retaining volume preference",
+      "pass": true
+    },
+    {
+      "name": "slow audio loading leaves slide navigation responsive",
+      "pass": true
+    },
+    {
+      "name": "missing audio fails visibly without breaking slides",
+      "pass": true
+    },
+    {
+      "name": "sound loading can be retried after an asset failure",
+      "pass": true
+    },
+    {
+      "name": "no browser runtime errors",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "24s camera preview receives the exact same rendered mix",
+      "pass": true
+    }
+  ],
+  "renders": [
+    {
+      "cue": "01.01",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -14.147543358243455,
+      "rmsDbFS": -30.303570403281668
+    },
+    {
+      "cue": "01.02",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "01.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -13.89400268251232,
+      "rmsDbFS": -30.33197089257927
+    },
+    {
+      "cue": "01.04",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -13.89400268251232,
+      "rmsDbFS": -30.331970861012486
+    },
+    {
+      "cue": "02.01",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "03.01",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -13.831075384562219,
+      "rmsDbFS": -29.46111576662925
+    },
+    {
+      "cue": "03.02",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -13.831075384562219,
+      "rmsDbFS": -29.461115835297736
+    },
+    {
+      "cue": "03.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -13.831075384562219,
+      "rmsDbFS": -29.461115790961276
+    },
+    {
+      "cue": "03.04",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -13.831075384562219,
+      "rmsDbFS": -29.46111576662925
+    },
+    {
+      "cue": "04.01",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "04.02",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -13.637249783123407,
+      "rmsDbFS": -30.243269312023493
+    },
+    {
+      "cue": "04.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -13.637249783123407,
+      "rmsDbFS": -30.24326938756879
+    },
+    {
+      "cue": "05.01",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "06.01",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -14.22007219804816,
+      "rmsDbFS": -30.613474106134504
+    },
+    {
+      "cue": "06.02",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -14.22007219804816,
+      "rmsDbFS": -30.613474106134504
+    },
+    {
+      "cue": "06.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -14.22007219804816,
+      "rmsDbFS": -30.613474075045918
+    },
+    {
+      "cue": "06.04",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -14.262922604204174,
+      "rmsDbFS": -29.524872543460855
+    },
+    {
+      "cue": "06.05",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -14.262922604204174,
+      "rmsDbFS": -29.524873503218902
+    },
+    {
+      "cue": "07.01",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "07.02",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -13.312751941891637,
+      "rmsDbFS": -28.97908519551636
+    },
+    {
+      "cue": "08.01",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "09.01",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -13.370812874284319,
+      "rmsDbFS": -29.040078138035234
+    },
+    {
+      "cue": "09.02",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -13.370814684358459,
+      "rmsDbFS": -29.040078001249352
+    },
+    {
+      "cue": "09.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -13.370802013847412,
+      "rmsDbFS": -29.040077727975785
+    },
+    {
+      "cue": "10.01",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -14.414209740320079,
+      "rmsDbFS": -31.226902529849866
+    },
+    {
+      "cue": "10.02",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "10.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -14.414209740320079,
+      "rmsDbFS": -31.22690254301306
+    },
+    {
+      "cue": "11.01",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -12.401543913885146,
+      "rmsDbFS": -30.365956655573655
+    },
+    {
+      "cue": "11.02",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "11.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -12.401543913885146,
+      "rmsDbFS": -30.36595661937477
+    },
+    {
+      "cue": "12.01",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "13.01",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -14.210135171750597,
+      "rmsDbFS": -30.3897706932179
+    },
+    {
+      "cue": "13.02",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -14.210135171750597,
+      "rmsDbFS": -30.38977062234343
+    },
+    {
+      "cue": "13.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -14.210135171750597,
+      "rmsDbFS": -30.38977073616281
+    },
+    {
+      "cue": "13.04",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -14.210135171750597,
+      "rmsDbFS": -30.3897706932179
+    },
+    {
+      "cue": "14.01",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "15.01",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -13.444337052362485,
+      "rmsDbFS": -28.41406299248751
+    },
+    {
+      "cue": "15.02",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -13.444337052362485,
+      "rmsDbFS": -28.41406299248751
+    },
+    {
+      "cue": "15.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -13.444337052362485,
+      "rmsDbFS": -28.41406299248751
+    },
+    {
+      "cue": "15.04",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -13.444337052362485,
+      "rmsDbFS": -28.41406299248751
+    },
+    {
+      "cue": "16.01",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "16.02",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -13.444337052362485,
+      "rmsDbFS": -28.41406299248751
+    }
+  ],
+  "errors": [],
+  "passed": 33,
+  "total": 33
+}

@@ -1,0 +1,1332 @@
+{
+  "note": "Forward sequential cue plans. Live plans also inspect the actual camera journey. Full motion is consistent across system preferences.",
+  "rows": [
+    {
+      "cue": "01.01",
+      "title": "HUMAN vs AI",
+      "place": "confluence",
+      "events": [
+        {
+          "asset": "duet",
+          "at": 0.32,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.25
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": false,
+      "direction": 1
+    },
+    {
+      "cue": "01.02",
+      "title": "เข้าร่วมกิจกรรม",
+      "place": null,
+      "events": [
+        {
+          "asset": "placeholder",
+          "at": 0.18,
+          "gain": 0.24,
+          "role": "title",
+          "pan": 0,
+          "duration": 0.25
+        }
+      ],
+      "loop": 0,
+      "ambientStart": 0,
+      "journey": false,
+      "direction": 1
+    },
+    {
+      "cue": "01.03",
+      "title": "คิดต่าง เพราะสร้างมาต่างกัน",
+      "place": "confluence",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-walk",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "duet",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.25
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "01.04",
+      "title": "ใครควรทำอะไร?",
+      "place": "confluence",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-walk",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "duet",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.25
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "02.01",
+      "title": "THE TRUST TUG-OF-WAR",
+      "place": null,
+      "events": [
+        {
+          "asset": "placeholder",
+          "at": 0.18,
+          "gain": 0.24,
+          "role": "title",
+          "pan": 0,
+          "duration": 0.25
+        }
+      ],
+      "loop": 0,
+      "ambientStart": 0,
+      "journey": false,
+      "direction": 1
+    },
+    {
+      "cue": "03.01",
+      "title": "ศิลปะมีชีวิต อยู่เบื้องหลัง",
+      "place": "gallery",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-walk",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "gallery",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.05
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "03.02",
+      "title": "ถ้าปิดชื่อผู้สร้าง คุณแยกออกไหม?",
+      "place": "gallery",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-walk",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "gallery",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.05
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "03.05",
+      "title": "SWIPE COURT",
+      "place": null,
+      "events": [
+        {
+          "asset": "placeholder",
+          "at": 0.18,
+          "gain": 0.24,
+          "role": "title",
+          "pan": 0,
+          "duration": 0.25
+        }
+      ],
+      "loop": 0,
+      "ambientStart": 0,
+      "journey": false,
+      "direction": 1
+    },
+    {
+      "cue": "03.03",
+      "title": "FLAMINGONE",
+      "place": "gallery",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-walk",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "gallery",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.05
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "03.04",
+      "title": "ผลงานเดิม ป้ายใหม่",
+      "place": "gallery",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-walk",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "gallery",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.05
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "04.01",
+      "title": "CAPTION & PROMPT BATTLE",
+      "place": null,
+      "events": [
+        {
+          "asset": "placeholder",
+          "at": 0.18,
+          "gain": 0.24,
+          "role": "title",
+          "pan": 0,
+          "duration": 0.25
+        }
+      ],
+      "loop": 0,
+      "ambientStart": 0,
+      "journey": false,
+      "direction": 1
+    },
+    {
+      "cue": "04.02",
+      "title": "เก่งขึ้นรายคน",
+      "place": "atrium",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-walk",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "atrium",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.05
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "04.03",
+      "title": "แต่ไอเดีย คล้ายกันมากขึ้น",
+      "place": "atrium",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-walk",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "atrium",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.05
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "05.01",
+      "title": "FLASH LEADERBOARD",
+      "place": null,
+      "events": [
+        {
+          "asset": "placeholder",
+          "at": 0.18,
+          "gain": 0.24,
+          "role": "title",
+          "pan": 0,
+          "duration": 0.25
+        }
+      ],
+      "loop": 0,
+      "ambientStart": 0,
+      "journey": false,
+      "direction": 1
+    },
+    {
+      "cue": "06.01",
+      "title": "เมื่อ AI ค้นพบทางลัด",
+      "place": "laboratory",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-walk",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "laboratory",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.05
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "06.02",
+      "title": "จากลำดับ สู่โครงสร้าง",
+      "place": "laboratory",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-walk",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "laboratory",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.05
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "06.03",
+      "title": "โลกจริง ไม่ใช่โจทย์ปิด",
+      "place": "laboratory",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-walk",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "laboratory",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.05
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "06.04",
+      "title": "ความเก่ง ไม่ได้เป็นเส้นตรง",
+      "place": "frontier",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-descend",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "frontier",
+          "at": 1.72,
+          "gain": 0.32,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.1
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "06.05",
+      "title": "ในขอบเขต ช่วยได้มาก",
+      "place": "frontier",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-descend",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "frontier",
+          "at": 1.72,
+          "gain": 0.32,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.1
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "07.01",
+      "title": "DEATH CAP ROULETTE",
+      "place": null,
+      "events": [
+        {
+          "asset": "placeholder",
+          "at": 0.18,
+          "gain": 0.24,
+          "role": "title",
+          "pan": 0,
+          "duration": 0.25
+        }
+      ],
+      "loop": 0,
+      "ambientStart": 0,
+      "journey": false,
+      "direction": 1
+    },
+    {
+      "cue": "07.02",
+      "title": "มั่นใจมาก ไม่ได้แปลว่าถูก",
+      "place": "grove",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-walk",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "grove",
+          "at": 1.72,
+          "gain": 0.3,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.05
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "08.01",
+      "title": "SURVIVOR RANKINGS",
+      "place": null,
+      "events": [
+        {
+          "asset": "placeholder",
+          "at": 0.18,
+          "gain": 0.24,
+          "role": "title",
+          "pan": 0,
+          "duration": 0.25
+        }
+      ],
+      "loop": 0,
+      "ambientStart": 0,
+      "journey": false,
+      "direction": 1
+    },
+    {
+      "cue": "09.01",
+      "title": "ฟังดูอบอุ่น แล้วเชื่อใจได้ไหม?",
+      "place": "listening",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-walk",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "listening",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.1
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "09.02",
+      "title": "คำตอบที่ ผู้ประเมินเลือก",
+      "place": "listening",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-walk",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "listening",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.1
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "09.03",
+      "title": "ข้อความที่อบอุ่น ยังต้องตรวจสอบ",
+      "place": "listening",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-walk",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "listening",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.1
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "10.01",
+      "title": "คำแนะนำที่ดี ต้องดีในบริบทด้วย",
+      "place": "checkpoint",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-threshold",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "checkpoint",
+          "at": 1.72,
+          "gain": 0.32,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 0.95
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "10.02",
+      "title": "CHAT WHACK-A-MOLE",
+      "place": null,
+      "events": [
+        {
+          "asset": "placeholder",
+          "at": 0.18,
+          "gain": 0.24,
+          "role": "title",
+          "pan": 0,
+          "duration": 0.25
+        }
+      ],
+      "loop": 0,
+      "ambientStart": 0,
+      "journey": false,
+      "direction": 1
+    },
+    {
+      "cue": "10.03",
+      "title": "ตรวจก่อน ปล่อยคำตอบ",
+      "place": "checkpoint",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-threshold",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "checkpoint",
+          "at": 1.72,
+          "gain": 0.32,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 0.95
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "11.01",
+      "title": "เมื่อคำตอบ สร้างความเสียหาย",
+      "place": "forum",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-walk",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "forum",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 0.95
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "11.02",
+      "title": "COMPANY SHIELD",
+      "place": null,
+      "events": [
+        {
+          "asset": "placeholder",
+          "at": 0.18,
+          "gain": 0.24,
+          "role": "title",
+          "pan": 0,
+          "duration": 0.25
+        }
+      ],
+      "loop": 0,
+      "ambientStart": 0,
+      "journey": false,
+      "direction": 1
+    },
+    {
+      "cue": "11.03",
+      "title": "AI IS A TOOL. NOT A SHIELD.",
+      "place": "forum",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-walk",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "forum",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 0.95
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "12.01",
+      "title": "THE FINAL SPRINT",
+      "place": null,
+      "events": [
+        {
+          "asset": "placeholder",
+          "at": 0.18,
+          "gain": 0.24,
+          "role": "title",
+          "pan": 0,
+          "duration": 0.25
+        }
+      ],
+      "loop": 0,
+      "ambientStart": 0,
+      "journey": false,
+      "direction": 1
+    },
+    {
+      "cue": "13.01",
+      "title": "BETTER TOGETHER?",
+      "place": "observatory",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-rise",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "observatory",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.1
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "13.02",
+      "title": "การร่วมมือ ต้องออกแบบ",
+      "place": "observatory",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-rise",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "observatory",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.1
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "13.03",
+      "title": "เร็วแค่ไหน ก็ต้องตรวจก่อนปล่อย",
+      "place": "observatory",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-rise",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "observatory",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.1
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "13.04",
+      "title": "HUMAN OVERSIGHT",
+      "place": "observatory",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-rise",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "observatory",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.1
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "14.01",
+      "title": "MISSING PIECE",
+      "place": null,
+      "events": [
+        {
+          "asset": "placeholder",
+          "at": 0.18,
+          "gain": 0.24,
+          "role": "title",
+          "pan": 0,
+          "duration": 0.25
+        }
+      ],
+      "loop": 0,
+      "ambientStart": 0,
+      "journey": false,
+      "direction": 1
+    },
+    {
+      "cue": "15.01",
+      "title": "สมการของ ความรับผิดชอบ",
+      "place": "horizon",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-rise",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "horizon",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.7
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "15.02",
+      "title": "DIFFERENT MINDS.",
+      "place": "horizon",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-rise",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "horizon",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.7
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "15.03",
+      "title": "SHARED FUTURE.",
+      "place": "horizon",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-rise",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "horizon",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.7
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "15.04",
+      "title": "HUMAN RESPONSIBILITY.",
+      "place": "horizon",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-rise",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "horizon",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.7
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    },
+    {
+      "cue": "16.01",
+      "title": "GRAND PODIUM CEREMONY",
+      "place": null,
+      "events": [
+        {
+          "asset": "placeholder",
+          "at": 0.18,
+          "gain": 0.24,
+          "role": "title",
+          "pan": 0,
+          "duration": 0.25
+        }
+      ],
+      "loop": 0,
+      "ambientStart": 0,
+      "journey": false,
+      "direction": 1
+    },
+    {
+      "cue": "16.02",
+      "title": "ตรวจก่อนเชื่อ",
+      "place": "horizon",
+      "events": [
+        {
+          "asset": "departure",
+          "at": 0,
+          "gain": 0.3,
+          "role": "departure",
+          "pan": -0.06,
+          "duration": 0.5
+        },
+        {
+          "asset": "travel-rise",
+          "at": 0.16,
+          "gain": 0.48,
+          "role": "travel",
+          "pan": -0.12,
+          "duration": 1.65,
+          "panEnd": 0.12
+        },
+        {
+          "asset": "horizon",
+          "at": 1.72,
+          "gain": 0.38,
+          "role": "arrival",
+          "pan": 0.06,
+          "duration": 1.7
+        }
+      ],
+      "loop": 8,
+      "ambientStart": 2.8,
+      "journey": true,
+      "direction": 1
+    }
+  ]
+}

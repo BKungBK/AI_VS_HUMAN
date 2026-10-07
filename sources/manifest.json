@@ -1,0 +1,20 @@
+{
+  "originalDirectory": "C:/Users/BKungBK/.gemini/antigravity/scratch/human_vs_ai_seminar",
+  "files": [
+    {
+      "name": "cinematic_3d_slides_motion_spec.md",
+      "sha256": "ae5bb4f33dcab00a4e8ed5c2aa3c14b053394360fe6d5e6563cf87c43ad1a0e6"
+    },
+    {
+      "name": "ted_talk_master_outline.md",
+      "sha256": "8a1fbcd77dd82d3571a89fff764f8e6dc469c9e85f32a28ced5e89df4f2a3f74"
+    },
+    {
+      "name": "ted_talk_full_script.md",
+      "sha256": "a693a425c15ee872656aea5f5cddfcd7775733ce6856c965bf5ad95a1e3f15bf"
+    }
+  ],
+  "backup": "D:/Project/AI_VS_HUMAN_before_rebuild_20261005_183618.zip",
+  "archivedDirectory": "D:/Project/AI_VS_HUMAN_archived_20261005_183618",
+  "cleanup": "Old project moved out after ZIP verified. Empty workspace verified before fresh scaffold."
+}

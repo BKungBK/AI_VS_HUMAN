@@ -1,0 +1,15 @@
+import {chromium} from 'playwright';
+import fs from 'node:fs/promises';
+const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true,args:['--use-angle=d3d11']});
+const page=await browser.newPage({viewport:{width:1920,height:1080}});
+const settle=()=>page.evaluate(()=>new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r))));
+const go=async(s,b)=>{await page.evaluate(([s,b])=>window.deck.go(s,b),[s,b]);await settle();};
+const seek=async t=>{await page.evaluate(t=>window.deck.seek(t),t);await settle();};
+await page.goto('http://127.0.0.1:5173/?clean=1');await page.waitForFunction(()=>window.deck?.ready);await page.evaluate(()=>window.deck.pause());
+await go(0,0);await seek(4);await go(0,2);
+const snapshot=()=>page.evaluate(()=>({state:window.deck.state(),styles:[...document.querySelectorAll('.spatial-host *, .outgoing *')].map(e=>({tag:e.tagName,cls:e.className?.baseVal??e.className,style:e.getAttribute('style')}))}));
+await seek(.85);const a=await snapshot();await page.screenshot({path:'qa/spatial-motion/debug-seek-a.png'});
+await seek(4);await seek(.85);const b=await snapshot();await page.screenshot({path:'qa/spatial-motion/debug-seek-b.png'});
+await fs.writeFile('qa/spatial-motion/debug-seek.json',JSON.stringify({a,b},null,2));
+for(let i=0;i<a.styles.length;i++)if(JSON.stringify(a.styles[i])!==JSON.stringify(b.styles[i]))console.log(i,JSON.stringify({a:a.styles[i],b:b.styles[i]}));
+console.log('camera',JSON.stringify({a:a.state,b:b.state}));await browser.close();

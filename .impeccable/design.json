@@ -1,0 +1,544 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-06T16:29:08Z",
+  "title": "Design System: HUMAN vs AI",
+  "extensions": {
+    "colorMeta": {
+      "slate": {
+        "role": "neutral",
+        "displayName": "Slate",
+        "tonalRamp": [
+          "oklch(15% 0.0140 258.36)",
+          "oklch(25% 0.0140 258.36)",
+          "oklch(35% 0.0140 258.36)",
+          "oklch(45% 0.0140 258.36)",
+          "oklch(55% 0.0140 258.36)",
+          "oklch(65% 0.0140 258.36)",
+          "oklch(80% 0.0140 258.36)",
+          "oklch(95% 0.0140 258.36)"
+        ]
+      },
+      "raised": {
+        "role": "neutral",
+        "displayName": "Raised Slate",
+        "tonalRamp": [
+          "oklch(15% 0.0157 256.82)",
+          "oklch(25% 0.0157 256.82)",
+          "oklch(35% 0.0157 256.82)",
+          "oklch(45% 0.0157 256.82)",
+          "oklch(55% 0.0157 256.82)",
+          "oklch(65% 0.0157 256.82)",
+          "oklch(80% 0.0157 256.82)",
+          "oklch(95% 0.0157 256.82)"
+        ]
+      },
+      "human": {
+        "role": "primary",
+        "displayName": "Human Coral",
+        "tonalRamp": [
+          "oklch(15% 0.1812 22.84)",
+          "oklch(25% 0.1812 22.84)",
+          "oklch(35% 0.1812 22.84)",
+          "oklch(45% 0.1812 22.84)",
+          "oklch(55% 0.1812 22.84)",
+          "oklch(65% 0.1812 22.84)",
+          "oklch(80% 0.1812 22.84)",
+          "oklch(95% 0.1812 22.84)"
+        ]
+      },
+      "ai": {
+        "role": "secondary",
+        "displayName": "AI Periwinkle",
+        "tonalRamp": [
+          "oklch(15% 0.1633 271.04)",
+          "oklch(25% 0.1633 271.04)",
+          "oklch(35% 0.1633 271.04)",
+          "oklch(45% 0.1633 271.04)",
+          "oklch(55% 0.1633 271.04)",
+          "oklch(65% 0.1633 271.04)",
+          "oklch(80% 0.1633 271.04)",
+          "oklch(95% 0.1633 271.04)"
+        ]
+      },
+      "mint": {
+        "role": "primary",
+        "displayName": "Shared Mint",
+        "tonalRamp": [
+          "oklch(15% 0.1298 170.11)",
+          "oklch(25% 0.1298 170.11)",
+          "oklch(35% 0.1298 170.11)",
+          "oklch(45% 0.1298 170.11)",
+          "oklch(55% 0.1298 170.11)",
+          "oklch(65% 0.1298 170.11)",
+          "oklch(80% 0.1298 170.11)",
+          "oklch(95% 0.1298 170.11)"
+        ]
+      },
+      "gold": {
+        "role": "tertiary",
+        "displayName": "Responsibility Gold",
+        "tonalRamp": [
+          "oklch(15% 0.1648 92.22)",
+          "oklch(25% 0.1648 92.22)",
+          "oklch(35% 0.1648 92.22)",
+          "oklch(45% 0.1648 92.22)",
+          "oklch(55% 0.1648 92.22)",
+          "oklch(65% 0.1648 92.22)",
+          "oklch(80% 0.1648 92.22)",
+          "oklch(95% 0.1648 92.22)"
+        ]
+      },
+      "foreground": {
+        "role": "neutral",
+        "displayName": "Off-white Foreground",
+        "tonalRamp": [
+          "oklch(15% 0.0017 247.84)",
+          "oklch(25% 0.0017 247.84)",
+          "oklch(35% 0.0017 247.84)",
+          "oklch(45% 0.0017 247.84)",
+          "oklch(55% 0.0017 247.84)",
+          "oklch(65% 0.0017 247.84)",
+          "oklch(80% 0.0017 247.84)",
+          "oklch(95% 0.0017 247.84)"
+        ]
+      },
+      "spatial-glass": {
+        "role": "neutral",
+        "displayName": "Spatial Glass",
+        "tonalRamp": [
+          "oklch(15% 0.0238 267.11 / 0.91)",
+          "oklch(25% 0.0238 267.11 / 0.91)",
+          "oklch(35% 0.0238 267.11 / 0.91)",
+          "oklch(45% 0.0238 267.11 / 0.91)",
+          "oklch(55% 0.0238 267.11 / 0.91)",
+          "oklch(65% 0.0238 267.11 / 0.91)",
+          "oklch(80% 0.0238 267.11 / 0.91)",
+          "oklch(95% 0.0238 267.11 / 0.91)"
+        ]
+      },
+      "game-panel": {
+        "role": "neutral",
+        "displayName": "Game Panel",
+        "tonalRamp": [
+          "oklch(15% 0.0261 258.32)",
+          "oklch(25% 0.0261 258.32)",
+          "oklch(35% 0.0261 258.32)",
+          "oklch(45% 0.0261 258.32)",
+          "oklch(55% 0.0261 258.32)",
+          "oklch(65% 0.0261 258.32)",
+          "oklch(80% 0.0261 258.32)",
+          "oklch(95% 0.0261 258.32)"
+        ]
+      },
+      "game-line": {
+        "role": "neutral",
+        "displayName": "Game Line",
+        "tonalRamp": [
+          "oklch(15% 0.0364 259.48)",
+          "oklch(25% 0.0364 259.48)",
+          "oklch(35% 0.0364 259.48)",
+          "oklch(45% 0.0364 259.48)",
+          "oklch(55% 0.0364 259.48)",
+          "oklch(65% 0.0364 259.48)",
+          "oklch(80% 0.0364 259.48)",
+          "oklch(95% 0.0364 259.48)"
+        ]
+      },
+      "game-muted": {
+        "role": "neutral",
+        "displayName": "Game Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0285 258.37)",
+          "oklch(25% 0.0285 258.37)",
+          "oklch(35% 0.0285 258.37)",
+          "oklch(45% 0.0285 258.37)",
+          "oklch(55% 0.0285 258.37)",
+          "oklch(65% 0.0285 258.37)",
+          "oklch(80% 0.0285 258.37)",
+          "oklch(95% 0.0285 258.37)"
+        ]
+      },
+      "control-secondary": {
+        "role": "neutral",
+        "displayName": "Control Secondary",
+        "tonalRamp": [
+          "oklch(15% 0.0470 260.86)",
+          "oklch(25% 0.0470 260.86)",
+          "oklch(35% 0.0470 260.86)",
+          "oklch(45% 0.0470 260.86)",
+          "oklch(55% 0.0470 260.86)",
+          "oklch(65% 0.0470 260.86)",
+          "oklch(80% 0.0470 260.86)",
+          "oklch(95% 0.0470 260.86)"
+        ]
+      },
+      "control-border": {
+        "role": "neutral",
+        "displayName": "Control Border",
+        "tonalRamp": [
+          "oklch(15% 0.0439 261.92)",
+          "oklch(25% 0.0439 261.92)",
+          "oklch(35% 0.0439 261.92)",
+          "oklch(45% 0.0439 261.92)",
+          "oklch(55% 0.0439 261.92)",
+          "oklch(65% 0.0439 261.92)",
+          "oklch(80% 0.0439 261.92)",
+          "oklch(95% 0.0439 261.92)"
+        ]
+      },
+      "field": {
+        "role": "neutral",
+        "displayName": "Field",
+        "tonalRamp": [
+          "oklch(15% 0.0269 258.30)",
+          "oklch(25% 0.0269 258.30)",
+          "oklch(35% 0.0269 258.30)",
+          "oklch(45% 0.0269 258.30)",
+          "oklch(55% 0.0269 258.30)",
+          "oklch(65% 0.0269 258.30)",
+          "oklch(80% 0.0269 258.30)",
+          "oklch(95% 0.0269 258.30)"
+        ]
+      },
+      "human-readable": {
+        "role": "primary",
+        "displayName": "Human Readable",
+        "tonalRamp": [
+          "oklch(15% 0.1148 19.91)",
+          "oklch(25% 0.1148 19.91)",
+          "oklch(35% 0.1148 19.91)",
+          "oklch(45% 0.1148 19.91)",
+          "oklch(55% 0.1148 19.91)",
+          "oklch(65% 0.1148 19.91)",
+          "oklch(80% 0.1148 19.91)",
+          "oklch(95% 0.1148 19.91)"
+        ]
+      },
+      "ai-readable": {
+        "role": "secondary",
+        "displayName": "AI Readable",
+        "tonalRamp": [
+          "oklch(15% 0.0999 273.30)",
+          "oklch(25% 0.0999 273.30)",
+          "oklch(35% 0.0999 273.30)",
+          "oklch(45% 0.0999 273.30)",
+          "oklch(55% 0.0999 273.30)",
+          "oklch(65% 0.0999 273.30)",
+          "oklch(80% 0.0999 273.30)",
+          "oklch(95% 0.0999 273.30)"
+        ]
+      },
+      "human-selected": {
+        "role": "primary",
+        "displayName": "Human Selected",
+        "tonalRamp": [
+          "oklch(15% 0.0462 7.23)",
+          "oklch(25% 0.0462 7.23)",
+          "oklch(35% 0.0462 7.23)",
+          "oklch(45% 0.0462 7.23)",
+          "oklch(55% 0.0462 7.23)",
+          "oklch(65% 0.0462 7.23)",
+          "oklch(80% 0.0462 7.23)",
+          "oklch(95% 0.0462 7.23)"
+        ]
+      },
+      "ai-selected": {
+        "role": "secondary",
+        "displayName": "AI Selected",
+        "tonalRamp": [
+          "oklch(15% 0.0696 263.48)",
+          "oklch(25% 0.0696 263.48)",
+          "oklch(35% 0.0696 263.48)",
+          "oklch(45% 0.0696 263.48)",
+          "oklch(55% 0.0696 263.48)",
+          "oklch(65% 0.0696 263.48)",
+          "oklch(80% 0.0696 263.48)",
+          "oklch(95% 0.0696 263.48)"
+        ]
+      },
+      "group-selected": {
+        "role": "primary",
+        "displayName": "Group Selected",
+        "tonalRamp": [
+          "oklch(15% 0.0443 179.12)",
+          "oklch(25% 0.0443 179.12)",
+          "oklch(35% 0.0443 179.12)",
+          "oklch(45% 0.0443 179.12)",
+          "oklch(55% 0.0443 179.12)",
+          "oklch(65% 0.0443 179.12)",
+          "oklch(80% 0.0443 179.12)",
+          "oklch(95% 0.0443 179.12)"
+        ]
+      },
+      "warning-text": {
+        "role": "tertiary",
+        "displayName": "Warm Warning",
+        "tonalRamp": [
+          "oklch(15% 0.0893 75.01)",
+          "oklch(25% 0.0893 75.01)",
+          "oklch(35% 0.0893 75.01)",
+          "oklch(45% 0.0893 75.01)",
+          "oklch(55% 0.0893 75.01)",
+          "oklch(65% 0.0893 75.01)",
+          "oklch(80% 0.0893 75.01)",
+          "oklch(95% 0.0893 75.01)"
+        ]
+      },
+      "warning-surface": {
+        "role": "tertiary",
+        "displayName": "Warning Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0200 94.64)",
+          "oklch(25% 0.0200 94.64)",
+          "oklch(35% 0.0200 94.64)",
+          "oklch(45% 0.0200 94.64)",
+          "oklch(55% 0.0200 94.64)",
+          "oklch(65% 0.0200 94.64)",
+          "oklch(80% 0.0200 94.64)",
+          "oklch(95% 0.0200 94.64)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Opening Display",
+        "purpose": "Final 112px opening title on the fixed presentation stage."
+      },
+      "headline": {
+        "displayName": "Slide Headline",
+        "purpose": "Standard presentation title; never a phone text default."
+      },
+      "slide-body": {
+        "displayName": "Slide Body",
+        "purpose": "Projection-distance supporting copy."
+      },
+      "slide-label": {
+        "displayName": "Slide Eyebrow",
+        "purpose": "Speaker/topic context above the headline."
+      },
+      "title": {
+        "displayName": "Game Title",
+        "purpose": "Responsive Host and Display headings."
+      },
+      "title-player": {
+        "displayName": "Player Title",
+        "purpose": "Fixed 30px Player heading."
+      },
+      "body": {
+        "displayName": "Game Body",
+        "purpose": "16px instructions and base game text."
+      },
+      "label": {
+        "displayName": "Game Metadata",
+        "purpose": "Compact 14px identity and status text."
+      },
+      "pull": {
+        "displayName": "Live Pull",
+        "purpose": "64px live action; practice has a 48px override."
+      },
+      "timer": {
+        "displayName": "Phase Timer",
+        "purpose": "44px tabular timer with compact 36px override."
+      }
+    },
+    "shadows": [
+      {
+        "name": "presentation-spatial-card",
+        "value": "0 35px 65px rgba(0,0,0,.37),0 0 calc(34px + var(--ambient-light,.3)*22px) rgba(var(--card-rgb),.09),inset 0 1px 1px rgba(255,255,255,.14)",
+        "purpose": "Current glass-card elevation; card RGB defaults to AI and varies by tone."
+      },
+      {
+        "name": "presentation-controls",
+        "value": "0 6px 30px #0005",
+        "purpose": "Floating control strip outside the stage."
+      },
+      {
+        "name": "presentation-chapter-index",
+        "value": "0 20px 100px #0009",
+        "purpose": "Chapter picker overlay."
+      },
+      {
+        "name": "presentation-sound-panel",
+        "value": "0 16px 70px #0007",
+        "purpose": "Standalone sound settings overlay; presenter-inline version removes shadow."
+      },
+      {
+        "name": "game-flat",
+        "value": "none",
+        "purpose": "Game panels and controls have no box shadows; tonal fills and rules distinguish them."
+      }
+    ],
+    "motion": [
+      {
+        "name": "game-pull-response",
+        "value": "transform 90ms ease-out",
+        "purpose": "Brief scale to .97 on active press; removed with reduced motion."
+      },
+      {
+        "name": "game-rope-update",
+        "value": "transform 350ms ease-out",
+        "purpose": "Move the comparison marker after accepted average changes; removed with reduced motion."
+      },
+      {
+        "name": "presentation-blackout",
+        "value": "opacity .7s ease",
+        "purpose": "Presentation blackout layer only."
+      },
+      {
+        "name": "presentation-punch-in",
+        "value": "0.6s",
+        "purpose": "Incumbent frame.md camera sequence; presentation only."
+      },
+      {
+        "name": "presentation-push-through",
+        "value": "1.75s",
+        "purpose": "Incumbent frame.md motivated camera travel after handoff; presentation only."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "game-compact",
+        "value": "640px"
+      },
+      {
+        "name": "presentation-console-compact",
+        "value": "700px"
+      },
+      {
+        "name": "game-intermediate",
+        "value": "900px"
+      },
+      {
+        "name": "display-result-fit-min",
+        "value": "1000px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Game action with the incumbent touch height and state treatments.",
+      "html": "<button class=\"ds-button-primary\">เริ่มเกม</button>",
+      "css": ".ds-button-primary{display:inline-flex;justify-content:center;align-items:center;min-height:48px;padding:11px 24px;border-radius:8px;font:600 16px/1.65 'IBM Plex Sans Thai',sans-serif;cursor:pointer;touch-action:manipulation;background:var(--game-mint,var(--mint,#63E6BE));color:var(--game-bg,var(--slate,#0D1117));border:0}.ds-button-primary:hover:not(:disabled){filter:brightness(1.12)}.ds-button-primary:focus-visible{outline:3px solid var(--game-mint,var(--mint,#63E6BE));outline-offset:4px}.ds-button-primary:disabled{opacity:.45;cursor:default}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Game action with the incumbent touch height and state treatments.",
+      "html": "<button class=\"ds-button-secondary\">ทดลอง 15 วินาที</button>",
+      "css": ".ds-button-secondary{display:inline-flex;justify-content:center;align-items:center;min-height:48px;padding:11px 24px;border-radius:8px;font:600 16px/1.65 'IBM Plex Sans Thai',sans-serif;cursor:pointer;touch-action:manipulation;background:#26344c;color:var(--game-text,var(--fg,#F8F9FA));border:0}.ds-button-secondary:hover:not(:disabled){filter:brightness(1.12)}.ds-button-secondary:focus-visible{outline:3px solid var(--game-mint,var(--mint,#63E6BE));outline-offset:4px}.ds-button-secondary:disabled{opacity:.45;cursor:default}"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Game action with the incumbent touch height and state treatments.",
+      "html": "<button class=\"ds-button-quiet\">ออกจากห้อง</button>",
+      "css": ".ds-button-quiet{display:inline-flex;justify-content:center;align-items:center;min-height:48px;padding:11px 24px;border-radius:8px;font:600 16px/1.65 'IBM Plex Sans Thai',sans-serif;cursor:pointer;touch-action:manipulation;background:transparent;color:var(--game-text,var(--fg,#F8F9FA));border:1px solid #53617a}.ds-button-quiet:hover:not(:disabled){filter:brightness(1.12)}.ds-button-quiet:focus-visible{outline:3px solid var(--game-mint,var(--mint,#63E6BE));outline-offset:4px}.ds-button-quiet:disabled{opacity:.45;cursor:default}"
+    },
+    {
+      "name": "Nickname Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Visible label and native text field from the join flow.",
+      "html": "<label class=\"ds-field-label\" for=\"ds-nickname\">ชื่อเล่น</label><input class=\"ds-field\" id=\"ds-nickname\" autocomplete=\"nickname\" maxlength=\"24\" placeholder=\"ชื่อที่เพื่อนเรียก\"/>",
+      "css": ".ds-field-label{display:block;margin-bottom:9px;color:var(--game-text,var(--fg,#F8F9FA));font:400 16px/1.65 'IBM Plex Sans Thai',sans-serif}.ds-field{display:block;box-sizing:border-box;width:100%;min-height:48px;border:1px solid #53617a;border-radius:8px;background:#101824;color:var(--game-text,var(--fg,#F8F9FA));padding:10px 14px;font:400 16px/1.65 'IBM Plex Sans Thai',sans-serif;caret-color:var(--game-mint,var(--mint,#63E6BE))}.ds-field::placeholder{color:#a9b6cb}.ds-field:focus-visible{outline:3px solid var(--game-mint,var(--mint,#63E6BE));outline-offset:4px}"
+    },
+    {
+      "name": "Game Header",
+      "kind": "nav",
+      "description": "Brand, room, role and two connection layers stay separate and wrap on phones.",
+      "html": "<header class=\"ds-game-header\"><a class=\"ds-game-brand\" href=\"#games\">HUMAN <span>vs</span> AI</a><div class=\"ds-game-meta\"><span>ห้อง <b>C3769A</b></span><span>ผู้เล่น</span><span class=\"ds-connection\">API พร้อม<small>Realtime เชื่อมต่อแล้ว</small></span></div></header>",
+      "css": ".ds-game-header{max-width:1440px;min-height:84px;padding:20px 40px;display:flex;justify-content:space-between;align-items:center;gap:16px;border-bottom:1px solid var(--game-line,#364255);background:var(--game-bg,var(--slate,#0D1117));color:var(--game-text,var(--fg,#F8F9FA));font:400 16px/1.65 'IBM Plex Sans Thai',sans-serif}.ds-game-brand{color:var(--game-text,var(--fg,#F8F9FA));text-decoration:none;font-size:20px;font-weight:600;white-space:nowrap}.ds-game-brand span{font-size:14px;color:var(--game-muted,#bbc7d9);padding:0 6px}.ds-game-brand:focus-visible{outline:3px solid var(--game-mint,var(--mint,#63E6BE));outline-offset:4px}.ds-game-meta{display:flex;align-items:center;gap:25px;font-size:14px}.ds-game-meta b{font-variant-numeric:tabular-nums}.ds-connection{font-size:12px;line-height:1.4;color:var(--game-mint,var(--mint,#63E6BE))}.ds-connection small{display:block;font-size:11px;color:var(--game-muted,#bbc7d9)}@media(max-width:640px){.ds-game-header{padding:15px 18px;min-height:76px;align-items:flex-start}.ds-game-brand{font-size:15px;margin-top:3px}.ds-game-brand span{font-size:11px;padding:0 3px}.ds-game-meta{flex-wrap:wrap;justify-content:flex-end;gap:4px 12px;font-size:12px}.ds-connection{flex-basis:100%;text-align:right;font-size:11px}.ds-connection small{display:inline;margin-left:9px;font-size:10px}}"
+    },
+    {
+      "name": "Group Choice",
+      "kind": "chip",
+      "refersTo": "group-choice-selected",
+      "description": "Selected join radio tile names the competition group and member count.",
+      "html": "<label class=\"ds-group-choice\"><input type=\"radio\" name=\"ds-group\" checked/><strong>กลุ่ม 1</strong><span>4 คน</span></label>",
+      "css": ".ds-group-choice{position:relative;display:block;border:1px solid var(--game-mint,var(--mint,#63E6BE));border-radius:10px;padding:14px 12px;cursor:pointer;text-align:center;background:#163b34;color:var(--game-text,var(--fg,#F8F9FA));font:400 16px/1.65 'IBM Plex Sans Thai',sans-serif}.ds-group-choice input{position:absolute;opacity:0;width:1px;height:1px}.ds-group-choice:has(input:focus-visible){outline:3px solid var(--game-mint,var(--mint,#63E6BE));outline-offset:3px}.ds-group-choice strong,.ds-group-choice span{display:block}.ds-group-choice span{color:var(--game-muted,#bbc7d9);font-size:13px}"
+    },
+    {
+      "name": "Human and AI Choices",
+      "kind": "custom",
+      "refersTo": "side-choice",
+      "description": "Named side icons plus explicit selected/unselected text.",
+      "html": "<div class=\"ds-side-choices\"><button class=\"ds-side-choice ds-side-human\" aria-pressed=\"true\"><svg viewBox=\"0 0 48 48\" aria-hidden=\"true\"><circle cx=\"24\" cy=\"15\" r=\"7\"/><path d=\"M10 39c0-9 6-14 14-14s14 5 14 14\"/></svg><strong>Human</strong><span>เลือกแล้ว</span></button><button class=\"ds-side-choice ds-side-ai\" aria-pressed=\"false\"><svg viewBox=\"0 0 48 48\" aria-hidden=\"true\"><rect x=\"11\" y=\"11\" width=\"26\" height=\"26\" rx=\"6\"/><path d=\"M19 20h1m8 0h1M18 29h12M24 4v7M4 24h7m26 0h7\"/></svg><strong>AI</strong><span>เลือกฝั่งนี้</span></button></div>",
+      "css": ".ds-side-choices{display:grid;grid-template-columns:1fr 1fr;gap:14px}.ds-side-choice{display:flex;align-items:center;flex-direction:column;gap:6px;background:var(--game-panel,#161e2a);border:2px solid #53617a;border-radius:14px;padding:22px 12px;font:400 16px/1.65 'IBM Plex Sans Thai',sans-serif;cursor:pointer;touch-action:manipulation}.ds-side-human{color:#ff9f9f}.ds-side-ai{color:#a9baff}.ds-side-human[aria-pressed=\"true\"]{background:#43252b;border-color:var(--game-human,var(--human,#FF6B6B))}.ds-side-ai[aria-pressed=\"true\"]{background:#24365b;border-color:var(--game-ai,var(--ai,#748FFC))}.ds-side-choice svg{height:48px;width:48px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}.ds-side-choice strong{font-size:23px}.ds-side-choice span{font-size:13px}.ds-side-choice:hover:not(:disabled){filter:brightness(1.12)}.ds-side-choice:focus-visible{outline:3px solid var(--game-mint,var(--mint,#63E6BE));outline-offset:4px}.ds-side-choice:disabled{opacity:.45;cursor:default}"
+    },
+    {
+      "name": "Waiting Note",
+      "kind": "card",
+      "refersTo": "waiting-note",
+      "description": "Flat status panel keeps readiness and the next action readable.",
+      "html": "<section class=\"ds-waiting-note\"><strong>พร้อมเล่นแล้ว</strong><p>รอผู้จัดเปิดช่วงทดลองหรือเริ่มเกม</p></section>",
+      "css": ".ds-waiting-note{background:var(--game-panel,#161e2a);color:var(--game-text,var(--fg,#F8F9FA));border-radius:12px;padding:23px;text-align:center;font:400 16px/1.65 'IBM Plex Sans Thai',sans-serif}.ds-waiting-note p{margin:10px 0 0;color:var(--game-muted,#bbc7d9)}"
+    },
+    {
+      "name": "Presentation Glass Card",
+      "kind": "card",
+      "refersTo": "spatial-card",
+      "description": "The presentation’s depth-bearing card; it is distinct from flat game panels.",
+      "html": "<article class=\"ds-spatial-card\"><div class=\"ds-glass-inner\"><div class=\"ds-card-label\">HUMAN vs AI</div><h2>ความไว้ใจและวิจารณญาณ</h2><p>หลักฐานที่อ่านได้บนพื้นเข้ม</p></div></article>",
+      "css": ".ds-spatial-card{--card-rgb:116,143,252;position:relative;border-radius:24px;border:1px solid rgba(255,255,255,.14);background:rgba(31,36,48,.91);box-shadow:0 35px 65px rgba(0,0,0,.37),0 0 calc(34px + var(--ambient-light,.3)*22px) rgba(var(--card-rgb),.09),inset 0 1px 1px rgba(255,255,255,.14);backdrop-filter:blur(16px);color:var(--fg,#F8F9FA);font-family:'IBM Plex Sans Thai',sans-serif}.ds-spatial-card::before{content:'';position:absolute;top:-1px;height:2px;left:28px;right:28px;background:linear-gradient(90deg,transparent,rgba(116,143,252,.8),transparent);border-radius:50%}.ds-glass-inner{position:relative;padding:24px 28px;overflow:hidden;border-radius:23px;background:radial-gradient(ellipse at 100% 0%,rgba(116,143,252,.045),transparent 65%)}.ds-card-label{font-size:24px;line-height:1.45;font-weight:500;letter-spacing:.065em}.ds-spatial-card h2{font-size:31px;font-weight:500;line-height:1.4;letter-spacing:-.02em;margin:12px 0 0}.ds-spatial-card p{font-size:26px;line-height:1.55;margin:14px 0 0}"
+    },
+    {
+      "name": "Live Pull Action",
+      "kind": "custom",
+      "refersTo": "pull-human",
+      "description": "Side-colored action with accepted response below; sample uses Human.",
+      "html": "<div class=\"ds-pull-sample\"><button class=\"ds-pull-button\"><span>ดึง!</span><small>แตะครั้งละหนึ่งที · ไม่จำกัดจำนวน</small></button><div class=\"ds-tap-total\"><strong>7<small> แตะ</small></strong><span>ระบบรับแล้ว · 70 คะแนน</span></div></div>",
+      "css": ".ds-pull-sample{color:var(--game-text,var(--fg,#F8F9FA));font-family:'IBM Plex Sans Thai',sans-serif}.ds-pull-button{width:100%;min-height:210px;background:var(--game-human,var(--human,#FF6B6B));border:0;border-radius:22px;padding:25px 16px;touch-action:manipulation;user-select:none;-webkit-user-select:none;-webkit-tap-highlight-color:transparent;color:var(--game-bg,var(--slate,#0D1117));font:700 64px/1.2 'IBM Plex Sans Thai',sans-serif;transition:transform 90ms ease-out;cursor:pointer}.ds-pull-button small{display:block;font-size:16px;font-weight:500;margin-top:16px}.ds-pull-button:hover:not(:disabled){filter:brightness(1.12)}.ds-pull-button:focus-visible{outline:3px solid var(--game-mint,var(--mint,#63E6BE));outline-offset:4px}.ds-pull-button:active:not(:disabled){transform:scale(.97)}.ds-pull-button:disabled{opacity:.45;cursor:default}.ds-tap-total{text-align:center;margin-top:24px;font-variant-numeric:tabular-nums}.ds-tap-total strong{font-size:38px;line-height:1.2;display:block}.ds-tap-total strong small{font-size:17px;color:var(--game-muted,#bbc7d9)}.ds-tap-total>span{display:block;color:var(--game-muted,#bbc7d9);margin:8px 0}@media(prefers-reduced-motion:reduce){.ds-pull-button{transition:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Sparring Minds",
+    "overview": "The Sparring Minds gives Human and AI equal visual presence in a dark neo-pastel world. Slate and off-white carry the reading surface; coral and periwinkle identify the two sides, while mint marks shared actions, readiness, and the rope’s comparison marker. The locally packaged IBM Plex Sans Thai family connects Thai instructions, Latin titles, and numerical evidence.\n\nThe presentation expresses this world through a fixed cinematic stage, glass cards, authored SVG scenery, and camera-led motion. The first game extends the same identity through flatter responsive panels, clear status text, and large touch controls. These are two established applications of the same world. The game evidence is from a local Elysia/PGlite rehearsal; it does not establish a hosted or production release.",
+    "keyCharacteristics": [
+      "Dark slate surfaces with off-white reading text.",
+      "Human coral, AI periwinkle, and mint actions with explicit text labels.",
+      "One locally served Thai/Latin font family with weight-based hierarchy.",
+      "Cinematic depth in slides; task-focused, flat surfaces in the game."
+    ],
+    "rules": [
+      {
+        "name": "The Side Identity Rule",
+        "body": "Human retains coral and AI retains periwinkle. Use names and icons alongside color so side identity remains explicit.",
+        "section": "colors"
+      },
+      {
+        "name": "The Shared Action Rule",
+        "body": "Mint belongs to common actions, readiness, focus, and comparison markers. A side-specific pull uses that side’s color.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Layouts Rule",
+        "body": "Preserve the presentation’s fixed stage and the game’s responsive document flow as separate layout contracts.",
+        "section": "layout"
+      },
+      {
+        "name": "The State Before Decoration Rule",
+        "body": "In the game, selected, locked, accepted, pending, paused, cancelled, and confirmed states must remain readable in text.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do preserve the established side colors and show Human/AI names with them.",
+      "Do use the local IBM Plex Sans Thai files and their supplied 400/500/600/700 weights.",
+      "Do retain the game’s 16px body role, 30px Player title, 64px live pull label, and 48px minimum button/field height.",
+      "Do use tabular numerals for timers, accepted totals, room codes, and scores.",
+      "Do keep slide camera/glass behavior and responsive game behavior scoped to their own surfaces."
+    ],
+    "donts": [
+      "Don't substitute a different visual identity or remote font for the incumbent system.",
+      "Don't make color the sole way to communicate a selected side or a game state.",
+      "Don't turn pending taps into confirmed score text or remove the roster denominator from group results.",
+      "Don't promote the minimum Host implementation into a final layout claim.",
+      "Don't describe the local rehearsal evidence as a cloud deployment or production release."
+    ]
+  }
+}

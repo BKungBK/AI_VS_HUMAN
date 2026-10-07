@@ -1,0 +1,1401 @@
+{
+  "checks": [
+    {
+      "name": "16 chapters / 42 cues",
+      "pass": true,
+      "detail": {
+        "chapters": 16,
+        "cues": 42
+      }
+    },
+    {
+      "name": "11 simple placeholder cues",
+      "pass": true
+    },
+    {
+      "name": "layout 01.01",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 747.5
+        },
+        "cards": [
+          {
+            "left": 1010.5681762695312,
+            "top": 309.177978515625,
+            "right": 1335.2657470703125,
+            "bottom": 789.5770874023438
+          },
+          {
+            "left": 1401.748291015625,
+            "top": 241.22683715820312,
+            "right": 1792.605224609375,
+            "bottom": 770.7251281738281
+          },
+          {
+            "left": 1357.058837890625,
+            "top": 489.26470947265625,
+            "right": 1447.5,
+            "bottom": 579.7058715820312
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 01.02",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 160,
+          "right": 1760,
+          "bottom": 643.84375
+        },
+        "cards": [],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 01.03",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 1004.03369140625,
+            "top": 293.8594055175781,
+            "right": 1347.8538818359375,
+            "bottom": 797.2810668945312
+          },
+          {
+            "left": 1413.7042236328125,
+            "top": 276.4423828125,
+            "right": 1807.07177734375,
+            "bottom": 810.3773193359375
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 01.04",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 547.484375
+        },
+        "cards": [
+          {
+            "left": 1075.2969970703125,
+            "top": 242.98590087890625,
+            "right": 1624.7869873046875,
+            "bottom": 403.06707763671875
+          },
+          {
+            "left": 1030.8004150390625,
+            "top": 433.395751953125,
+            "right": 1713.7529296875,
+            "bottom": 607.9312744140625
+          },
+          {
+            "left": 1126.8673095703125,
+            "top": 656.6725463867188,
+            "right": 1743.5010986328125,
+            "bottom": 845.013671875
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 02.01",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 160,
+          "right": 1760,
+          "bottom": 703.640625
+        },
+        "cards": [],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 03.01",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 1079.228271484375,
+            "top": 221.45687866210938,
+            "right": 1748.347900390625,
+            "bottom": 801.7803649902344
+          },
+          {
+            "left": 1005.1551513671875,
+            "top": 700.107177734375,
+            "right": 1469.3948974609375,
+            "bottom": 842.0211791992188
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 03.02",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 1060.160400390625,
+            "top": 240.75730895996094,
+            "right": 1691.0755615234375,
+            "bottom": 739.4828338623047
+          },
+          {
+            "left": 1269.63623046875,
+            "top": 707.0936279296875,
+            "right": 1733.25537109375,
+            "bottom": 857.1044311523438
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 03.03",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 529.890625
+        },
+        "cards": [
+          {
+            "left": 1028.5753173828125,
+            "top": 240.6116943359375,
+            "right": 1771.6790771484375,
+            "bottom": 761.7230834960938
+          },
+          {
+            "left": 1324.9259033203125,
+            "top": 704.4347534179688,
+            "right": 1768.265869140625,
+            "bottom": 859.3389892578125
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 03.04",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 1021.8681640625,
+            "top": 254.5388946533203,
+            "right": 1749.75341796875,
+            "bottom": 706.1305084228516
+          },
+          {
+            "left": 972.5855712890625,
+            "top": 704.6045532226562,
+            "right": 1333.7457275390625,
+            "bottom": 856.5493774414062
+          },
+          {
+            "left": 1428.7496337890625,
+            "top": 709.5159912109375,
+            "right": 1824.0821533203125,
+            "bottom": 864.9443359375
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 04.01",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 160,
+          "right": 1760,
+          "bottom": 703.640625
+        },
+        "cards": [],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 04.02",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 547.484375
+        },
+        "cards": [
+          {
+            "left": 1027.3907470703125,
+            "top": 221.0289306640625,
+            "right": 1760.1610107421875,
+            "bottom": 699.0314331054688
+          },
+          {
+            "left": 1068.2755126953125,
+            "top": 743.5534057617188,
+            "right": 1744.933349609375,
+            "bottom": 876.63037109375
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 04.03",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 1029.685546875,
+            "top": 221.0289306640625,
+            "right": 1733.810302734375,
+            "bottom": 699.0314331054688
+          },
+          {
+            "left": 1068.2755126953125,
+            "top": 743.5534057617188,
+            "right": 1744.933349609375,
+            "bottom": 876.63037109375
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 05.01",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 160,
+          "right": 1760,
+          "bottom": 643.84375
+        },
+        "cards": [],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 06.01",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 1048.8900146484375,
+            "top": 214.41326904296875,
+            "right": 1676.758544921875,
+            "bottom": 650.189208984375
+          },
+          {
+            "left": 1067.7032470703125,
+            "top": 687.4342041015625,
+            "right": 1747.351318359375,
+            "bottom": 847.3903198242188
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 06.02",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 1057.5908203125,
+            "top": 237.77110290527344,
+            "right": 1746.6639404296875,
+            "bottom": 803.1595306396484
+          },
+          {
+            "left": 1287.8431396484375,
+            "top": 696.89453125,
+            "right": 1777.8948974609375,
+            "bottom": 859.2922973632812
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 06.03",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 1028.5908203125,
+            "top": 274.16339111328125,
+            "right": 1353.1082763671875,
+            "bottom": 698.2285766601562
+          },
+          {
+            "left": 1421.6068115234375,
+            "top": 319.61090087890625,
+            "right": 1811.0657958984375,
+            "bottom": 820.1902465820312
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 06.04",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 980.0014038085938,
+            "top": 227.58526611328125,
+            "right": 1762.320556640625,
+            "bottom": 753.2238159179688
+          },
+          {
+            "left": 982.48388671875,
+            "top": 687.022216796875,
+            "right": 1345.8489990234375,
+            "bottom": 850.4388427734375
+          },
+          {
+            "left": 1422.078369140625,
+            "top": 701.5200805664062,
+            "right": 1829.7041015625,
+            "bottom": 867.9120483398438
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 06.05",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 1007.5394897460938,
+            "top": 234.85043334960938,
+            "right": 1742.62109375,
+            "bottom": 540.5462646484375
+          },
+          {
+            "left": 1003.7279663085938,
+            "top": 591.2056274414062,
+            "right": 1365.9342041015625,
+            "bottom": 842.3583374023438
+          },
+          {
+            "left": 1431.1619873046875,
+            "top": 593.8995971679688,
+            "right": 1822.0516357421875,
+            "bottom": 851.5062255859375
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 07.01",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 160,
+          "right": 1760,
+          "bottom": 703.640625
+        },
+        "cards": [],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 07.02",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 766.875
+        },
+        "cards": [
+          {
+            "left": 982.774169921875,
+            "top": 226.69515991210938,
+            "right": 1410.0347900390625,
+            "bottom": 828.1873474121094
+          },
+          {
+            "left": 1461.8389892578125,
+            "top": 254.37164306640625,
+            "right": 1771.53759765625,
+            "bottom": 525.3178100585938
+          },
+          {
+            "left": 1453.37939453125,
+            "top": 593.3289184570312,
+            "right": 1777.60986328125,
+            "bottom": 810.1370849609375
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 08.01",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 160,
+          "right": 1760,
+          "bottom": 643.84375
+        },
+        "cards": [],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 09.01",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 1035.854736328125,
+            "top": 251.6898193359375,
+            "right": 1695.825927734375,
+            "bottom": 619.366455078125
+          },
+          {
+            "left": 1258.93017578125,
+            "top": 600.9874267578125,
+            "right": 1743.392578125,
+            "bottom": 830.0540771484375
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 09.02",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 1039.260009765625,
+            "top": 222.20806884765625,
+            "right": 1731.882080078125,
+            "bottom": 706.5009155273438
+          },
+          {
+            "left": 1270.8712158203125,
+            "top": 698.9329223632812,
+            "right": 1767.47509765625,
+            "bottom": 859.6422729492188
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 09.03",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 1053.0439453125,
+            "top": 250.3043212890625,
+            "right": 1652.8560791015625,
+            "bottom": 511.9776611328125
+          },
+          {
+            "left": 1060.17578125,
+            "top": 558.4414672851562,
+            "right": 1775.7901611328125,
+            "bottom": 830.01904296875
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 10.01",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 1033.4454345703125,
+            "top": 293.1747741699219,
+            "right": 1731.7235107421875,
+            "bottom": 812.5210876464844
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 10.02",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 160,
+          "right": 1760,
+          "bottom": 703.640625
+        },
+        "cards": [],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 10.03",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 1096.7218017578125,
+            "top": 260.75439453125,
+            "right": 1673.528076171875,
+            "bottom": 875.8507690429688
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 11.01",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 1051.1881103515625,
+            "top": 237.17538452148438,
+            "right": 1715.6844482421875,
+            "bottom": 680.19287109375
+          },
+          {
+            "left": 1166.8818359375,
+            "top": 695.5914916992188,
+            "right": 1710.2679443359375,
+            "bottom": 851.6444091796875
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 11.02",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 160,
+          "right": 1760,
+          "bottom": 703.640625
+        },
+        "cards": [],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 11.03",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 626.6875
+        },
+        "cards": [
+          {
+            "left": 1036.5968017578125,
+            "top": 218.4847869873047,
+            "right": 1698.085205078125,
+            "bottom": 730.2646942138672
+          },
+          {
+            "left": 1228.5257568359375,
+            "top": 681.076416015625,
+            "right": 1753.4560546875,
+            "bottom": 848.5885009765625
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 12.01",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 160,
+          "right": 1760,
+          "bottom": 643.84375
+        },
+        "cards": [],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 13.01",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 626.6875
+        },
+        "cards": [
+          {
+            "left": 1046.105224609375,
+            "top": 223.3997039794922,
+            "right": 1698.171142578125,
+            "bottom": 629.4748992919922
+          },
+          {
+            "left": 987.5343627929688,
+            "top": 649.8880004882812,
+            "right": 1347.348876953125,
+            "bottom": 845.0560913085938
+          },
+          {
+            "left": 1433.7041015625,
+            "top": 654.5888671875,
+            "right": 1824.1300048828125,
+            "bottom": 854.1189575195312
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 13.02",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 1096.7218017578125,
+            "top": 215.00341796875,
+            "right": 1673.528076171875,
+            "bottom": 830.0997924804688
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 13.03",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 661.875
+        },
+        "cards": [
+          {
+            "left": 1069.0369873046875,
+            "top": 236.87306213378906,
+            "right": 1652.7540283203125,
+            "bottom": 684.6057281494141
+          },
+          {
+            "left": 1161.652587890625,
+            "top": 664.2974853515625,
+            "right": 1760.3575439453125,
+            "bottom": 859.3231811523438
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 13.04",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 626.6875
+        },
+        "cards": [
+          {
+            "left": 1096.7218017578125,
+            "top": 215.00341796875,
+            "right": 1673.528076171875,
+            "bottom": 830.0997924804688
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 14.01",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 160,
+          "right": 1760,
+          "bottom": 703.640625
+        },
+        "cards": [],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 15.01",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 1820,
+          "bottom": 415.734375
+        },
+        "cards": [
+          {
+            "left": 157.85299682617188,
+            "top": 551.5449829101562,
+            "right": 647.85302734375,
+            "bottom": 787.5449829101562
+          },
+          {
+            "left": 707.4310302734375,
+            "top": 549.166015625,
+            "right": 1197.4310302734375,
+            "bottom": 785.166015625
+          },
+          {
+            "left": 1256.7349853515625,
+            "top": 550.4949951171875,
+            "right": 1746.7349853515625,
+            "bottom": 786.4949951171875
+          }
+        ],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 15.02",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 608.6875
+        },
+        "cards": [],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 15.03",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 608.6875
+        },
+        "cards": [],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 15.04",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 608.6875
+        },
+        "cards": [],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 16.01",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 160,
+          "right": 1760,
+          "bottom": 703.640625
+        },
+        "cards": [],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "layout 16.02",
+      "pass": true,
+      "detail": {
+        "overflow": [],
+        "copy": {
+          "left": 100,
+          "right": 910,
+          "bottom": 565.484375
+        },
+        "cards": [],
+        "images": true,
+        "placeholderPlain": true,
+        "canvas": {
+          "w": 1920,
+          "h": 1080
+        }
+      }
+    },
+    {
+      "name": "actual 1920×1080 buffer",
+      "pass": true
+    },
+    {
+      "name": "deterministic seek",
+      "pass": true
+    },
+    {
+      "name": "dolly changes Z and FOV",
+      "pass": true,
+      "detail": {
+        "early": {
+          "scene": 5,
+          "beat": 3,
+          "cue": "06.04",
+          "kind": "content",
+          "time": 0.55,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "06.04",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.5,
+            "activeDuration": 3,
+            "actionEnd": 3,
+            "rest": 2.5
+          },
+          "fallback": false,
+          "cameraZ": 2519.999938,
+          "cameraX": 34.999998,
+          "cameraYaw": 0.708985992568361,
+          "cameraPitch": -0.6505633374620217,
+          "cameraRoll": -0.014157734489366075,
+          "worldCamera": {
+            "x": 444.76824834109357,
+            "y": 47.45604130632155,
+            "z": 2407.4080243042335
+          },
+          "place": "frontier",
+          "placeId": "06.04",
+          "placeAnchor": {
+            "x": 22050,
+            "y": -1180,
+            "z": -10280
+          },
+          "journey": {
+            "progress": 0.032064,
+            "distance": 24357.202220287945,
+            "route": "descend",
+            "active": true
+          },
+          "fov": 24.189514731640205,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        },
+        "late": {
+          "scene": 5,
+          "beat": 3,
+          "cue": "06.04",
+          "kind": "content",
+          "time": 2.4,
+          "paused": true,
+          "ready": true,
+          "audio": {
+            "enabled": false,
+            "volume": 0.65,
+            "ambient": false,
+            "speechSafe": true,
+            "status": "locked",
+            "error": "",
+            "context": "uninitialized",
+            "voices": 0,
+            "cue": "06.04",
+            "playing": false,
+            "resyncs": 0
+          },
+          "motionTiming": {
+            "period": 5.5,
+            "activeDuration": 3,
+            "actionEnd": 3,
+            "rest": 2.5
+          },
+          "fallback": false,
+          "cameraZ": 1500,
+          "cameraX": 0,
+          "cameraYaw": 0,
+          "cameraPitch": 0,
+          "cameraRoll": 0,
+          "worldCamera": {
+            "x": 22050,
+            "y": -1180,
+            "z": -8780
+          },
+          "place": "frontier",
+          "placeId": "06.04",
+          "placeAnchor": {
+            "x": 22050,
+            "y": -1180,
+            "z": -10280
+          },
+          "journey": {
+            "progress": 1,
+            "distance": 24357.202220287945,
+            "route": "descend",
+            "active": true
+          },
+          "fov": 39.597752709049864,
+          "backgroundLayers": 4,
+          "travelGates": 3,
+          "retainedSets": 3,
+          "nativeText3D": true,
+          "particles": 180,
+          "models": 0,
+          "drawCalls": 1
+        }
+      }
+    },
+    {
+      "name": "contextual loop repeats at the authored period",
+      "pass": true
+    },
+    {
+      "name": "next crosses chapter",
+      "pass": true
+    },
+    {
+      "name": "previous crosses chapter",
+      "pass": true
+    },
+    {
+      "name": "paused navigation lands readable",
+      "pass": true
+    },
+    {
+      "name": "resume advances / pause holds",
+      "pass": true
+    },
+    {
+      "name": "rapid navigation debounced",
+      "pass": true
+    },
+    {
+      "name": "blackout works",
+      "pass": true
+    },
+    {
+      "name": "chapter index opens",
+      "pass": true
+    },
+    {
+      "name": "chapter index closes",
+      "pass": true
+    },
+    {
+      "name": "system motion preference retains the full camera journey",
+      "pass": true
+    },
+    {
+      "name": "context loss retains cards and text",
+      "pass": true
+    },
+    {
+      "name": "presenter receives current cue",
+      "pass": true
+    },
+    {
+      "name": "presenter controls stage",
+      "pass": true
+    },
+    {
+      "name": "clock waits for assets",
+      "pass": true
+    },
+    {
+      "name": "slow assets eventually ready",
+      "pass": true
+    },
+    {
+      "name": "all playback assets local",
+      "pass": true,
+      "detail": {
+        "outside": []
+      }
+    },
+    {
+      "name": "mobile keeps 16:9 stage",
+      "pass": true
+    },
+    {
+      "name": "no browser errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

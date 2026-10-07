@@ -1,0 +1,867 @@
+/* Death Cap Roulette Styles (Game 4) */
+/* Visual Identity: Dark Survival Forest (#0A120D) x Toxic Spore Chartreuse (#C8E64A) x Hazard Crimson (#E03131) x Clinical AI (#4DABF7) */
+
+:root {
+  --roulette-bg: #070e09;
+  --roulette-panel: #111e15;
+  --roulette-panel-alt: #16291d;
+  --roulette-border: #1d3325;
+  --roulette-border-glow: rgba(200, 230, 74, 0.25);
+  --roulette-spore: #c8e64a;
+  --roulette-spore-dim: #94b029;
+  --roulette-danger: #ff4d4f;
+  --roulette-danger-bg: rgba(255, 77, 79, 0.15);
+  --roulette-ai-blue: #4dabf7;
+  --roulette-safe: #40c057;
+  --roulette-safe-bg: rgba(64, 192, 87, 0.15);
+  --roulette-text: #e6f4ea;
+  --roulette-muted: #8ca392;
+  --roulette-ghost: #6c757d;
+}
+
+/* Base Page Overrides */
+.roulette-page {
+  background-color: var(--roulette-bg);
+  color: var(--roulette-text);
+  min-height: 100vh;
+}
+
+/* Header & Identity */
+.roulette-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+.roulette-heading h1 {
+  margin: 0;
+  font-size: clamp(24px, 3.2vw, 42px);
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #f0fff4;
+}
+.roulette-heading .badge-risk {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  background: var(--roulette-danger-bg);
+  border: 1px solid var(--roulette-danger);
+  border-radius: 6px;
+  color: #ff8787;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Clocks & Timers */
+.roulette-clock {
+  text-align: right;
+  min-width: 80px;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+}
+.roulette-clock > span {
+  display: block;
+  color: var(--roulette-muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.roulette-clock strong {
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--roulette-spore);
+  text-shadow: 0 0 12px rgba(200, 230, 74, 0.4);
+}
+.roulette-clock.urgent strong {
+  color: var(--roulette-danger);
+  text-shadow: 0 0 16px rgba(255, 77, 79, 0.6);
+  animation: roulette-heartbeat 0.6s infinite alternate ease-in-out;
+}
+.roulette-clock small {
+  font-size: 14px;
+  color: var(--roulette-muted);
+  font-weight: 400;
+}
+
+@keyframes roulette-heartbeat {
+  from { transform: scale(1); }
+  to { transform: scale(1.08); }
+}
+
+/* Life State Badges */
+.life-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.life-badge.alive {
+  background: var(--roulette-safe-bg);
+  color: #8ce99a;
+  border: 1px solid var(--roulette-safe);
+}
+.life-badge.dead {
+  background: var(--roulette-danger-bg);
+  color: #ffa8a8;
+  border: 1px solid var(--roulette-danger);
+}
+.life-badge .game-glyph{width:14px;height:14px}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.8); }
+}
+
+/* AI Confidence Indicator */
+.ai-confidence-meter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(77, 171, 247, 0.1);
+  border: 1px solid rgba(77, 171, 247, 0.35);
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin: 12px 0 16px;
+  font-family: monospace;
+}
+.ai-confidence-meter span {
+  font-size: 13px;
+  color: #a5d8ff;
+  letter-spacing: 0.05em;
+}
+.ai-confidence-meter strong {
+  font-size: 18px;
+  color: var(--roulette-ai-blue);
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(77, 171, 247, 0.5);
+}
+
+/* =========================================================
+   Player Mobile Experience (390 x 844 target)
+   ========================================================= */
+.roulette-player {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 16px;
+}
+.roulette-player-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--roulette-panel);
+  border: 1px solid var(--roulette-border);
+  border-radius: 12px;
+  padding: 10px 14px;
+  margin-bottom: 14px;
+}
+.roulette-player-id strong {
+  display: block;
+  font-size: 15px;
+  color: #ffffff;
+}
+.roulette-player-id span {
+  font-size: 12px;
+  color: var(--roulette-muted);
+}
+.roulette-player-stats {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.roulette-score-badge {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.roulette-score-badge strong {
+  display: block;
+  font-size: 18px;
+  color: var(--roulette-spore);
+}
+.roulette-score-badge small {
+  font-size: 10px;
+  color: var(--roulette-muted);
+}
+
+/* Claim Card */
+.roulette-claim-card {
+  background: var(--roulette-panel);
+  border: 1px solid var(--roulette-border);
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  transition: border-color 0.3s ease;
+}
+.roulette-claim-card.lethal {
+  border-color: rgba(255, 77, 79, 0.6);
+  box-shadow: 0 8px 30px rgba(255, 77, 79, 0.2);
+}
+.roulette-round-tag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.roulette-round-tag span {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--roulette-spore);
+  text-transform: uppercase;
+}
+.roulette-context {
+  font-size: 13px;
+  color: var(--roulette-muted);
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+.roulette-claim-text {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #ffffff;
+  margin: 12px 0 16px;
+}
+.roulette-image-wrap {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 14px 0;
+  border: 2px solid var(--roulette-border);
+  position: relative;
+}
+.roulette-image-wrap img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  display: block;
+}
+.roulette-image-wrap .lethal-watermark {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(224, 49, 49, 0.9);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 4px;
+  letter-spacing: 0.05em;
+}
+
+/* Decision Touch Controls */
+.roulette-decision-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 18px;
+}
+.roulette-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  padding: 16px 12px;
+  border-radius: 14px;
+  font-family: inherit;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
+  text-align: center;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.roulette-btn:active:not(:disabled) {
+  transform: scale(0.97);
+}
+.roulette-btn strong {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.roulette-btn span {
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+/* Believe Button (High reward / High risk) */
+.roulette-btn.believe {
+  background: #143525;
+  border-color: #2b8a3e;
+  color: #d3f9d8;
+}
+.roulette-btn.believe:hover:not(:disabled) {
+  background: #194a34;
+  border-color: var(--roulette-safe);
+  box-shadow: 0 0 16px rgba(64, 192, 87, 0.3);
+}
+.roulette-btn.believe strong {
+  color: #8ce99a;
+}
+.roulette-btn.believe.selected {
+  background: #1b533a;
+  border-color: #51cf66;
+  box-shadow: 0 0 20px rgba(81, 207, 102, 0.45);
+}
+
+/* Doubt Button (Safe / Low reward) */
+.roulette-btn.doubt {
+  background: #2b2612;
+  border-color: #e67700;
+  color: #ffe8cc;
+}
+.roulette-btn.doubt:hover:not(:disabled) {
+  background: #3d3516;
+  border-color: #f59f00;
+  box-shadow: 0 0 16px rgba(245, 159, 0, 0.3);
+}
+.roulette-btn.doubt strong {
+  color: #ffd43b;
+}
+.roulette-btn.doubt.selected {
+  background: #473d19;
+  border-color: #fab005;
+  box-shadow: 0 0 20px rgba(250, 176, 5, 0.45);
+}
+
+.roulette-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Locked Confirmation Banner */
+.roulette-locked-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: rgba(200, 230, 74, 0.1);
+  border: 1px solid var(--roulette-spore);
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 14px;
+  color: var(--roulette-spore);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Dead Player Ghost HUD */
+.roulette-ghost-hud {
+  background: rgba(20, 20, 20, 0.85);
+  border: 2px dashed #495057;
+  border-radius: 14px;
+  padding: 24px 18px;
+  text-align: center;
+  margin-top: 18px;
+}
+.roulette-ghost-hud .skull-icon {
+  font-size: 42px;
+  display: block;
+  margin-bottom: 10px;
+  filter: drop-shadow(0 0 10px rgba(255, 77, 79, 0.5));
+}
+.roulette-ghost-hud h3 {
+  margin: 0 0 8px;
+  font-size: 20px;
+  color: var(--roulette-danger);
+}
+.roulette-ghost-hud p {
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: #ced4da;
+  line-height: 1.5;
+}
+.roulette-ghost-hud small {
+  display: block;
+  font-size: 12px;
+  color: var(--roulette-muted);
+}
+
+/* Round Reveal Card */
+.roulette-reveal-card {
+  background: var(--roulette-panel-alt);
+  border-radius: 14px;
+  padding: 22px;
+  margin-top: 16px;
+  border: 2px solid;
+  animation: reveal-pop 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes reveal-pop {
+  0% { transform: scale(0.95); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.roulette-reveal-card.correct-answer {
+  border-color: var(--roulette-safe);
+  background: #0f2417;
+}
+.roulette-reveal-card.hallucination {
+  border-color: var(--roulette-danger);
+  background: #261113;
+}
+.reveal-verdict-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.reveal-verdict-title.correct {
+  color: #8ce99a;
+}
+.reveal-verdict-title.false {
+  color: #ff8787;
+}
+.roulette-explanation {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #e9ecef;
+  margin-bottom: 16px;
+  border-left: 3px solid rgba(255, 255, 255, 0.2);
+  padding-left: 12px;
+}
+.roulette-my-result {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.roulette-my-result strong {
+  font-size: 16px;
+}
+.roulette-my-result.survived strong {
+  color: var(--roulette-spore);
+}
+.roulette-my-result.died strong {
+  color: var(--roulette-danger);
+}
+
+/* =========================================================
+   Display / Projector View (1920 x 1080 target)
+   ========================================================= */
+.roulette-display {
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 32px 48px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.roulette-display-stage {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 48px;
+  align-items: start;
+  margin-top: 24px;
+}
+.roulette-display-claim-box {
+  background: var(--roulette-panel);
+  border: 2px solid var(--roulette-border);
+  border-radius: 20px;
+  padding: 36px 42px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+.roulette-display-claim-box.lethal {
+  border-color: var(--roulette-danger);
+  box-shadow: 0 12px 50px rgba(255, 77, 79, 0.25);
+}
+.display-round-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.display-round-badge {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--roulette-spore);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.display-context {
+  font-size: 20px;
+  color: var(--roulette-muted);
+  margin-bottom: 14px;
+}
+.display-claim {
+  font-size: clamp(28px, 2.5vw, 42px);
+  font-weight: 700;
+  line-height: 1.45;
+  color: #ffffff;
+  margin: 20px 0;
+}
+.display-image-wrap {
+  width: 100%;
+  max-height: 380px;
+  border-radius: 14px;
+  overflow: hidden;
+  margin: 24px 0;
+  border: 2px solid #343a40;
+}
+.display-image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Display Live Statistics Side */
+.roulette-display-side {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.display-stat-card {
+  background: var(--roulette-panel);
+  border: 1px solid var(--roulette-border);
+  border-radius: 16px;
+  padding: 24px 28px;
+}
+.display-stat-card h3 {
+  margin: 0 0 16px;
+  font-size: 18px;
+  color: var(--roulette-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.display-survival-counter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.display-counter-item strong {
+  display: block;
+  font-size: 48px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+.display-counter-item.alive strong {
+  color: var(--roulette-safe);
+}
+.display-counter-item.dead strong {
+  color: var(--roulette-danger);
+}
+.display-counter-item.answered strong {
+  color: var(--roulette-ai-blue);
+}
+.display-counter-item span {
+  font-size: 14px;
+  color: var(--roulette-muted);
+}
+
+/* Group Survival Grid */
+.group-survival-matrix {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 12px;
+}
+.group-matrix-item {
+  background: #0d1711;
+  border: 1px solid var(--roulette-border);
+  border-radius: 10px;
+  padding: 12px 14px;
+  text-align: center;
+}
+.group-matrix-item strong {
+  display: block;
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 4px;
+}
+.group-matrix-item .surv-ratio {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--roulette-spore);
+  font-variant-numeric: tabular-nums;
+}
+.group-matrix-item .group-total-score {
+  font-size: 12px;
+  color: var(--roulette-muted);
+  margin-top: 2px;
+}
+
+/* Display Reveal Banner */
+.display-reveal-stage {
+  border-radius: 20px;
+  padding: 40px;
+  border: 3px solid;
+  animation: reveal-pop 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  margin-top: 20px;
+}
+.display-reveal-stage.true {
+  background: #0c2014;
+  border-color: var(--roulette-safe);
+}
+.display-reveal-stage.hallucination {
+  background: #240d0f;
+  border-color: var(--roulette-danger);
+}
+.display-reveal-banner {
+  font-size: 44px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.display-reveal-stage.true .display-reveal-banner {
+  color: #69db7c;
+}
+.display-reveal-stage.hallucination .display-reveal-banner {
+  color: #ff6b6b;
+}
+.display-explanation {
+  font-size: 24px;
+  line-height: 1.6;
+  color: #f1f3f5;
+  margin-bottom: 24px;
+}
+.display-death-toll {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-size: 20px;
+  color: #ffa8a8;
+  font-weight: 600;
+}
+
+/* =========================================================
+   Final Results & Leaderboard
+   ========================================================= */
+.roulette-results-screen {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+}
+.roulette-results-header {
+  text-align: center;
+  margin-bottom: 36px;
+}
+.roulette-results-header h2 {
+  font-size: 38px;
+  margin: 0 0 10px;
+  color: #ffffff;
+}
+.roulette-results-header p {
+  font-size: 18px;
+  color: var(--roulette-muted);
+}
+.roulette-leaderboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.roulette-podium-card {
+  background: var(--roulette-panel);
+  border: 1px solid var(--roulette-border);
+  border-radius: 16px;
+  padding: 24px;
+  position: relative;
+  transition: transform 0.2s ease;
+}
+.roulette-podium-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--roulette-spore);
+}
+.roulette-podium-card.rank-1 {
+  border-color: #ffd43b;
+  box-shadow: 0 8px 30px rgba(255, 212, 59, 0.2);
+}
+.podium-rank {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--roulette-muted);
+}
+.roulette-podium-card.rank-1 .podium-rank {
+  color: #ffd43b;
+}
+.podium-group-name {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.podium-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  color: var(--roulette-muted);
+}
+.podium-stats strong {
+  font-size: 28px;
+  color: var(--roulette-spore);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Past Rounds Accordion / History */
+.roulette-history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 24px;
+}
+.roulette-history-details {
+  max-width: 1280px;
+  margin: 28px auto 0;
+  border-top: 1px solid var(--roulette-border);
+}
+.roulette-history-details > summary {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  color: var(--roulette-text);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.roulette-history-details[open] > summary {
+  margin-bottom: 12px;
+}
+.roulette-history-item {
+  background: var(--roulette-panel);
+  border: 1px solid var(--roulette-border);
+  border-radius: 12px;
+  padding: 16px 20px;
+  display: grid;
+  grid-template-columns: 80px 1fr 140px;
+  align-items: center;
+  gap: 18px;
+}
+.roulette-history-item.lethal {
+  border-left: 4px solid var(--roulette-danger);
+}
+.roulette-history-item.correct {
+  border-left: 4px solid var(--roulette-safe);
+}
+.roulette-history-round {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--roulette-spore);
+}
+.roulette-history-claim strong {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 4px;
+}
+.roulette-history-claim span {
+  font-size: 13px;
+  color: var(--roulette-muted);
+}
+.roulette-history-casualties {
+  text-align: right;
+  font-size: 13px;
+}
+.roulette-history-casualties strong {
+  display: block;
+  font-size: 18px;
+  color: var(--roulette-danger);
+}
+
+/* =========================================================
+   Host Controls View
+   ========================================================= */
+.roulette-host-telemetry {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  background: var(--roulette-panel);
+  border: 1px solid var(--roulette-border);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.telemetry-cell span {
+  display: block;
+  font-size: 12px;
+  color: var(--roulette-muted);
+  text-transform: uppercase;
+}
+.telemetry-cell strong {
+  font-size: 26px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.telemetry-cell.alive strong { color: var(--roulette-safe); }
+.telemetry-cell.dead strong { color: var(--roulette-danger); }
+.telemetry-cell.answered strong { color: var(--roulette-ai-blue); }
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .roulette-display-stage {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .roulette-leaderboard {
+    grid-template-columns: 1fr;
+  }
+  .group-survival-matrix {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .roulette-results-screen {
+    padding: 16px;
+  }
+
+  .roulette-history-item {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-areas:
+      "round casualties"
+      "claim claim";
+    gap: 10px 12px;
+    padding: 14px;
+  }
+
+  .roulette-history-round {
+    grid-area: round;
+  }
+
+  .roulette-history-claim {
+    grid-area: claim;
+    min-width: 0;
+  }
+
+  .roulette-history-claim strong {
+    font-size: 15px;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+
+  .roulette-history-claim span {
+    display: block;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .roulette-history-casualties {
+    grid-area: casualties;
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    white-space: nowrap;
+  }
+
+  .roulette-history-casualties strong {
+    font-size: 14px;
+  }
+}

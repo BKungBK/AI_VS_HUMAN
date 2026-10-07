@@ -1,0 +1,33 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "frames": 900,
+  "duration": 30,
+  "sounds": [
+    {
+      "id": "opening",
+      "duration": 10,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -17.939028723416286,
+      "rmsDbFS": -39.73665805971928
+    },
+    {
+      "id": "mushroom",
+      "duration": 10,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -22.072144291127707,
+      "rmsDbFS": -44.376103976488615
+    },
+    {
+      "id": "verification",
+      "duration": 10,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -18.980351288183904,
+      "rmsDbFS": -40.68162505670599
+    }
+  ]
+}

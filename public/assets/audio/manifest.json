@@ -1,0 +1,257 @@
+{
+  "author": "Original procedural sound design for HUMAN vs AI",
+  "rights": "Original generated waveform assets; no third-party samples. Project owner may use and modify with the deck.",
+  "sampleRate": 48000,
+  "channels": 2,
+  "format": "PCM16 WAV",
+  "assets": [
+    {
+      "id": "departure",
+      "duration": 0.5,
+      "peakDbFS": -18.416375078975122,
+      "rmsDbFS": -32.79452281702811,
+      "seamStep": null,
+      "sha256": "4290cd45c64e49a02852c350240beb9f72782023fd3a0c344912d6270c6dda70"
+    },
+    {
+      "id": "travel-walk",
+      "duration": 1.65,
+      "peakDbFS": -16.478174818828467,
+      "rmsDbFS": -34.0421743543829,
+      "seamStep": null,
+      "sha256": "19409ecd13f56ff8b13e206d890172f5881db49163731b03f47307c4c1a15235"
+    },
+    {
+      "id": "travel-descend",
+      "duration": 1.65,
+      "peakDbFS": -16.478174818828467,
+      "rmsDbFS": -33.110832914553136,
+      "seamStep": null,
+      "sha256": "36b37f94fe0581462efa815249c30bec6b2569b1dbbb504ff52ecbc9c7076a9d"
+    },
+    {
+      "id": "travel-threshold",
+      "duration": 1.65,
+      "peakDbFS": -16.478174818828467,
+      "rmsDbFS": -34.15310332363945,
+      "seamStep": null,
+      "sha256": "8799a7ecaba181b6d7eee025e95481d87e0b7c900571db520bb84fcf1b1346db"
+    },
+    {
+      "id": "travel-rise",
+      "duration": 1.65,
+      "peakDbFS": -16.478174818828467,
+      "rmsDbFS": -33.6179894364477,
+      "seamStep": null,
+      "sha256": "221ed09b2781cc1146d58f7ea4a72b3ac0c970069cf49beae478ac02d2d14b7f"
+    },
+    {
+      "id": "glass",
+      "duration": 0.62,
+      "peakDbFS": -10.4575749055778,
+      "rmsDbFS": -23.032955732158506,
+      "seamStep": null,
+      "sha256": "d67a489ff591a7d5731d768a5ccb11ac00215aeee3a17a43e4d7f10f4d15b36f"
+    },
+    {
+      "id": "human",
+      "duration": 0.7,
+      "peakDbFS": -10.4575749055778,
+      "rmsDbFS": -21.477786583000423,
+      "seamStep": null,
+      "sha256": "5d1e622b0e2015db07e1601baa99c3b3293810afa9d75dfb45506fc7d1a14c93"
+    },
+    {
+      "id": "ai",
+      "duration": 0.7,
+      "peakDbFS": -10.4575749055778,
+      "rmsDbFS": -22.83175558100904,
+      "seamStep": null,
+      "sha256": "efc0dc5578f0ded5ed485cf8deae00a46e2212dbfc09e24a84eb2fc9e7f7de67"
+    },
+    {
+      "id": "duet",
+      "duration": 1.25,
+      "peakDbFS": -10.4575749055778,
+      "rmsDbFS": -24.588440974580358,
+      "seamStep": null,
+      "sha256": "4e703ada502e2d75a7fd45ecda6bc98884712941bb83929ad34539e6ad3101e3"
+    },
+    {
+      "id": "gallery",
+      "duration": 1.05,
+      "peakDbFS": -10.4575749055778,
+      "rmsDbFS": -22.155540807160925,
+      "seamStep": null,
+      "sha256": "7aad961d5a9d2ec19bab3a97b4aef48663fc3724674b62713aa174dac1ea22ba"
+    },
+    {
+      "id": "atrium",
+      "duration": 1.05,
+      "peakDbFS": -10.4575749055778,
+      "rmsDbFS": -23.621276523336082,
+      "seamStep": null,
+      "sha256": "50a4b66491268e93154bc33488ab79e416e28d6d9614c433bf203007ce2c6796"
+    },
+    {
+      "id": "laboratory",
+      "duration": 1.05,
+      "peakDbFS": -10.4575749055778,
+      "rmsDbFS": -23.24971011955814,
+      "seamStep": null,
+      "sha256": "c1dabcc31e903a3142f0405e825bddf291b054fa92018d4d6d997a90ca4a704f"
+    },
+    {
+      "id": "frontier",
+      "duration": 1.1,
+      "peakDbFS": -10.4575749055778,
+      "rmsDbFS": -22.464674248931832,
+      "seamStep": null,
+      "sha256": "1fa740e21221cb7c64a97ab79051584ac90bffddbf6abbd7d9dd86ec52e45dc3"
+    },
+    {
+      "id": "grove",
+      "duration": 1.05,
+      "peakDbFS": -14.424927980897706,
+      "rmsDbFS": -30.00221270209888,
+      "seamStep": null,
+      "sha256": "fecc89ea12f531782d250159f8bc11b72430040bfeac81b92ce38e54c9929544"
+    },
+    {
+      "id": "listening",
+      "duration": 1.1,
+      "peakDbFS": -10.4575749055778,
+      "rmsDbFS": -22.86777904653214,
+      "seamStep": null,
+      "sha256": "249170bd925ac6c15a2fd0bdacf9c2daa9ac4dc9fb8ab46c02186443269ce3fe"
+    },
+    {
+      "id": "checkpoint",
+      "duration": 0.95,
+      "peakDbFS": -10.4575749055778,
+      "rmsDbFS": -23.440328683045838,
+      "seamStep": null,
+      "sha256": "92c2532ff9ac13472b4d430d13545c4126cfdc6f089e8e4b854f8c7387dbe12d"
+    },
+    {
+      "id": "forum",
+      "duration": 0.95,
+      "peakDbFS": -10.4575749055778,
+      "rmsDbFS": -24.423302260151036,
+      "seamStep": null,
+      "sha256": "025559302e0c8ef5be8079b4752df2fb9b8be56dc1b5a095eaaee02b852511da"
+    },
+    {
+      "id": "observatory",
+      "duration": 1.1,
+      "peakDbFS": -10.4575749055778,
+      "rmsDbFS": -23.288098246579324,
+      "seamStep": null,
+      "sha256": "0f05759ee2658358183dd1deeb8bcff43a16673ffb6a8b635bf40ae20179349d"
+    },
+    {
+      "id": "horizon",
+      "duration": 1.7,
+      "peakDbFS": -10.4575749055778,
+      "rmsDbFS": -22.811690402731326,
+      "seamStep": null,
+      "sha256": "8b7e6ad5ccdab8a495d24954247688ed543ed82b7c7f933de139bbb20f88c791"
+    },
+    {
+      "id": "placeholder",
+      "duration": 0.25,
+      "peakDbFS": -10.4575749055778,
+      "rmsDbFS": -27.105567763900712,
+      "seamStep": null,
+      "sha256": "ca849580af2077fd07b05ac24a1484d85e96f0da55a87ef8f1ea21245b997592"
+    },
+    {
+      "id": "ambient-confluence",
+      "duration": 8,
+      "peakDbFS": -7.364393558183365,
+      "rmsDbFS": -21.01521988594879,
+      "seamStep": 0.008715748958964917,
+      "sha256": "faf63bd239f7805b214d666445a45cccf3a81ba2bf59b8f7873838b105f0b7f3"
+    },
+    {
+      "id": "ambient-gallery",
+      "duration": 8,
+      "peakDbFS": -8.405217984393973,
+      "rmsDbFS": -21.05327706550664,
+      "seamStep": 0.007157430305285317,
+      "sha256": "d28721de81cfe1f64643696f830a65d7599b7fbe14acc93c33e7c5517fc8745a"
+    },
+    {
+      "id": "ambient-atrium",
+      "duration": 8,
+      "peakDbFS": -7.7801569154206724,
+      "rmsDbFS": -20.91458405872874,
+      "seamStep": 0.011883963704691608,
+      "sha256": "921bd6c7fa91b2d985d95750ed1529b66512bde5780652d7dd59965ea91c8edc"
+    },
+    {
+      "id": "ambient-laboratory",
+      "duration": 8,
+      "peakDbFS": -8.566747133557733,
+      "rmsDbFS": -20.92686769390117,
+      "seamStep": 0.010882374865412853,
+      "sha256": "17418fe2c51736ace9a47f94d5fde61617d5008d2ed208c8f43a3fda6f6bd128"
+    },
+    {
+      "id": "ambient-frontier",
+      "duration": 8,
+      "peakDbFS": -8.386272699712277,
+      "rmsDbFS": -21.05271933293165,
+      "seamStep": 0.008374167479711744,
+      "sha256": "b8bbcb4c60ac3b821afc52ce3944ddc6b59e8596e5196a6d7fcb461162f75523"
+    },
+    {
+      "id": "ambient-grove",
+      "duration": 8,
+      "peakDbFS": -7.034519428398125,
+      "rmsDbFS": -20.96539776097793,
+      "seamStep": 0.00606155454983362,
+      "sha256": "065296bedafedbfd9092d50939e52b8c557c8a1cc61cbc2b2661a9a63116f742"
+    },
+    {
+      "id": "ambient-listening",
+      "duration": 8,
+      "peakDbFS": -8.87311488383675,
+      "rmsDbFS": -20.876370903234324,
+      "seamStep": 0.006866252292029668,
+      "sha256": "f268febb17e2d634aec6be853f8f84f3c9eef79b964574f77b50b18f58f37eb3"
+    },
+    {
+      "id": "ambient-checkpoint",
+      "duration": 8,
+      "peakDbFS": -8.173180107465301,
+      "rmsDbFS": -21.037729029940436,
+      "seamStep": 0.007569283676480612,
+      "sha256": "37ed30c99021f24a370e7d68e9c039e00b50840ac7861b50c6b14fb573a51ac7"
+    },
+    {
+      "id": "ambient-forum",
+      "duration": 8,
+      "peakDbFS": -8.316362043279586,
+      "rmsDbFS": -20.981878893249906,
+      "seamStep": 0.0015182130341925143,
+      "sha256": "e961ba922cbb36d5ff4672d12c3e69ecded9ece514c0ffaf2d2a1d20b5c40a19"
+    },
+    {
+      "id": "ambient-observatory",
+      "duration": 8,
+      "peakDbFS": -8.418878727769176,
+      "rmsDbFS": -20.937891391749574,
+      "seamStep": 0.012005055872627568,
+      "sha256": "2aa9fa16522e36349890d50b54150c3151a4b5f6804d86a2c80863dbdeb27c8c"
+    },
+    {
+      "id": "ambient-horizon",
+      "duration": 8,
+      "peakDbFS": -8.27070766635553,
+      "rmsDbFS": -20.88085095421726,
+      "seamStep": 0.004683268267333266,
+      "sha256": "c3ac868538eccb7878a324c0bb005a0d9b265d49a691aae737ebe20b14b3e344"
+    }
+  ]
+}

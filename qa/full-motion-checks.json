@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-06T03:40:03.813Z",
+  "checks": [
+    {
+      "name": "no-preference: opening camera and text animate",
+      "pass": true
+    },
+    {
+      "name": "no-preference: reduction API and state are removed",
+      "pass": true
+    },
+    {
+      "name": "no-preference: travel and dolly remain active",
+      "pass": true
+    },
+    {
+      "name": "no-preference: spatial text enters and settles",
+      "pass": true
+    },
+    {
+      "name": "no-preference: changing OS preference cannot reset or flatten a flight",
+      "pass": true
+    },
+    {
+      "name": "no-preference: contextual loops animate and seek deterministically",
+      "pass": true
+    },
+    {
+      "name": "no-preference: game cue keeps the approved plain design",
+      "pass": true
+    },
+    {
+      "name": "no-preference: fallback retains full camera, scenery and text",
+      "pass": true
+    },
+    {
+      "name": "no-preference: manual resume and pause still work",
+      "pass": true
+    },
+    {
+      "name": "reduce: opening camera and text animate",
+      "pass": true
+    },
+    {
+      "name": "reduce: reduction API and state are removed",
+      "pass": true
+    },
+    {
+      "name": "reduce: travel and dolly remain active",
+      "pass": true
+    },
+    {
+      "name": "reduce: spatial text enters and settles",
+      "pass": true
+    },
+    {
+      "name": "reduce: changing OS preference cannot reset or flatten a flight",
+      "pass": true
+    },
+    {
+      "name": "reduce: contextual loops animate and seek deterministically",
+      "pass": true
+    },
+    {
+      "name": "reduce: game cue keeps the approved plain design",
+      "pass": true
+    },
+    {
+      "name": "reduce: fallback retains full camera, scenery and text",
+      "pass": true
+    },
+    {
+      "name": "reduce: manual resume and pause still work",
+      "pass": true
+    },
+    {
+      "name": "identical opening with either OS preference",
+      "pass": true
+    },
+    {
+      "name": "identical openingHold with either OS preference",
+      "pass": true
+    },
+    {
+      "name": "identical departure with either OS preference",
+      "pass": true
+    },
+    {
+      "name": "identical flight with either OS preference",
+      "pass": true
+    },
+    {
+      "name": "identical entry with either OS preference",
+      "pass": true
+    },
+    {
+      "name": "identical landing with either OS preference",
+      "pass": true
+    },
+    {
+      "name": "identical poetry with either OS preference",
+      "pass": true
+    },
+    {
+      "name": "identical poetryLater with either OS preference",
+      "pass": true
+    },
+    {
+      "name": "identical poetryLoop with either OS preference",
+      "pass": true
+    },
+    {
+      "name": "identical placeholder with either OS preference",
+      "pass": true
+    },
+    {
+      "name": "identical fallback with either OS preference",
+      "pass": true
+    },
+    {
+      "name": "blackout fade remains identical",
+      "pass": true,
+      "detail": {
+        "duration": "0.7s"
+      }
+    },
+    {
+      "name": "both preferences render the same full travel sound",
+      "pass": true,
+      "detail": {
+        "maxPCM16Delta": 0,
+        "changedSamples": 0,
+        "changedPercent": 0,
+        "errorDbFS": -240,
+        "peaks": [
+          -18.495664003279643,
+          -18.495664003279643
+        ]
+      }
+    },
+    {
+      "name": "camera score includes departure, flight and arrival",
+      "pass": true
+    },
+    {
+      "name": "no missing assets or browser runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "passed": 33,
+  "total": 33,
+  "pass": true
+}

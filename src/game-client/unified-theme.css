@@ -1,0 +1,16 @@
+/* Shared H/AI palette across all game routes; game SVGs carry the per-game meaning. */
+:root{
+  --piece-bg:#0d1117;--piece-surface:#161e2a;--piece-card:#202b3b;--piece-border:#364255;--piece-border-focus:#9fb0ff;--piece-text:#f8f9fa;--piece-text-muted:#bbc7d9;--piece-gold:#ffd499;--piece-gold-hover:#ffbe70;--piece-cyan:#9fb0ff;--piece-emerald:#63e6be;--piece-rose:#ff6b6b;
+  --shield-bg:#0d1117;--shield-panel:#161e2a;--shield-panel-border:#364255;--shield-gold:#ffd499;--shield-gold-glow:#ffd49944;--shield-crimson:#ff6b6b;--shield-crimson-glow:#ff6b6b44;--shield-cyan:#9fb0ff;--shield-emerald:#63e6be;--shield-emerald-glow:#63e6be44;--shield-text-main:#f8f9fa;--shield-text-muted:#bbc7d9;
+  --roulette-bg:#0d1117;--roulette-panel:#161e2a;--roulette-panel-alt:#202b3b;--roulette-border:#364255;--roulette-border-glow:#63e6be44;--roulette-spore:#63e6be;--roulette-spore-dim:#43b99a;--roulette-danger:#ff6b6b;--roulette-danger-bg:#ff6b6b22;--roulette-ai-blue:#9fb0ff;--roulette-safe:#63e6be;--roulette-safe-bg:#63e6be22;--roulette-text:#f8f9fa;--roulette-muted:#bbc7d9;
+  --whack-bg:#0d1117;--whack-surface:#161e2a;--whack-surface-card:#202b3b;--whack-border:#364255;--whack-text-main:#f8f9fa;--whack-text-sub:#bbc7d9;--whack-danger:#ff6b6b;--whack-danger-glow:#ff6b6b44;--whack-pass:#63e6be;--whack-pass-glow:#63e6be44;--whack-cyan:#9fb0ff;--whack-cyan-glow:#9fb0ff33;--whack-amber:#ffd499;
+}
+.piece-root,.shield-root{background-color:#0d1117!important;background-image:radial-gradient(ellipse at 50% 0%,#748ffc12,transparent 62%)!important;color:#f8f9fa!important}
+.piece-topbar,.shield-topbar{background:#111923e8!important;border-color:#364255!important;backdrop-filter:blur(12px)}
+.piece-context-banner,.shield-context-banner,.whack-context-banner{border-color:#364255!important;background:linear-gradient(110deg,#151e2a,#192437)!important;color:#d8e1f0!important}
+.piece-result-list,.shield-result-card,.shield-display-metric-card,.roulette-result-card,.whack-result-card{border-color:#364255!important}
+.game-page :is(.piece-tool-btn,.piece-host-btn,.shield-audio-btn,.shield-tap-btn,.shield-host-btn,.whack-hud-sound-btn,.roulette-choice-btn){font-family:'IBM Plex Sans Thai',sans-serif;border-radius:12px}
+.game-page :is(.piece-host-btn.primary,.shield-host-btn.primary,.piece-submit-btn,.whack-primary-action){background:#63e6be;color:#0d1117}
+.game-page :is(.piece-host-btn.secondary,.shield-host-btn.secondary){background:#26344c;color:#f8f9fa;border-color:#46546a}
+.game-page :is(.piece-root h1,.piece-root h2,.piece-root h3,.shield-root h1,.shield-root h2,.shield-root h3,.roulette-page h1,.roulette-page h2,.whack-container h1,.whack-container h2){font-family:'IBM Plex Sans Thai',sans-serif;letter-spacing:-.02em}
+.game-page :is(.piece-root,.shield-root,.roulette-page,.whack-container) .game-glyph{width:1em;height:1em}

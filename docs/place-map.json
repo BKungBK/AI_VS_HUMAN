@@ -1,0 +1,561 @@
+[
+  {
+    "cue": "01.01",
+    "kind": "content",
+    "id": "01.01",
+    "name": "confluence",
+    "label": "Confluence hall",
+    "anchor": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "01.02",
+    "kind": "placeholder",
+    "id": "01.02",
+    "name": "confluence",
+    "label": "Confluence hall",
+    "anchor": {
+      "x": 1350,
+      "y": 120,
+      "z": -460
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "01.03",
+    "kind": "content",
+    "id": "01.03",
+    "name": "confluence",
+    "label": "Confluence hall",
+    "anchor": {
+      "x": 2700,
+      "y": 0,
+      "z": -920
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "01.04",
+    "kind": "content",
+    "id": "01.04",
+    "name": "confluence",
+    "label": "Confluence hall",
+    "anchor": {
+      "x": 4050,
+      "y": 120,
+      "z": -1380
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "02.01",
+    "kind": "placeholder",
+    "id": "02.01",
+    "name": "confluence",
+    "label": "Confluence hall",
+    "anchor": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "03.01",
+    "kind": "content",
+    "id": "03.01",
+    "name": "gallery",
+    "label": "Gallery of human experience",
+    "anchor": {
+      "x": 5800,
+      "y": 0,
+      "z": -1800
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "03.02",
+    "kind": "content",
+    "id": "03.02",
+    "name": "gallery",
+    "label": "Gallery of human experience",
+    "anchor": {
+      "x": 7150,
+      "y": 120,
+      "z": -2260
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "03.05",
+    "kind": "placeholder",
+    "id": "03.05",
+    "name": "gallery",
+    "label": "Gallery of human experience",
+    "anchor": {
+      "x": 11200,
+      "y": 0,
+      "z": -3640
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "03.03",
+    "kind": "content",
+    "id": "03.03",
+    "name": "gallery",
+    "label": "Gallery of human experience",
+    "anchor": {
+      "x": 8500,
+      "y": 0,
+      "z": -2720
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "03.04",
+    "kind": "content",
+    "id": "03.04",
+    "name": "gallery",
+    "label": "Gallery of human experience",
+    "anchor": {
+      "x": 9850,
+      "y": 120,
+      "z": -3180
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "04.01",
+    "kind": "placeholder",
+    "id": "04.01",
+    "name": "atrium",
+    "label": "Atrium of branching ideas",
+    "anchor": {
+      "x": 11000,
+      "y": 500,
+      "z": -3400
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "04.02",
+    "kind": "content",
+    "id": "04.02",
+    "name": "atrium",
+    "label": "Atrium of branching ideas",
+    "anchor": {
+      "x": 12350,
+      "y": 620,
+      "z": -3860
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "04.03",
+    "kind": "content",
+    "id": "04.03",
+    "name": "atrium",
+    "label": "Atrium of branching ideas",
+    "anchor": {
+      "x": 13700,
+      "y": 500,
+      "z": -4320
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "05.01",
+    "kind": "placeholder",
+    "id": "05.01",
+    "name": "atrium",
+    "label": "Atrium of branching ideas",
+    "anchor": {
+      "x": 11000,
+      "y": 500,
+      "z": -3400
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "06.01",
+    "kind": "content",
+    "id": "06.01",
+    "name": "laboratory",
+    "label": "Calculation laboratory",
+    "anchor": {
+      "x": 15400,
+      "y": 500,
+      "z": -5500
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "06.02",
+    "kind": "content",
+    "id": "06.02",
+    "name": "laboratory",
+    "label": "Calculation laboratory",
+    "anchor": {
+      "x": 16750,
+      "y": 620,
+      "z": -5960
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "06.03",
+    "kind": "content",
+    "id": "06.03",
+    "name": "laboratory",
+    "label": "Calculation laboratory",
+    "anchor": {
+      "x": 18100,
+      "y": 500,
+      "z": -6420
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "06.04",
+    "kind": "content",
+    "id": "06.04",
+    "name": "frontier",
+    "label": "Edge of the frontier",
+    "anchor": {
+      "x": 22050,
+      "y": -1180,
+      "z": -10280
+    },
+    "route": "descend"
+  },
+  {
+    "cue": "06.05",
+    "kind": "content",
+    "id": "06.05",
+    "name": "frontier",
+    "label": "Edge of the frontier",
+    "anchor": {
+      "x": 23400,
+      "y": -1300,
+      "z": -10740
+    },
+    "route": "descend"
+  },
+  {
+    "cue": "07.01",
+    "kind": "placeholder",
+    "id": "07.01",
+    "name": "grove",
+    "label": "Botanical grove",
+    "anchor": {
+      "x": 15000,
+      "y": -1300,
+      "z": -12300
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "07.02",
+    "kind": "content",
+    "id": "07.02",
+    "name": "grove",
+    "label": "Botanical grove",
+    "anchor": {
+      "x": 16350,
+      "y": -1180,
+      "z": -12760
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "08.01",
+    "kind": "placeholder",
+    "id": "08.01",
+    "name": "grove",
+    "label": "Botanical grove",
+    "anchor": {
+      "x": 15000,
+      "y": -1300,
+      "z": -12300
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "09.01",
+    "kind": "content",
+    "id": "09.01",
+    "name": "listening",
+    "label": "Listening room",
+    "anchor": {
+      "x": 9200,
+      "y": -300,
+      "z": -15200
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "09.02",
+    "kind": "content",
+    "id": "09.02",
+    "name": "listening",
+    "label": "Listening room",
+    "anchor": {
+      "x": 10550,
+      "y": -180,
+      "z": -15660
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "09.03",
+    "kind": "content",
+    "id": "09.03",
+    "name": "listening",
+    "label": "Listening room",
+    "anchor": {
+      "x": 11900,
+      "y": -300,
+      "z": -16120
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "10.01",
+    "kind": "content",
+    "id": "10.01",
+    "name": "checkpoint",
+    "label": "Safety checkpoint",
+    "anchor": {
+      "x": 14000,
+      "y": 300,
+      "z": -18800
+    },
+    "route": "threshold"
+  },
+  {
+    "cue": "10.02",
+    "kind": "placeholder",
+    "id": "10.02",
+    "name": "checkpoint",
+    "label": "Safety checkpoint",
+    "anchor": {
+      "x": 15350,
+      "y": 420,
+      "z": -19260
+    },
+    "route": "threshold"
+  },
+  {
+    "cue": "10.03",
+    "kind": "content",
+    "id": "10.03",
+    "name": "checkpoint",
+    "label": "Safety checkpoint",
+    "anchor": {
+      "x": 16700,
+      "y": 300,
+      "z": -19720
+    },
+    "route": "threshold"
+  },
+  {
+    "cue": "11.01",
+    "kind": "content",
+    "id": "11.01",
+    "name": "forum",
+    "label": "Forum of responsibility",
+    "anchor": {
+      "x": 18800,
+      "y": 650,
+      "z": -21800
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "11.02",
+    "kind": "placeholder",
+    "id": "11.02",
+    "name": "forum",
+    "label": "Forum of responsibility",
+    "anchor": {
+      "x": 20150,
+      "y": 770,
+      "z": -22260
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "11.03",
+    "kind": "content",
+    "id": "11.03",
+    "name": "forum",
+    "label": "Forum of responsibility",
+    "anchor": {
+      "x": 21500,
+      "y": 650,
+      "z": -22720
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "12.01",
+    "kind": "placeholder",
+    "id": "12.01",
+    "name": "forum",
+    "label": "Forum of responsibility",
+    "anchor": {
+      "x": 18800,
+      "y": 650,
+      "z": -21800
+    },
+    "route": "walk"
+  },
+  {
+    "cue": "13.01",
+    "kind": "content",
+    "id": "13.01",
+    "name": "observatory",
+    "label": "Systems observatory",
+    "anchor": {
+      "x": 23000,
+      "y": 1800,
+      "z": -25600
+    },
+    "route": "rise"
+  },
+  {
+    "cue": "13.02",
+    "kind": "content",
+    "id": "13.02",
+    "name": "observatory",
+    "label": "Systems observatory",
+    "anchor": {
+      "x": 24350,
+      "y": 1920,
+      "z": -26060
+    },
+    "route": "rise"
+  },
+  {
+    "cue": "13.03",
+    "kind": "content",
+    "id": "13.03",
+    "name": "observatory",
+    "label": "Systems observatory",
+    "anchor": {
+      "x": 25700,
+      "y": 1800,
+      "z": -26520
+    },
+    "route": "rise"
+  },
+  {
+    "cue": "13.04",
+    "kind": "content",
+    "id": "13.04",
+    "name": "observatory",
+    "label": "Systems observatory",
+    "anchor": {
+      "x": 27050,
+      "y": 1920,
+      "z": -26980
+    },
+    "route": "rise"
+  },
+  {
+    "cue": "14.01",
+    "kind": "placeholder",
+    "id": "14.01",
+    "name": "observatory",
+    "label": "Systems observatory",
+    "anchor": {
+      "x": 23000,
+      "y": 1800,
+      "z": -25600
+    },
+    "route": "rise"
+  },
+  {
+    "cue": "15.01",
+    "kind": "content",
+    "id": "15.01",
+    "name": "horizon",
+    "label": "Shared horizon",
+    "anchor": {
+      "x": 28700,
+      "y": 700,
+      "z": -29600
+    },
+    "route": "rise"
+  },
+  {
+    "cue": "15.02",
+    "kind": "content",
+    "id": "15.02",
+    "name": "horizon",
+    "label": "Shared horizon",
+    "anchor": {
+      "x": 30050,
+      "y": 820,
+      "z": -30060
+    },
+    "route": "rise"
+  },
+  {
+    "cue": "15.03",
+    "kind": "content",
+    "id": "15.03",
+    "name": "horizon",
+    "label": "Shared horizon",
+    "anchor": {
+      "x": 31400,
+      "y": 700,
+      "z": -30520
+    },
+    "route": "rise"
+  },
+  {
+    "cue": "15.04",
+    "kind": "content",
+    "id": "15.04",
+    "name": "horizon",
+    "label": "Shared horizon",
+    "anchor": {
+      "x": 32750,
+      "y": 820,
+      "z": -30980
+    },
+    "route": "rise"
+  },
+  {
+    "cue": "16.01",
+    "kind": "placeholder",
+    "id": "16.01",
+    "name": "horizon",
+    "label": "Shared horizon",
+    "anchor": {
+      "x": 35450,
+      "y": 700,
+      "z": -31625
+    },
+    "route": "rise"
+  },
+  {
+    "cue": "16.02",
+    "kind": "content",
+    "id": "16.02",
+    "name": "horizon",
+    "label": "Shared horizon",
+    "anchor": {
+      "x": 36800,
+      "y": 820,
+      "z": -32085
+    },
+    "route": "rise"
+  }
+]

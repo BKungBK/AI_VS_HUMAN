@@ -1,0 +1,119 @@
+{
+  "test": "Game 6 (Company Shield: บริษัทต้องรับก่อนถึงลูกค้า) Browser QA Check",
+  "timestamp": "2026-10-06T22:27:53.386Z",
+  "roomCode": "85417D",
+  "checksPassed": 27,
+  "errorsCount": 0,
+  "p95LatencyMs": 30,
+  "checks": [
+    {
+      "name": "Game 6 preselected for new room",
+      "passed": true
+    },
+    {
+      "name": "01-preview-mobile: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "02-display-preview: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "32 members present in host view",
+      "passed": true
+    },
+    {
+      "name": "Room cue is 11.02",
+      "passed": true
+    },
+    {
+      "name": "Game phase is PREVIEW",
+      "passed": true
+    },
+    {
+      "name": "Player 1 practice clicked",
+      "passed": true
+    },
+    {
+      "name": "All 32 players are marked ready",
+      "passed": true
+    },
+    {
+      "name": "Countdown screen displayed on mobile",
+      "passed": true
+    },
+    {
+      "name": "Arcade status active on player view",
+      "passed": true
+    },
+    {
+      "name": "03-playing-mobile: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "04-display-playing: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Player 0 current lane is Left (0)",
+      "passed": true
+    },
+    {
+      "name": "05-result-mobile: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "06-result-desktop: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "07-display-result: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Run status is RESULT",
+      "passed": true
+    },
+    {
+      "name": "Shield phase is RESULT",
+      "passed": true
+    },
+    {
+      "name": "Results revealed",
+      "passed": true
+    },
+    {
+      "name": "Customer trust meter is valid (0..10)",
+      "passed": true
+    },
+    {
+      "name": "Total packets evaluated is > 0",
+      "passed": true
+    },
+    {
+      "name": "All 6 groups scored",
+      "passed": true
+    },
+    {
+      "name": "Group denominators count all roster members",
+      "passed": true
+    },
+    {
+      "name": "Room cue successfully advanced to 11.03",
+      "passed": true
+    },
+    {
+      "name": "Active run cleared on finish",
+      "passed": true
+    },
+    {
+      "name": "Replay command accepted",
+      "passed": true
+    },
+    {
+      "name": "Room cue returned to 11.02 on replay",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

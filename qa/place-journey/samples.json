@@ -1,0 +1,3386 @@
+[
+  {
+    "clip": "gallery-to-lab",
+    "time": 0,
+    "path": "qa/place-journey/gallery-to-lab-0.png",
+    "state": {
+      "scene": 5,
+      "beat": 0,
+      "cue": "06.01",
+      "kind": "content",
+      "time": 0,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 9850,
+        "y": 120,
+        "z": -1680
+      },
+      "place": "laboratory",
+      "placeId": "06.01",
+      "placeAnchor": {
+        "x": 15400,
+        "y": 500,
+        "z": -5500
+      },
+      "journey": {
+        "progress": 0,
+        "distance": 6027.379198291742,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "gallery-to-lab",
+    "time": 0.2,
+    "path": "qa/place-journey/gallery-to-lab-1.png",
+    "state": {
+      "scene": 5,
+      "beat": 0,
+      "cue": "06.01",
+      "kind": "content",
+      "time": 0.2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1548.685199,
+      "cameraX": 2.876853,
+      "cameraYaw": -0.07966700142122303,
+      "cameraPitch": 0.02655600047374101,
+      "cameraRoll": -0.015491000221079137,
+      "worldCamera": {
+        "x": 9852.88884111189,
+        "y": 121.24124719448962,
+        "z": -1631.307183488021
+      },
+      "place": "laboratory",
+      "placeId": "06.01",
+      "placeAnchor": {
+        "x": 15400,
+        "y": 500,
+        "z": -5500
+      },
+      "journey": {
+        "progress": 0.000004,
+        "distance": 6027.379198291742,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "gallery-to-lab",
+    "time": 0.4,
+    "path": "qa/place-journey/gallery-to-lab-2.png",
+    "state": {
+      "scene": 5,
+      "beat": 0,
+      "cue": "06.01",
+      "kind": "content",
+      "time": 0.4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2551.314801,
+      "cameraX": 62.123147,
+      "cameraYaw": -1.722210802798524,
+      "cameraPitch": 0.5740699342661746,
+      "cameraRoll": -0.3348011026575482,
+      "worldCamera": {
+        "x": 9926.05076462839,
+        "y": 149.03776735637246,
+        "z": -620.0772406347719
+      },
+      "place": "laboratory",
+      "placeId": "06.01",
+      "placeAnchor": {
+        "x": 15400,
+        "y": 500,
+        "z": -5500
+      },
+      "journey": {
+        "progress": 0.004598,
+        "distance": 6027.379198291742,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "gallery-to-lab",
+    "time": 0.6,
+    "path": "qa/place-journey/gallery-to-lab-3.png",
+    "state": {
+      "scene": 5,
+      "beat": 0,
+      "cue": "06.01",
+      "kind": "content",
+      "time": 0.6,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2599.745663,
+      "cameraX": 64.988379,
+      "cameraYaw": -2.037146048541024,
+      "cameraPitch": 0.6790663495136747,
+      "cameraRoll": -0.3868822297730482,
+      "worldCamera": {
+        "x": 10088.929066877105,
+        "y": 172.90460071408427,
+        "z": -499.91889794099416
+      },
+      "place": "laboratory",
+      "placeId": "06.01",
+      "placeAnchor": {
+        "x": 15400,
+        "y": 500,
+        "z": -5500
+      },
+      "journey": {
+        "progress": 0.051949,
+        "distance": 6027.379198291742,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "gallery-to-lab",
+    "time": 0.8,
+    "path": "qa/place-journey/gallery-to-lab-4.png",
+    "state": {
+      "scene": 5,
+      "beat": 0,
+      "cue": "06.01",
+      "kind": "content",
+      "time": 0.8,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2581.591637,
+      "cameraX": 64.158928,
+      "cameraYaw": -5.774562924750937,
+      "cameraPitch": 1.9261763082503125,
+      "cameraRoll": -0.9677718771834788,
+      "worldCamera": {
+        "x": 10933.351440268463,
+        "y": 247.31713592659287,
+        "z": -500.71006255979546
+      },
+      "place": "laboratory",
+      "placeId": "06.01",
+      "placeAnchor": {
+        "x": 15400,
+        "y": 500,
+        "z": -5500
+      },
+      "journey": {
+        "progress": 0.232532,
+        "distance": 6027.379198291742,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "gallery-to-lab",
+    "time": 1,
+    "path": "qa/place-journey/gallery-to-lab-5.png",
+    "state": {
+      "scene": 5,
+      "beat": 0,
+      "cue": "06.01",
+      "kind": "content",
+      "time": 1,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2278.220143,
+      "cameraX": 50.297989,
+      "cameraYaw": -8.42657590583653,
+      "cameraPitch": 2.831974968612177,
+      "cameraRoll": -1.3721703853523493,
+      "worldCamera": {
+        "x": 13569.296232849048,
+        "y": 379.4043673996997,
+        "z": -1856.5392632646713
+      },
+      "place": "laboratory",
+      "placeId": "06.01",
+      "placeAnchor": {
+        "x": 15400,
+        "y": 500,
+        "z": -5500
+      },
+      "journey": {
+        "progress": 0.647794,
+        "distance": 6027.379198291742,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "gallery-to-lab",
+    "time": 1.2,
+    "path": "qa/place-journey/gallery-to-lab-6.png",
+    "state": {
+      "scene": 5,
+      "beat": 0,
+      "cue": "06.01",
+      "kind": "content",
+      "time": 1.2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1513.792269,
+      "cameraX": 15.371543,
+      "cameraYaw": -0.6390470975975999,
+      "cameraPitch": 0.2910473658658666,
+      "cameraRoll": -0.14027537073740443,
+      "worldCamera": {
+        "x": 15019.939624653109,
+        "y": 458.5484415803985,
+        "z": -3626.2972959201975
+      },
+      "place": "laboratory",
+      "placeId": "06.01",
+      "placeAnchor": {
+        "x": 15400,
+        "y": 500,
+        "z": -5500
+      },
+      "journey": {
+        "progress": 0.906234,
+        "distance": 6027.379198291742,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "gallery-to-lab",
+    "time": 1.4,
+    "path": "qa/place-journey/gallery-to-lab-7.png",
+    "state": {
+      "scene": 5,
+      "beat": 0,
+      "cue": "06.01",
+      "kind": "content",
+      "time": 1.4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1442.182639,
+      "cameraX": 12.099724,
+      "cameraYaw": 0.23159751885936228,
+      "cameraPitch": 0.0059774937135459155,
+      "cameraRoll": -0.00292163039965476,
+      "worldCamera": {
+        "x": 15364.18601967488,
+        "y": 493.8254101442048,
+        "z": -4009.827164382407
+      },
+      "place": "laboratory",
+      "placeId": "06.01",
+      "placeAnchor": {
+        "x": 15400,
+        "y": 500,
+        "z": -5500
+      },
+      "journey": {
+        "progress": 0.9872,
+        "distance": 6027.379198291742,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "gallery-to-lab",
+    "time": 1.6,
+    "path": "qa/place-journey/gallery-to-lab-8.png",
+    "state": {
+      "scene": 5,
+      "beat": 0,
+      "cue": "06.01",
+      "kind": "content",
+      "time": 1.6,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1449.64318,
+      "cameraX": 10.071364,
+      "cameraYaw": 0.2098163395517464,
+      "cameraPitch": 0.0000012201494178743036,
+      "cameraRoll": -5.69403061674675e-7,
+      "worldCamera": {
+        "x": 15409.327514307799,
+        "y": 499.9003815432216,
+        "z": -4049.5992142664954
+      },
+      "place": "laboratory",
+      "placeId": "06.01",
+      "placeAnchor": {
+        "x": 15400,
+        "y": 500,
+        "z": -5500
+      },
+      "journey": {
+        "progress": 0.999797,
+        "distance": 6027.379198291742,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "gallery-to-lab",
+    "time": 2,
+    "path": "qa/place-journey/gallery-to-lab-9.png",
+    "state": {
+      "scene": 5,
+      "beat": 0,
+      "cue": "06.01",
+      "kind": "content",
+      "time": 2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1498.671951,
+      "cameraX": 0.26561,
+      "cameraYaw": 0.005534,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 15400.26561,
+        "y": 500,
+        "z": -4001.3280489999997
+      },
+      "place": "laboratory",
+      "placeId": "06.01",
+      "placeAnchor": {
+        "x": 15400,
+        "y": 500,
+        "z": -5500
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 6027.379198291742,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "gallery-to-lab",
+    "time": 2.8,
+    "path": "qa/place-journey/gallery-to-lab-10.png",
+    "state": {
+      "scene": 5,
+      "beat": 0,
+      "cue": "06.01",
+      "kind": "content",
+      "time": 2.8,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 15400,
+        "y": 500,
+        "z": -4000
+      },
+      "place": "laboratory",
+      "placeId": "06.01",
+      "placeAnchor": {
+        "x": 15400,
+        "y": 500,
+        "z": -5500
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 6027.379198291742,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "gallery-to-lab",
+    "time": 4,
+    "path": "qa/place-journey/gallery-to-lab-11.png",
+    "state": {
+      "scene": 5,
+      "beat": 0,
+      "cue": "06.01",
+      "kind": "content",
+      "time": 4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 15400,
+        "y": 500,
+        "z": -4000
+      },
+      "place": "laboratory",
+      "placeId": "06.01",
+      "placeAnchor": {
+        "x": 15400,
+        "y": 500,
+        "z": -5500
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 6027.379198291742,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "lab-to-frontier",
+    "time": 0,
+    "path": "qa/place-journey/lab-to-frontier-0.png",
+    "state": {
+      "scene": 5,
+      "beat": 3,
+      "cue": "06.04",
+      "kind": "content",
+      "time": 0,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 18100,
+        "y": 500,
+        "z": -4920
+      },
+      "place": "frontier",
+      "placeId": "06.04",
+      "placeAnchor": {
+        "x": 22050,
+        "y": -1180,
+        "z": -10280
+      },
+      "journey": {
+        "progress": 0,
+        "distance": 5772.737652102337,
+        "route": "descend",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "lab-to-frontier",
+    "time": 0.2,
+    "path": "qa/place-journey/lab-to-frontier-1.png",
+    "state": {
+      "scene": 5,
+      "beat": 3,
+      "cue": "06.04",
+      "kind": "content",
+      "time": 0.2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1545.144457,
+      "cameraX": 1.549075,
+      "cameraYaw": 0.035406998578776966,
+      "cameraPitch": -0.02655600078956835,
+      "cameraRoll": -2.2107913857276437e-10,
+      "worldCamera": {
+        "x": 18101.557607079627,
+        "y": 501.24164070125465,
+        "z": -4874.852571691148
+      },
+      "place": "frontier",
+      "placeId": "06.04",
+      "placeAnchor": {
+        "x": 22050,
+        "y": -1180,
+        "z": -10280
+      },
+      "journey": {
+        "progress": 0.000004,
+        "distance": 5772.737652102337,
+        "route": "descend",
+        "active": true
+      },
+      "fov": 39.5503707523104,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "lab-to-frontier",
+    "time": 0.4,
+    "path": "qa/place-journey/lab-to-frontier-2.png",
+    "state": {
+      "scene": 5,
+      "beat": 3,
+      "cue": "06.04",
+      "kind": "content",
+      "time": 0.4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2474.855543,
+      "cameraX": 33.450925,
+      "cameraYaw": 0.7627151972014761,
+      "cameraPitch": -0.5744872237769577,
+      "cameraRoll": -0.0002921026575481807,
+      "worldCamera": {
+        "x": 18143.363373582368,
+        "y": 529.3673708422721,
+        "z": -3941.904158195895
+      },
+      "place": "frontier",
+      "placeId": "06.04",
+      "placeAnchor": {
+        "x": 22050,
+        "y": -1180,
+        "z": -10280
+      },
+      "journey": {
+        "progress": 0.004598,
+        "distance": 5772.737652102337,
+        "route": "descend",
+        "active": true
+      },
+      "fov": 25.280439008179094,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "lab-to-frontier",
+    "time": 0.6,
+    "path": "qa/place-journey/lab-to-frontier-3.png",
+    "state": {
+      "scene": 5,
+      "beat": 3,
+      "cue": "06.04",
+      "kind": "content",
+      "time": 0.6,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2519.991657,
+      "cameraX": 34.999714,
+      "cameraYaw": 0.5623979514589758,
+      "cameraPitch": -0.7319922491894579,
+      "cameraRoll": -0.03695922977304822,
+      "worldCamera": {
+        "x": 18258.795338705328,
+        "y": 542.8107821183024,
+        "z": -3883.32969189428
+      },
+      "place": "frontier",
+      "placeId": "06.04",
+      "placeAnchor": {
+        "x": 22050,
+        "y": -1180,
+        "z": -10280
+      },
+      "journey": {
+        "progress": 0.051949,
+        "distance": 5772.737652102337,
+        "route": "descend",
+        "active": true
+      },
+      "fov": 24.189591880886248,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "lab-to-frontier",
+    "time": 0.8,
+    "path": "qa/place-journey/lab-to-frontier-4.png",
+    "state": {
+      "scene": 5,
+      "beat": 3,
+      "cue": "06.04",
+      "kind": "content",
+      "time": 0.8,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2515.618021,
+      "cameraX": 34.849638,
+      "cameraYaw": -3.2105319247509367,
+      "cameraPitch": -2.8235858470838537,
+      "cameraRoll": -0.623325877183479,
+      "worldCamera": {
+        "x": 18860.220885470346,
+        "y": 381.567846539784,
+        "z": -4134.456537141703
+      },
+      "place": "frontier",
+      "placeId": "06.04",
+      "placeAnchor": {
+        "x": 22050,
+        "y": -1180,
+        "z": -10280
+      },
+      "journey": {
+        "progress": 0.232532,
+        "distance": 5772.737652102337,
+        "route": "descend",
+        "active": true
+      },
+      "fov": 24.230406348986264,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "lab-to-frontier",
+    "time": 1,
+    "path": "qa/place-journey/lab-to-frontier-5.png",
+    "state": {
+      "scene": 5,
+      "beat": 3,
+      "cue": "06.04",
+      "kind": "content",
+      "time": 1,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2455.123662,
+      "cameraX": 32.773851,
+      "cameraYaw": -6.446121905836531,
+      "cameraPitch": -4.559191947686962,
+      "cameraRoll": -1.1192593853523491,
+      "worldCamera": {
+        "x": 20744.042871397072,
+        "y": -618.8550096842666,
+        "z": -5963.428782361138
+      },
+      "place": "frontier",
+      "placeId": "06.04",
+      "placeAnchor": {
+        "x": 22050,
+        "y": -1180,
+        "z": -10280
+      },
+      "journey": {
+        "progress": 0.647794,
+        "distance": 5772.737652102337,
+        "route": "descend",
+        "active": true
+      },
+      "fov": 24.809173836110176,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "lab-to-frontier",
+    "time": 1.2,
+    "path": "qa/place-journey/lab-to-frontier-6.png",
+    "state": {
+      "scene": 5,
+      "beat": 3,
+      "cue": "06.04",
+      "kind": "content",
+      "time": 1.2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2149.80998,
+      "cameraX": 22.297401,
+      "cameraYaw": -0.24898309759759996,
+      "cameraPitch": -0.8037066097764445,
+      "cameraRoll": -0.11801037073740442,
+      "worldCamera": {
+        "x": 21790.86387352789,
+        "y": -1111.3497314797698,
+        "z": -7662.775927917906
+      },
+      "place": "frontier",
+      "placeId": "06.04",
+      "placeAnchor": {
+        "x": 22050,
+        "y": -1180,
+        "z": -10280
+      },
+      "journey": {
+        "progress": 0.906234,
+        "distance": 5772.737652102337,
+        "route": "descend",
+        "active": true
+      },
+      "fov": 28.200253555905725,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "lab-to-frontier",
+    "time": 1.4,
+    "path": "qa/place-journey/lab-to-frontier-7.png",
+    "state": {
+      "scene": 5,
+      "beat": 3,
+      "cue": "06.04",
+      "kind": "content",
+      "time": 1.4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1653.198468,
+      "cameraX": 5.25681,
+      "cameraYaw": 0.10561051885936225,
+      "cameraPitch": -0.09819782285590986,
+      "cameraRoll": -0.00226263039965476,
+      "worldCamera": {
+        "x": 22021.156065480318,
+        "y": -1174.1460797590528,
+        "z": -8565.503456445027
+      },
+      "place": "frontier",
+      "placeId": "06.04",
+      "placeAnchor": {
+        "x": 22050,
+        "y": -1180,
+        "z": -10280
+      },
+      "journey": {
+        "progress": 0.9872,
+        "distance": 5772.737652102337,
+        "route": "descend",
+        "active": true
+      },
+      "fov": 36.178170760823576,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "lab-to-frontier",
+    "time": 1.6,
+    "path": "qa/place-journey/lab-to-frontier-8.png",
+    "state": {
+      "scene": 5,
+      "beat": 3,
+      "cue": "06.04",
+      "kind": "content",
+      "time": 1.6,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1517.655855,
+      "cameraX": 0.605838,
+      "cameraYaw": 0.013844339551746377,
+      "cameraPitch": -0.010388033582363123,
+      "cameraRoll": -5.69403061674675e-7,
+      "worldCamera": {
+        "x": 22050.07643146231,
+        "y": -1179.5031652578166,
+        "z": -8761.379073306049
+      },
+      "place": "frontier",
+      "placeId": "06.04",
+      "placeAnchor": {
+        "x": 22050,
+        "y": -1180,
+        "z": -10280
+      },
+      "journey": {
+        "progress": 0.999797,
+        "distance": 5772.737652102337,
+        "route": "descend",
+        "active": true
+      },
+      "fov": 39.17232677816859,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "lab-to-frontier",
+    "time": 2,
+    "path": "qa/place-journey/lab-to-frontier-9.png",
+    "state": {
+      "scene": 5,
+      "beat": 3,
+      "cue": "06.04",
+      "kind": "content",
+      "time": 2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 22050,
+        "y": -1180,
+        "z": -8780
+      },
+      "place": "frontier",
+      "placeId": "06.04",
+      "placeAnchor": {
+        "x": 22050,
+        "y": -1180,
+        "z": -10280
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 5772.737652102337,
+        "route": "descend",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "lab-to-frontier",
+    "time": 2.8,
+    "path": "qa/place-journey/lab-to-frontier-10.png",
+    "state": {
+      "scene": 5,
+      "beat": 3,
+      "cue": "06.04",
+      "kind": "content",
+      "time": 2.8,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 22050,
+        "y": -1180,
+        "z": -8780
+      },
+      "place": "frontier",
+      "placeId": "06.04",
+      "placeAnchor": {
+        "x": 22050,
+        "y": -1180,
+        "z": -10280
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 5772.737652102337,
+        "route": "descend",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "lab-to-frontier",
+    "time": 4,
+    "path": "qa/place-journey/lab-to-frontier-11.png",
+    "state": {
+      "scene": 5,
+      "beat": 3,
+      "cue": "06.04",
+      "kind": "content",
+      "time": 4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 22050,
+        "y": -1180,
+        "z": -8780
+      },
+      "place": "frontier",
+      "placeId": "06.04",
+      "placeAnchor": {
+        "x": 22050,
+        "y": -1180,
+        "z": -10280
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 5772.737652102337,
+        "route": "descend",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "grove-to-listening",
+    "time": 0,
+    "path": "qa/place-journey/grove-to-listening-0.png",
+    "state": {
+      "scene": 8,
+      "beat": 0,
+      "cue": "09.01",
+      "kind": "content",
+      "time": 0,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 16350,
+        "y": -1180,
+        "z": -11260
+      },
+      "place": "listening",
+      "placeId": "09.01",
+      "placeAnchor": {
+        "x": 9200,
+        "y": -300,
+        "z": -15200
+      },
+      "journey": {
+        "progress": 0,
+        "distance": 7605.951616990474,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "grove-to-listening",
+    "time": 0.2,
+    "path": "qa/place-journey/grove-to-listening-1.png",
+    "state": {
+      "scene": 8,
+      "beat": 0,
+      "cue": "09.01",
+      "kind": "content",
+      "time": 0.2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1548.685199,
+      "cameraX": 2.876853,
+      "cameraYaw": -0.07966699857877697,
+      "cameraPitch": 0.02655600047374101,
+      "cameraRoll": -0.015490999778920862,
+      "worldCamera": {
+        "x": 16352.861408855855,
+        "y": -1178.7580327925505,
+        "z": -11211.306242721479
+      },
+      "place": "listening",
+      "placeId": "09.01",
+      "placeAnchor": {
+        "x": 9200,
+        "y": -300,
+        "z": -15200
+      },
+      "journey": {
+        "progress": 0.000004,
+        "distance": 7605.951616990474,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 38.496570858617446,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "grove-to-listening",
+    "time": 0.4,
+    "path": "qa/place-journey/grove-to-listening-2.png",
+    "state": {
+      "scene": 8,
+      "beat": 0,
+      "cue": "09.01",
+      "kind": "content",
+      "time": 0.4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2551.314801,
+      "cameraX": 62.123147,
+      "cameraYaw": -1.718455197201476,
+      "cameraPitch": 0.5740699342661746,
+      "cameraRoll": -0.3342168973424518,
+      "worldCamera": {
+        "x": 16394.180360325587,
+        "y": -1150.1175155768444,
+        "z": -10199.007540842647
+      },
+      "place": "listening",
+      "placeId": "09.01",
+      "placeAnchor": {
+        "x": 9200,
+        "y": -300,
+        "z": -15200
+      },
+      "journey": {
+        "progress": 0.004598,
+        "distance": 7605.951616990474,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 38.90303895709996,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "grove-to-listening",
+    "time": 0.6,
+    "path": "qa/place-journey/grove-to-listening-3.png",
+    "state": {
+      "scene": 8,
+      "beat": 0,
+      "cue": "09.01",
+      "kind": "content",
+      "time": 0.6,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2599.745663,
+      "cameraX": 64.988379,
+      "cameraYaw": -1.5619559514589756,
+      "cameraPitch": 0.6790663495136747,
+      "cameraRoll": -0.31296377022695177,
+      "worldCamera": {
+        "x": 16190.902627951116,
+        "y": -1115.6273288189814,
+        "z": -10069.171477285283
+      },
+      "place": "listening",
+      "placeId": "09.01",
+      "placeAnchor": {
+        "x": 9200,
+        "y": -300,
+        "z": -15200
+      },
+      "journey": {
+        "progress": 0.051949,
+        "distance": 7605.951616990474,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "grove-to-listening",
+    "time": 0.8,
+    "path": "qa/place-journey/grove-to-listening-4.png",
+    "state": {
+      "scene": 8,
+      "beat": 0,
+      "cue": "09.01",
+      "kind": "content",
+      "time": 0.8,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2581.591637,
+      "cameraX": 64.158928,
+      "cameraYaw": 2.2396269247509366,
+      "cameraPitch": 1.9261763082503125,
+      "cameraRoll": 0.27887987718347906,
+      "worldCamera": {
+        "x": 15101.145150933426,
+        "y": -973.1903893812109,
+        "z": -10053.531808435337
+      },
+      "place": "listening",
+      "placeId": "09.01",
+      "placeAnchor": {
+        "x": 9200,
+        "y": -300,
+        "z": -15200
+      },
+      "journey": {
+        "progress": 0.232532,
+        "distance": 7605.951616990474,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "grove-to-listening",
+    "time": 1,
+    "path": "qa/place-journey/grove-to-listening-5.png",
+    "state": {
+      "scene": 8,
+      "beat": 0,
+      "cue": "09.01",
+      "kind": "content",
+      "time": 1,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2278.220143,
+      "cameraX": 50.297989,
+      "cameraYaw": 5.963901905836531,
+      "cameraPitch": 2.831974968612177,
+      "cameraRoll": 0.8663483853523493,
+      "worldCamera": {
+        "x": 11673.570521698972,
+        "y": -597.2874919564131,
+        "z": -11462.81762517933
+      },
+      "place": "listening",
+      "placeId": "09.01",
+      "placeAnchor": {
+        "x": 9200,
+        "y": -300,
+        "z": -15200
+      },
+      "journey": {
+        "progress": 0.647794,
+        "distance": 7605.951616990474,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "grove-to-listening",
+    "time": 1.2,
+    "path": "qa/place-journey/grove-to-listening-6.png",
+    "state": {
+      "scene": 8,
+      "beat": 0,
+      "cue": "09.01",
+      "kind": "content",
+      "time": 1.2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1513.792269,
+      "cameraX": 15.371543,
+      "cameraYaw": 0.8782290975975999,
+      "cameraPitch": 0.2910473658658666,
+      "cameraRoll": 0.09574537073740441,
+      "worldCamera": {
+        "x": 9724.801852221668,
+        "y": -377.7931455259357,
+        "z": -13300.276541399884
+      },
+      "place": "listening",
+      "placeId": "09.01",
+      "placeAnchor": {
+        "x": 9200,
+        "y": -300,
+        "z": -15200
+      },
+      "journey": {
+        "progress": 0.906234,
+        "distance": 7605.951616990474,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "grove-to-listening",
+    "time": 1.4,
+    "path": "qa/place-journey/grove-to-listening-7.png",
+    "state": {
+      "scene": 8,
+      "beat": 0,
+      "cue": "09.01",
+      "kind": "content",
+      "time": 1.4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1442.182639,
+      "cameraX": 12.099724,
+      "cameraYaw": 0.2606884811406378,
+      "cameraPitch": 0.0059774937135459155,
+      "cameraRoll": 0.0016036303996547602,
+      "worldCamera": {
+        "x": 9273.82638813056,
+        "y": -310.5056966513152,
+        "z": -13706.299726659545
+      },
+      "place": "listening",
+      "placeId": "09.01",
+      "placeAnchor": {
+        "x": 9200,
+        "y": -300,
+        "z": -15200
+      },
+      "journey": {
+        "progress": 0.9872,
+        "distance": 7605.951616990474,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "grove-to-listening",
+    "time": 1.6,
+    "path": "qa/place-journey/grove-to-listening-8.png",
+    "state": {
+      "scene": 8,
+      "beat": 0,
+      "cue": "09.01",
+      "kind": "content",
+      "time": 1.6,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1449.64318,
+      "cameraX": 10.071364,
+      "cameraYaw": 0.20982366044825362,
+      "cameraPitch": 0.0000012201494178743036,
+      "cameraRoll": 5.69403061674675e-7,
+      "worldCamera": {
+        "x": 9211.029656846707,
+        "y": -300.16663565061924,
+        "z": -13749.54338003699
+      },
+      "place": "listening",
+      "placeId": "09.01",
+      "placeAnchor": {
+        "x": 9200,
+        "y": -300,
+        "z": -15200
+      },
+      "journey": {
+        "progress": 0.999797,
+        "distance": 7605.951616990474,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "grove-to-listening",
+    "time": 2,
+    "path": "qa/place-journey/grove-to-listening-9.png",
+    "state": {
+      "scene": 8,
+      "beat": 0,
+      "cue": "09.01",
+      "kind": "content",
+      "time": 2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1498.671951,
+      "cameraX": 0.26561,
+      "cameraYaw": 0.005534,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 9200.26561,
+        "y": -300,
+        "z": -13701.328049
+      },
+      "place": "listening",
+      "placeId": "09.01",
+      "placeAnchor": {
+        "x": 9200,
+        "y": -300,
+        "z": -15200
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 7605.951616990474,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "grove-to-listening",
+    "time": 2.8,
+    "path": "qa/place-journey/grove-to-listening-10.png",
+    "state": {
+      "scene": 8,
+      "beat": 0,
+      "cue": "09.01",
+      "kind": "content",
+      "time": 2.8,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 9200,
+        "y": -300,
+        "z": -13700
+      },
+      "place": "listening",
+      "placeId": "09.01",
+      "placeAnchor": {
+        "x": 9200,
+        "y": -300,
+        "z": -15200
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 7605.951616990474,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "grove-to-listening",
+    "time": 4,
+    "path": "qa/place-journey/grove-to-listening-11.png",
+    "state": {
+      "scene": 8,
+      "beat": 0,
+      "cue": "09.01",
+      "kind": "content",
+      "time": 4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 9200,
+        "y": -300,
+        "z": -13700
+      },
+      "place": "listening",
+      "placeId": "09.01",
+      "placeAnchor": {
+        "x": 9200,
+        "y": -300,
+        "z": -15200
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 7605.951616990474,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "through-checkpoint",
+    "time": 0,
+    "path": "qa/place-journey/through-checkpoint-0.png",
+    "state": {
+      "scene": 9,
+      "beat": 0,
+      "cue": "10.01",
+      "kind": "content",
+      "time": 0,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 11900,
+        "y": -300,
+        "z": -14620
+      },
+      "place": "checkpoint",
+      "placeId": "10.01",
+      "placeAnchor": {
+        "x": 14000,
+        "y": 300,
+        "z": -18800
+      },
+      "journey": {
+        "progress": 0,
+        "distance": 3457.2243201736273,
+        "route": "threshold",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "through-checkpoint",
+    "time": 0.2,
+    "path": "qa/place-journey/through-checkpoint-1.png",
+    "state": {
+      "scene": 9,
+      "beat": 0,
+      "cue": "10.01",
+      "kind": "content",
+      "time": 0.2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1548.685199,
+      "cameraX": 2.876853,
+      "cameraYaw": -0.07966700142122303,
+      "cameraPitch": 0.02655600047374101,
+      "cameraRoll": -0.015491000221079137,
+      "worldCamera": {
+        "x": 11902.881389042335,
+        "y": -298.758435999808,
+        "z": -14571.313993813857
+      },
+      "place": "checkpoint",
+      "placeId": "10.01",
+      "placeAnchor": {
+        "x": 14000,
+        "y": 300,
+        "z": -18800
+      },
+      "journey": {
+        "progress": 0.000004,
+        "distance": 3457.2243201736273,
+        "route": "threshold",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "through-checkpoint",
+    "time": 0.4,
+    "path": "qa/place-journey/through-checkpoint-2.png",
+    "state": {
+      "scene": 9,
+      "beat": 0,
+      "cue": "10.01",
+      "kind": "content",
+      "time": 0.4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2551.314801,
+      "cameraX": 62.123147,
+      "cameraYaw": -1.722210802798524,
+      "cameraPitch": 0.5740699342661746,
+      "cameraRoll": -0.3348011026575482,
+      "worldCamera": {
+        "x": 11967.393056372903,
+        "y": -270.5905571342429,
+        "z": -13567.869722271054
+      },
+      "place": "checkpoint",
+      "placeId": "10.01",
+      "placeAnchor": {
+        "x": 14000,
+        "y": 300,
+        "z": -18800
+      },
+      "journey": {
+        "progress": 0.004598,
+        "distance": 3457.2243201736273,
+        "route": "threshold",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "through-checkpoint",
+    "time": 0.6,
+    "path": "qa/place-journey/through-checkpoint-3.png",
+    "state": {
+      "scene": 9,
+      "beat": 0,
+      "cue": "10.01",
+      "kind": "content",
+      "time": 0.6,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2599.745663,
+      "cameraX": 64.988379,
+      "cameraYaw": -2.037146048541024,
+      "cameraPitch": 0.6790663495136747,
+      "cameraRoll": -0.3868822297730482,
+      "worldCamera": {
+        "x": 12030.803774412962,
+        "y": -242.04944828046447,
+        "z": -13523.815202187861
+      },
+      "place": "checkpoint",
+      "placeId": "10.01",
+      "placeAnchor": {
+        "x": 14000,
+        "y": 300,
+        "z": -18800
+      },
+      "journey": {
+        "progress": 0.051949,
+        "distance": 3457.2243201736273,
+        "route": "threshold",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "through-checkpoint",
+    "time": 0.8,
+    "path": "qa/place-journey/through-checkpoint-4.png",
+    "state": {
+      "scene": 9,
+      "beat": 0,
+      "cue": "10.01",
+      "kind": "content",
+      "time": 0.8,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2581.591637,
+      "cameraX": 64.158928,
+      "cameraYaw": -5.774562924750937,
+      "cameraPitch": 1.9261763082503125,
+      "cameraRoll": -0.9677718771834788,
+      "worldCamera": {
+        "x": 12349.799338047527,
+        "y": -137.70617520884076,
+        "z": -13748.965823694627
+      },
+      "place": "checkpoint",
+      "placeId": "10.01",
+      "placeAnchor": {
+        "x": 14000,
+        "y": 300,
+        "z": -18800
+      },
+      "journey": {
+        "progress": 0.232532,
+        "distance": 3457.2243201736273,
+        "route": "threshold",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "through-checkpoint",
+    "time": 1,
+    "path": "qa/place-journey/through-checkpoint-5.png",
+    "state": {
+      "scene": 9,
+      "beat": 0,
+      "cue": "10.01",
+      "kind": "content",
+      "time": 1,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2278.220143,
+      "cameraX": 50.297989,
+      "cameraYaw": -8.42657590583653,
+      "cameraPitch": 2.831974968612177,
+      "cameraRoll": -1.3721703853523493,
+      "worldCamera": {
+        "x": 13338.567594780721,
+        "y": 101.65994928301009,
+        "z": -15282.44525555489
+      },
+      "place": "checkpoint",
+      "placeId": "10.01",
+      "placeAnchor": {
+        "x": 14000,
+        "y": 300,
+        "z": -18800
+      },
+      "journey": {
+        "progress": 0.647794,
+        "distance": 3457.2243201736273,
+        "route": "threshold",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "through-checkpoint",
+    "time": 1.2,
+    "path": "qa/place-journey/through-checkpoint-6.png",
+    "state": {
+      "scene": 9,
+      "beat": 0,
+      "cue": "10.01",
+      "kind": "content",
+      "time": 1.2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1513.792269,
+      "cameraX": 15.371543,
+      "cameraYaw": -0.6390470975975999,
+      "cameraPitch": 0.2910473658658666,
+      "cameraRoll": -0.14027537073740443,
+      "worldCamera": {
+        "x": 13865.748654976853,
+        "y": 242.55814325361143,
+        "z": -16978.68903406851
+      },
+      "place": "checkpoint",
+      "placeId": "10.01",
+      "placeAnchor": {
+        "x": 14000,
+        "y": 300,
+        "z": -18800
+      },
+      "journey": {
+        "progress": 0.906234,
+        "distance": 3457.2243201736273,
+        "route": "threshold",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "through-checkpoint",
+    "time": 1.4,
+    "path": "qa/place-journey/through-checkpoint-7.png",
+    "state": {
+      "scene": 9,
+      "beat": 0,
+      "cue": "10.01",
+      "kind": "content",
+      "time": 1.4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1442.182639,
+      "cameraX": 12.099724,
+      "cameraYaw": 0.23159751885936228,
+      "cameraPitch": 0.0059774937135459155,
+      "cameraRoll": -0.00292163039965476,
+      "worldCamera": {
+        "x": 13993.97021425536,
+        "y": 291.919723154176,
+        "z": -17317.65866464397
+      },
+      "place": "checkpoint",
+      "placeId": "10.01",
+      "placeAnchor": {
+        "x": 14000,
+        "y": 300,
+        "z": -18800
+      },
+      "journey": {
+        "progress": 0.9872,
+        "distance": 3457.2243201736273,
+        "route": "threshold",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "through-checkpoint",
+    "time": 1.6,
+    "path": "qa/place-journey/through-checkpoint-8.png",
+    "state": {
+      "scene": 9,
+      "beat": 0,
+      "cue": "10.01",
+      "kind": "content",
+      "time": 1.6,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1449.64318,
+      "cameraX": 10.071364,
+      "cameraYaw": 0.2098163395517464,
+      "cameraPitch": 0.0000012201494178743036,
+      "cameraRoll": -5.69403061674675e-7,
+      "worldCamera": {
+        "x": 14009.789907359707,
+        "y": 299.87089397793164,
+        "z": -17349.72500681017
+      },
+      "place": "checkpoint",
+      "placeId": "10.01",
+      "placeAnchor": {
+        "x": 14000,
+        "y": 300,
+        "z": -18800
+      },
+      "journey": {
+        "progress": 0.999797,
+        "distance": 3457.2243201736273,
+        "route": "threshold",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "through-checkpoint",
+    "time": 2,
+    "path": "qa/place-journey/through-checkpoint-9.png",
+    "state": {
+      "scene": 9,
+      "beat": 0,
+      "cue": "10.01",
+      "kind": "content",
+      "time": 2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1498.671951,
+      "cameraX": 0.26561,
+      "cameraYaw": 0.005534,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 14000.26561,
+        "y": 300,
+        "z": -17301.328049
+      },
+      "place": "checkpoint",
+      "placeId": "10.01",
+      "placeAnchor": {
+        "x": 14000,
+        "y": 300,
+        "z": -18800
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 3457.2243201736273,
+        "route": "threshold",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "through-checkpoint",
+    "time": 2.8,
+    "path": "qa/place-journey/through-checkpoint-10.png",
+    "state": {
+      "scene": 9,
+      "beat": 0,
+      "cue": "10.01",
+      "kind": "content",
+      "time": 2.8,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 14000,
+        "y": 300,
+        "z": -17300
+      },
+      "place": "checkpoint",
+      "placeId": "10.01",
+      "placeAnchor": {
+        "x": 14000,
+        "y": 300,
+        "z": -18800
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 3457.2243201736273,
+        "route": "threshold",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "through-checkpoint",
+    "time": 4,
+    "path": "qa/place-journey/through-checkpoint-11.png",
+    "state": {
+      "scene": 9,
+      "beat": 0,
+      "cue": "10.01",
+      "kind": "content",
+      "time": 4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 14000,
+        "y": 300,
+        "z": -17300
+      },
+      "place": "checkpoint",
+      "placeId": "10.01",
+      "placeAnchor": {
+        "x": 14000,
+        "y": 300,
+        "z": -18800
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 3457.2243201736273,
+        "route": "threshold",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "rise-to-horizon",
+    "time": 0,
+    "path": "qa/place-journey/rise-to-horizon-0.png",
+    "state": {
+      "scene": 14,
+      "beat": 0,
+      "cue": "15.01",
+      "kind": "content",
+      "time": 0,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 27050,
+        "y": 1920,
+        "z": -25480
+      },
+      "place": "horizon",
+      "placeId": "15.01",
+      "placeAnchor": {
+        "x": 28700,
+        "y": 700,
+        "z": -29600
+      },
+      "journey": {
+        "progress": 0,
+        "distance": 3327.957331457241,
+        "route": "rise",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "rise-to-horizon",
+    "time": 0.2,
+    "path": "qa/place-journey/rise-to-horizon-1.png",
+    "state": {
+      "scene": 14,
+      "beat": 0,
+      "cue": "15.01",
+      "kind": "content",
+      "time": 0.2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1548.685199,
+      "cameraX": 2.876853,
+      "cameraYaw": -0.07966700142122303,
+      "cameraPitch": 0.02655600047374101,
+      "cameraRoll": -0.015491000221079137,
+      "worldCamera": {
+        "x": 27052.88041703327,
+        "y": 1921.2417031491777,
+        "z": -25431.31413014002
+      },
+      "place": "horizon",
+      "placeId": "15.01",
+      "placeAnchor": {
+        "x": 28700,
+        "y": 700,
+        "z": -29600
+      },
+      "journey": {
+        "progress": 0.000004,
+        "distance": 3327.957331457241,
+        "route": "rise",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "rise-to-horizon",
+    "time": 0.4,
+    "path": "qa/place-journey/rise-to-horizon-2.png",
+    "state": {
+      "scene": 14,
+      "beat": 0,
+      "cue": "15.01",
+      "kind": "content",
+      "time": 0.4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2551.314801,
+      "cameraX": 62.123147,
+      "cameraYaw": -1.722210802798524,
+      "cameraPitch": 0.5740699342661746,
+      "cameraRoll": -0.3348011026575482,
+      "worldCamera": {
+        "x": 27116.26379007871,
+        "y": 1949.5021750136127,
+        "z": -24428.02304001256
+      },
+      "place": "horizon",
+      "placeId": "15.01",
+      "placeAnchor": {
+        "x": 28700,
+        "y": 700,
+        "z": -29600
+      },
+      "journey": {
+        "progress": 0.004598,
+        "distance": 3327.957331457241,
+        "route": "rise",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "rise-to-horizon",
+    "time": 0.6,
+    "path": "qa/place-journey/rise-to-horizon-3.png",
+    "state": {
+      "scene": 14,
+      "beat": 0,
+      "cue": "15.01",
+      "kind": "content",
+      "time": 0.6,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2599.745663,
+      "cameraX": 64.988379,
+      "cameraYaw": -2.037146048541024,
+      "cameraPitch": 0.6790663495136747,
+      "cameraRoll": -0.3868822297730482,
+      "worldCamera": {
+        "x": 27166.700475395897,
+        "y": 1971.340809943523,
+        "z": -24385.161255277697
+      },
+      "place": "horizon",
+      "placeId": "15.01",
+      "placeAnchor": {
+        "x": 28700,
+        "y": 700,
+        "z": -29600
+      },
+      "journey": {
+        "progress": 0.051949,
+        "distance": 3327.957331457241,
+        "route": "rise",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "rise-to-horizon",
+    "time": 0.8,
+    "path": "qa/place-journey/rise-to-horizon-4.png",
+    "state": {
+      "scene": 14,
+      "beat": 0,
+      "cue": "15.01",
+      "kind": "content",
+      "time": 0.8,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2581.591637,
+      "cameraX": 64.158928,
+      "cameraYaw": -5.774562924750937,
+      "cameraPitch": 1.9261763082503125,
+      "cameraRoll": -0.9677718771834788,
+      "worldCamera": {
+        "x": 27417.162107323056,
+        "y": 1934.753254758132,
+        "z": -24609.037110176436
+      },
+      "place": "horizon",
+      "placeId": "15.01",
+      "placeAnchor": {
+        "x": 28700,
+        "y": 700,
+        "z": -29600
+      },
+      "journey": {
+        "progress": 0.232532,
+        "distance": 3327.957331457241,
+        "route": "rise",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "rise-to-horizon",
+    "time": 1,
+    "path": "qa/place-journey/rise-to-horizon-5.png",
+    "state": {
+      "scene": 14,
+      "beat": 0,
+      "cue": "15.01",
+      "kind": "content",
+      "time": 1,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2278.220143,
+      "cameraX": 50.297989,
+      "cameraYaw": -8.42657590583653,
+      "cameraPitch": 2.831974968612177,
+      "cameraRoll": -1.3721703853523493,
+      "worldCamera": {
+        "x": 28191.08125068485,
+        "y": 1368.7560131779414,
+        "z": -26115.18895453499
+      },
+      "place": "horizon",
+      "placeId": "15.01",
+      "placeAnchor": {
+        "x": 28700,
+        "y": 700,
+        "z": -29600
+      },
+      "journey": {
+        "progress": 0.647794,
+        "distance": 3327.957331457241,
+        "route": "rise",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "rise-to-horizon",
+    "time": 1.2,
+    "path": "qa/place-journey/rise-to-horizon-6.png",
+    "state": {
+      "scene": 14,
+      "beat": 0,
+      "cue": "15.01",
+      "kind": "content",
+      "time": 1.2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1513.792269,
+      "cameraX": 15.371543,
+      "cameraYaw": -0.6390470975975999,
+      "cameraPitch": 0.2910473658658666,
+      "cameraRoll": -0.14027537073740443,
+      "worldCamera": {
+        "x": 28597.81070241039,
+        "y": 868.1263589889987,
+        "z": -27787.175298268372
+      },
+      "place": "horizon",
+      "placeId": "15.01",
+      "placeAnchor": {
+        "x": 28700,
+        "y": 700,
+        "z": -29600
+      },
+      "journey": {
+        "progress": 0.906234,
+        "distance": 3327.957331457241,
+        "route": "rise",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "rise-to-horizon",
+    "time": 1.4,
+    "path": "qa/place-journey/rise-to-horizon-7.png",
+    "state": {
+      "scene": 14,
+      "beat": 0,
+      "cue": "15.01",
+      "kind": "content",
+      "time": 1.4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1442.182639,
+      "cameraX": 12.099724,
+      "cameraYaw": 0.23159751885936228,
+      "cameraPitch": 0.0059774937135459155,
+      "cameraRoll": -0.00292163039965476,
+      "worldCamera": {
+        "x": 28697.855109200642,
+        "y": 722.0173900082689,
+        "z": -28118.783796932832
+      },
+      "place": "horizon",
+      "placeId": "15.01",
+      "placeAnchor": {
+        "x": 28700,
+        "y": 700,
+        "z": -29600
+      },
+      "journey": {
+        "progress": 0.9872,
+        "distance": 3327.957331457241,
+        "route": "rise",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "rise-to-horizon",
+    "time": 1.6,
+    "path": "qa/place-journey/rise-to-horizon-8.png",
+    "state": {
+      "scene": 14,
+      "beat": 0,
+      "cue": "15.01",
+      "kind": "content",
+      "time": 1.6,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1449.64318,
+      "cameraX": 10.071364,
+      "cameraYaw": 0.2098163395517464,
+      "cameraPitch": 0.0000012201494178743036,
+      "cameraRoll": -5.69403061674675e-7,
+      "worldCamera": {
+        "x": 28709.850219496915,
+        "y": 700.346191044967,
+        "z": -28149.742752517584
+      },
+      "place": "horizon",
+      "placeId": "15.01",
+      "placeAnchor": {
+        "x": 28700,
+        "y": 700,
+        "z": -29600
+      },
+      "journey": {
+        "progress": 0.999797,
+        "distance": 3327.957331457241,
+        "route": "rise",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "rise-to-horizon",
+    "time": 2,
+    "path": "qa/place-journey/rise-to-horizon-9.png",
+    "state": {
+      "scene": 14,
+      "beat": 0,
+      "cue": "15.01",
+      "kind": "content",
+      "time": 2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1498.671951,
+      "cameraX": 0.26561,
+      "cameraYaw": 0.005534,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 28700.26561,
+        "y": 700,
+        "z": -28101.328049
+      },
+      "place": "horizon",
+      "placeId": "15.01",
+      "placeAnchor": {
+        "x": 28700,
+        "y": 700,
+        "z": -29600
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 3327.957331457241,
+        "route": "rise",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "rise-to-horizon",
+    "time": 2.8,
+    "path": "qa/place-journey/rise-to-horizon-10.png",
+    "state": {
+      "scene": 14,
+      "beat": 0,
+      "cue": "15.01",
+      "kind": "content",
+      "time": 2.8,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 28700,
+        "y": 700,
+        "z": -28100
+      },
+      "place": "horizon",
+      "placeId": "15.01",
+      "placeAnchor": {
+        "x": 28700,
+        "y": 700,
+        "z": -29600
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 3327.957331457241,
+        "route": "rise",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "rise-to-horizon",
+    "time": 4,
+    "path": "qa/place-journey/rise-to-horizon-11.png",
+    "state": {
+      "scene": 14,
+      "beat": 0,
+      "cue": "15.01",
+      "kind": "content",
+      "time": 4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 28700,
+        "y": 700,
+        "z": -28100
+      },
+      "place": "horizon",
+      "placeId": "15.01",
+      "placeAnchor": {
+        "x": 28700,
+        "y": 700,
+        "z": -29600
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 3327.957331457241,
+        "route": "rise",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "reverse-gallery",
+    "time": 0,
+    "path": "qa/place-journey/reverse-gallery-0.png",
+    "state": {
+      "scene": 2,
+      "beat": 2,
+      "cue": "03.03",
+      "kind": "content",
+      "time": 0,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 9850,
+        "y": 120,
+        "z": -1680
+      },
+      "place": "gallery",
+      "placeId": "03.03",
+      "placeAnchor": {
+        "x": 8500,
+        "y": 0,
+        "z": -2720
+      },
+      "journey": {
+        "progress": 0,
+        "distance": 1431.2581877495059,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "reverse-gallery",
+    "time": 0.2,
+    "path": "qa/place-journey/reverse-gallery-1.png",
+    "state": {
+      "scene": 2,
+      "beat": 2,
+      "cue": "03.03",
+      "kind": "content",
+      "time": 0.2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1519.031487,
+      "cameraX": -2.876853,
+      "cameraYaw": 0.07966700142122303,
+      "cameraPitch": 0.02655600047374101,
+      "cameraRoll": 0.015491000221079137,
+      "worldCamera": {
+        "x": 9847.120230972785,
+        "y": 121.24052718152966,
+        "z": -1660.9622586211583
+      },
+      "place": "gallery",
+      "placeId": "03.03",
+      "placeAnchor": {
+        "x": 8500,
+        "y": 0,
+        "z": -2720
+      },
+      "journey": {
+        "progress": 0.000004,
+        "distance": 1431.2581877495059,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "reverse-gallery",
+    "time": 0.4,
+    "path": "qa/place-journey/reverse-gallery-2.png",
+    "state": {
+      "scene": 2,
+      "beat": 2,
+      "cue": "03.03",
+      "kind": "content",
+      "time": 0.4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1910.968513,
+      "cameraX": -62.123147,
+      "cameraYaw": 1.722210802798524,
+      "cameraPitch": 0.5740699342661746,
+      "cameraRoll": 0.3348011026575482,
+      "worldCamera": {
+        "x": 9784.48905411742,
+        "y": 148.1930502895891,
+        "z": -1261.86999058778
+      },
+      "place": "gallery",
+      "placeId": "03.03",
+      "placeAnchor": {
+        "x": 8500,
+        "y": 0,
+        "z": -2720
+      },
+      "journey": {
+        "progress": 0.004598,
+        "distance": 1431.2581877495059,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "reverse-gallery",
+    "time": 0.6,
+    "path": "qa/place-journey/reverse-gallery-3.png",
+    "state": {
+      "scene": 2,
+      "beat": 2,
+      "cue": "03.03",
+      "kind": "content",
+      "time": 0.6,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1929.520689,
+      "cameraX": -64.93769,
+      "cameraYaw": 2.035869048541024,
+      "cameraPitch": 0.6786233495136748,
+      "cameraRoll": 0.3866232297730482,
+      "worldCamera": {
+        "x": 9742.75241294881,
+        "y": 161.4158282471497,
+        "z": -1172.7899390309976
+      },
+      "place": "gallery",
+      "placeId": "03.03",
+      "placeAnchor": {
+        "x": 8500,
+        "y": 0,
+        "z": -2720
+      },
+      "journey": {
+        "progress": 0.051949,
+        "distance": 1431.2581877495059,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "reverse-gallery",
+    "time": 0.8,
+    "path": "qa/place-journey/reverse-gallery-4.png",
+    "state": {
+      "scene": 2,
+      "beat": 2,
+      "cue": "03.03",
+      "kind": "content",
+      "time": 0.8,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1771.992057,
+      "cameraX": -44.458967,
+      "cameraYaw": 5.238265924750936,
+      "cameraPitch": 1.7460883082503122,
+      "cameraRoll": 0.8627198771834791,
+      "worldCamera": {
+        "x": 9557.629340826592,
+        "y": 159.42055623439654,
+        "z": -1113.1735403753846
+      },
+      "place": "gallery",
+      "placeId": "03.03",
+      "placeAnchor": {
+        "x": 8500,
+        "y": 0,
+        "z": -2720
+      },
+      "journey": {
+        "progress": 0.232532,
+        "distance": 1431.2581877495059,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "reverse-gallery",
+    "time": 1,
+    "path": "qa/place-journey/reverse-gallery-5.png",
+    "state": {
+      "scene": 2,
+      "beat": 2,
+      "cue": "03.03",
+      "kind": "content",
+      "time": 1,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1432.1769,
+      "cameraX": -0.282997,
+      "cameraYaw": 7.20307590583653,
+      "cameraPitch": 2.401024968612177,
+      "cameraRoll": 1.1207833853523492,
+      "worldCamera": {
+        "x": 8957.257970712393,
+        "y": 35.985232755812355,
+        "z": -1230.3822220642792
+      },
+      "place": "gallery",
+      "placeId": "03.03",
+      "placeAnchor": {
+        "x": 8500,
+        "y": 0,
+        "z": -2720
+      },
+      "journey": {
+        "progress": 0.647794,
+        "distance": 1431.2581877495059,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "reverse-gallery",
+    "time": 1.2,
+    "path": "qa/place-journey/reverse-gallery-6.png",
+    "state": {
+      "scene": 2,
+      "beat": 2,
+      "cue": "03.03",
+      "kind": "content",
+      "time": 1.2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1449.016719,
+      "cameraX": 0,
+      "cameraYaw": 0.7586380975975999,
+      "cameraPitch": 0.2528793658658666,
+      "cameraRoll": 0.11801037073740442,
+      "worldCamera": {
+        "x": 8596.186142300594,
+        "y": -6.891164313267239,
+        "z": -1237.1873759620319
+      },
+      "place": "gallery",
+      "placeId": "03.03",
+      "placeAnchor": {
+        "x": 8500,
+        "y": 0,
+        "z": -2720
+      },
+      "journey": {
+        "progress": 0.906234,
+        "distance": 1431.2581877495059,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "reverse-gallery",
+    "time": 1.4,
+    "path": "qa/place-journey/reverse-gallery-7.png",
+    "state": {
+      "scene": 2,
+      "beat": 2,
+      "cue": "03.03",
+      "kind": "content",
+      "time": 1.4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1479.755654,
+      "cameraX": 0,
+      "cameraYaw": 0.014545481140637747,
+      "cameraPitch": 0.004848493713545916,
+      "cameraRoll": 0.00226263039965476,
+      "worldCamera": {
+        "x": 8511.65468483584,
+        "y": -1.896167060275205,
+        "z": -1234.9164822968578
+      },
+      "place": "gallery",
+      "placeId": "03.03",
+      "placeAnchor": {
+        "x": 8500,
+        "y": 0,
+        "z": -2720
+      },
+      "journey": {
+        "progress": 0.9872,
+        "distance": 1431.2581877495059,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "reverse-gallery",
+    "time": 1.6,
+    "path": "qa/place-journey/reverse-gallery-8.png",
+    "state": {
+      "scene": 2,
+      "beat": 2,
+      "cue": "03.03",
+      "kind": "content",
+      "time": 1.6,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1493.920886,
+      "cameraX": 0,
+      "cameraYaw": 0.0000036604482536229116,
+      "cameraPitch": 0.0000012201494178743036,
+      "cameraRoll": 5.69403061674675e-7,
+      "worldCamera": {
+        "x": 8500.180936411616,
+        "y": -0.03260126293742292,
+        "z": -1225.9929070470241
+      },
+      "place": "gallery",
+      "placeId": "03.03",
+      "placeAnchor": {
+        "x": 8500,
+        "y": 0,
+        "z": -2720
+      },
+      "journey": {
+        "progress": 0.999797,
+        "distance": 1431.2581877495059,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "reverse-gallery",
+    "time": 2,
+    "path": "qa/place-journey/reverse-gallery-9.png",
+    "state": {
+      "scene": 2,
+      "beat": 2,
+      "cue": "03.03",
+      "kind": "content",
+      "time": 2,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1499.951901,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 8500,
+        "y": 0,
+        "z": -1220.048099
+      },
+      "place": "gallery",
+      "placeId": "03.03",
+      "placeAnchor": {
+        "x": 8500,
+        "y": 0,
+        "z": -2720
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 1431.2581877495059,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "reverse-gallery",
+    "time": 2.8,
+    "path": "qa/place-journey/reverse-gallery-10.png",
+    "state": {
+      "scene": 2,
+      "beat": 2,
+      "cue": "03.03",
+      "kind": "content",
+      "time": 2.8,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 8500,
+        "y": 0,
+        "z": -1220
+      },
+      "place": "gallery",
+      "placeId": "03.03",
+      "placeAnchor": {
+        "x": 8500,
+        "y": 0,
+        "z": -2720
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 1431.2581877495059,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  },
+  {
+    "clip": "reverse-gallery",
+    "time": 4,
+    "path": "qa/place-journey/reverse-gallery-11.png",
+    "state": {
+      "scene": 2,
+      "beat": 2,
+      "cue": "03.03",
+      "kind": "content",
+      "time": 4,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "cameraX": 0,
+      "cameraYaw": 0,
+      "cameraPitch": 0,
+      "cameraRoll": 0,
+      "worldCamera": {
+        "x": 8500,
+        "y": 0,
+        "z": -1220
+      },
+      "place": "gallery",
+      "placeId": "03.03",
+      "placeAnchor": {
+        "x": 8500,
+        "y": 0,
+        "z": -2720
+      },
+      "journey": {
+        "progress": 1,
+        "distance": 1431.2581877495059,
+        "route": "walk",
+        "active": true
+      },
+      "fov": 39.597752709049864,
+      "backgroundLayers": 4,
+      "travelGates": 3,
+      "retainedSets": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    }
+  }
+]

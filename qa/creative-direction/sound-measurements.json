@@ -1,0 +1,352 @@
+{
+  "method": "PCM/FFT comparison of authored stems and current production renders; technical measurement, not a listening review.",
+  "changes": [
+    {
+      "asset": "departure",
+      "oldPeakDbFS": -12.396128602676582,
+      "newPeakDbFS": -18.416728515920013,
+      "oldRmsDbFS": -26.859400943114743,
+      "newRmsDbFS": -32.79479570250717,
+      "upperBandChangeDb": -40.57413206116621,
+      "endpointMagnitude": 0.0,
+      "pass": true
+    },
+    {
+      "asset": "travel-walk",
+      "oldPeakDbFS": -11.056877240680798,
+      "newPeakDbFS": -16.478528255773362,
+      "oldRmsDbFS": -27.794421957184415,
+      "newRmsDbFS": -34.04245437800934,
+      "upperBandChangeDb": -33.197046516243134,
+      "endpointMagnitude": 0.0,
+      "pass": true
+    },
+    {
+      "asset": "travel-descend",
+      "oldPeakDbFS": -11.056877240680798,
+      "newPeakDbFS": -16.478528255773362,
+      "oldRmsDbFS": -28.62921611107336,
+      "newRmsDbFS": -33.11109377112893,
+      "upperBandChangeDb": -30.92326574073851,
+      "endpointMagnitude": 0.0,
+      "pass": true
+    },
+    {
+      "asset": "travel-threshold",
+      "oldPeakDbFS": -11.056877240680798,
+      "newPeakDbFS": -16.478528255773362,
+      "oldRmsDbFS": -28.612516696151413,
+      "newRmsDbFS": -34.15336574585161,
+      "upperBandChangeDb": -32.32729109134285,
+      "endpointMagnitude": 0.0,
+      "pass": true
+    },
+    {
+      "asset": "travel-rise",
+      "oldPeakDbFS": -11.056877240680798,
+      "newPeakDbFS": -16.478528255773362,
+      "oldRmsDbFS": -28.87342765100343,
+      "newRmsDbFS": -33.61825062668722,
+      "upperBandChangeDb": -31.621081969259805,
+      "endpointMagnitude": 0.0,
+      "pass": true
+    }
+  ],
+  "mixes": [
+    {
+      "cue": "01.01",
+      "peakDbFS": -17.66390316543371,
+      "monoRmsRatio": 0.9896354582456395,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "01.02",
+      "peakDbFS": -23.15030175906045,
+      "monoRmsRatio": 0.9998005478524469,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "01.03",
+      "peakDbFS": -17.66390316543371,
+      "monoRmsRatio": 0.9911690021235677,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "01.04",
+      "peakDbFS": -17.66390316543371,
+      "monoRmsRatio": 0.9911690021235677,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "02.01",
+      "peakDbFS": -23.15030175906045,
+      "monoRmsRatio": 0.9998005478524469,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "03.01",
+      "peakDbFS": -17.396623934276093,
+      "monoRmsRatio": 0.9930089433384626,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "03.02",
+      "peakDbFS": -17.396623934276093,
+      "monoRmsRatio": 0.9930089433384626,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "03.03",
+      "peakDbFS": -17.396623934276093,
+      "monoRmsRatio": 0.9930089433384626,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "03.04",
+      "peakDbFS": -17.396623934276093,
+      "monoRmsRatio": 0.9930089433384626,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "04.01",
+      "peakDbFS": -23.15030175906045,
+      "monoRmsRatio": 0.9998005478524469,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "04.02",
+      "peakDbFS": -17.469606745088264,
+      "monoRmsRatio": 0.99135783914642,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "04.03",
+      "peakDbFS": -17.469606745088264,
+      "monoRmsRatio": 0.99135783914642,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "05.01",
+      "peakDbFS": -23.15030175906045,
+      "monoRmsRatio": 0.9998005478524469,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "06.01",
+      "peakDbFS": -18.57950312769267,
+      "monoRmsRatio": 0.9916159902364521,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "06.02",
+      "peakDbFS": -18.57950312769267,
+      "monoRmsRatio": 0.9916159902364521,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "06.03",
+      "peakDbFS": -18.57950312769267,
+      "monoRmsRatio": 0.9916159902364521,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "06.04",
+      "peakDbFS": -18.496619734989746,
+      "monoRmsRatio": 0.9954150616412317,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "06.05",
+      "peakDbFS": -18.496619734989746,
+      "monoRmsRatio": 0.9954150616412317,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "07.01",
+      "peakDbFS": -23.15030175906045,
+      "monoRmsRatio": 0.9998005478524469,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "07.02",
+      "peakDbFS": -22.073238608206704,
+      "monoRmsRatio": 0.9982680484252835,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "08.01",
+      "peakDbFS": -23.15030175906045,
+      "monoRmsRatio": 0.9998005478524469,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "09.01",
+      "peakDbFS": -17.053842065501005,
+      "monoRmsRatio": 0.9922648140022184,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "09.02",
+      "peakDbFS": -17.053842065501005,
+      "monoRmsRatio": 0.9922648140022184,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "09.03",
+      "peakDbFS": -17.053842065501005,
+      "monoRmsRatio": 0.9922648140022184,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "10.01",
+      "peakDbFS": -18.980248855215716,
+      "monoRmsRatio": 0.9937609208315482,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "10.02",
+      "peakDbFS": -23.15030175906045,
+      "monoRmsRatio": 0.9998005478524469,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "10.03",
+      "peakDbFS": -18.980248855215716,
+      "monoRmsRatio": 0.9937609208315482,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "11.01",
+      "peakDbFS": -16.12020721649057,
+      "monoRmsRatio": 0.9924346652175317,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "11.02",
+      "peakDbFS": -23.15030175906045,
+      "monoRmsRatio": 0.9998005478524469,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "11.03",
+      "peakDbFS": -16.12020721649057,
+      "monoRmsRatio": 0.9924346652175317,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "12.01",
+      "peakDbFS": -23.15030175906045,
+      "monoRmsRatio": 0.9998005478524469,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "13.01",
+      "peakDbFS": -18.117110514620027,
+      "monoRmsRatio": 0.9927217045072168,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "13.02",
+      "peakDbFS": -18.117110514620027,
+      "monoRmsRatio": 0.9927217045072168,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "13.03",
+      "peakDbFS": -18.117110514620027,
+      "monoRmsRatio": 0.9927217045072168,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "13.04",
+      "peakDbFS": -18.117110514620027,
+      "monoRmsRatio": 0.9927217045072168,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "14.01",
+      "peakDbFS": -23.15030175906045,
+      "monoRmsRatio": 0.9998005478524469,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "15.01",
+      "peakDbFS": -16.969284332539875,
+      "monoRmsRatio": 0.9926817288831858,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "15.02",
+      "peakDbFS": -16.969284332539875,
+      "monoRmsRatio": 0.9926817288831858,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "15.03",
+      "peakDbFS": -16.969284332539875,
+      "monoRmsRatio": 0.9926817288831858,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "15.04",
+      "peakDbFS": -16.969284332539875,
+      "monoRmsRatio": 0.9926817288831858,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "16.01",
+      "peakDbFS": -23.15030175906045,
+      "monoRmsRatio": 0.9998005478524469,
+      "tailPeak": 0.0,
+      "pass": true
+    },
+    {
+      "cue": "16.02",
+      "peakDbFS": -16.969284332539875,
+      "monoRmsRatio": 0.9926817288831858,
+      "tailPeak": 0.0,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

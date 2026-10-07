@@ -1,0 +1,40 @@
+{
+  "source": "D:\\Project\\AI_VS_HUMAN\\qa\\card-rhythm\\creative-preview.mp4",
+  "duration": 30.0,
+  "fps": 30.0,
+  "frames": [
+    {
+      "requested_timestamp": 0.8,
+      "sample_timestamp": 0.8,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\card-rhythm\\encoded-inspection\\frames-l2qi75v9\\00-0000.80000s.png"
+    },
+    {
+      "requested_timestamp": 4.1,
+      "sample_timestamp": 4.1,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\card-rhythm\\encoded-inspection\\frames-l2qi75v9\\01-0004.10000s.png"
+    },
+    {
+      "requested_timestamp": 9.1,
+      "sample_timestamp": 9.1,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\card-rhythm\\encoded-inspection\\frames-l2qi75v9\\02-0009.10000s.png"
+    },
+    {
+      "requested_timestamp": 14.0,
+      "sample_timestamp": 14.0,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\card-rhythm\\encoded-inspection\\frames-l2qi75v9\\03-0014.00000s.png"
+    },
+    {
+      "requested_timestamp": 24.0,
+      "sample_timestamp": 24.0,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\card-rhythm\\encoded-inspection\\frames-l2qi75v9\\04-0024.00000s.png"
+    },
+    {
+      "requested_timestamp": 28.2,
+      "sample_timestamp": 28.2,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\card-rhythm\\encoded-inspection\\frames-l2qi75v9\\05-0028.20000s.png"
+    }
+  ],
+  "contact_sheet": "D:\\Project\\AI_VS_HUMAN\\qa\\card-rhythm\\encoded-inspection\\frames-l2qi75v9\\contact-sheet.jpg",
+  "visual_review": "passed",
+  "review_method": "Inspected all six encoded frames in the contact sheet and full frames at 4.1 and 24 seconds. Checked framing, Thai readability, card spacing and ECG placement. Audio listening was not performed."
+}

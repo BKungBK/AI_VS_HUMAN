@@ -1,0 +1,65 @@
+[
+  {
+    "state": {
+      "scene": 6,
+      "beat": 1,
+      "cue": "07.02",
+      "kind": "content",
+      "time": 20,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "fov": 39.597752709049864,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    },
+    "photo": "translate: none; rotate: none; scale: none; transform: scale(1.035, 1.035);",
+    "text": "99.7",
+    "transform": "<div style=\"transform-origin: 0px 0px; pointer-events: none; width: 1920px; height: 1080px;\"><div style=\"transform-style: preserve-3d; width: 1920px; height: 1080px; transform: perspective(1500px) scale(1) translateZ(1500px) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, -1500, 1) translate(960px, 540px);\"><div class=\"visual-world\" draggable=\"false\" style=\"position: absolute; pointer-events: auto; user-select: none; width: 820px; height: 680px; transform: translate(-50%, -50%) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 415, -4, 0, 1);\"><div class=\"spatial-card tone-ai  photo-card mushroom-card\" data-card=\"true\" data-z=\"-30\" data-rx=\"0\" data-ry=\"-7\" style=\"left: 142px; top: 15px; width: 530px; height: 605px; transform: translate3d(0px, 0px, -30px) rotateY(-7deg); opacity: 1;\"><div class=\"glass-inner\"><div class=\"image-window\"><img data-photo=\"true\" alt=\"Amanita phalloides ภาพเห็ดของ Archenzo\" src=\"/assets/images/death-cap.jpg\" style=\"translate: none; rotate: none; scale: none; transform: scale(1.035, 1.035);\"></div><div class=\"photo-credit\">Amanita phalloides · Archenzo · CC BY-SA 3.0</div></div></div><div class=\"spatial-card tone-ai  \" data-card=\"true\" data-z=\"100\" data-rx=\"0\" data-ry=\"7\" style=\"left: 5px; top: 292px; width: 355px; height: 286px; transform: translate3d(0px, 0px, 100px) rotateY(7deg); opacity: 1;\"><div class=\"glass-inner\"><div class=\"card-label\">CONFIDENCE · จำลอง</div><div class=\"figure small\"><span data-confidence=\"true\">99.7</span><em>%</em></div><p"
+  },
+  {
+    "state": {
+      "scene": 6,
+      "beat": 1,
+      "cue": "07.02",
+      "kind": "content",
+      "time": 30,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "fov": 39.597752709049864,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    },
+    "photo": "translate: none; rotate: none; scale: none; transform: scale(1.035, 1.035);",
+    "text": "99.7",
+    "transform": "<div style=\"transform-origin: 0px 0px; pointer-events: none; width: 1920px; height: 1080px;\"><div style=\"transform-style: preserve-3d; width: 1920px; height: 1080px; transform: perspective(1500px) scale(1) translateZ(1500px) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, -1500, 1) translate(960px, 540px);\"><div class=\"visual-world\" draggable=\"false\" style=\"position: absolute; pointer-events: auto; user-select: none; width: 820px; height: 680px; transform: translate(-50%, -50%) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 415, -4, 0, 1);\"><div class=\"spatial-card tone-ai  photo-card mushroom-card\" data-card=\"true\" data-z=\"-30\" data-rx=\"0\" data-ry=\"-7\" style=\"left: 142px; top: 15px; width: 530px; height: 605px; transform: translate3d(0px, 0px, -30px) rotateY(-7deg); opacity: 1;\"><div class=\"glass-inner\"><div class=\"image-window\"><img data-photo=\"true\" alt=\"Amanita phalloides ภาพเห็ดของ Archenzo\" src=\"/assets/images/death-cap.jpg\" style=\"translate: none; rotate: none; scale: none; transform: scale(1.035, 1.035);\"></div><div class=\"photo-credit\">Amanita phalloides · Archenzo · CC BY-SA 3.0</div></div></div><div class=\"spatial-card tone-ai  \" data-card=\"true\" data-z=\"100\" data-rx=\"0\" data-ry=\"7\" style=\"left: 5px; top: 292px; width: 355px; height: 286px; transform: translate3d(0px, 0px, 100px) rotateY(7deg); opacity: 1;\"><div class=\"glass-inner\"><div class=\"card-label\">CONFIDENCE · จำลอง</div><div class=\"figure small\"><span data-confidence=\"true\">99.7</span><em>%</em></div><p"
+  },
+  {
+    "state": {
+      "scene": 6,
+      "beat": 1,
+      "cue": "07.02",
+      "kind": "content",
+      "time": 20,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 1500,
+      "fov": 39.597752709049864,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    },
+    "photo": "translate: none; rotate: none; scale: none; transform: scale(1.035, 1.035);",
+    "text": "99.7",
+    "transform": "<div style=\"transform-origin: 0px 0px; pointer-events: none; width: 1920px; height: 1080px;\"><div style=\"transform-style: preserve-3d; width: 1920px; height: 1080px; transform: perspective(1500px) scale(1) translateZ(1500px) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, -1500, 1) translate(960px, 540px);\"><div class=\"visual-world\" draggable=\"false\" style=\"position: absolute; pointer-events: auto; user-select: none; width: 820px; height: 680px; transform: translate(-50%, -50%) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 415, -4, 0, 1);\"><div class=\"spatial-card tone-ai  photo-card mushroom-card\" data-card=\"true\" data-z=\"-30\" data-rx=\"0\" data-ry=\"-7\" style=\"left: 142px; top: 15px; width: 530px; height: 605px; transform: translate3d(0px, 0px, -30px) rotateY(-7deg); opacity: 1;\"><div class=\"glass-inner\"><div class=\"image-window\"><img data-photo=\"true\" alt=\"Amanita phalloides ภาพเห็ดของ Archenzo\" src=\"/assets/images/death-cap.jpg\" style=\"translate: none; rotate: none; scale: none; transform: scale(1.035, 1.035);\"></div><div class=\"photo-credit\">Amanita phalloides · Archenzo · CC BY-SA 3.0</div></div></div><div class=\"spatial-card tone-ai  \" data-card=\"true\" data-z=\"100\" data-rx=\"0\" data-ry=\"7\" style=\"left: 5px; top: 292px; width: 355px; height: 286px; transform: translate3d(0px, 0px, 100px) rotateY(7deg); opacity: 1;\"><div class=\"glass-inner\"><div class=\"card-label\">CONFIDENCE · จำลอง</div><div class=\"figure small\"><span data-confidence=\"true\">99.7</span><em>%</em></div><p"
+  }
+]

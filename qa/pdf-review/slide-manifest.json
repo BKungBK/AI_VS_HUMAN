@@ -1,0 +1,432 @@
+[
+  {
+    "page": 1,
+    "cueId": "01.01",
+    "title": "HUMAN vs AI",
+    "chapterId": "01",
+    "chapterTitle": "THE CLASH",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/01-01.01.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 2,
+    "cueId": "01.02",
+    "title": "เข้าร่วมกิจกรรม",
+    "chapterId": "01",
+    "chapterTitle": "THE CLASH",
+    "kind": "placeholder",
+    "image": "tmp/pdfs/slide-captures/02-01.02.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 3,
+    "cueId": "01.03",
+    "title": "คิดต่าง เพราะสร้างมาต่างกัน",
+    "chapterId": "01",
+    "chapterTitle": "THE CLASH",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/03-01.03.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 4,
+    "cueId": "01.04",
+    "title": "ใครควรทำอะไร?",
+    "chapterId": "01",
+    "chapterTitle": "THE CLASH",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/04-01.04.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 5,
+    "cueId": "02.01",
+    "title": "THE TRUST TUG-OF-WAR",
+    "chapterId": "02",
+    "chapterTitle": "TRUST",
+    "kind": "placeholder",
+    "image": "tmp/pdfs/slide-captures/05-02.01.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 6,
+    "cueId": "03.01",
+    "title": "ศิลปะมีชีวิต อยู่เบื้องหลัง",
+    "chapterId": "03",
+    "chapterTitle": "CREATIVITY",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/06-03.01.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 7,
+    "cueId": "03.02",
+    "title": "ถ้าปิดชื่อผู้สร้าง คุณแยกออกไหม?",
+    "chapterId": "03",
+    "chapterTitle": "CREATIVITY",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/07-03.02.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 8,
+    "cueId": "03.05",
+    "title": "SWIPE COURT",
+    "chapterId": "03",
+    "chapterTitle": "CREATIVITY",
+    "kind": "placeholder",
+    "image": "tmp/pdfs/slide-captures/08-03.05.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 9,
+    "cueId": "03.03",
+    "title": "FLAMINGONE",
+    "chapterId": "03",
+    "chapterTitle": "CREATIVITY",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/09-03.03.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 10,
+    "cueId": "03.04",
+    "title": "ผลงานเดิม ป้ายใหม่",
+    "chapterId": "03",
+    "chapterTitle": "CREATIVITY",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/10-03.04.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 11,
+    "cueId": "04.01",
+    "title": "CAPTION & PROMPT BATTLE",
+    "chapterId": "04",
+    "chapterTitle": "IDEAS",
+    "kind": "placeholder",
+    "image": "tmp/pdfs/slide-captures/11-04.01.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 12,
+    "cueId": "04.02",
+    "title": "เก่งขึ้นรายคน",
+    "chapterId": "04",
+    "chapterTitle": "IDEAS",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/12-04.02.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 13,
+    "cueId": "04.03",
+    "title": "แต่ไอเดีย คล้ายกันมากขึ้น",
+    "chapterId": "04",
+    "chapterTitle": "IDEAS",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/13-04.03.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 14,
+    "cueId": "05.01",
+    "title": "FLASH LEADERBOARD",
+    "chapterId": "05",
+    "chapterTitle": "ACT 1 RESULTS",
+    "kind": "placeholder",
+    "image": "tmp/pdfs/slide-captures/14-05.01.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 15,
+    "cueId": "06.01",
+    "title": "เมื่อ AI ค้นพบทางลัด",
+    "chapterId": "06",
+    "chapterTitle": "THE FRONTIER",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/15-06.01.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 16,
+    "cueId": "06.02",
+    "title": "จากลำดับ สู่โครงสร้าง",
+    "chapterId": "06",
+    "chapterTitle": "THE FRONTIER",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/16-06.02.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 17,
+    "cueId": "06.03",
+    "title": "โลกจริง ไม่ใช่โจทย์ปิด",
+    "chapterId": "06",
+    "chapterTitle": "THE FRONTIER",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/17-06.03.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 18,
+    "cueId": "06.04",
+    "title": "ความเก่ง ไม่ได้เป็นเส้นตรง",
+    "chapterId": "06",
+    "chapterTitle": "THE FRONTIER",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/18-06.04.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 19,
+    "cueId": "06.05",
+    "title": "ในขอบเขต ช่วยได้มาก",
+    "chapterId": "06",
+    "chapterTitle": "THE FRONTIER",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/19-06.05.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 20,
+    "cueId": "07.01",
+    "title": "DEATH CAP ROULETTE",
+    "chapterId": "07",
+    "chapterTitle": "CONFIDENCE",
+    "kind": "placeholder",
+    "image": "tmp/pdfs/slide-captures/20-07.01.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 21,
+    "cueId": "07.02",
+    "title": "มั่นใจมาก ไม่ได้แปลว่าถูก",
+    "chapterId": "07",
+    "chapterTitle": "CONFIDENCE",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/21-07.02.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 22,
+    "cueId": "08.01",
+    "title": "SURVIVOR RANKINGS",
+    "chapterId": "08",
+    "chapterTitle": "ACT 2 RESULTS",
+    "kind": "placeholder",
+    "image": "tmp/pdfs/slide-captures/22-08.01.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 23,
+    "cueId": "09.01",
+    "title": "ฟังดูอบอุ่น แล้วเชื่อใจได้ไหม?",
+    "chapterId": "09",
+    "chapterTitle": "EMPATHY",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/23-09.01.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 24,
+    "cueId": "09.02",
+    "title": "คำตอบที่ ผู้ประเมินเลือก",
+    "chapterId": "09",
+    "chapterTitle": "EMPATHY",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/24-09.02.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 25,
+    "cueId": "09.03",
+    "title": "ข้อความที่อบอุ่น ยังต้องตรวจสอบ",
+    "chapterId": "09",
+    "chapterTitle": "EMPATHY",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/25-09.03.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 26,
+    "cueId": "10.01",
+    "title": "คำแนะนำที่ดี ต้องดีในบริบทด้วย",
+    "chapterId": "10",
+    "chapterTitle": "VERIFICATION",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/26-10.01.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 27,
+    "cueId": "10.02",
+    "title": "CHAT WHACK-A-MOLE",
+    "chapterId": "10",
+    "chapterTitle": "VERIFICATION",
+    "kind": "placeholder",
+    "image": "tmp/pdfs/slide-captures/27-10.02.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 28,
+    "cueId": "10.03",
+    "title": "ตรวจก่อน ปล่อยคำตอบ",
+    "chapterId": "10",
+    "chapterTitle": "VERIFICATION",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/28-10.03.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 29,
+    "cueId": "11.01",
+    "title": "เมื่อคำตอบ สร้างความเสียหาย",
+    "chapterId": "11",
+    "chapterTitle": "ACCOUNTABILITY",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/29-11.01.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 30,
+    "cueId": "11.02",
+    "title": "COMPANY SHIELD",
+    "chapterId": "11",
+    "chapterTitle": "ACCOUNTABILITY",
+    "kind": "placeholder",
+    "image": "tmp/pdfs/slide-captures/30-11.02.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 31,
+    "cueId": "11.03",
+    "title": "AI IS A TOOL. NOT A SHIELD.",
+    "chapterId": "11",
+    "chapterTitle": "ACCOUNTABILITY",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/31-11.03.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 32,
+    "cueId": "12.01",
+    "title": "THE FINAL SPRINT",
+    "chapterId": "12",
+    "chapterTitle": "ACT 3 RESULTS",
+    "kind": "placeholder",
+    "image": "tmp/pdfs/slide-captures/32-12.01.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 33,
+    "cueId": "13.01",
+    "title": "BETTER TOGETHER?",
+    "chapterId": "13",
+    "chapterTitle": "SYNERGY",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/33-13.01.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 34,
+    "cueId": "13.02",
+    "title": "การร่วมมือ ต้องออกแบบ",
+    "chapterId": "13",
+    "chapterTitle": "SYNERGY",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/34-13.02.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 35,
+    "cueId": "13.03",
+    "title": "เร็วแค่ไหน ก็ต้องตรวจก่อนปล่อย",
+    "chapterId": "13",
+    "chapterTitle": "SYNERGY",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/35-13.03.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 36,
+    "cueId": "13.04",
+    "title": "HUMAN OVERSIGHT",
+    "chapterId": "13",
+    "chapterTitle": "SYNERGY",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/36-13.04.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 37,
+    "cueId": "14.01",
+    "title": "MISSING PIECE",
+    "chapterId": "14",
+    "chapterTitle": "SHARED CONTROL",
+    "kind": "placeholder",
+    "image": "tmp/pdfs/slide-captures/37-14.01.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 38,
+    "cueId": "15.01",
+    "title": "สมการของ ความรับผิดชอบ",
+    "chapterId": "15",
+    "chapterTitle": "SHARED FUTURE",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/38-15.01.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 39,
+    "cueId": "15.02",
+    "title": "DIFFERENT MINDS.",
+    "chapterId": "15",
+    "chapterTitle": "SHARED FUTURE",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/39-15.02.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 40,
+    "cueId": "15.03",
+    "title": "SHARED FUTURE.",
+    "chapterId": "15",
+    "chapterTitle": "SHARED FUTURE",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/40-15.03.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 41,
+    "cueId": "15.04",
+    "title": "HUMAN RESPONSIBILITY.",
+    "chapterId": "15",
+    "chapterTitle": "SHARED FUTURE",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/41-15.04.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 42,
+    "cueId": "16.01",
+    "title": "GRAND PODIUM CEREMONY",
+    "chapterId": "16",
+    "chapterTitle": "EPILOGUE",
+    "kind": "placeholder",
+    "image": "tmp/pdfs/slide-captures/42-16.01.png",
+    "frameSeconds": 4
+  },
+  {
+    "page": 43,
+    "cueId": "16.02",
+    "title": "ตรวจก่อนเชื่อ",
+    "chapterId": "16",
+    "chapterTitle": "EPILOGUE",
+    "kind": "content",
+    "image": "tmp/pdfs/slide-captures/43-16.02.png",
+    "frameSeconds": 4
+  }
+]

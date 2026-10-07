@@ -1,0 +1,107 @@
+[
+  {
+    "id": "korteling",
+    "label": "Korteling et al. · 2021",
+    "url": "https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2021.622364/full",
+    "finding": "Human and artificial intelligence have different capabilities and constraints; conceptual review, not a universal speed benchmark.",
+    "status": "Primary article"
+  },
+  {
+    "id": "poetry",
+    "label": "Porter & Machery · 2024",
+    "url": "https://www.nature.com/articles/s41598-024-76900-1.pdf",
+    "finding": "Non-expert readers identified poem origin with 46.6% accuracy in these experiments. AI poems were rated favorably on selected attributes.",
+    "status": "Primary paper"
+  },
+  {
+    "id": "attribution",
+    "label": "Grassini & Koivisto · 2024",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10876601/",
+    "finding": "Perceived authorship affected preferences for artworks, regardless of the actual source. The flamingo story is a separate case, not part of this experiment.",
+    "status": "Primary paper; abstract cross-checked"
+  },
+  {
+    "id": "flamingo",
+    "label": "Miles Astray · FLAMINGONE",
+    "url": "https://www.milesastray.com/iconic-imagery",
+    "finding": "The photographer describes winning jury and audience awards in an AI category with a real flamingo photograph; image taken in Aruba in 2022, award story in 2024.",
+    "status": "Creator account"
+  },
+  {
+    "id": "diversity",
+    "label": "Doshi & Hauser · 2024",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11244532/",
+    "finding": "In a short-story experiment, AI ideas improved individual creativity ratings, particularly for less creative writers, while making stories more similar.",
+    "status": "Primary paper"
+  },
+  {
+    "id": "tensor",
+    "label": "Fawzi et al. · Nature 2022",
+    "url": "https://www.nature.com/articles/s41586-022-05172-4",
+    "finding": "AlphaTensor discovered provably correct and efficient matrix multiplication algorithms for studied matrix sizes and hardware objectives.",
+    "status": "Primary paper"
+  },
+  {
+    "id": "nobel",
+    "label": "Nobel Chemistry · 2024",
+    "url": "https://www.nobelprize.org/uploads/2024/10/advanced-chemistryprize2024.pdf",
+    "finding": "Baker: computational protein design. Hassabis and Jumper: protein structure prediction; AlphaFold2 is discussed in the award background.",
+    "status": "Official scientific background"
+  },
+  {
+    "id": "frontier",
+    "label": "Dell’Acqua et al. · 2023 working paper",
+    "url": "https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+    "finding": "2023 working-paper version: 758 consultants; within frontier, >40% higher human-rated quality, >25% faster, >12% more tasks. No claim of 40% speed gain. Outside-frontier task can worsen outcomes.",
+    "status": "Research institute summary of working paper; deliberately versioned"
+  },
+  {
+    "id": "ayers",
+    "label": "Ayers et al. · JAMA 2023",
+    "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2804309",
+    "finding": "Licensed health-care professionals preferred chatbot answers in 78.6% of 585 evaluations of answers to 195 questions. Not patient votes or clinical outcomes.",
+    "status": "Primary paper"
+  },
+  {
+    "id": "tessa",
+    "label": "Tessa · NEDA · 2023",
+    "url": "https://www.wired.com/story/tessa-chatbot-suspended/",
+    "finding": "NEDA paused Tessa in May 2023 after reports of weight-loss advice; reporting includes direct comments from NEDA CEO. No verified death claimed.",
+    "status": "Contemporaneous reporting and direct NEDA comments; primary statement unavailable"
+  },
+  {
+    "id": "court",
+    "label": "Moffatt v. Air Canada · 2024 BCCRT 149",
+    "url": "https://www.canlii.org/en/bc/bccrt/doc/2024/2024bccrt149/2024bccrt149.html",
+    "finding": "The tribunal held Air Canada responsible for negligent misrepresentation in chatbot bereavement-fare information. A civil compensation matter, not a criminal conviction or universal liability rule.",
+    "status": "Decision identified; direct host blocked, contemporaneous accounts cross-checked"
+  },
+  {
+    "id": "synergy",
+    "label": "Vaccaro et al. · Nature 2024",
+    "url": "https://www.nature.com/articles/s41562-024-02024-1",
+    "finding": "106 experiments / 370 effect sizes. Combined systems were worse than the best human or AI baseline on average, but better than human-only on average; results varied by task.",
+    "status": "Primary meta-analysis"
+  },
+  {
+    "id": "crowdstrike",
+    "label": "CrowdStrike · RCA · Aug 2024",
+    "url": "https://www.crowdstrike.com/en-us/blog/channel-file-291-rca-available/",
+    "finding": "A July 19, 2024 content configuration update caused widespread Windows sensor outage. Used as a deployment/testing lesson, not evidence that generative AI wrote the update.",
+    "status": "Company root-cause analysis"
+  },
+  {
+    "id": "oversight",
+    "label": "EU AI Act · Article 14",
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+    "finding": "Article 14 addresses human oversight of high-risk AI. Duties depend on risk category, actor and applicable provisions. No blanket human-in-the-loop rule for all AI.",
+    "status": "Official legislation"
+  },
+  {
+    "id": "mushroom",
+    "label": "Archenzo · CC BY-SA 3.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Amanita_phalloides_1.JPG",
+    "finding": "Photo of Amanita phalloides. Confidence gauge is invented for the activity and is not a medical or identification result.",
+    "status": "Image provenance; fictional confidence values"
+  }
+]

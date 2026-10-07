@@ -1,0 +1,105 @@
+{
+  "checks": [
+    {
+      "name": "Game 5 preselected for new room",
+      "passed": true
+    },
+    {
+      "name": "Preview mode is active",
+      "passed": true
+    },
+    {
+      "name": "Context banner pinned with correct text",
+      "passed": true
+    },
+    {
+      "name": "Practice whack stamp triggered on tap",
+      "passed": true
+    },
+    {
+      "name": "mobile-preview: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "display-preview: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "host-preview: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Reached PLAYING phase",
+      "passed": true
+    },
+    {
+      "name": "Privacy fence: bubble classification is null",
+      "passed": true
+    },
+    {
+      "name": "Privacy fence: bubble explanation is null",
+      "passed": true
+    },
+    {
+      "name": "Mallet stamp slam rendered on tapped bubble",
+      "passed": true
+    },
+    {
+      "name": "mobile-arcade-playing: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "display-arcade-playing: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Duplicate hit handled idempotently",
+      "passed": true
+    },
+    {
+      "name": "Reached RESULT phase after 25s arcade",
+      "passed": true
+    },
+    {
+      "name": "Score clamped between 0 and 900",
+      "passed": true
+    },
+    {
+      "name": "Privacy fence lifted: classification revealed",
+      "passed": true
+    },
+    {
+      "name": "Privacy fence lifted: explanation revealed",
+      "passed": true
+    },
+    {
+      "name": "2 key comparison pairs revealed",
+      "passed": true
+    },
+    {
+      "name": "mobile-result: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "display-result: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Room cue advanced to 10.03 (ตรวจก่อนปล่อยคำตอบ)",
+      "passed": true
+    },
+    {
+      "name": "Run status is COMPLETED",
+      "passed": true
+    },
+    {
+      "name": "Room cue returned to 10.02",
+      "passed": true
+    }
+  ],
+  "totalChecks": 24,
+  "passedChecks": 24,
+  "errors": [],
+  "averageLatencyMs": 35,
+  "timestamp": "2026-10-06T21:43:17.990Z"
+}

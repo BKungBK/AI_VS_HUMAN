@@ -1,0 +1,28 @@
+{
+  "pass": true,
+  "method": "Original source now uses filtered noise without pitched oscillators or bell components; PCM check is technical, not a listening review.",
+  "records": [
+    {
+      "version": "before",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidth": 2,
+      "duration": 1.05,
+      "peakDbFS": -10.457928342522694,
+      "rmsDbFS": -22.462026131001963,
+      "endpointMagnitude": 0.0,
+      "sha256": "43907184d44c91fe6f91619c030d0d09d53f27f7d5a437f4a9db8decfca1a718"
+    },
+    {
+      "version": "current",
+      "sampleRate": 48000,
+      "channels": 2,
+      "sampleWidth": 2,
+      "duration": 1.05,
+      "peakDbFS": -14.424816372218714,
+      "rmsDbFS": -30.00247347614132,
+      "endpointMagnitude": 0.0,
+      "sha256": "fecc89ea12f531782d250159f8bc11b72430040bfeac81b92ce38e54c9929544"
+    }
+  ]
+}

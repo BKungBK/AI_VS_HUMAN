@@ -1,0 +1,57 @@
+{
+  "stage": [
+    1920,
+    1080
+  ],
+  "clock": "presenter-controlled, shared GSAP timeline and pure ambient phase",
+  "files": [
+    {
+      "path": "src/App.tsx",
+      "sha256": "ab14161b4467bc76cba81cc514c75ee8f47c39e54f763eea0834349b8f8b84d9"
+    },
+    {
+      "path": "src/content.ts",
+      "sha256": "dc9914887e57a8e49a39bc314745161899c46e37e665b70fbd5157dbf2207ca5"
+    },
+    {
+      "path": "src/main.tsx",
+      "sha256": "ba2ad635281697ebd6f0cc85d69f35d67ade7041d9b445aab570e3133a265bb3"
+    },
+    {
+      "path": "src/SpatialMotion.ts",
+      "sha256": "67acca5a65d67f20cb0462f67dc93439939aeedc6fc4a12e90ad5dcdf7a950a4"
+    },
+    {
+      "path": "src/spoken.ts",
+      "sha256": "616386e74aa80b2c848204a6fce67e306d1d75fd87c58ca8f002f31fa2489e0e"
+    },
+    {
+      "path": "src/style.css",
+      "sha256": "471b8c1513f8067d9a973dbfd749ddc4814964991fa559f8c3f2215dbb3be13f"
+    },
+    {
+      "path": "src/Visuals.tsx",
+      "sha256": "45ef06588cb3593f4043af35e1aa54bd712136595057cbe311684891fbbf3670"
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "src/World.ts",
+      "sha256": "c522e5151425f2ccf277e2e6c5c9d3cd991518b8f3b762a29fd3bf93467579ad"
+    },
+    {
+      "path": "dist/assets/index-C2sTYk-N.js",
+      "sha256": "8814d4e67e78908d3253bdfab20351c11d06fc686d64b0fd79fe5b57f0a23ba7"
+    },
+    {
+      "path": "dist/assets/index-DGta4I88.css",
+      "sha256": "8e9d48890f5f5b6356b445558e2f24e7ab3242285b2559edeaf255f459b92011"
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "b9225ccb52443731584caa694cb4814122c3d992b8400c0efef257164e15ea1e"
+    }
+  ]
+}

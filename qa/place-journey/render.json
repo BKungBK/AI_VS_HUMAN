@@ -1,0 +1,83 @@
+{
+  "frames": 720,
+  "fps": 30,
+  "duration": 24,
+  "stage": [
+    1920,
+    1080
+  ],
+  "capture": [
+    1280,
+    720
+  ],
+  "audio": "absent",
+  "clips": [
+    {
+      "name": "gallery-to-lab",
+      "from": [
+        2,
+        3
+      ],
+      "to": [
+        5,
+        0
+      ]
+    },
+    {
+      "name": "lab-to-frontier",
+      "from": [
+        5,
+        2
+      ],
+      "to": [
+        5,
+        3
+      ]
+    },
+    {
+      "name": "grove-to-listening",
+      "from": [
+        6,
+        1
+      ],
+      "to": [
+        8,
+        0
+      ]
+    },
+    {
+      "name": "through-checkpoint",
+      "from": [
+        8,
+        2
+      ],
+      "to": [
+        9,
+        0
+      ]
+    },
+    {
+      "name": "rise-to-horizon",
+      "from": [
+        12,
+        3
+      ],
+      "to": [
+        14,
+        0
+      ]
+    },
+    {
+      "name": "reverse-gallery",
+      "from": [
+        2,
+        3
+      ],
+      "to": [
+        2,
+        2
+      ]
+    }
+  ],
+  "errors": []
+}

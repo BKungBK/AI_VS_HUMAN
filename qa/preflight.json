@@ -1,0 +1,282 @@
+{
+  "status": "WARN",
+  "ok": true,
+  "engine": "auto",
+  "roots": [
+    "C:\\Users\\BKungBK\\.codex\\skills",
+    "C:\\Users\\BKungBK\\.agents\\skills"
+  ],
+  "skills": [
+    {
+      "name": "kinetic-reel",
+      "path": "C:\\Users\\BKungBK\\.codex\\skills\\kinetic-reel\\SKILL.md",
+      "directory": "C:\\Users\\BKungBK\\.codex\\skills\\kinetic-reel",
+      "has_description": true,
+      "resources": [
+        "scripts",
+        "references",
+        "template"
+      ]
+    },
+    {
+      "name": "motion-design",
+      "path": "C:\\Users\\BKungBK\\.codex\\skills\\motion-design\\SKILL.md",
+      "directory": "C:\\Users\\BKungBK\\.codex\\skills\\motion-design",
+      "has_description": true,
+      "resources": [
+        "scripts"
+      ]
+    },
+    {
+      "name": "motion-graphic",
+      "path": "C:\\Users\\BKungBK\\.codex\\skills\\motion-graphic\\SKILL.md",
+      "directory": "C:\\Users\\BKungBK\\.codex\\skills\\motion-graphic",
+      "has_description": true,
+      "resources": [
+        "scripts",
+        "references",
+        "assets",
+        "agents"
+      ]
+    },
+    {
+      "name": "remotion-best-practices",
+      "path": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-best-practices\\SKILL.md",
+      "directory": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-best-practices",
+      "has_description": true,
+      "resources": [
+        "assets",
+        "agents"
+      ]
+    },
+    {
+      "name": "remotion-captions",
+      "path": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-captions\\SKILL.md",
+      "directory": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-captions",
+      "has_description": true,
+      "resources": [
+        "assets",
+        "agents"
+      ]
+    },
+    {
+      "name": "remotion-create",
+      "path": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-create\\SKILL.md",
+      "directory": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-create",
+      "has_description": true,
+      "resources": [
+        "assets",
+        "agents"
+      ]
+    },
+    {
+      "name": "remotion-docs",
+      "path": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-docs\\SKILL.md",
+      "directory": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-docs",
+      "has_description": true,
+      "resources": [
+        "assets",
+        "agents"
+      ]
+    },
+    {
+      "name": "remotion-interactivity",
+      "path": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-interactivity\\SKILL.md",
+      "directory": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-interactivity",
+      "has_description": true,
+      "resources": [
+        "assets",
+        "agents"
+      ]
+    },
+    {
+      "name": "remotion-maps",
+      "path": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-maps\\SKILL.md",
+      "directory": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-maps",
+      "has_description": true,
+      "resources": [
+        "assets",
+        "agents"
+      ]
+    },
+    {
+      "name": "remotion-markup",
+      "path": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-markup\\SKILL.md",
+      "directory": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-markup",
+      "has_description": true,
+      "resources": [
+        "assets",
+        "agents"
+      ]
+    },
+    {
+      "name": "remotion-multimedia",
+      "path": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-multimedia\\SKILL.md",
+      "directory": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-multimedia",
+      "has_description": true,
+      "resources": [
+        "assets",
+        "agents"
+      ]
+    },
+    {
+      "name": "remotion-render",
+      "path": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-render\\SKILL.md",
+      "directory": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-render",
+      "has_description": true,
+      "resources": [
+        "assets",
+        "agents"
+      ]
+    },
+    {
+      "name": "remotion-saas",
+      "path": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-saas\\SKILL.md",
+      "directory": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-saas",
+      "has_description": true,
+      "resources": [
+        "assets",
+        "agents"
+      ]
+    },
+    {
+      "name": "remotion-studio",
+      "path": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-studio\\SKILL.md",
+      "directory": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-studio",
+      "has_description": true,
+      "resources": [
+        "assets",
+        "agents"
+      ]
+    },
+    {
+      "name": "remotion-upgrade",
+      "path": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-upgrade\\SKILL.md",
+      "directory": "C:\\Users\\BKungBK\\.codex\\skills\\remotion-upgrade",
+      "has_description": true,
+      "resources": [
+        "assets",
+        "agents"
+      ]
+    }
+  ],
+  "tools": {
+    "python": {
+      "version": "3.13.15",
+      "path": "C:\\Users\\BKungBK\\AppData\\Local\\Programs\\Python\\Python313\\python.exe"
+    },
+    "node": {
+      "path": "C:\\Program Files\\nodejs\\node.EXE",
+      "version": "v24.19.0"
+    },
+    "npm": {
+      "path": "C:\\Program Files\\nodejs\\npm.cmd",
+      "version": "11.17.0"
+    },
+    "npx": {
+      "path": "C:\\Program Files\\nodejs\\npx.cmd",
+      "version": "11.17.0"
+    },
+    "ffmpeg": {
+      "path": "C:\\Users\\BKungBK\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin\\ffmpeg.EXE",
+      "version": "ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+    },
+    "ffprobe": {
+      "path": "C:\\Users\\BKungBK\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build\\bin\\ffprobe.EXE",
+      "version": "ffprobe version 9.0.2-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers"
+    }
+  },
+  "browsers": [
+    "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "C:\\Users\\BKungBK\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Local\\ms-playwright\\chromium-1243\\chrome-win64\\chrome.exe"
+  ],
+  "packages": [],
+  "codex_discovery": "filesystem candidates; use Codex skills/list for authoritative discovery",
+  "checks": [
+    {
+      "check": "skill:kinetic-reel",
+      "status": "PASS",
+      "detail": "1 manifest(s) discovered"
+    },
+    {
+      "check": "skill:motion-design",
+      "status": "PASS",
+      "detail": "1 manifest(s) discovered"
+    },
+    {
+      "check": "skill:motion-graphic",
+      "status": "PASS",
+      "detail": "1 manifest(s) discovered"
+    },
+    {
+      "check": "skill:remotion",
+      "status": "PASS",
+      "detail": "12 manifest(s) discovered"
+    },
+    {
+      "check": "python",
+      "status": "PASS",
+      "detail": "3.13.15 at C:\\Users\\BKungBK\\AppData\\Local\\Programs\\Python\\Python313\\python.exe"
+    },
+    {
+      "check": "node",
+      "status": "PASS",
+      "detail": "v24.19.0"
+    },
+    {
+      "check": "npm",
+      "status": "PASS",
+      "detail": "11.17.0"
+    },
+    {
+      "check": "npx",
+      "status": "PASS",
+      "detail": "11.17.0"
+    },
+    {
+      "check": "ffmpeg",
+      "status": "PASS",
+      "detail": "ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+    },
+    {
+      "check": "ffprobe",
+      "status": "PASS",
+      "detail": "ffprobe version 9.0.2-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers"
+    },
+    {
+      "check": "browser",
+      "status": "PASS",
+      "detail": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+    },
+    {
+      "check": "browser_launch",
+      "status": "WARN",
+      "detail": "Path found only; actual renderer must test browser launch and WebGL if needed"
+    },
+    {
+      "check": "python:playwright",
+      "status": "PASS",
+      "detail": "Available"
+    },
+    {
+      "check": "python:imageio_ffmpeg",
+      "status": "PASS",
+      "detail": "Available"
+    },
+    {
+      "check": "python:numpy",
+      "status": "PASS",
+      "detail": "Available"
+    },
+    {
+      "check": "python:PIL",
+      "status": "PASS",
+      "detail": "Available"
+    },
+    {
+      "check": "package_manifest",
+      "status": "PASS",
+      "detail": "D:\\Project\\AI_VS_HUMAN\\package.json"
+    }
+  ]
+}

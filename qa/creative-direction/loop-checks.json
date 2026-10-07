@@ -1,0 +1,148 @@
+{
+  "checks": [
+    {
+      "name": "loop and reverse seek 01.01",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 01.03",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 01.04",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 03.01",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 03.02",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 03.03",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 03.04",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 04.02",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 04.03",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 06.01",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 06.02",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 06.03",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 06.04",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 06.05",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 07.02",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 09.01",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 09.02",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 09.03",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 10.01",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 10.03",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 11.01",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 11.03",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 13.01",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 13.02",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 13.03",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 13.04",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 15.01",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 15.02",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 15.03",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 15.04",
+      "pass": true
+    },
+    {
+      "name": "loop and reverse seek 16.02",
+      "pass": true
+    },
+    {
+      "name": "ECG clears the verification label",
+      "pass": true
+    },
+    {
+      "name": "gavel head contacts the center of its block",
+      "pass": true,
+      "detail": {
+        "gap": -2.469021759927273,
+        "offset": 1.3126222640275955,
+        "gradientCount": 4
+      }
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

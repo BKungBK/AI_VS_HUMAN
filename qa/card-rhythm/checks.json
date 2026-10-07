@@ -1,0 +1,1131 @@
+{
+  "checks": [
+    {
+      "name": "floating cards, light, reading space 01.01",
+      "pass": true,
+      "detail": {
+        "cards": 2,
+        "motion": [
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 01.01",
+      "pass": true,
+      "detail": {
+        "period": 6.1,
+        "activeDuration": 3.5999999999999996,
+        "actionEnd": 3.24,
+        "rest": 2.8599999999999994
+      }
+    },
+    {
+      "name": "smooth card seam 01.01",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.12969970703125
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 01.03",
+      "pass": true,
+      "detail": {
+        "cards": 2,
+        "motion": [
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 01.03",
+      "pass": true,
+      "detail": {
+        "period": 6.1,
+        "activeDuration": 3.5999999999999996,
+        "actionEnd": 3.24,
+        "rest": 2.8599999999999994
+      }
+    },
+    {
+      "name": "smooth card seam 01.03",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.126678466796875
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 01.04",
+      "pass": true,
+      "detail": {
+        "cards": 3,
+        "motion": [
+          true,
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 01.04",
+      "pass": true,
+      "detail": {
+        "period": 6,
+        "activeDuration": 3.5,
+        "actionEnd": 3.4,
+        "rest": 2.6
+      }
+    },
+    {
+      "name": "smooth card seam 01.04",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.18267822265625
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 03.01",
+      "pass": true,
+      "detail": {
+        "cards": 2,
+        "motion": [
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 03.01",
+      "pass": true,
+      "detail": {
+        "period": 5.4,
+        "activeDuration": 2.9000000000000004,
+        "actionEnd": 2.9,
+        "rest": 2.5000000000000004
+      }
+    },
+    {
+      "name": "smooth card seam 03.01",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.14794921875
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 03.02",
+      "pass": true,
+      "detail": {
+        "cards": 2,
+        "motion": [
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 03.02",
+      "pass": true,
+      "detail": {
+        "period": 5.5,
+        "activeDuration": 3,
+        "actionEnd": 3,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 03.02",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.14410400390625
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 03.03",
+      "pass": true,
+      "detail": {
+        "cards": 2,
+        "motion": [
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 03.03",
+      "pass": true,
+      "detail": {
+        "period": 5.4,
+        "activeDuration": 2.9000000000000004,
+        "actionEnd": 2.9,
+        "rest": 2.5000000000000004
+      }
+    },
+    {
+      "name": "smooth card seam 03.03",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.14788818359375
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 03.04",
+      "pass": true,
+      "detail": {
+        "cards": 3,
+        "motion": [
+          true,
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 03.04",
+      "pass": true,
+      "detail": {
+        "period": 6,
+        "activeDuration": 3.5,
+        "actionEnd": 3.45,
+        "rest": 2.55
+      }
+    },
+    {
+      "name": "smooth card seam 03.04",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.18414306640625
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 04.02",
+      "pass": true,
+      "detail": {
+        "cards": 2,
+        "motion": [
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 04.02",
+      "pass": true,
+      "detail": {
+        "period": 7,
+        "activeDuration": 4.5,
+        "actionEnd": 4.5,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 04.02",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.10906982421875
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 04.03",
+      "pass": true,
+      "detail": {
+        "cards": 2,
+        "motion": [
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 04.03",
+      "pass": true,
+      "detail": {
+        "period": 7,
+        "activeDuration": 4.5,
+        "actionEnd": 4.5,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 04.03",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.10906982421875
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 06.01",
+      "pass": true,
+      "detail": {
+        "cards": 2,
+        "motion": [
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 06.01",
+      "pass": true,
+      "detail": {
+        "period": 5.5,
+        "activeDuration": 3,
+        "actionEnd": 2.9,
+        "rest": 2.6
+      }
+    },
+    {
+      "name": "smooth card seam 06.01",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.13873291015625
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 06.02",
+      "pass": true,
+      "detail": {
+        "cards": 2,
+        "motion": [
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 06.02",
+      "pass": true,
+      "detail": {
+        "period": 6.5,
+        "activeDuration": 4,
+        "actionEnd": 4,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 06.02",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.12286376953125
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 06.03",
+      "pass": true,
+      "detail": {
+        "cards": 2,
+        "motion": [
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 06.03",
+      "pass": true,
+      "detail": {
+        "period": 5.9,
+        "activeDuration": 3.4000000000000004,
+        "actionEnd": 3.4,
+        "rest": 2.5000000000000004
+      }
+    },
+    {
+      "name": "smooth card seam 06.03",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.133148193359375
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 06.04",
+      "pass": true,
+      "detail": {
+        "cards": 3,
+        "motion": [
+          true,
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 06.04",
+      "pass": true,
+      "detail": {
+        "period": 5.5,
+        "activeDuration": 3,
+        "actionEnd": 3,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 06.04",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.19866943359375
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 06.05",
+      "pass": true,
+      "detail": {
+        "cards": 3,
+        "motion": [
+          true,
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 06.05",
+      "pass": true,
+      "detail": {
+        "period": 6,
+        "activeDuration": 3.5,
+        "actionEnd": 3.4,
+        "rest": 2.6
+      }
+    },
+    {
+      "name": "smooth card seam 06.05",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.183349609375
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 07.02",
+      "pass": true,
+      "detail": {
+        "cards": 3,
+        "motion": [
+          true,
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 07.02",
+      "pass": true,
+      "detail": {
+        "period": 5.4,
+        "activeDuration": 2.9000000000000004,
+        "actionEnd": 2.9000000000000004,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 07.02",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.19146728515625
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 09.01",
+      "pass": true,
+      "detail": {
+        "cards": 2,
+        "motion": [
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 09.01",
+      "pass": true,
+      "detail": {
+        "period": 5.4,
+        "activeDuration": 2.9000000000000004,
+        "actionEnd": 2.9,
+        "rest": 2.5000000000000004
+      }
+    },
+    {
+      "name": "smooth card seam 09.01",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.1474609375
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 09.02",
+      "pass": true,
+      "detail": {
+        "cards": 2,
+        "motion": [
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 09.02",
+      "pass": true,
+      "detail": {
+        "period": 5.4,
+        "activeDuration": 2.9000000000000004,
+        "actionEnd": 2.9,
+        "rest": 2.5000000000000004
+      }
+    },
+    {
+      "name": "smooth card seam 09.02",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.1480712890625
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 09.03",
+      "pass": true,
+      "detail": {
+        "cards": 2,
+        "motion": [
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 09.03",
+      "pass": true,
+      "detail": {
+        "period": 5.7,
+        "activeDuration": 3.2,
+        "actionEnd": 3.2,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 09.03",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.1396484375
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 10.01",
+      "pass": true,
+      "detail": {
+        "cards": 1,
+        "motion": [
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 10.01",
+      "pass": true,
+      "detail": {
+        "period": 5.5,
+        "activeDuration": 3,
+        "actionEnd": 3,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 10.01",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.1131591796875
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 10.03",
+      "pass": true,
+      "detail": {
+        "cards": 1,
+        "motion": [
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 10.03",
+      "pass": true,
+      "detail": {
+        "period": 5.8,
+        "activeDuration": 3.3,
+        "actionEnd": 3.3,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 10.03",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.105712890625
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 11.01",
+      "pass": true,
+      "detail": {
+        "cards": 2,
+        "motion": [
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 11.01",
+      "pass": true,
+      "detail": {
+        "period": 4.95,
+        "activeDuration": 2.45,
+        "actionEnd": 2.45,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 11.01",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.1617431640625
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 11.03",
+      "pass": true,
+      "detail": {
+        "cards": 2,
+        "motion": [
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 11.03",
+      "pass": true,
+      "detail": {
+        "period": 5.2,
+        "activeDuration": 2.7,
+        "actionEnd": 2.7,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 11.03",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.15411376953125
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 13.01",
+      "pass": true,
+      "detail": {
+        "cards": 3,
+        "motion": [
+          true,
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 13.01",
+      "pass": true,
+      "detail": {
+        "period": 4.95,
+        "activeDuration": 2.45,
+        "actionEnd": 2.45,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 13.01",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.21929931640625
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 13.02",
+      "pass": true,
+      "detail": {
+        "cards": 1,
+        "motion": [
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 13.02",
+      "pass": true,
+      "detail": {
+        "period": 5.8,
+        "activeDuration": 3.3,
+        "actionEnd": 3.3,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 13.02",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.105712890625
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 13.03",
+      "pass": true,
+      "detail": {
+        "cards": 2,
+        "motion": [
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 13.03",
+      "pass": true,
+      "detail": {
+        "period": 5.8,
+        "activeDuration": 3.3,
+        "actionEnd": 3.25,
+        "rest": 2.55
+      }
+    },
+    {
+      "name": "smooth card seam 13.03",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.138427734375
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 13.04",
+      "pass": true,
+      "detail": {
+        "cards": 1,
+        "motion": [
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 13.04",
+      "pass": true,
+      "detail": {
+        "period": 5.8,
+        "activeDuration": 3.3,
+        "actionEnd": 3.3,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 13.04",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.105712890625
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 15.01",
+      "pass": true,
+      "detail": {
+        "cards": 3,
+        "motion": [
+          true,
+          true,
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 15.01",
+      "pass": true,
+      "detail": {
+        "period": 6,
+        "activeDuration": 3.5,
+        "actionEnd": 3.5,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 15.01",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.16796875
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 15.02",
+      "pass": true,
+      "detail": {
+        "cards": 1,
+        "motion": [
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 15.02",
+      "pass": true,
+      "detail": {
+        "period": 6.5,
+        "activeDuration": 4,
+        "actionEnd": 4,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 15.02",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.092041015625
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 15.03",
+      "pass": true,
+      "detail": {
+        "cards": 1,
+        "motion": [
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 15.03",
+      "pass": true,
+      "detail": {
+        "period": 6.5,
+        "activeDuration": 4,
+        "actionEnd": 4,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 15.03",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.092041015625
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 15.04",
+      "pass": true,
+      "detail": {
+        "cards": 1,
+        "motion": [
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 15.04",
+      "pass": true,
+      "detail": {
+        "period": 6.5,
+        "activeDuration": 4,
+        "actionEnd": 4,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 15.04",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.092041015625
+      }
+    },
+    {
+      "name": "floating cards, light, reading space 16.02",
+      "pass": true,
+      "detail": {
+        "cards": 1,
+        "motion": [
+          true
+        ],
+        "safe": true,
+        "fixed": true,
+        "overflow": []
+      }
+    },
+    {
+      "name": "narrative rest 2–3 seconds 16.02",
+      "pass": true,
+      "detail": {
+        "period": 6.5,
+        "activeDuration": 4,
+        "actionEnd": 4,
+        "rest": 2.5
+      }
+    },
+    {
+      "name": "smooth card seam 16.02",
+      "pass": true,
+      "detail": {
+        "maximumBoundDelta": 0.092041015625
+      }
+    },
+    {
+      "name": "cards never occlude evidence 04.02",
+      "pass": true,
+      "detail": [
+        {
+          "overlap": 0,
+          "cells": 0
+        },
+        {
+          "overlap": 0,
+          "cells": 0
+        },
+        {
+          "overlap": 0,
+          "cells": 0
+        },
+        {
+          "overlap": 0,
+          "cells": 0
+        },
+        {
+          "overlap": 0,
+          "cells": 0
+        }
+      ]
+    },
+    {
+      "name": "cards never occlude evidence 06.01",
+      "pass": true,
+      "detail": [
+        {
+          "overlap": 0,
+          "cells": 16
+        },
+        {
+          "overlap": 0,
+          "cells": 16
+        },
+        {
+          "overlap": 0,
+          "cells": 16
+        },
+        {
+          "overlap": 0,
+          "cells": 16
+        },
+        {
+          "overlap": 0,
+          "cells": 16
+        }
+      ]
+    },
+    {
+      "name": "cards never occlude evidence 07.02",
+      "pass": true,
+      "detail": [
+        {
+          "overlap": 0,
+          "cells": 0
+        },
+        {
+          "overlap": 0,
+          "cells": 0
+        },
+        {
+          "overlap": 0,
+          "cells": 0
+        },
+        {
+          "overlap": 0,
+          "cells": 0
+        },
+        {
+          "overlap": 0,
+          "cells": 0
+        }
+      ]
+    },
+    {
+      "name": "larger ECG attached above its card 10.01",
+      "pass": true,
+      "detail": [
+        {
+          "above": true,
+          "fit": true,
+          "height": 68.53097534179688,
+          "widthRatio": 0.9322597470905127,
+          "top": 214.49905395507812
+        },
+        {
+          "above": true,
+          "fit": true,
+          "height": 68.81077575683594,
+          "widthRatio": 0.9322598611685089,
+          "top": 208.9275665283203
+        },
+        {
+          "above": true,
+          "fit": true,
+          "height": 69.04266357421875,
+          "widthRatio": 0.9322599598162529,
+          "top": 204.30963134765625
+        },
+        {
+          "above": true,
+          "fit": true,
+          "height": 68.72317504882812,
+          "widthRatio": 0.9322599201175168,
+          "top": 210.67147827148438
+        }
+      ]
+    },
+    {
+      "name": "larger ECG attached above its card 10.03",
+      "pass": true,
+      "detail": [
+        {
+          "above": true,
+          "fit": true,
+          "height": 63.35511779785156,
+          "widthRatio": 0.918545345248729,
+          "top": 182.4918670654297
+        },
+        {
+          "above": true,
+          "fit": true,
+          "height": 63.50593566894531,
+          "widthRatio": 0.9185454833271467,
+          "top": 177.4153289794922
+        },
+        {
+          "above": true,
+          "fit": true,
+          "height": 63.65675354003906,
+          "widthRatio": 0.918545345248729,
+          "top": 172.33877563476562
+        },
+        {
+          "above": true,
+          "fit": true,
+          "height": 63.50593566894531,
+          "widthRatio": 0.9185454015813742,
+          "top": 177.4153289794922
+        }
+      ]
+    },
+    {
+      "name": "human electrical impulses travel across thirteen nerve paths",
+      "pass": true,
+      "detail": [
+        1,
+        4,
+        7,
+        11
+      ]
+    },
+    {
+      "name": "card drift freezes with the central pause",
+      "pass": true
+    },
+    {
+      "name": "no runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

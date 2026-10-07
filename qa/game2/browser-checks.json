@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-06T22:08:28.898Z",
+  "origin": "http://127.0.0.1:5190",
+  "code": "D4B6F3",
+  "checks": [
+    {
+      "name": "player decoded all eight images before ready",
+      "passed": true
+    },
+    {
+      "name": "mobile player has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "display has no horizontal overflow in lobby",
+      "passed": true
+    },
+    {
+      "name": "answer key and image credits stay out of the pre-reveal snapshot",
+      "passed": true
+    },
+    {
+      "name": "left swipe submits Human and locks the image",
+      "passed": true
+    },
+    {
+      "name": "the locked image cannot score a second button answer",
+      "passed": true
+    },
+    {
+      "name": "reveals begin only after all eight answer windows close",
+      "passed": true
+    },
+    {
+      "name": "player sees only their own answers after reveal",
+      "passed": true
+    },
+    {
+      "name": "summary accuracy handles unanswered roster entries",
+      "passed": true
+    },
+    {
+      "name": "summary layout fits the 1920x1080 projection",
+      "passed": true
+    },
+    {
+      "name": "mobile reveal can scroll without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "host explicitly confirms and returns to cue 03.03",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

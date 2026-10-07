@@ -1,0 +1,445 @@
+{
+  "checks": [
+    {
+      "name": "42 current cue scores render locally through the production mix",
+      "pass": true,
+      "detail": {
+        "worstPeakDbFS": -16.120674236632663
+      }
+    },
+    {
+      "name": "a journey has one arrival after the camera flight",
+      "pass": true,
+      "detail": {
+        "cue": "06.04",
+        "place": "frontier",
+        "events": [
+          {
+            "asset": "departure",
+            "at": 0,
+            "gain": 0.3,
+            "role": "departure",
+            "pan": -0.06,
+            "duration": 0.5
+          },
+          {
+            "asset": "travel-descend",
+            "at": 0.16,
+            "gain": 0.48,
+            "role": "travel",
+            "pan": -0.12,
+            "duration": 1.65,
+            "panEnd": 0.12
+          },
+          {
+            "asset": "frontier",
+            "at": 1.72,
+            "gain": 0.32,
+            "role": "arrival",
+            "pan": 0.06,
+            "duration": 1.1
+          }
+        ],
+        "loop": 8,
+        "ambientStart": 2.8,
+        "journey": true,
+        "direction": 1
+      }
+    },
+    {
+      "name": "travel follows the camera with a narrower pan and lower gain",
+      "pass": true
+    },
+    {
+      "name": "visual strike loops do not inject repeating impacts",
+      "pass": true
+    },
+    {
+      "name": "no browser runtime errors",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "renders": [
+    {
+      "cue": "01.01",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -17.664121754003357,
+      "rmsDbFS": -36.59125786568209
+    },
+    {
+      "cue": "01.02",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "01.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -17.66422165374813,
+      "rmsDbFS": -35.757914328325306
+    },
+    {
+      "cue": "01.04",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -17.66422165374813,
+      "rmsDbFS": -35.757914328325306
+    },
+    {
+      "cue": "02.01",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "03.01",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -17.397026767281968,
+      "rmsDbFS": -34.5080251223301
+    },
+    {
+      "cue": "03.02",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -17.397026767281968,
+      "rmsDbFS": -34.5080251223301
+    },
+    {
+      "cue": "03.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -17.397026767281968,
+      "rmsDbFS": -34.5080251223301
+    },
+    {
+      "cue": "03.04",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -17.397026767281968,
+      "rmsDbFS": -34.5080251223301
+    },
+    {
+      "cue": "04.01",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "04.02",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -17.469217940825853,
+      "rmsDbFS": -35.6695151360426
+    },
+    {
+      "cue": "04.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -17.469217940825853,
+      "rmsDbFS": -35.6695151360426
+    },
+    {
+      "cue": "05.01",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "06.01",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -18.579724035620146,
+      "rmsDbFS": -36.24162633557518
+    },
+    {
+      "cue": "06.02",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -18.579724035620146,
+      "rmsDbFS": -36.24162633557518
+    },
+    {
+      "cue": "06.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -18.579724035620146,
+      "rmsDbFS": -36.24162633557518
+    },
+    {
+      "cue": "06.04",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -18.495664003279643,
+      "rmsDbFS": -34.333077282597365
+    },
+    {
+      "cue": "06.05",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -18.495664003279643,
+      "rmsDbFS": -34.333077282597365
+    },
+    {
+      "cue": "07.01",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "07.02",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -22.072144291127707,
+      "rmsDbFS": -40.39670388976823
+    },
+    {
+      "cue": "08.01",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "09.01",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -17.054511456577366,
+      "rmsDbFS": -33.990694655538235
+    },
+    {
+      "cue": "09.02",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -17.054511456577366,
+      "rmsDbFS": -33.990694655538235
+    },
+    {
+      "cue": "09.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -17.054511456577366,
+      "rmsDbFS": -33.990694655538235
+    },
+    {
+      "cue": "10.01",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -18.980351288183904,
+      "rmsDbFS": -36.702224969985615
+    },
+    {
+      "cue": "10.02",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "10.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -18.980351288183904,
+      "rmsDbFS": -36.702224969985615
+    },
+    {
+      "cue": "11.01",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -16.120674236632663,
+      "rmsDbFS": -35.69692760336003
+    },
+    {
+      "cue": "11.02",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "11.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -16.120674236632663,
+      "rmsDbFS": -35.69692760336003
+    },
+    {
+      "cue": "12.01",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "13.01",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -18.116845316166252,
+      "rmsDbFS": -35.43007822128724
+    },
+    {
+      "cue": "13.02",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -18.116845316166252,
+      "rmsDbFS": -35.43007822128724
+    },
+    {
+      "cue": "13.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -18.116845316166252,
+      "rmsDbFS": -35.43007822128724
+    },
+    {
+      "cue": "13.04",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -18.116845316166252,
+      "rmsDbFS": -35.43007822128724
+    },
+    {
+      "cue": "14.01",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "15.01",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -16.968323848094357,
+      "rmsDbFS": -32.84807656028633
+    },
+    {
+      "cue": "15.02",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -16.968323848094357,
+      "rmsDbFS": -32.84807656028633
+    },
+    {
+      "cue": "15.03",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -16.968323848094357,
+      "rmsDbFS": -32.84807656028633
+    },
+    {
+      "cue": "15.04",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -16.968323848094357,
+      "rmsDbFS": -32.84807656028633
+    },
+    {
+      "cue": "16.01",
+      "kind": "placeholder",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -23.149863703352224,
+      "rmsDbFS": -51.94087464108698
+    },
+    {
+      "cue": "16.02",
+      "kind": "content",
+      "duration": 4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -16.968323848094357,
+      "rmsDbFS": -32.84807656028633
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

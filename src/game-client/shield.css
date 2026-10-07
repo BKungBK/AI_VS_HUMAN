@@ -1,0 +1,814 @@
+/* Company Shield: บริษัทต้องรับก่อนถึงลูกค้า (Game 6) Stylesheet */
+/* Clean, high-contrast, responsive arcade terminal aesthetic */
+
+.shield-root {
+  --shield-bg: #070b14;
+  --shield-panel: #0d1527;
+  --shield-panel-border: #1e293b;
+  --shield-gold: #f59e0b;
+  --shield-gold-glow: rgba(245, 158, 11, 0.4);
+  --shield-crimson: #f43f5e;
+  --shield-crimson-glow: rgba(244, 63, 94, 0.4);
+  --shield-cyan: #06b6d4;
+  --shield-emerald: #10b981;
+  --shield-emerald-glow: rgba(16, 185, 129, 0.4);
+  --shield-text-main: #f8fafc;
+  --shield-text-muted: #94a3b8;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--shield-bg);
+  background-image: 
+    radial-gradient(ellipse at 50% 0%, rgba(245, 158, 11, 0.08) 0%, transparent 60%),
+    linear-gradient(to bottom, rgba(7, 11, 20, 0.95), #070b14);
+  color: var(--shield-text-main);
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+  box-sizing: border-box;
+  user-select: none;
+  overflow-x: hidden;
+}
+
+/* Sound toggle & Header */
+.shield-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: rgba(13, 21, 39, 0.85);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--shield-panel-border);
+  z-index: 20;
+}
+
+.shield-brand-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.shield-badge-tag {
+  background: rgba(245, 158, 11, 0.2);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.5);
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 6px;
+  letter-spacing: 0.5px;
+}
+
+.shield-brand-title {
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.shield-top-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.shield-audio-btn {
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #f1f5f9;
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.shield-audio-btn:hover {
+  background: #334155;
+}
+
+/* Briefing / Preview Banner */
+.shield-context-banner {
+  background: rgba(245, 158, 11, 0.1);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  margin: 10px 16px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #fde68a;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.shield-context-banner > div {
+  min-width: 0;
+  display: grid;
+  gap: 2px;
+}
+
+.shield-context-label {
+  color: #fbbf24;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+}
+
+.shield-context-banner > div {
+  min-width: 0;
+  display: grid;
+  gap: 2px;
+}
+
+.shield-context-label {
+  color: #fbbf24;
+  font-size: 11px;
+  letter-spacing: 0.02em;
+}
+
+/* Game Arena */
+.shield-arena {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 6px 12px 16px;
+  box-sizing: border-box;
+}
+
+/* Arena Top Stats */
+.shield-stats-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--shield-panel);
+  border: 1px solid var(--shield-panel-border);
+  border-radius: 10px;
+  padding: 8px 16px;
+  margin-bottom: 8px;
+}
+
+.shield-stat-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.shield-stat-label {
+  font-size: 11px;
+  color: var(--shield-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.shield-stat-val {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: monospace;
+  color: #f8fafc;
+}
+
+.shield-stat-val.score {
+  color: #fbbf24;
+  text-shadow: 0 0 10px var(--shield-gold-glow);
+}
+
+.shield-stat-val.timer {
+  color: #38bdf8;
+}
+
+.shield-stat-val.timer.urgent {
+  color: #f43f5e;
+  animation: pulse-urgent 0.5s infinite alternate;
+}
+
+@keyframes pulse-urgent {
+  from { transform: scale(1); }
+  to { transform: scale(1.08); text-shadow: 0 0 12px var(--shield-crimson); }
+}
+
+/* The 3-lane field */
+.shield-field {
+  flex: 1;
+  min-height: 420px;
+  background: #090e1c;
+  border: 2px solid #1e293b;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+/* Bot Bar at Top */
+.shield-bot-zone {
+  height: 64px;
+  background: rgba(15, 23, 42, 0.9);
+  border-bottom: 1px solid #334155;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4px 8px;
+  position: relative;
+  z-index: 10;
+}
+
+.shield-nozzle {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.shield-nozzle-badge {
+  font-size: 11px;
+  font-weight: 700;
+  color: #94a3b8;
+  background: #1e293b;
+  padding: 2px 8px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+}
+
+.shield-nozzle.aiming .shield-nozzle-badge {
+  background: #be123c;
+  color: #fff;
+  border-color: #f43f5e;
+  box-shadow: 0 0 8px var(--shield-crimson-glow);
+  animation: nozzle-aim-pulse 0.4s infinite alternate;
+}
+
+@keyframes nozzle-aim-pulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.06); }
+}
+
+/* Speech Bubble during Aiming */
+.shield-aim-bubble {
+  position: absolute;
+  top: 48px;
+  background: #e11d48;
+  color: #ffffff;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4), 0 0 10px var(--shield-crimson-glow);
+  z-index: 15;
+  pointer-events: none;
+  animation: bubble-pop 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+@keyframes bubble-pop {
+  from { opacity: 0; transform: translateY(-6px) scale(0.9); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+/* Runways (3 vertical columns) */
+.shield-runways {
+  flex: 1;
+  position: relative;
+  display: flex;
+}
+
+.shield-runway-col {
+  flex: 1;
+  border-right: 1px dashed rgba(51, 65, 85, 0.5);
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.shield-runway-col:last-child {
+  border-right: none;
+}
+
+/* Laser targeting line */
+.shield-laser-guide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #f43f5e, rgba(244, 63, 94, 0.1));
+  box-shadow: 0 0 8px #f43f5e;
+  pointer-events: none;
+  animation: laser-pulse 0.3s infinite alternate;
+}
+
+@keyframes laser-pulse {
+  from { opacity: 0.6; }
+  to { opacity: 1; }
+}
+
+/* Falling Packet Card */
+.shield-packet-projectile {
+  position: absolute;
+  width: 90%;
+  max-width: 150px;
+  background: #1e1b4b;
+  border: 1px solid #f43f5e;
+  border-radius: 6px;
+  padding: 6px 8px;
+  color: #ffffff;
+  font-size: 11px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5), 0 0 10px rgba(244, 63, 94, 0.5);
+  pointer-events: none;
+  z-index: 12;
+  text-align: center;
+  transform: translateY(0);
+}
+
+.shield-packet-claim {
+  font-weight: 700;
+  color: #fecdd3;
+  margin-bottom: 2px;
+}
+
+.shield-packet-no {
+  font-size: 9px;
+  color: #fda4af;
+  text-transform: uppercase;
+}
+
+/* Company Shield Rail (Player Area) */
+.shield-rail-zone {
+  height: 90px;
+  background: rgba(15, 23, 42, 0.7);
+  border-top: 1px solid #334155;
+  border-bottom: 1px solid #334155;
+  position: relative;
+  touch-action: none; /* Prevent page scroll during drag */
+  cursor: grab;
+}
+
+.shield-rail-zone:active {
+  cursor: grabbing;
+}
+
+.shield-rail-marker {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 6px;
+  background: #1e293b;
+  transform: translateY(-50%);
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* The Company Building Avatar */
+.shield-building {
+  position: absolute;
+  top: 6px;
+  width: 32%;
+  height: 78px;
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  border: 2px solid #f59e0b;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.6), 0 0 14px var(--shield-gold-glow);
+  z-index: 15;
+  transition: transform 0.1s cubic-bezier(0.2, 0.9, 0.3, 1);
+  will-change: transform;
+}
+
+.shield-building.impact {
+  animation: building-recoil 0.25s ease-out;
+}
+
+@keyframes building-recoil {
+  0% { transform: scale(1); }
+  30% { transform: scale(1.15, 0.85); border-color: #fbbf24; box-shadow: 0 0 20px #fbbf24; }
+  60% { transform: scale(0.92, 1.08); }
+  100% { transform: scale(1); }
+}
+
+.shield-building-icon {
+  font-size: 20px;
+}
+
+.shield-building-title {
+  font-size: 11px;
+  font-weight: 800;
+  color: #fbbf24;
+  letter-spacing: 0.5px;
+}
+
+.shield-building-tasks {
+  font-size: 10px;
+  color: #cbd5e1;
+  background: rgba(245, 158, 11, 0.2);
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-top: 2px;
+}
+
+/* Customer Zone at Bottom */
+.shield-customer-zone {
+  height: 72px;
+  background: #090e1c;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4px;
+}
+
+.shield-customer-pod {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 4px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.shield-customer-avatar {
+  font-size: 18px;
+}
+
+.shield-customer-name {
+  font-size: 11px;
+  font-weight: 600;
+  color: #94a3b8;
+}
+
+.shield-customer-status {
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 4px;
+  padding: 1px 4px;
+  margin-top: 2px;
+}
+
+.shield-customer-status.safe {
+  color: #10b981;
+}
+
+.shield-customer-status.hit {
+  color: #f43f5e;
+  animation: customer-hit-shake 0.3s ease-out;
+}
+
+@keyframes customer-hit-shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  50% { transform: translateX(4px); }
+  75% { transform: translateX(-2px); }
+  100% { transform: translateX(0); }
+}
+
+/* Accessibility Control Buttons */
+.shield-tap-controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.shield-tap-btn {
+  background: #1e293b;
+  border: 1px solid #334155;
+  color: #f8fafc;
+  padding: 12px 6px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  transition: all 0.12s ease;
+}
+
+.shield-tap-btn:active, .shield-tap-btn.active {
+  background: rgba(245, 158, 11, 0.25);
+  border-color: #f59e0b;
+  color: #fbbf24;
+  transform: translateY(1px);
+}
+
+.shield-tap-sub {
+  font-size: 10px;
+  font-weight: 400;
+  color: #94a3b8;
+}
+
+/* Work Task Stack Drawer / Result view */
+.shield-task-stack {
+  margin-top: 12px;
+  background: var(--shield-panel);
+  border: 1px solid var(--shield-panel-border);
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.shield-task-stack-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #fbbf24;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.shield-task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 180px;
+  overflow-y: auto;
+}
+
+.shield-task-item {
+  background: #090e1c;
+  border-left: 3px solid #f59e0b;
+  border-radius: 4px;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.shield-task-item.missed {
+  border-left-color: #f43f5e;
+}
+
+.shield-task-text {
+  font-weight: 600;
+  color: #f8fafc;
+}
+
+.shield-task-origin {
+  font-size: 11px;
+  color: #94a3b8;
+}
+
+.shield-task-status-tag {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.shield-task-status-tag.blocked {
+  background: rgba(16, 185, 129, 0.2);
+  color: #34d399;
+}
+
+.shield-task-status-tag.missed {
+  background: rgba(244, 63, 94, 0.2);
+  color: #fda4af;
+}
+
+/* Result Screen */
+.shield-result-card {
+  background: var(--shield-panel);
+  border: 2px solid var(--shield-panel-border);
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.shield-result-header {
+  font-size: 22px;
+  font-weight: 900;
+  color: #f8fafc;
+  margin-bottom: 4px;
+}
+
+.shield-result-score {
+  font-size: 40px;
+  font-weight: 900;
+  color: #fbbf24;
+  text-shadow: 0 0 16px var(--shield-gold-glow);
+  margin: 8px 0;
+}
+
+.shield-takeaway-banner {
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  color: #bae6fd;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* Display / Projector Layout (1920x1080) */
+.shield-display-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  padding: 24px;
+  height: calc(100vh - 128px);
+  box-sizing: border-box;
+}
+
+.shield-display-stadium {
+  background: var(--shield-panel);
+  border: 2px solid var(--shield-panel-border);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.shield-display-results {
+  flex: 1;
+  min-height: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+  border: 1px solid var(--shield-panel-border);
+  border-radius: 12px;
+  background: #090e1c;
+}
+
+.shield-display-results-title {
+  margin: 0;
+  color: var(--shield-text-main);
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.shield-display-results-note {
+  margin: 6px 0 0;
+  color: #cbd5e1;
+  font-size: 14px;
+}
+
+.shield-display-task-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-flow: column;
+  grid-template-rows: repeat(5, minmax(0, 1fr));
+  gap: 8px 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.shield-display-task-list li {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  background: #0f172a;
+}
+
+.shield-display-task-empty {
+  grid-column: 1 / -1;
+  color: #cbd5e1;
+  font-size: 16px;
+  text-align: center;
+}
+
+.shield-display-task-number {
+  color: #38bdf8;
+  font-family: monospace;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.shield-display-task-name {
+  color: #f8fafc;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.shield-display-task-count {
+  color: #34d399;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.shield-display-lesson {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-top: auto;
+  padding: 14px 16px;
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  border-radius: 8px;
+  background: rgba(56, 189, 248, 0.1);
+}
+
+.shield-display-lesson strong {
+  color: #7dd3fc;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.shield-display-lesson span {
+  color: #e0f2fe;
+  font-size: 14px;
+  text-align: right;
+}
+
+.shield-display-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.shield-display-metric-card {
+  background: var(--shield-panel);
+  border: 1px solid var(--shield-panel-border);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.shield-trust-meter-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 4px;
+  margin-top: 8px;
+}
+
+.shield-trust-slot {
+  height: 24px;
+  border-radius: 4px;
+  background: #1e293b;
+  transition: all 0.3s ease;
+}
+
+.shield-trust-slot.active {
+  background: #8b5cf6;
+  box-shadow: 0 0 8px rgba(139, 92, 246, 0.45);
+}
+
+.shield-trust-slot.lost {
+  background: #334155;
+  opacity: 0.4;
+}
+
+/* Host Controls */
+.shield-host-panel {
+  background: var(--shield-panel);
+  border: 1px solid var(--shield-panel-border);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 16px auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.shield-host-btn-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.shield-host-btn {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  transition: all 0.15s ease;
+}
+
+.shield-host-btn.primary {
+  background: #f59e0b;
+  color: #0f172a;
+}
+
+.shield-host-btn.primary:hover {
+  background: #d97706;
+}
+
+.shield-host-btn.secondary {
+  background: #334155;
+  color: #f8fafc;
+}
+
+.shield-host-btn.secondary:hover {
+  background: #475569;
+}

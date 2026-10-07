@@ -1,0 +1,4 @@
+HUMAN vs AI ready: http://127.0.0.1:5173/
+Clean projection: http://127.0.0.1:5173/?clean=1
+Presenter: http://127.0.0.1:5173/?presenter=1
+Ctrl+C stops the local server.

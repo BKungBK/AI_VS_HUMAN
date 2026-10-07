@@ -1,0 +1,33 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "frames": 720,
+  "duration": 24,
+  "sounds": [
+    {
+      "id": "empathy",
+      "duration": 8,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -17.054511456577366,
+      "rmsDbFS": -37.00099461217805
+    },
+    {
+      "id": "verification",
+      "duration": 8,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -18.980351288183904,
+      "rmsDbFS": -39.71252492662543
+    },
+    {
+      "id": "gavel",
+      "duration": 8,
+      "sampleRate": 48000,
+      "channels": 2,
+      "peakDbFS": -16.120674236632663,
+      "rmsDbFS": -38.70722755999984
+    }
+  ]
+}

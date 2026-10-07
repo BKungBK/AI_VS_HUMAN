@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "ok": true,
+  "file": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-transition-preview.mp4",
+  "directory": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r",
+  "manifest": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r\\manifest.json",
+  "frames": [
+    {
+      "requested_timestamp": 0.2,
+      "sample_timestamp": 0.2,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r\\00-0000.20000s.png"
+    },
+    {
+      "requested_timestamp": 0.8,
+      "sample_timestamp": 0.8,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r\\01-0000.80000s.png"
+    },
+    {
+      "requested_timestamp": 2.8,
+      "sample_timestamp": 2.8,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r\\02-0002.80000s.png"
+    },
+    {
+      "requested_timestamp": 3.2,
+      "sample_timestamp": 3.2,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r\\03-0003.20000s.png"
+    },
+    {
+      "requested_timestamp": 3.8,
+      "sample_timestamp": 3.8,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r\\04-0003.80000s.png"
+    },
+    {
+      "requested_timestamp": 5.8,
+      "sample_timestamp": 5.8,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r\\05-0005.80000s.png"
+    },
+    {
+      "requested_timestamp": 6.8,
+      "sample_timestamp": 6.8,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r\\06-0006.80000s.png"
+    },
+    {
+      "requested_timestamp": 8.8,
+      "sample_timestamp": 8.8,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r\\07-0008.80000s.png"
+    },
+    {
+      "requested_timestamp": 9.8,
+      "sample_timestamp": 9.8,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r\\08-0009.80000s.png"
+    },
+    {
+      "requested_timestamp": 11.8,
+      "sample_timestamp": 11.8,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r\\09-0011.80000s.png"
+    },
+    {
+      "requested_timestamp": 12.8,
+      "sample_timestamp": 12.8,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r\\10-0012.80000s.png"
+    },
+    {
+      "requested_timestamp": 14.8,
+      "sample_timestamp": 14.8,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r\\11-0014.80000s.png"
+    },
+    {
+      "requested_timestamp": 15.8,
+      "sample_timestamp": 15.8,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r\\12-0015.80000s.png"
+    },
+    {
+      "requested_timestamp": 17.9,
+      "sample_timestamp": 17.9,
+      "path": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r\\13-0017.90000s.png"
+    }
+  ],
+  "contact_sheet": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r\\contact-sheet.jpg",
+  "visual_review": "Reviewed encoded contact sheet and representative full frames: native Thai glyphs, focus hierarchy, no missing layers, transition tail settled. No listening review: absent audio by design.",
+  "checks": [
+    {
+      "check": "frames",
+      "status": "PASS",
+      "detail": "Extracted 14 PNGs in D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r"
+    },
+    {
+      "check": "contact_sheet",
+      "status": "PASS",
+      "detail": "D:\\Project\\AI_VS_HUMAN\\qa\\spatial-encoded\\frames-i9nxg42r\\contact-sheet.jpg"
+    }
+  ]
+}

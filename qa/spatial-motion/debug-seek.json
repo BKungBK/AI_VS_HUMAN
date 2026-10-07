@@ -1,0 +1,2214 @@
+{
+  "a": {
+    "state": {
+      "scene": 0,
+      "beat": 2,
+      "cue": "01.03",
+      "kind": "content",
+      "time": 0.85,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2047.426608,
+      "cameraX": 169.204588,
+      "cameraYaw": -4.180349,
+      "cameraPitch": 1.592514,
+      "cameraRoll": -0.995321,
+      "fov": 39.597752709049864,
+      "backgroundLayers": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    },
+    "styles": [
+      {
+        "tag": "DIV",
+        "cls": "css3d-renderer",
+        "style": "overflow: hidden; width: 1920px; height: 1080px;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "style": "transform-origin: 0px 0px; pointer-events: none; width: 1920px; height: 1080px;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "style": "transform-style: preserve-3d; width: 1920px; height: 1080px; transform: perspective(1500px) scale(1) translateZ(1500px) matrix3d(0.997224, -0.015299, -0.072868, 0, -0.017364, -0.999463, -0.027791, 0, 0.0724037, -0.0289792, 0.996954, 0, -318.186, -7.71366, -2030.8, 1) translate(960px, 540px);"
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-plane depth-plane-0",
+        "style": "position: absolute; pointer-events: auto; user-select: none; transform: translate(-50%, -50%) matrix3d(0.992546, -0.121869, 0, 0, -0.121869, -0.992546, 0, 0, 0, 0, 1, 0, 360, -48, -900, 1);"
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-frame",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-orbit",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-line",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-plane depth-plane-1",
+        "style": "position: absolute; pointer-events: auto; user-select: none; transform: translate(-50%, -50%) matrix3d(0.999988, 0.00492742, 0, 0, 0.00492742, -0.999988, 0, 0, 0, 0, 1, 0, -365.319, 169.904, -1800, 1);"
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-frame",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-orbit",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-line",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-plane depth-plane-2",
+        "style": "position: absolute; pointer-events: auto; user-select: none; transform: translate(-50%, -50%) matrix3d(0.991522, 0.129938, 0, 0, 0.129938, -0.991522, 0, 0, 0, 0, 1, 0, 396.35, -55.6517, -2900, 1);"
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-frame",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-orbit",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-line",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "visual-world",
+        "style": "position: absolute; pointer-events: auto; user-select: none; width: 820px; height: 680px; transform: translate(-50%, -50%) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 415, -4, 0, 1);"
+      },
+      {
+        "tag": "DIV",
+        "cls": "spatial-card tone-human  ",
+        "style": "left: 35px; top: 90px; width: 365px; height: 510px; transform: translate3d(8.1772px, 5.6072px, -108.081px) rotateY(4.9628deg) rotateX(1.6354deg) scale(0.9907, 0.9907); opacity: 0.7664;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "glass-inner",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "card-label",
+        "style": null
+      },
+      {
+        "tag": "svg",
+        "cls": "brain-symbol",
+        "style": null
+      },
+      {
+        "tag": "path",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "path",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "spatial-card tone-ai  ",
+        "style": "left: 440px; top: 90px; width: 365px; height: 510px; transform: translate3d(-13.325px, -9.1372px, -57.793px) rotateY(-2.0507deg) rotateX(2.665deg) scale(0.9848, 0.9848); opacity: 0.6193;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "glass-inner",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "card-label",
+        "style": null
+      },
+      {
+        "tag": "svg",
+        "cls": "network-symbol",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "text-stage",
+        "style": "position: absolute; pointer-events: auto; user-select: none; transform: translate(-50%, -50%) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"
+      },
+      {
+        "tag": "DIV",
+        "cls": "copy-block ",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "eyebrow speaker-ai",
+        "style": "transform: translate3d(0.5155px, -0.3437px, -2.7492px) rotateY(-0.1718deg) rotateX(-0.1718deg); opacity: 0.9656;"
+      },
+      {
+        "tag": "I",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "H1",
+        "cls": "",
+        "style": "transform: translate(0px, 0px); opacity: 1;"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "style": "translate: none; rotate: none; scale: none; transform-origin: 0% 65%; transform: translate3d(8.402px, 8.8962px, -64.2504px) rotate(-0.1236deg) rotateY(-3.4596deg) rotateX(2.7183deg) scale(0.9951, 0.9951); opacity: 0.7529;"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "style": "translate: none; rotate: none; scale: none; transform-origin: 0% 65%; transform: translate3d(15.673px, 16.5949px, -119.852px) rotate(-0.2305deg) rotateY(-6.4536deg) rotateX(5.0707deg) scale(0.9908, 0.9908); opacity: 0.539;"
+      },
+      {
+        "tag": "P",
+        "cls": "subtitle",
+        "style": "transform: translate3d(18.5223px, 21.8899px, -126.288px) rotateY(-4.2096deg) rotateX(5.8934deg); opacity: 0.1581;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "css3d-renderer",
+        "style": "overflow: hidden; width: 1920px; height: 1080px;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "style": "transform-origin: 0px 0px; pointer-events: none; width: 1920px; height: 1080px;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "style": "transform-style: preserve-3d; width: 1920px; height: 1080px; transform: perspective(1500px) scale(1) translateZ(1500px) matrix3d(0.997224, -0.015299, -0.072868, 0, -0.017364, -0.999463, -0.027791, 0, 0.0724037, -0.0289792, 0.996954, 0, -318.186, -7.71366, -2030.8, 1) translate(960px, 540px);"
+      },
+      {
+        "tag": "DIV",
+        "cls": "visual-world outgoing-world",
+        "style": "position: absolute; pointer-events: auto; user-select: none; width: 820px; height: 680px; transform: translate(-50%, -50%) matrix3d(0.987688, -0.0109123, -0.156054, 0, 0, -0.997564, 0.0697563, 0, 0.156435, 0.0688975, 0.985282, 0, 265, -44, 280, 1); opacity: 0;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "spatial-card tone-human  ",
+        "style": "left: 42px; top: 102px; width: 352px; height: 494px; transform: translate3d(0px, 0px, -70px) rotateY(9deg); opacity: 1;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "glass-inner",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "card-label",
+        "style": null
+      },
+      {
+        "tag": "svg",
+        "cls": "brain-symbol",
+        "style": null
+      },
+      {
+        "tag": "path",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "path",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "spatial-card tone-ai  ",
+        "style": "left: 422px; top: 63px; width: 352px; height: 494px; transform: translate3d(0px, 0px, 70px) rotateY(-10deg); opacity: 1;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "glass-inner",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "card-label",
+        "style": null
+      },
+      {
+        "tag": "svg",
+        "cls": "network-symbol",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "duel-mark",
+        "style": "transform: translate3d(0px, 0px, 140px); opacity: 1;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "world-caption",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "text-stage outgoing-copy",
+        "style": "position: absolute; pointer-events: auto; user-select: none; transform: translate(-50%, -50%) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "copy-block opening-copy",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "eyebrow speaker-both",
+        "style": "transform: translate3d(-30px, -14px, 100px) rotateY(7deg); opacity: 0;"
+      },
+      {
+        "tag": "I",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "H1",
+        "cls": "opening-title",
+        "style": "transform: translate(0px, 0px); opacity: 1;"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "style": "transform-origin: 0% 65%; transform: translate3d(-58px, -24px, 210px) rotate(0.8deg) rotateY(13deg) rotateX(-7deg); opacity: 0;"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "ai-title",
+        "style": "transform-origin: 0% 65%; transform: translate3d(-74px, -33px, 255px) rotate(0.8deg) rotateY(13deg) rotateX(-7deg); opacity: 0;"
+      },
+      {
+        "tag": "EM",
+        "cls": "small-vs",
+        "style": null
+      },
+      {
+        "tag": "P",
+        "cls": "subtitle",
+        "style": "transform: translate3d(-30px, -14px, 100px) rotateY(7deg); opacity: 0;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "opening-question",
+        "style": "transform: translate3d(-30px, -14px, 100px) rotateY(7deg); opacity: 0;"
+      },
+      {
+        "tag": "BR",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "B",
+        "cls": "",
+        "style": null
+      }
+    ]
+  },
+  "b": {
+    "state": {
+      "scene": 0,
+      "beat": 2,
+      "cue": "01.03",
+      "kind": "content",
+      "time": 0.85,
+      "paused": true,
+      "ready": true,
+      "reduced": false,
+      "fallback": false,
+      "cameraZ": 2047.426608,
+      "cameraX": 169.204588,
+      "cameraYaw": -4.180349,
+      "cameraPitch": 1.592514,
+      "cameraRoll": -0.995321,
+      "fov": 39.597752709049864,
+      "backgroundLayers": 3,
+      "nativeText3D": true,
+      "particles": 180,
+      "models": 0,
+      "drawCalls": 1
+    },
+    "styles": [
+      {
+        "tag": "DIV",
+        "cls": "css3d-renderer",
+        "style": "overflow: hidden; width: 1920px; height: 1080px;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "style": "transform-origin: 0px 0px; pointer-events: none; width: 1920px; height: 1080px;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "style": "transform-style: preserve-3d; width: 1920px; height: 1080px; transform: perspective(1500px) scale(1) translateZ(1500px) matrix3d(0.997224, -0.015299, -0.072868, 0, -0.017364, -0.999463, -0.027791, 0, 0.0724037, -0.0289792, 0.996954, 0, -318.186, -7.71366, -2030.8, 1) translate(960px, 540px);"
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-plane depth-plane-0",
+        "style": "position: absolute; pointer-events: auto; user-select: none; transform: translate(-50%, -50%) matrix3d(0.992546, -0.121869, 0, 0, -0.121869, -0.992546, 0, 0, 0, 0, 1, 0, 360, -48, -900, 1);"
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-frame",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-orbit",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-line",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-plane depth-plane-1",
+        "style": "position: absolute; pointer-events: auto; user-select: none; transform: translate(-50%, -50%) matrix3d(0.999988, 0.00492742, 0, 0, 0.00492742, -0.999988, 0, 0, 0, 0, 1, 0, -365.319, 169.904, -1800, 1);"
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-frame",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-orbit",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-line",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-plane depth-plane-2",
+        "style": "position: absolute; pointer-events: auto; user-select: none; transform: translate(-50%, -50%) matrix3d(0.991522, 0.129938, 0, 0, 0.129938, -0.991522, 0, 0, 0, 0, 1, 0, 396.35, -55.6517, -2900, 1);"
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-frame",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-orbit",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "depth-line",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "visual-world",
+        "style": "position: absolute; pointer-events: auto; user-select: none; width: 820px; height: 680px; transform: translate(-50%, -50%) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 415, -4, 0, 1);"
+      },
+      {
+        "tag": "DIV",
+        "cls": "spatial-card tone-human  ",
+        "style": "left: 35px; top: 90px; width: 365px; height: 510px; transform: translate3d(8.1772px, 5.6072px, -108.081px) rotateY(4.9628deg) rotateX(1.6354deg) scale(0.9907, 0.9907); opacity: 0.7664;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "glass-inner",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "card-label",
+        "style": null
+      },
+      {
+        "tag": "svg",
+        "cls": "brain-symbol",
+        "style": null
+      },
+      {
+        "tag": "path",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "path",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "spatial-card tone-ai  ",
+        "style": "left: 440px; top: 90px; width: 365px; height: 510px; transform: translate3d(-13.325px, -9.1372px, -57.793px) rotateY(-2.0507deg) rotateX(2.665deg) scale(0.9848, 0.9848); opacity: 0.6193;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "glass-inner",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "card-label",
+        "style": null
+      },
+      {
+        "tag": "svg",
+        "cls": "network-symbol",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "text-stage",
+        "style": "position: absolute; pointer-events: auto; user-select: none; transform: translate(-50%, -50%) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"
+      },
+      {
+        "tag": "DIV",
+        "cls": "copy-block ",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "eyebrow speaker-ai",
+        "style": "transform: translate3d(0.5155px, -0.3437px, -2.7492px) rotateY(-0.1718deg) rotateX(-0.1718deg); opacity: 0.9656;"
+      },
+      {
+        "tag": "I",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "H1",
+        "cls": "",
+        "style": "transform: translate(0px, 0px); opacity: 1;"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "style": "translate: none; rotate: none; scale: none; transform-origin: 0% 65%; transform: translate3d(8.402px, 8.8962px, -64.2504px) rotate(-0.1236deg) rotateY(-3.4596deg) rotateX(2.7183deg) scale(0.9951, 0.9951); opacity: 0.7529;"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "style": "translate: none; rotate: none; scale: none; transform-origin: 0% 65%; transform: translate3d(15.673px, 16.5949px, -119.852px) rotate(-0.2305deg) rotateY(-6.4536deg) rotateX(5.0707deg) scale(0.9908, 0.9908); opacity: 0.539;"
+      },
+      {
+        "tag": "P",
+        "cls": "subtitle",
+        "style": "transform: translate3d(18.5223px, 21.8899px, -126.288px) rotateY(-4.2096deg) rotateX(5.8934deg); opacity: 0.1581;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "css3d-renderer",
+        "style": "overflow: hidden; width: 1920px; height: 1080px;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "style": "transform-origin: 0px 0px; pointer-events: none; width: 1920px; height: 1080px;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "",
+        "style": "transform-style: preserve-3d; width: 1920px; height: 1080px; transform: perspective(1500px) scale(1) translateZ(1500px) matrix3d(0.997224, -0.015299, -0.072868, 0, -0.017364, -0.999463, -0.027791, 0, 0.0724037, -0.0289792, 0.996954, 0, -318.186, -7.71366, -2030.8, 1) translate(960px, 540px);"
+      },
+      {
+        "tag": "DIV",
+        "cls": "visual-world outgoing-world",
+        "style": "position: absolute; pointer-events: auto; user-select: none; width: 820px; height: 680px; transform: translate(-50%, -50%) matrix3d(0.987688, -0.0109123, -0.156054, 0, 0, -0.997564, 0.0697563, 0, 0.156435, 0.0688975, 0.985282, 0, 265, -44, 280, 1); opacity: 0;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "spatial-card tone-human  ",
+        "style": "left: 42px; top: 102px; width: 352px; height: 494px; transform: translate3d(0px, 0px, -70px) rotateY(9deg); opacity: 1;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "glass-inner",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "card-label",
+        "style": null
+      },
+      {
+        "tag": "svg",
+        "cls": "brain-symbol",
+        "style": null
+      },
+      {
+        "tag": "path",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "path",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "spatial-card tone-ai  ",
+        "style": "left: 422px; top: 63px; width: 352px; height: 494px; transform: translate3d(0px, 0px, 70px) rotateY(-10deg); opacity: 1;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "glass-inner",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "card-label",
+        "style": null
+      },
+      {
+        "tag": "svg",
+        "cls": "network-symbol",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "line",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "g",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "circle",
+        "cls": "node-core",
+        "style": null
+      },
+      {
+        "tag": "H2",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "P",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "duel-mark",
+        "style": "transform: translate3d(0px, 0px, 140px); opacity: 1;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "world-caption",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "text-stage outgoing-copy",
+        "style": "position: absolute; pointer-events: auto; user-select: none; transform: translate(-50%, -50%) matrix3d(1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 0;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "copy-block opening-copy",
+        "style": null
+      },
+      {
+        "tag": "DIV",
+        "cls": "eyebrow speaker-both",
+        "style": "transform: translate3d(-30px, -14px, 100px) rotateY(7deg); opacity: 0;"
+      },
+      {
+        "tag": "I",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "H1",
+        "cls": "opening-title",
+        "style": "transform: translate(0px, 0px); opacity: 1;"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "style": "transform-origin: 0% 65%; transform: translate3d(-58px, -24px, 210px) rotate(0.8deg) rotateY(13deg) rotateX(-7deg); opacity: 0;"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "ai-title",
+        "style": "transform-origin: 0% 65%; transform: translate3d(-74px, -33px, 255px) rotate(0.8deg) rotateY(13deg) rotateX(-7deg); opacity: 0;"
+      },
+      {
+        "tag": "EM",
+        "cls": "small-vs",
+        "style": null
+      },
+      {
+        "tag": "P",
+        "cls": "subtitle",
+        "style": "transform: translate3d(-30px, -14px, 100px) rotateY(7deg); opacity: 0;"
+      },
+      {
+        "tag": "DIV",
+        "cls": "opening-question",
+        "style": "transform: translate3d(-30px, -14px, 100px) rotateY(7deg); opacity: 0;"
+      },
+      {
+        "tag": "BR",
+        "cls": "",
+        "style": null
+      },
+      {
+        "tag": "B",
+        "cls": "",
+        "style": null
+      }
+    ]
+  }
+}

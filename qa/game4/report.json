@@ -1,0 +1,184 @@
+{
+  "code": "FD5133",
+  "players": 32,
+  "checks": [
+    {
+      "name": "Game 4 preselected for new room",
+      "passed": true
+    },
+    {
+      "name": "Preview mode is active",
+      "passed": true
+    },
+    {
+      "name": "Privacy fence: isCorrect is hidden in preview",
+      "passed": true
+    },
+    {
+      "name": "mobile-preview: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "display-preview: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "host-preview: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Round 1 current round is 1",
+      "passed": true
+    },
+    {
+      "name": "Answer key remains hidden during answering",
+      "passed": true
+    },
+    {
+      "name": "Duplicate answer rejected with ANSWER_LOCKED",
+      "passed": true
+    },
+    {
+      "name": "mobile-answering-r1: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "desktop-answering-r1: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile-320-answering-r1: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "display-answering-r1: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Answer key is revealed in REVEAL phase",
+      "passed": true
+    },
+    {
+      "name": "Player 0 scored +300 points for correct belief",
+      "passed": true
+    },
+    {
+      "name": "Player 0 remains ALIVE",
+      "passed": true
+    },
+    {
+      "name": "mobile-reveal-r1: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "display-reveal-r1: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Reached Round 2",
+      "passed": true
+    },
+    {
+      "name": "Player 0 remains ALIVE in Round 2 with 600 points",
+      "passed": true
+    },
+    {
+      "name": "Reached Round 3",
+      "passed": true
+    },
+    {
+      "name": "Player 0 is DEAD after trusting false claim in Round 3",
+      "passed": true
+    },
+    {
+      "name": "Player 0 score reset to 0 upon death",
+      "passed": true
+    },
+    {
+      "name": "Player 0 eliminatedAtRound recorded as 3",
+      "passed": true
+    },
+    {
+      "name": "Player 1 is ALIVE with +100 for doubting falsehood",
+      "passed": true
+    },
+    {
+      "name": "mobile-dead-spectator-r3: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "display-reveal-r3: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Round 6 is reached",
+      "passed": true
+    },
+    {
+      "name": "Round 6 contains lethal mushroom image",
+      "passed": true
+    },
+    {
+      "name": "Round 6 is marked as isFinalRisk",
+      "passed": true
+    },
+    {
+      "name": "mobile-round6-lethal: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "display-round6-lethal: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Reached RESULT phase",
+      "passed": true
+    },
+    {
+      "name": "All 6 rounds recorded in pastRounds",
+      "passed": true
+    },
+    {
+      "name": "Group survival matrix calculated for all 6 groups",
+      "passed": true
+    },
+    {
+      "name": "Roster denominator remains 32",
+      "passed": true
+    },
+    {
+      "name": "mobile-final-results: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "display-final-results: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "host-final-results: no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "Room transitioned to cue 07.02",
+      "passed": true
+    },
+    {
+      "name": "Active run cleared on completion",
+      "passed": true
+    },
+    {
+      "name": "Run status is COMPLETED",
+      "passed": true
+    },
+    {
+      "name": "No unhandled browser console/page errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "latency": {
+    "commandP95Ms": 215,
+    "maxMs": 217
+  },
+  "screenshots": "qa/game4"
+}

@@ -1,0 +1,124 @@
+{
+  "checks": [
+    {
+      "name": "outgoing text gone before new headline",
+      "pass": true
+    },
+    {
+      "name": "header not duplicated during handoff",
+      "pass": true
+    },
+    {
+      "name": "fullscreen opens from keyboard",
+      "pass": true
+    },
+    {
+      "name": "fullscreen exits from keyboard",
+      "pass": true
+    },
+    {
+      "name": "full revised dialogue in presenter",
+      "pass": true
+    },
+    {
+      "name": "stage directions separate from dialogue",
+      "pass": true
+    },
+    {
+      "name": "updated presenter still controls projection",
+      "pass": true
+    },
+    {
+      "name": "verification flow returns to same phase",
+      "pass": false,
+      "detail": {
+        "start": [
+          {
+            "opacity": 0.909632,
+            "transform": "translateY(14.5455px)"
+          },
+          {
+            "opacity": 0.96148,
+            "transform": "translateY(23.5455px)"
+          }
+        ],
+        "end": [
+          {
+            "opacity": 0.998867,
+            "transform": "translateY(19.3939px)"
+          },
+          {
+            "opacity": 0.790447,
+            "transform": "translateY(28.3939px)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ambient join 3.2",
+      "pass": false,
+      "detail": {
+        "raster": {
+          "maximumChannelDelta": 218,
+          "changedPixels": 378066
+        },
+        "note": "Identical DOM/phase; GPU raster allowance ≤1 RGB level in ≤0.1% pixels."
+      }
+    },
+    {
+      "name": "ambient join 6.4",
+      "pass": false,
+      "detail": {
+        "raster": {
+          "maximumChannelDelta": 224,
+          "changedPixels": 497778
+        },
+        "note": "Identical DOM/phase; GPU raster allowance ≤1 RGB level in ≤0.1% pixels."
+      }
+    },
+    {
+      "name": "ambient join 7.2",
+      "pass": false,
+      "detail": {
+        "raster": {
+          "maximumChannelDelta": 221,
+          "changedPixels": 518320
+        },
+        "note": "Identical DOM/phase; GPU raster allowance ≤1 RGB level in ≤0.1% pixels."
+      }
+    },
+    {
+      "name": "ambient join 10.1",
+      "pass": false,
+      "detail": {
+        "raster": {
+          "maximumChannelDelta": 218,
+          "changedPixels": 342479
+        },
+        "note": "Identical DOM/phase; GPU raster allowance ≤1 RGB level in ≤0.1% pixels."
+      }
+    },
+    {
+      "name": "ambient join 15.1",
+      "pass": false,
+      "detail": {
+        "raster": {
+          "maximumChannelDelta": 222,
+          "changedPixels": 386847
+        },
+        "note": "Identical DOM/phase; GPU raster allowance ≤1 RGB level in ≤0.1% pixels."
+      }
+    },
+    {
+      "name": "no runtime errors after final refinement",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no WebGL at startup retains full content",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "pass": false
+}
